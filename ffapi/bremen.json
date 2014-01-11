@@ -1,0 +1,41 @@
+{
+    "api": "0.1",
+    "name": "Freifunk Bremen",
+    "url": "http:\/\/bremen.freifunk.net",
+    "state": {
+        "message": "In der Entwicklung, offen fuer technisch Interessierte",
+        "lastchange": 1389467908
+    },
+    "location": {
+        "city": "Bremen",
+        "lat": "53,0758099",
+        "lon": "8,80717"
+    },
+    "contact": {
+        "ml": "liste@bremen.freufunk.net",
+        "irc": "irc:\/\/irc.hackint.org\/ffhb"
+    },
+    "techDetails": {
+        "stoererhaftung": "Nutzung eines VPN-Gateways und Anonymizer-Dienstes.",
+        "firmware": {
+            "url": "http:\/\/bremen.freifunk.net\/Firmware"
+        },
+        "networks": {
+            "ipv4": [
+                {
+                    "netmask": "16",
+                    "network": "10.196.0.0"
+                }
+            ],
+            "ipv6": [
+                {
+                    "prefixlength": "48",
+                    "prefix": "fd2f:5119:f2c::"
+                }
+            ]
+        },
+        "routing": "BATMAN",
+        "updatemode": "automatically (gluon-autoupdater)",
+        "vpn": "fastd with two servers"
+    }
+}
