@@ -8,8 +8,8 @@
     },
     "location": {
         "city": "Bremen",
-        "lat": "53,0758099",
-        "lon": "8,80717"
+        "lat": 53.0758099,
+        "lon": 8.80717
     },
     "contact": {
         "ml": "liste@bremen.freifunk.net",
