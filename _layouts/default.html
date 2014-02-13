@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <link href="//netdna.bootstrapcdn.com/bootstrap/3.1.0/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="/css/default.css">
+  <script src="//netdna.bootstrapcdn.com/bootstrap/3.1.0/js/bootstrap.min.js"></script>
+  <title>{% if page.title %}{{ page.title }} - {% endif %}{{ site.name }}</title>
+  <meta name="viewport" content="width=device-width">
+{% if page.header %}
+  {{ page.header }}
+{% endif %}
+</head>
+<body style="margin-top: 20px;" class="container">
+  <div class="container">
+    <nav class="navbar navbar-inverse" role="navigation">
+      <!-- Brand and toggle get grouped for better mobile display -->
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+          <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="#">Freifunk Bremen</a>
+      </div>
+      <!-- Collect the nav links, forms, and other content for toggling -->
+      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <ul class="nav navbar-nav">
+          <li><a href="/">Home</a></li>
+          <li><a href="http://wiki.bremen.freifunk.net/">Wiki</a></li>
+          <li><a href="/blog/">Blog</a></li>
+          <li><a href="http://vpn.bremen.freifunk.net/map/geomap.html">Knotenkarte</a></li>
+        </ul>
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="https://mortzu.de/impressum/">Impressum</a></li>
+        </ul>
+      </div>
+      <!-- /.navbar-collapse -->
+    </nav>
+    <main>
+          {{ content }}
+    </main>
+    <footer>
+        <hr>
+        <p>&copy; Freifunk Bremen 2013</p>
+    </footer>
+  </div>
+</body>
+</html>
