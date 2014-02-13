@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Ein neues Freifunk Bremen Blog
+title:  Eine neue Freifunk Bremen Webseite
 date:   2014-02-13 10:57:44
 author: jplitza
 ---
