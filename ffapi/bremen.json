@@ -4,7 +4,8 @@
     "url": "http:\/\/bremen.freifunk.net",
     "state": {
         "message": "In der Entwicklung, offen fuer technisch Interessierte",
-        "lastchange": 1389467908
+        "nodes": 21,
+        "lastchange": 1393342518
     },
     "location": {
         "city": "Bremen",
@@ -13,12 +14,13 @@
     },
     "contact": {
         "ml": "liste@bremen.freifunk.net",
-        "irc": "irc:\/\/irc.hackint.org\/ffhb"
+        "irc": "irc:\/\/irc.hackint.org\/ffhb",
+        "twitter": "https://twitter.com/FreifunkHB"
     },
     "techDetails": {
         "stoererhaftung": "Nutzung eines VPN-Gateways und Anonymizer-Dienstes.",
         "firmware": {
-            "url": "http:\/\/bremen.freifunk.net\/Firmware"
+            "url": "http:\/\/wiki.bremen.freifunk.net\/Firmware"
         },
         "networks": {
             "ipv4": [
@@ -36,6 +38,6 @@
         },
         "routing": "BATMAN",
         "updatemode": "automatically (gluon-autoupdater)",
-        "vpn": "fastd with two servers"
+        "vpn": "fastd"
     }
 }
