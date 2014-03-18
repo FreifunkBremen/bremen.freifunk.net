@@ -1,3 +1,11 @@
+.navbar-brand svg {
+	margin-top: -169px;
+}
+
+.navbar {
+	margin-top: 160px;
+}
+
 .freifunk, .navbar-inverse .navbar-brand {
 	color: rgb(223, 58, 108);
 }
