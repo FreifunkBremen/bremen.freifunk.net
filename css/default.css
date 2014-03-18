@@ -1,3 +1,14 @@
 .freifunk, .navbar-inverse .navbar-brand {
 	color: rgb(223, 58, 108);
 }
+
+footer {
+	border-top: 1px #bbb solid;
+	margin-top: 20px;
+	padding-top: 10px;
+	clear: both;
+}
+
+p, dd {
+	text-align: justify;
+}
