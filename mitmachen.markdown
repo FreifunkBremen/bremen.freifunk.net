@@ -40,7 +40,7 @@ Aber natürlich kannst du auch selbst deinen Freifunk-Router bestellen. Wir unte
 
 Die TL-WDR-Modelle von TP-Link funken parallel im 5 GHz-Band und sind daher die Luxusmodelle in dieser Liste. Wir empfehlen den TP-Link TL-WR841N/ND, allerdings musst du beim Kauf aufpassen, dass es sich noch nicht um ein Modell der Version 9 handelt! Diese Info ist häufig nur schwer zu finden, falls überhaupt vorhanden. Auch der TP-Link TL-WR741N/ND eignet sich gut und ist günstig. Die Ubiquity-Geräte eignen sich für Richtfunkverbindungen und größere Installationen.
 
-Lade dir anschließend die passende [Firmware] herunter und spiele Sie nach [dieser Anleitung](http://wiki.bremen.freifunk.net/Firmware-flashen) auf den Router.
+Lade dir anschließend die passende [Firmware] herunter und spiele sie nach [dieser Anleitung](http://wiki.bremen.freifunk.net/Firmware-flashen) auf den Router.
 
 [hshb]: http://hackerspace-bremen.de/anfahrt/
 [Mailingliste]: mailto:liste@bremen.freifunk.net
