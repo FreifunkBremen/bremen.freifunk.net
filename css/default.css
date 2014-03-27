@@ -20,3 +20,15 @@ footer {
 p, dd {
 	text-align: justify;
 }
+
+@media screen and (max-width: 1170px) {
+	.container .jumbotron {
+		padding: 30px;
+	}
+}
+
+@media screen and (max-width: 768px) {
+	.container .jumbotron {
+		padding: 15px;
+	}
+}
