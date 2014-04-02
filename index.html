@@ -31,7 +31,7 @@ layout: default
     <div >
       <!-- Example row of columns -->
       <div class="row">
-        <div class="col-md-3">
+        <div class="col-sm-6 col-md-3">
           <h2>Anleitung</h2>
           <p>
             Wenn du in Bremen ein unverschlüsseltes WLAN mit dem Namen
@@ -41,42 +41,37 @@ layout: default
           <p>
             Finde heraus, was du dort alles machen kannst!
           </p>
-          <p>
-            <a class="btn btn-default" href="http://wiki.bremen.freifunk.net/Dienste" role="button">Dienste &raquo;</a>
-          </p>
+          <a class="btn btn-default" href="http://wiki.bremen.freifunk.net/Dienste" role="button">Dienste &raquo;</a>
         </div>
-        <div class="col-md-3">
-          <h2>Die Technik dahinter</h2>
-          <p>Das Freifunk-Netz besteht aus einer Kombination von klassischen WLANs, Ad-hoc WLANs (Mesh) und VPNs. So können sich die Router direkt per Funk, aber auch über das Internet, verbinden und der Zugang für Nutzer bleibt kinderleicht.</p>
-          <p>
-            <a class="btn btn-default" href="/technik.html" role="button">Mehr &raquo;</a>
-          </p>
-        </div>
-        <div class="col-md-3">
+        <div class="col-sm-6 col-md-3">
           <h2>Unterstützen</h2>
           <p>Freifunk basiert auf Freiwilligen, die WLAN-Geräte kaufen, betreiben und vernetzen. Es ist einfach und kostengünstig. Ein Freifunk-Node (Router) kostet 20 &euro;, dieser verbraucht nur ca. 1 &euro; Strom im Monat. Die Störer-Haftung wird mittels VPNs ausgeschlossen. Also: Hilf allen, indem du einen eigenen Freifunk-Node betreibst!</p>
-          <p>
-            <a class="btn btn-default" href="/mitmachen.html" role="button">Mitmachen &raquo;</a>
-          </p>
+          <a class="btn btn-default" href="/mitmachen.html" role="button">Mitmachen &raquo;</a>
         </div>
-        <div class="col-md-3">
+        <div class="col-sm-6 col-md-3">
+          <h2>Die Technik dahinter</h2>
+          <p>Das Freifunk-Netz besteht aus einer Kombination von klassischen WLANs, Ad-hoc WLANs (Mesh) und VPNs. So können sich die Router direkt per Funk, aber auch über das Internet, verbinden und der Zugang für Nutzer bleibt kinderleicht.</p>
+          <a class="btn btn-default" href="/technik.html" role="button">Mehr &raquo;</a>
+        </div>
+        <div class="col-sm-6 col-md-3">
           <h2>Neuigkeiten</h2>
           <ul class="list-unstyled">
 {% for post in site.posts %}
             <li><span>{{ post.date | date_to_string }}:</span> <a href="{{ post.url }}">{{ post.title }}</a></li>
 {% endfor %}
           </ul>
-          <p>
-            <a class="btn btn-default" href="/blog/" role="button">Mehr &raquo;</a>
-          </p>
+          <a class="btn btn-default" href="/blog/" role="button">Mehr &raquo;</a>
         </div>
-      <div class="col-md-9">
-        <h2>Karte</h2>
-        <iframe style="border: 0; width: 100%; height: 400px;" src="http://bremen.freifunk.net/map/geomap.html"></iframe>
       </div>
-      <div class="col-md-3">
-        <h2>Twitter</h2>
-        <a class="twitter-timeline"  href="https://twitter.com/FreifunkHB"  data-widget-id="449111353601425410">Tweets von @FreifunkHB</a>
-        <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+      <div class="row">
+        <div class="col-md-9 col-sm-8">
+          <h2>Karte</h2>
+          <iframe style="border: 0; width: 100%; height: 400px;" src="http://bremen.freifunk.net/map/geomap.html"></iframe>
+        </div>
+        <div class="col-md-3 col-sm-4">
+          <h2>Twitter</h2>
+          <a class="twitter-timeline"  href="https://twitter.com/FreifunkHB"  data-widget-id="449111353601425410">Tweets von @FreifunkHB</a>
+          <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+        </div>
       </div>
     </div>
