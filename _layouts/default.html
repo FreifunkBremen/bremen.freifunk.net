@@ -15,44 +15,42 @@
 {% endif %}
 </head>
 <body class="container">
-  <div class="container">
-    <nav class="navbar navbar-inverse" role="navigation">
-      <!-- Brand and toggle get grouped for better mobile display -->
-      <div class="navbar-header">
-        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-          <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span>
-        </button>
-        <a class="navbar-brand" href="/">
-            <svg width="170" height="188">
-                <image xlink:href="/images/logo/homepage.svg" src="/images/logo-homepage.png" width="170" height="188"/>
-            </svg>
-        </a>
-      </div>
-      <!-- Collect the nav links, forms, and other content for toggling -->
-      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-        <ul class="nav navbar-nav">
-          <li><a href="/">Home</a></li>
-          <li><a href="http://wiki.bremen.freifunk.net/">Wiki</a></li>
-          <li><a href="/blog/">Blog</a></li>
-          <li><a href="/map/geomap.html">Knotenkarte</a></li>
-        </ul>
-        <ul class="nav navbar-nav navbar-right">
-          <li><a href="/kontakt.html">Kontakt</a></li>
-        </ul>
-      </div>
-      <!-- /.navbar-collapse -->
-    </nav>
-    <main>
-          {{ content }}
-    </main>
-    <footer>
-      <div class="pull-left">&copy; Freifunk Bremen 2013–2014</div>
-      <div class="pull-right">
-        <a href="/kontakt.html">Kontakt</a>
-        /
-        <a href="https://mortzu.de/impressum">Impressum</a>
-      </div>
-    </footer>
-  </div>
+  <nav class="navbar navbar-inverse" role="navigation">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+        <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="/">
+          <svg width="170" height="188">
+              <image xlink:href="/images/logo/homepage.svg" src="/images/logo-homepage.png" width="170" height="188"/>
+          </svg>
+      </a>
+    </div>
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <li><a href="/">Home</a></li>
+        <li><a href="http://wiki.bremen.freifunk.net/">Wiki</a></li>
+        <li><a href="/blog/">Blog</a></li>
+        <li><a href="/map/geomap.html">Knotenkarte</a></li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="/kontakt.html">Kontakt</a></li>
+      </ul>
+    </div>
+    <!-- /.navbar-collapse -->
+  </nav>
+  <main>
+        {{ content }}
+  </main>
+  <footer>
+    <div class="pull-left">&copy; Freifunk Bremen 2013–2014</div>
+    <div class="pull-right">
+      <a href="/kontakt.html">Kontakt</a>
+      /
+      <a href="https://mortzu.de/impressum">Impressum</a>
+    </div>
+  </footer>
 </body>
 </html>
