@@ -12,8 +12,8 @@ Um das Problem zu beheben, führt bitte folgende Schritte aus:
 
 1. Verbindet euch per Kabel mit dem Router, um auf den Configmode zugreifen zu können
 2. Ruft [die Configmode-Oberfläche](http://192.168.1.1/) im Browser auf
-3. Klickt oben rechts auf „Expertmode”
-4. Klickt auf „Firmware aktualisieren”
+3. Klickt oben rechts auf „Expertmode“
+4. Klickt auf „Firmware aktualisieren“
 5. Ladet die für euren Router passende [Firmware] runter und ladet sie im Formular des Configmodes wieder hoch.
 6. Aktualisiert die Firmware.
 7. Geht wieder in den Configmode und konfiguriert den Router.
