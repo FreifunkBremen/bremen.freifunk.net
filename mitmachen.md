@@ -44,4 +44,4 @@ Lade dir anschließend die passende [Firmware] herunter und spiele sie nach [die
 
 [hshb]: http://hackerspace-bremen.de/anfahrt/
 [Mailingliste]: mailto:liste@bremen.freifunk.net
-[Firmware]: http://downloads.bremen.freifunk.net/firmware/nightly/
+[Firmware]: http://downloads.bremen.freifunk.net/firmware/testing/
