@@ -1,4 +1,4 @@
-<h2><a href="{{ include.post.url }}">{{ include.post.title }}</a> <span class="small">{{ include.post.date | date_to_string }}{% if include.post.author %}, von {{include.post.author}}{% endif %}</span></h2>
+<h2><a href="{{ include.post.url }}">{{ include.post.title }}</a> <span class="small">{{ include.post.date | date: "%e.%m.%Y" }}{% if include.post.author %}, von {{include.post.author}}{% endif %}</span></h2>
 
 <div class="post">
 {{ include.content }}
