@@ -1,43 +1,98 @@
 {
-    "api": "0.1",
-    "name": "Freifunk Bremen",
-    "url": "http:\/\/bremen.freifunk.net",
-    "state": {
-        "message": "In der Entwicklung, offen fuer technisch Interessierte",
-        "nodes": 21,
-        "lastchange": 1393342518
-    },
-    "location": {
-        "city": "Bremen",
-        "lat": 53.0758099,
-        "lon": 8.80717
-    },
-    "contact": {
-        "ml": "liste@bremen.freifunk.net",
-        "irc": "irc:\/\/irc.hackint.org\/ffhb",
-        "twitter": "https://twitter.com/FreifunkHB"
-    },
-    "techDetails": {
-        "stoererhaftung": "Nutzung eines VPN-Gateways und Anonymizer-Dienstes.",
-        "firmware": {
-            "url": "http:\/\/wiki.bremen.freifunk.net\/Firmware"
-        },
-        "networks": {
-            "ipv4": [
-                {
-                    "netmask": "16",
-                    "network": "10.196.0.0"
-                }
-            ],
-            "ipv6": [
-                {
-                    "prefixlength": "48",
-                    "prefix": "fd2f:5119:f2c::"
-                }
-            ]
-        },
-        "routing": "BATMAN",
-        "updatemode": "automatically (gluon-autoupdater)",
-        "vpn": "fastd"
+  "name": "Freifunk Bremen",
+  "url": "http://bremen.freifunk.net",
+  "location": {
+    "city": "Bremen",
+    "country": "DE",
+    "lat": 53.0758099,
+    "lon": 8.80717
+  },
+  "state": {
+    "nodes": 55,
+    "focus": [
+      "Public Free Wifi",
+      "Free internet access"
+    ],
+    "lastchange": "2014-07-11T07:50:44.280Z"
+  },
+  "contact": {
+    "irc": "irc://irc.hackint.org/ffhb",
+    "ml": "liste@bremen.freifunk.net",
+    "facebook": "https://facebook.com/FreifunkBremen",
+    "twitter": "@FreifunkHB"
+  },
+  "timeline": [
+    {
+      "decription": "Birth",
+      "timestamp": "2013-12-10"
     }
+  ],
+  "feeds": [
+    {
+      "name": "Blog",
+      "category": "blog",
+      "type": "atom",
+      "url": "http://bremen.freifunk.net/blog/feed.xml"
+    }
+  ],
+  "nodeMaps": [
+    {
+      "url": "http://bremen.freifunk.net/map/list.html",
+      "interval": "1min",
+      "technicalType": "ffmap",
+      "mapType": "list/status"
+    },
+    {
+      "url": "http://bremen.freifunk.net/map/geomap.html",
+      "interval": "1min",
+      "technicalType": "ffmap",
+      "mapType": "geographical"
+    },
+    {
+      "url": "http://bremen.freifunk.net/map/graph.html",
+      "interval": "1min",
+      "technicalType": "ffmap",
+      "mapType": "structural"
+    }
+  ],
+  "techDetails": {
+    "firmware": {
+      "name": "Gluon",
+      "url": "http://downloads.bremen.freifunk.net/firmware/",
+      "docs": "http://wiki.bremen.freifunk.net/Firmware"
+    },
+    "dns": [
+      {
+        "domainname": "ffhb",
+        "nameserver": [
+          "10.196.0.1",
+          "fd2f:5119:f2c::1"
+        ]
+      }
+    ],
+    "networks": {
+      "ipv6": [
+        {
+          "network": "fd2f:5119:f2c::/64"
+        }
+      ],
+      "ipv4": [
+        {
+          "network": "10.196.0.0/16"
+        }
+      ]
+    },
+    "routing": [
+      "batman-adv"
+    ],
+    "updatemode": [
+      "manual",
+      "autoupdate"
+    ],
+    "legals": [
+      "vpnnational",
+      "zappscript"
+    ]
+  },
+  "api": "0.4.1"
 }
