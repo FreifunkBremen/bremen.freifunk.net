@@ -15,5 +15,7 @@ Vielen Dank an dieser Stelle an die Lübecker für die ständige Weiterentwicklu
 
 Wie immer, wenn ihr Probleme mit der neuen Version habt meldet euch bitte auf der [Mailingliste].
 
+*Update*: Es stellte sich heraus, dass die neue Version Probleme mit statischer Konfiguration der DNS-Server im LAN hatte. Daher waren noch einige neue Versionen nötig, um nicht alle derart konfigurierten Nodes vom Netz zu trennen. Inzwischen sollte das Update aber gefahrlos möglich sein und wird auch automatisch ausgeführt.
+
 [Release Notes]: http://gluon.readthedocs.org/en/latest/releases/v2014.3.html
 [Mailingliste]: mailto:liste@bremen.freifunk.net
