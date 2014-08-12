@@ -27,16 +27,24 @@ Aber natürlich kannst du auch selbst deinen Freifunk-Router bestellen. Wir unte
 
 * TP-Link TL-WR740N/ND
 * TP-Link TL-WR741N/ND
-* TP-Link TL-WR841N/ND (bis v8)
+* TP-Link TL-WR841N/ND
 * TP-Link TL-WR941N/ND
 * TP-Link TL-WR1043N/ND
 * TP-Link TL-WDR3500
 * TP-Link TL-WDR3600
 * TP-Link TL-WDR4300
+* TP-Link TL-MR3020
+* TP-Link TL-MR3040
+* TP-Link TL-MR3220
+* TP-Link TL-MR3420
+* TP-Link TL-WA901N/ND
 * Ubiquiti Bullet M
 * Ubiquiti Nanostation M
 * Ubiquiti Unifi
 * Ubiquiti UnifiAP
+* D-Link DIR 615
+* D-Link DIR 825
+* Linksys WRT160NL
 
 Die TL-WDR-Modelle von TP-Link funken parallel im 5 GHz-Band und sind daher die Luxusmodelle in dieser Liste. Wir empfehlen den TP-Link TL-WR841N/ND, allerdings musst du beim Kauf aufpassen, dass es sich noch nicht um ein Modell der Version 9 handelt! Diese Info ist häufig nur schwer zu finden, falls überhaupt vorhanden. Auch der TP-Link TL-WR741N/ND eignet sich gut und ist günstig. Die Ubiquity-Geräte eignen sich für Richtfunkverbindungen und größere Installationen.
 
