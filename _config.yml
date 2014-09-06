@@ -13,3 +13,6 @@ paginate: 5
 paginate_path: blog/page/:num
 
 exclude: ['CNAME']
+
+redcarpet:
+    extensions: [with_toc_data]
