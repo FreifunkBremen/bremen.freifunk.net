@@ -1,6 +1,6 @@
 name: Freifunk Bremen
 markdown: redcarpet
-pygments: true
+highlight: pygments
 
 timezone: Europe/Berlin
 encoding: UTF-8
