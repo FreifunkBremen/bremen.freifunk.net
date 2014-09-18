@@ -4,6 +4,20 @@
 
 .navbar {
 	margin-top: 160px;
+	background-color: #000;
+	border-color: #000;
+}
+
+.navbar-skyline {
+	position: absolute;
+	right: 0;
+	top: -160px;
+}
+
+@media screen and (max-width: 580px) {
+	.navbar-skyline {
+		display: none;
+	}
 }
 
 .freifunk, .navbar-inverse .navbar-brand {
