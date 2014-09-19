@@ -24,6 +24,16 @@
 	color: rgb(223, 58, 108);
 }
 
+#news.list-unstyled li {
+	text-indent: -10px;
+	padding-left: 10px;
+}
+
+.pagination {
+	text-align: center;
+	display: block;
+}
+
 footer {
 	border-top: 1px #bbb solid;
 	margin-top: 20px;
