@@ -55,9 +55,9 @@ layout: default
         </div>
         <div class="col-sm-6 col-md-3">
           <h2>Neuigkeiten</h2>
-          <ul class="list-unstyled">
-{% for post in site.posts %}
-            <li><span>{{ post.date | date_to_string }}:</span> <a href="{{ post.url }}">{{ post.title }}</a></li>
+          <ul class="list-unstyled" id="news">
+{% for post in site.posts limit:4 %}
+            <li><span>{{ post.date | date: "%d. %b" }}:</span> <a href="{{ post.url }}">{{ post.title }}</a></li>
 {% endfor %}
           </ul>
           <a class="btn btn-default" href="/blog/" role="button">Mehr &raquo;</a>

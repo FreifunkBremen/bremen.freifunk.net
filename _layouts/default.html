@@ -8,7 +8,7 @@
   <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
   <script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
   <script src="//netdna.bootstrapcdn.com/bootstrap/3.1.0/js/bootstrap.min.js"></script>
-  <title>{% if page.title %}{{ page.title }} - {% endif %}{{ site.name }}</title>
+  <title>{% if page.title %}{{ page.title }}{% if paginator.page > 1 %} (Seite {{ paginator.page }}){% endif %} - {% endif %}{{ site.name }}</title>
   <meta name="viewport" content="width=device-width">
 {% if page.header %}
   {{ page.header }}

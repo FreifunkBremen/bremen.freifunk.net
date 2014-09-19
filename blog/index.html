@@ -5,6 +5,32 @@ header: <link rel="alternate" type="application/atom+xml" title="Blog als Atom-F
 ---
 
 <h1>Blog</h1>
-{% for post in site.posts %}
+{% for post in paginator.posts %}
 {% include blogpost.html post=post content=post.content %}
 {% endfor %}
+
+{% if paginator.total_pages > 1 %}
+<div class="pagination">
+  {% if paginator.previous_page %}
+    <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}" class="btn btn-default">&laquo; Prev</a>
+  {% else %}
+    <span class="btn btn-default disabled">&laquo; Prev</span>
+  {% endif %}
+
+  {% for page in (1..paginator.total_pages) %}
+    {% if page == paginator.page %}
+      <span class="btn btn-default active">{{ page }}</span>
+    {% elsif page == 1 %}
+      <a href="{{ '/blog/index.html' | prepend: site.baseurl | replace: '//', '/' }}" class="btn btn-default">{{ page }}</a>
+    {% else %}
+      <a href="{{ site.paginate_path | prepend: site.baseurl | replace: '//', '/' | replace: ':num', page }}" class="btn btn-default">{{ page }}</a>
+    {% endif %}
+  {% endfor %}
+
+  {% if paginator.next_page %}
+    <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}" class="btn btn-default">Next &raquo;</a>
+  {% else %}
+    <span class="btn btn-default disabled">Next &raquo;</span>
+  {% endif %}
+</div>
+{% endif %}
