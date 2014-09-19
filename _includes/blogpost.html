@@ -1,5 +1,12 @@
+{% assign more_sep = '&lt;!-- more --&gt;' %}
 <h2><a href="{{ include.post.url }}">{{ include.post.title }}</a> <span class="small">{{ include.post.date | date: "%d.%m.%Y" }}{% if include.post.author %}, von {{include.post.author}}{% endif %}</span></h2>
 
 <div class="post">
-{{ include.content }}
+{% if include.full %}
+{{ include.content | replace_first:more_sep,'' }}
+{% elsif include.content contains more_sep %}
+{{ include.content | split:more_sep | first }}<a href="{{ include.post.url }}">… Weiterlesen…</a>
+{% else %}
+{{ include.content | truncatewords:100, '' }}<a href="{{ include.post.url }}">… Weiterlesen…</a>
+{% endif %}
 </div>
