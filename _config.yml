@@ -16,3 +16,5 @@ exclude: ['CNAME']
 
 redcarpet:
     extensions: [with_toc_data]
+
+more_sep: "&lt;!-- more --&gt;"
