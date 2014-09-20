@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  Testing-Version der Firmware
-date:   2014-03-24 21:16:44
+date:   2014-03-24 21:16:44 +0200
 author: jplitza
 ---
 
