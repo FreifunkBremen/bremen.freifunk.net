@@ -14,6 +14,14 @@
 	top: -160px;
 }
 
+p, dd {
+	-webkit-hyphens: auto;
+	-moz-hyphens: auto;
+	-ie-hyphens: auto;
+	-o-hyphens: auto;
+	hyphens: auto;
+}
+
 @media screen and (max-width: 580px) {
 	.navbar-skyline {
 		display: none;
