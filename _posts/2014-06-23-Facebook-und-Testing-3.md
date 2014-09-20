@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  Facebook und Testing 3
-date:   2014-06-23 01:00:00
+date:   2014-06-23 01:00:00 +0200
 author: jplitza
 ---
 

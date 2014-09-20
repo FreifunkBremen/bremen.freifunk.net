@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  Privates WLAN und Kanalanalyse mit der neuen Testing-Firmware
-date:   2014-09-06 14:36:00
+date:   2014-09-06 14:36:00 +0200
 author: jplitza
 ---
 

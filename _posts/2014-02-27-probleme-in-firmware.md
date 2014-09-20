@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  Probleme mit der Firmware
-date:   2014-02-27 09:37:00
+date:   2014-02-27 09:37:00 +0200
 author: jplitza
 ---
 Beim Update von gestern Morgen (Nightly 20140226) ist leider ein Problem

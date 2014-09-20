@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  Ein Ende der WLAN-Probleme? Neue Version der Firmware
-date:   2014-08-08 19:34:00
+date:   2014-08-08 19:34:00 +0200
 author: jplitza
 ---
 
