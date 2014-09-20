@@ -4,8 +4,8 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 	<title>{{ site.name | xml_escape }}</title>
 	<subtitle>{% if site.description %}{{ site.description | xml_escape }}{% endif %}</subtitle>
-	<id>{{ site.url }}</id>
-	<updated>{{ site.posts[0].date | date: "%a, %d %b %H:%M:%S %z" }}</updated>
+	<id>{{ site.url }}/</id>
+	<updated>{{ site.posts[0].date | date: "%Y-%m-%dT%H:%M:%S%:z" }}</updated>
 	<link href="{{ site.url }}/blog/atom.xml" rel="self" type="application/atom+xml" />
 	<logo>/images/logo/logo.png</logo>
 	{% for post in site.posts limit:10 %}
@@ -14,9 +14,8 @@
 			<id>{{ site.url }}{{ post.url }}</id>
 			<content type="html">{{ post.content | replace_first:site.more_sep,'' | xml_escape }}</content>
 			<summary type="html">{% if post.content contains site.more_sep %}{{ post.content | split:site.more_sep | first | xml_escape }}{% else %}{{ post.content | truncatewords:100 | xml_escape }}{% endif %}</summary>
-			<updated>{{ post.date | date: "%a, %d %b %Y %H:%M:%S %z" }}</updated>
+			<updated>{{ post.date | date: "%Y-%m-%dT%H:%M:%S%:z" }}</updated>
 			<link rel="alternate" href="{{ site.url }}{{ post.url }}" />
-			<guid isPermaLink="true">{{ site.url }}{{ post.url }}</guid>
 {% if post.author %}
 			<author><name>{{ post.author }}</name></author>
 {% endif %}
