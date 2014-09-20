@@ -14,7 +14,7 @@ url: http://bremen.freifunk.net
 paginate: 5
 paginate_path: blog/page/:num
 
-exclude: ['CNAME']
+exclude: ['CNAME', 'wiki']
 
 redcarpet:
     extensions: [with_toc_data]
