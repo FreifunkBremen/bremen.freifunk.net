@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  Eine neue Freifunk Bremen Webseite
-date:   2014-02-13 10:57:44
+date:   2014-02-13 10:57:44 +0200
 author: jplitza
 ---
 

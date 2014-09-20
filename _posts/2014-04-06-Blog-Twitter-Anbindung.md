@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  Blog-Twitter-Anbindung
-date:   2014-04-06 15:00:00
+date:   2014-04-06 15:00:00 +0200
 author: jplitza
 ---
 
