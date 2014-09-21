@@ -22,6 +22,10 @@ p, dd {
 	hyphens: auto;
 }
 
+blockquote {
+	font-size: inherit;
+}
+
 @media screen and (max-width: 580px) {
 	.navbar-skyline {
 		display: none;
