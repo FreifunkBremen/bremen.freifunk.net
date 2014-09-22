@@ -85,8 +85,12 @@ Während auch Daten für 5 GHz erhoben wurden, ist der Stichprobenumfang hier er
 #### HT40
 Der 802.11n-Standard schreibt eigentlich vor, dass die Benutzung von 40 MHz breiten Kanälen zu unterlassen ist, falls die benachbarten Kanäle "voll" sind<sup>[citation needed]</sup>. Da das offenbar der Fall ist – auf jedem Kanal sind im Schnitt mehrere APs zu sehen – dürfte eigentlich niemand tatsächlich 40 MHz breite Kanäle benutzen. Leider bieten fast alle Geräte die Möglichkeit, diese Vorgabe zu überschreiben, sodass man sich darauf nicht verlassen kann.
 
+#### Rohdaten
+Die gesammelten [Rohdaten][] (ohne die Information, von welchem Knoten welche Messungen kommen) stehen natürlich jedem, der eine andere Auswertung versuchen möchte, zur Verfügung.
+
 [transitiv]: https://de.wikipedia.org/wiki/Transitive_Relation
 [kleines Python-Skript]: https://gist.github.com/jplitza/f29d9151c94f520fc4bc#file-channelsurvey-py
 [letzten Update]: /blog/2014/09/06/Neue-Testing-Channel-Survey.html
 [kleines Paket]: https://github.com/FreifunkBremen/ffhb-packages/tree/master/ffhb/gluon-channel-survey
 [Alfred]: http://www.open-mesh.org/projects/open-mesh/wiki/Alfred
+[Rohdaten]: https://gist.github.com/jplitza/f29d9151c94f520fc4bc#file-channelsurvey-json
