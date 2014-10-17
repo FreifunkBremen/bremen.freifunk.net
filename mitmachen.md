@@ -23,30 +23,14 @@ Am einfachsten ist es, wenn du dir einen von uns bereits vorbereiteten Router ab
 Schreib dazu am besten eine Mail an die [Mailingliste] und frag, wer in deiner Umgebung gerade Router abzugeben hat. Oder schau im [Hackerspace Bremen][hshb] vorbei. Dort liegen immer einige Router auf Vorrat, die von Mitgliedern herausgegeben werden können. Wenn du Hilfe bei der Einrichtung brauchst, melde dich am Besten vorher mit einer [E-Mail](mailto:freifunk@hackerspace-bremen.de) an.
 
 ## Router selbst flashen
-Aber natürlich kannst du auch selbst deinen Freifunk-Router bestellen. Wir unterstützen momentan folgende Routermodelle:
+Aber natürlich kannst du auch selbst deinen Freifunk-Router bestellen. Dabei eignen sich für verschiedene Anwendungszwecke verschiedene Modelle:
 
-* TP-Link TL-WR740N/ND
-* TP-Link TL-WR741N/ND
-* TP-Link TL-WR841N/ND
-* TP-Link TL-WR941N/ND
-* TP-Link TL-WR1043N/ND
-* TP-Link TL-WDR3500
-* TP-Link TL-WDR3600
-* TP-Link TL-WDR4300
-* TP-Link TL-MR3020
-* TP-Link TL-MR3040
-* TP-Link TL-MR3220
-* TP-Link TL-MR3420
-* TP-Link TL-WA901N/ND
-* Ubiquiti Bullet M
-* Ubiquiti Nanostation M
-* Ubiquiti Unifi
-* Ubiquiti UnifiAP
-* D-Link DIR 615
-* D-Link DIR 825
-* Linksys WRT160NL
+* Einfach und Günstig: TP-Link TL-WR841N oder TP-Link TL-WR841ND für ca. 20 €
+* Viele Nutzer/5 GHz: TP-Link TL-WDR4300 für ca. 50 €
+* Outdoor für Clients: Ubiquiti NanoStation M2 Loco, 8dBi, 2.4GHz für ca. 40 €
+* Outdoor für Meshing: Ubiquiti NanoStation M5 Loco, 13 dBi, 5 GHz für ca. 55 €
 
-Die TL-WDR-Modelle von TP-Link funken parallel im 5 GHz-Band und sind daher die Luxusmodelle in dieser Liste. Wir empfehlen den TP-Link TL-WR841N/ND, allerdings musst du beim Kauf aufpassen, dass es sich noch nicht um ein Modell der Version 9 handelt! Diese Info ist häufig nur schwer zu finden, falls überhaupt vorhanden. Auch der TP-Link TL-WR741N/ND eignet sich gut und ist günstig. Die Ubiquity-Geräte eignen sich für Richtfunkverbindungen und größere Installationen.
+Eine [Liste mit noch mehr unterstützten Modellen](http://wiki.bremen.freifunk.net/Unterstuetzte-Router) findest du im Wiki.
 
 Lade dir anschließend die passende [Firmware] herunter und spiele sie nach [dieser Anleitung](http://wiki.bremen.freifunk.net/Firmware-flashen) auf den Router.
 
