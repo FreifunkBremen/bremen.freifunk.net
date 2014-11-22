@@ -23,6 +23,6 @@ title: Impressum
     <a href='tel:+4942170896594' itemprop='telephone'>+49 421 - 70 89 65 94</a>
   </div>
   <div>
-    E-Mail: <a href='mailto:jelto@wodstrcil.de'>jelto[at]wodstrcil.de</a>
+    E-Mail: <a href='mailto:info@bremen.freifunk.net'>info[at]bremen.freifunk.net</a>
   </div>
 </div>
