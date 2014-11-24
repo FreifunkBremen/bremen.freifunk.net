@@ -20,7 +20,7 @@ Es gibt zwei Möglichkeiten, wie du deinen eigenen Freifunk-Router bekommen kann
 
 Am einfachsten ist es, wenn du dir einen von uns bereits vorbereiteten Router abholst und eventuell sogar mit uns zusammen die Ersteinrichtung durchführst. Dann brauchst du den Router zu Hause nur noch anzuschließen und es funktioniert.
 
-Schreib dazu am besten eine Mail an die [Mailingliste] und frag, wer in deiner Umgebung gerade Router abzugeben hat. Oder schau im [Hackerspace Bremen][hshb] vorbei. Dort liegen immer einige Router auf Vorrat, die von Mitgliedern herausgegeben werden können. Wenn du Hilfe bei der Einrichtung brauchst, melde dich am Besten vorher mit einer [E-Mail](mailto:freifunk@hackerspace-bremen.de) an.
+Schreib dazu am besten eine Mail an die [Mailingliste] und frag, wer in deiner Umgebung gerade Router abzugeben hat. Oder schau im [Hackerspace Bremen][hshb] vorbei. Dort liegen immer einige fertig geflashte Router auf Vorrat, die von Mitgliedern herausgegeben werden können. Wenn du vor Ort Hilfe bei der Konfiguration dieses Routers brauchst, melde dich am Besten vorher mit einer [E-Mail](mailto:freifunk@hackerspace-bremen.de) beim Hackerspace an.
 
 ## Router selbst flashen
 Aber natürlich kannst du auch selbst deinen Freifunk-Router bestellen. Dabei eignen sich für verschiedene Anwendungszwecke verschiedene Modelle:
