@@ -4,7 +4,7 @@ title: Mitmachen
 ---
 # Mitmachen
 
-Freifunk wird nicht von irgendeiner profitgierigen Firma betrieben, sondern basiert auf Freiwilligen, die WLAN-Geräte kaufen, betreiben und vernetzen. Viele geben auch ihren eigenen Internetanschluss frei – zumindest in Teilen – und ermöglichen so umliegenden Routern und Benutzern den Zugang zum Internet.
+Freifunk wird nicht von einer profitorientierten Firma betrieben, sondern basiert auf Freiwilligen, die WLAN-Geräte kaufen, betreiben und vernetzen. Viele geben auch ihren eigenen Internetanschluss frei – zumindest in Teilen – und ermöglichen so umliegenden Routern und Benutzern den Zugang zum Internet.
 
 Mitmachen ist einfach und kostengünstig. Ein Freifunk-Router kostet einmalig 20 € und verbraucht nur ca. 1 € Strom im Monat. Dafür hilfst du mit, ein unabhängiges Netzwerk zu etablieren, das nicht einfach abgestellt werden kann.
 
@@ -32,7 +32,7 @@ Aber natürlich kannst du auch selbst deinen Freifunk-Router bestellen. Dabei ei
 
 Eine [Liste mit noch mehr unterstützten Modellen](http://wiki.bremen.freifunk.net/Unterstuetzte-Router) findest du im Wiki.
 
-Lade dir anschließend die passende [Firmware] herunter und spiele sie nach [dieser Anleitung](http://wiki.bremen.freifunk.net/Firmware-flashen) auf den Router.
+Lade dir anschließend die passende [Firmware] herunter und spiele sie nach [dieser Anleitung](http://wiki.bremen.freifunk.net/Anleitung) auf den Router.
 
 [hshb]: http://hackerspace-bremen.de/anfahrt/
 [Mailingliste]: mailto:liste@bremen.freifunk.net
