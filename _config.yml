@@ -15,6 +15,7 @@ paginate: 5
 paginate_path: blog/page/:num
 
 exclude: ['CNAME', 'wiki']
+keep_files: ['.htaccess']
 
 redcarpet:
     extensions: [with_toc_data]
