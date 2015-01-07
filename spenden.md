@@ -31,7 +31,7 @@ Neben allen Personen, die sich an dem Ausbau und der Entwicklung von Freifunk be
 
 * [Hackerspace Bremen e.V.]: für Räumlichkeiten, Spendenverwaltung und Routerverkauf
 * [Förderverein Freie Netzwerke e.V.](http://foerderverein.freie-netzwerke.de/): für organisatorische Unterstützung
-* [Fremaks GmbH](http://fremaks.de), [planet cyborg](https://planetcyborg.de/) und [digineo GmbH](http://www.digineo.de): für das Bereitstellen von Netz- und Serverinfrastruktur
+* [Fremaks GmbH](http://fremaks.de), [planet cyborg](https://planetcyborg.de/), [Plutex GmbH](http://www.plutex.de/) und der [Universität Bremen](http://www.uni-bremen.de/): für das Bereitstellen von Netz- und Serverinfrastruktur
 
 [mitmachen]: /mitmachen.html
 [Hackerspace Bremen e.V.]: https://www.hackerspace-bremen.de/
