@@ -21,3 +21,21 @@ redcarpet:
     extensions: [with_toc_data]
 
 more_sep: "&lt;!-- more --&gt;"
+
+prose:
+    rooturl: "_posts"
+    media: "images"
+    metadata:
+        _posts:
+            - name: "title"
+              field:
+                  element: "text"
+                  label: "Title"
+            - name: "layout"
+              field:
+                  element: "hidden"
+                  value: "post"
+            - name: "author"
+              field:
+                  element: "text"
+                  label: "Author"
