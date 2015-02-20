@@ -39,3 +39,7 @@ prose:
               field:
                   element: "text"
                   label: "Author"
+            - name: "published"
+              field:
+                  element: "hidden"
+                  value: "true"
