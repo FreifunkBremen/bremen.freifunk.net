@@ -1,0 +1,24 @@
+---
+layout: default
+title: FAQ
+---
+<h1 id="top">Häufig gestellte Fragen (FAQ)</h1>
+
+{% for category in site.data.faq %}
+<h3>{{ category.title }}</h3>
+<ul>
+{% for question in category.questions %}
+  <li><a href="#{{ question.question|slugify }}">{{question.question}}</a></li>
+{% endfor %}
+</ul>
+{% endfor %}
+
+{% for category in site.data.faq %}
+<h2>{{ category.title }}</h2>
+{% for question in category.questions %}
+<h3 id="{{question.question|slugify}}">{{ question.question }}</h3>
+{{ question.answer|markdownify }}
+
+<a href="#top">Zurück</a>
+{% endfor %}
+{% endfor %}
