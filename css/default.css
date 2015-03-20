@@ -68,3 +68,13 @@ p, dd {
 		padding: 15px;
 	}
 }
+
+.sponsors div {
+	text-align: center;
+}
+
+.sponsors img {
+	vertical-align: middle;
+	margin: 0 auto;
+	max-width: 100%;
+}
