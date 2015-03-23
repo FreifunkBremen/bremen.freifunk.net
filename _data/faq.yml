@@ -2,7 +2,7 @@
   questions:
     - question: Was ist Freifunk?
       answer: |
-        Freifunk ist ein Funknetzwerk in Bürgerhand. Privatleute stellen freiwillig offene WLAN Zugangspunkte zur Verfügung, die jeder kostenlos nutzen kann. Diese Zugangspunkte sind untereinander verbunden (in der Fachsprache: sie „meshen” miteinander) und bilden so ein dezentrales vermaschtes Netzwerk. Man kann sich Freifunk als stadtweites „Intranet” vorstellen, also ein „Internet im Kleinen”. So kann man im Freifunknetz beispielsweise Websiten aufrufen, die es nur im Freifunknetz, aber nicht im Internet gibt. [Hier](http://wiki.bremen.freifunk.net/Dienste) findest du eine Liste der verfügbaren Dienste.
+        Freifunk ist ein Funknetzwerk in Bürgerhand. Privatleute stellen freiwillig offene WLAN-Zugangspunkte zur Verfügung, die jeder kostenlos nutzen kann. Diese Zugangspunkte sind untereinander verbunden (in der Fachsprache: sie „meshen” miteinander) und bilden so ein dezentrales vermaschtes Netzwerk. Man kann sich Freifunk als stadtweites „Intranet” vorstellen, also ein „Internet im Kleinen”. So kann man im Freifunknetz beispielsweise Websiten aufrufen, die es nur im Freifunknetz, aber nicht im Internet gibt. [Hier](http://wiki.bremen.freifunk.net/Dienste) findest du eine Liste der verfügbaren Dienste.
     - question: Wie kann ich Freifunk nutzen?
       answer: |
         In Reichweite eines Zugangspunktes kannst Du das Freifunk-Netz mit jedem WLAN-fähigen Endgerät nutzen. Wenn Du bei eingeschaltetem WLAN den Netzwerknamen `bremen.freifunk.net` siehst, kannst Du Dich einfach und ohne Passwort mit dem Funknetzwerk verbinden. Den nächsten Zugangspunkt findest Du unter [knotenkarte.de](http://knotenkarte.de/)
@@ -78,7 +78,7 @@
         Nein. Freifunk funktioniert auf freiwilliger Basis. Jede_r bringt sich so ein, wie er oder sie es für richtig hält. Eine Verpflichtung besteht nicht.
     - question: Wo bekomme ich einen Router?
       answer: |
-        [Da](http://wiki.bremen.freifunk.net/Routerboerse)
+        Wir haben unserem Wiki eine [Liste](http://wiki.bremen.freifunk.net/Routerboerse), an welchen Orten du Router bekommen kannst.
 - title: Technik
   questions:
     - question:  Ich habe alles angeschlossen und konfiguriert, aber mein Freifunk Router bekommt kein Internet.
@@ -89,7 +89,7 @@
         Ja! Ein bereits in einen Freifunk-Knoten umgewandeltes Gerät kann jederzeit wieder mit der original Hersteller-Firmware geflasht (bespielt) werden und entspricht damit wieder dem Original.
     - question: Wie schnell ist mein Zugang im Freifunk?
       answer: |
-        Innerhalb des Funknetzes hängt die Geschwindigkeit stark von der Qualität der Funk-Verbindung ab und über wie viele Knoten sie geht. Die Geschwindigkeit der Knoten ins kabelgebundene Netz (z.B. Internet) wird jedoch maßgeblich durch die Prozessor-Leistung der Knoten begrenzt. Denn die müssen den VPN-Tunnel ver- & endschlüsseln, was viel Rechenleistung benötigt. Gemessene Richtwerte pro Modell findest Du [hier](https://projects.universe-factory.net/projects/fastd/wiki/Benchmarks). Grundsätzlich surfst du also übers Freifunk minimal langsamer.
+        Innerhalb des Funknetzes hängt die Geschwindigkeit stark von der Qualität der Funk-Verbindung ab und über wie viele Knoten sie geht. Die Geschwindigkeit der Knoten ins kabelgebundene Netz (z.B. Internet) wird jedoch maßgeblich durch die Prozessor-Leistung der Knoten begrenzt. Denn die müssen den VPN-Tunnel ver- und entschlüsseln, was viel Rechenleistung benötigt. Gemessene Richtwerte pro Modell findest Du [hier](https://projects.universe-factory.net/projects/fastd/wiki/Benchmarks). Grundsätzlich surfst du also übers Freifunk minimal langsamer.
     - question: Mein Freifunk-Router spannt ein zweites WLAN mit dem Namen mesh.ffhb auf. Was bedeutet das?
       answer: |
         Das zweite WLAN mit einer SSID `mesh.ffhb` ist ein Ad-hoc-WLAN und dient der Vernetzung der einzelnen Router untereinander. „Sehen” sich zwei Freifunk-Konten in ihrem Empfangsbereich, so nehmen sie über diese WLAN-SSID miteinander Kontakt auf und leiten den Datenverkehr weiter. Wir sprechen dann davon, dass sie “meshen”, der eigentlichen Funktion des Freifunk-Netzes.
@@ -158,7 +158,7 @@
   questions:
     - question: Kann ich als Knotenbetreiber_in dafür verantwortlich gemacht werden was andere über mein Freifunk tun? (Störerhaftung)
       answer: |
-        Nein. Der Datenverkehr wird verschlüsselt durch sogenannte Gateway Server getunnelt. Dadurch ist ist der Datenverkehr nicht zu deinem Anschluss zurückverfolgbar und die sog. 'Störerhaftung' nicht durchsetzbar.
+        Nein. Der Datenverkehr wird verschlüsselt durch sogenannte Gateway Server getunnelt. Dadurch ist ist der Datenverkehr nicht zu deinem Anschluss zurückverfolgbar und die sogenannte 'Störerhaftung' nicht durchsetzbar.
     - question: Darf ich überhaupt WLAN außerhalb meiner Wohnung versenden?
       answer: |
         Grundstücksübergreifende Datenverbindungen (also eine WLAN-Verbindung zum Nachbarn) waren früher lizenzflichtig.
@@ -180,4 +180,4 @@
         Besonders bei den Ubiquiti Geräten mit stärkerer Antenne ist es wichtig, die Sendeleistung zu kontrollieren und gegebenenfalls anzupassen.
     - question: Weitere rechtliche Fragen?
       answer: |
-        [hier](http://wiki.freifunk.net/FAQ_Rechtliches) werden noch weitere rechtliche Fragen beantwortet.
+        [Hier](http://wiki.freifunk.net/FAQ_Rechtliches) werden noch weitere rechtliche Fragen beantwortet.
