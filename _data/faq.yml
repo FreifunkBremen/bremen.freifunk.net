@@ -112,7 +112,7 @@
 
         ssh: Wenn du im Config Mode eine Root-Kennwort oder einen ssh-Schlüssel hinterlegt hast geht folgendes…
 
-            ssh root@[IPv6-des-Freifunk-Knotens] oder ssh root@node.ffhb oder ssh root@10.196.0.127 bei direkter Verbindung.
+            ssh root@[IPv6-des-Freifunk-Knotens] oder ssh root@node.ffhb.de oder ssh root@10.196.0.127 bei direkter Verbindung.
 
         Wenn der Knoten am Netz ist, taucht er in dieser Liste auf. Klickst du auf den Knotennamen, siehst du seine IPv6.
 
