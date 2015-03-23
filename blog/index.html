@@ -10,27 +10,42 @@ header: <link rel="alternate" type="application/rss+xml" title="Blog als RSS-Fee
 {% endfor %}
 
 {% if paginator.total_pages > 1 %}
-<div class="pagination">
+<ul class="pagination">
   {% if paginator.previous_page %}
-    <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}" class="btn btn-default">&laquo; Prev</a>
+  <li>
+    <a href="{{ paginator.previous_page_path | prepend: "/" | prepend: site.baseurl | replace: '//', '/' }}" aria-label="Vorherige">
   {% else %}
-    <span class="btn btn-default disabled">&laquo; Prev</span>
+  <li class="disabled">
+    <a href="#" aria-label="Vorherige">
   {% endif %}
-
+      <span aria-hidden="true">&laquo;</span>
+    </a>
+  </li>
   {% for page in (1..paginator.total_pages) %}
     {% if page == paginator.page %}
-      <span class="btn btn-default active">{{ page }}</span>
-    {% elsif page == 1 %}
-      <a href="{{ '/blog/index.html' | prepend: site.baseurl | replace: '//', '/' }}" class="btn btn-default">{{ page }}</a>
+  <li class="active">
     {% else %}
-      <a href="{{ site.paginate_path | prepend: site.baseurl | replace: '//', '/' | replace: ':num', page }}" class="btn btn-default">{{ page }}</a>
+  <li>
     {% endif %}
+    {% if page == 1 %}
+    <a href="{{ '/blog/index.html' | prepend: site.baseurl | replace: '//', '/' }}">
+    {% else %}
+    <a href="{{ site.paginate_path | prepend: "/" | prepend: site.baseurl | replace: '//', '/' | replace: ':num', page }}">
+    {% endif %}
+      {{ page }}
+    </a>
+  </li>
   {% endfor %}
 
   {% if paginator.next_page %}
-    <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}" class="btn btn-default">Next &raquo;</a>
+  <li>
+    <a href="{{ paginator.next_page_path | prepend: "/" | prepend: site.baseurl | replace: '//', '/' }}" aria-label="Nächste">
   {% else %}
-    <span class="btn btn-default disabled">Next &raquo;</span>
+  <li class="disabled">
+    <a href="#" aria-label="Nächste">
   {% endif %}
+      <span aria-hidden="true">&raquo;</span>
+    </a>
+  </li>
 </div>
 {% endif %}
