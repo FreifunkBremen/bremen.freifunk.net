@@ -2,3 +2,13 @@
 layout: default
 ---
 {% include blogpost.html post=page content=content full=1 %}
+<nav>
+    <ul class="pager">
+{% if page.next %}
+        <li class="previous"><a href="{{ page.next.url }}">← Neuerer Eintrag: „{{ page.next.title }}“</a></li>
+{% endif %}
+{% if page.previous %}
+        <li class="next"><a href="{{ page.previous.url}}">Älterer Eintrag: „{{page.previous.title}}“ →</a></li>
+{% endif %}
+    </ul>
+</nav>
