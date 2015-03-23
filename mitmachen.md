@@ -25,10 +25,28 @@ In unserem Wiki haben wir eine kleine [Routerbörse](http://wiki.bremen.freifunk
 ## Router selbst flashen
 Aber natürlich kannst du auch selbst deinen Freifunk-Router bestellen. Dabei eignen sich für verschiedene Anwendungszwecke verschiedene Modelle:
 
-* Einfach und Günstig: TP-Link TL-WR841N oder TP-Link TL-WR841ND für ca. 20 €
-* Viele Nutzer/5 GHz: TP-Link TL-WDR4300 für ca. 50 €
-* Outdoor für Clients: Ubiquiti NanoStation M2 Loco, 8dBi, 2.4GHz für ca. 40 €
-* Outdoor für Meshing: Ubiquiti NanoStation M5 Loco, 13 dBi, 5 GHz für ca. 55 €
+<ul class="list-group">
+  <li class="list-group-item">
+    <strong>Einfach und Günstig:</strong>
+    TP-Link TL-WR841N oder TP-Link TL-WR841ND
+    <span class="badge">~20 €</span>
+  </li>
+  <li class="list-group-item">
+    <strong>Viele Nutzer/5 GHz:</strong>
+    TP-Link TL-WDR4300
+    <span class="badge">~50 €</span>
+  </li>
+  <li class="list-group-item">
+    <strong>Outdoor für Clients:</strong>
+    Ubiquiti NanoStation M2 Loco, 8dBi, 2.4GHz
+    <span class="badge">~40 €</span>
+  </li>
+  <li class="list-group-item">
+    <strong>Outdoor für Meshing:</strong>
+    Ubiquiti NanoStation M5 Loco, 13 dBi, 5 GHz
+    <span class="badge">~55 €</span>
+  </li>
+</ul>
 
 Eine [Liste mit noch mehr unterstützten Modellen](http://wiki.bremen.freifunk.net/Unterstuetzte-Router) findest du im Wiki.
 
