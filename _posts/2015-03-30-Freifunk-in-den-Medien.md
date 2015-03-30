@@ -9,9 +9,9 @@ Das Interesse an Freifunk wächst. Neben der gewohnten Nachfrage nach Freifunkro
 
 Besonders der [umstrittene neue Gesetzesentwurf zu freien WLANs und Störerhaftung](http://freifunkstattangst.de/2015/03/12/finaler-gesetzesentwurf-zur-neuregelung-der-stoererhaftung-deutschland-bleibt-ein-wlan-entwicklungsland/) scheint aktuell die Aufmerksamkeit auf uns zu lenken.
 
-Unser erster Termin dieses Jahr war ein kleines Telefoninterview mit dem Weser-Kurier. Unsere Statements wurden einen Tag später, am 12.03.15 [hier](http://www.weser-kurier.de/deutschland-welt_artikel,-WLAN-fuer-alle-aber-nur-mit-Passwort-_arid,1077510.html) auf der Titelseite des Weser-Kuriers abgedruckt.
+Unser erster Termin dieses Jahr war ein kleines Telefoninterview mit dem Weser-Kurier. Unsere Statements wurden einen Tag später, am 12.03.15 [hier](http://www.weser-kurier.de/deutschland-welt_artikel,-WLAN-fuer-alle-aber-nur-mit-Passwort-_arid,1077510.html) und auf der Titelseite des Weser-Kuriers abgedruckt.
 
-Bereits bei ersten Gespräch hat sich der Wunsch nach einem ausführlichen Bericht über Freifunk ergeben. 
+Bereits beim ersten Gespräch hat sich der Wunsch nach einem ausführlichen Bericht über Freifunk ergeben. 
 Eine Woche spärter trafen wir uns erneut, um etwas ausführlicher über Freifunk zu reden. Der Artikel ist ebenfalls [online](http://www.weser-kurier.de/bremen/bremen-stadtreport_artikel,-Freifunker-in-Bremen-_arid,1088019.html) zu finden. Die Papierversion bringen wir zum nächsten [Treffen](http://wiki.bremen.freifunk.net/Treffen/2015_04_17) mit.
 
 Der Termin mit einer anderem Zeitung ist leider aufgrund der ausführlichen Berichterstattung vom Weser-Kurier nicht mehr zustande gekommen.
