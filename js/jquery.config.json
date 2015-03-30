@@ -1,0 +1,19 @@
+{"modules":
+    [
+        "-ajax",
+        "-callbacks",
+        "-core/ready",
+        "-deferred",
+        "-deprecated",
+        "-event/alias",
+        "-exports/amd",
+        "-manipulation",
+        "-offset",
+        "-queue",
+        "-outro",
+        "-queue",
+        "-sizzle",
+        "-serialize",
+        "-wrap"
+    ]
+}
