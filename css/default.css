@@ -41,11 +41,6 @@ blockquote {
 	padding-left: 10px;
 }
 
-.pagination {
-	text-align: center;
-	display: block;
-}
-
 footer {
 	border-top: 1px #bbb solid;
 	margin-top: 20px;
@@ -67,4 +62,14 @@ p, dd {
 	.container .jumbotron {
 		padding: 15px;
 	}
+}
+
+.sponsors div {
+	text-align: center;
+}
+
+.sponsors img {
+	vertical-align: middle;
+	margin: 0 auto;
+	max-width: 100%;
 }
