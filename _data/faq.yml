@@ -106,7 +106,7 @@
         In den Config-Mode gehen:
 
         * Kabel an LAN-Port
-        * Im Betrieb QSS-Taste drücken bis alle Lampen leuchten, loslassen, neu booten lassen
+        * Im Betrieb Reset-Taste drücken bis alle Lampen leuchten, loslassen, neu booten lassen
         * Rechner bekommt IP via DHCP
         * Netzseite ist erreichbar auf 192.168.1.1
 
@@ -119,7 +119,7 @@
         OpenWRT Safemode (failsafe), wenn gar nichts mehr geht…
 
         * Kabel an LAN-Port
-        * Nach Neustart QSS-Taste 3s sobald Zahnrad leuchtet
+        * Nach Neustart Reset-Taste 3s sobald Zahnrad leuchtet
         * Rechner LAN-Port auf 192.168.1.2/24
         * telnet 192.168.1.1
         * filesystem mounten $ mount_root
