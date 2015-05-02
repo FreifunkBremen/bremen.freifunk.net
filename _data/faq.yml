@@ -103,20 +103,20 @@
         Falls du Fernzugriff (SSH) aktiviert hast, lässt sich auch alles über die Konsol ändern (siehe [Freifunk Hamburg Commandline Administration](https://github.com/freifunk-gluon/gluon/wiki/Commandline-administration))
     - question: Wie kann ich meine Knoteneinstellungen ändern?
       answer: |
-        In den Config-Mode gehen:
+        Dazu musst du in den Config Mode gehen:
 
-        * Kabel an LAN-Port
-        * Im Betrieb Reset-Taste drücken bis alle Lampen leuchten, loslassen, neu booten lassen
-        * Rechner bekommt IP via DHCP
-        * Netzseite ist erreichbar auf 192.168.1.1
+        * Per Kabel deinen Rechner mit einem LAN-Port des Knotens verbinden (die gelben bei den Modellen von TP-Link)
+        * Im normalen Betrieb die QSS- oder Reset-Taste hinten am Knoten einige Sekunden drücken bis alle Lampen vorne leuchten, dann loslassen und den Knoten neu booten lassen
+        * Dein Rechner bekommt eine IP-Adresse via DHCP zugewiesen
+        * Der Config Mode ist nun erreichbar unter [192.168.1.1](http://192.168.1.1/)
 
-        ssh: Wenn du im Config Mode eine Root-Kennwort oder einen ssh-Schlüssel hinterlegt hast geht folgendes…
+        #### SSH
+        Wenn du im Config Mode eine Root-Passwort oder einen SSH-Schlüssel hinterlegt hast, kannst du auch im normalen Betrieb per SSH auf den Knoten zugreifen: `ssh root@[IPv6-Adresse des Freifunk Knotens]` oder falls du direkt mit dem Knoten verbunden bist `ssh root@node.ffhb.de` oder `ssh root@10.196.0.127`.
 
-            ssh root@[IPv6-des-Freifunk-Knotens] oder ssh root@node.ffhb.de oder ssh root@10.196.0.127 bei direkter Verbindung.
+        Wenn der Knoten am Netz ist, taucht er in [der Knoten-Liste](http://bremen.freifunk.net/map/list.html) auf. Klickst du auf den Knotennamen, siehst du seine IPv6-Adresse.
 
-        Wenn der Knoten am Netz ist, taucht er in dieser Liste auf. Klickst du auf den Knotennamen, siehst du seine IPv6.
-
-        OpenWRT Safemode (failsafe), wenn gar nichts mehr geht…
+        #### Failsafe
+        Wenn gar nichts mehr geht…
 
         * Kabel an LAN-Port
         * Nach Neustart Reset-Taste 3s sobald Zahnrad leuchtet
