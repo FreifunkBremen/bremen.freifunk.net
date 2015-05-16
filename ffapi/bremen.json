@@ -8,12 +8,12 @@
     "lon": 8.80717
   },
   "state": {
-    "nodes": 108,
+    "nodes": 192,
     "focus": [
       "Public Free Wifi",
       "Free internet access"
     ],
-    "lastchange": "2014-07-11T07:50:44.280Z"
+    "lastchange": "2015-05-16T10:18:44.280Z"
   },
   "contact": {
     "irc": "irc://irc.hackint.org/ffhb",
@@ -53,6 +53,12 @@
       "interval": "1min",
       "technicalType": "ffmap",
       "mapType": "structural"
+    },
+    {
+      "url": "http://bremen.freifunk.net/meshviewer/",
+      "interval": "1min",
+      "technicalType": "meshviewer",
+      "mapType": "geographical"
     }
   ],
   "techDetails": {
@@ -61,19 +67,13 @@
       "url": "http://downloads.bremen.freifunk.net/firmware/",
       "docs": "http://wiki.bremen.freifunk.net/Firmware"
     },
-    "dns": [
-      {
-        "domainname": "ffhb",
-        "nameserver": [
-          "10.196.0.1",
-          "fd2f:5119:f2c::1"
-        ]
-      }
-    ],
     "networks": {
       "ipv6": [
         {
           "network": "fd2f:5119:f2c::/64"
+        },
+        {
+          "network": "2001:bf7:540::/48"
         }
       ],
       "ipv4": [
