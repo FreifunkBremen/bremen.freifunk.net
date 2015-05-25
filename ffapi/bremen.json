@@ -57,7 +57,7 @@
     {
       "url": "http://bremen.freifunk.net/meshviewer/",
       "interval": "1min",
-      "technicalType": "meshviewer",
+      "technicalType": "ffmap",
       "mapType": "geographical"
     }
   ],
