@@ -51,7 +51,7 @@
   questions:
     - question: Wann und wo trefft ihr euch immer/kann man mit euch sprechen?
       answer: |
-        Wir treffen uns jeden dritten Freitag ab 19:00 im [Hackerspace Bremen](https://www.hackerspace-bremen.de/anfahrt/).
+        Wir treffen uns jeden ersten und dritten Freitag des Monats ab 19:00 im [Hackerspace Bremen](https://www.hackerspace-bremen.de/anfahrt/).
     - question: Darf ich Freifunk einfach so benutzen?
       answer: |
         Ja, du darfst Freifunk ohne zu bezahlen und schlechtes Gewissen nutzen. Und wenn Du doch eins bekommst, mach mit, indem Du einen Knoten aufstellst. ;)
@@ -67,7 +67,7 @@
       answer: |
         Nein, die Installation unserer Software ist nicht schwer und wird von uns so einfach wie möglich gehalten. Wirf doch einfach einen Blick in die [Anleitung](http://wiki.bremen.freifunk.net/Anleitung) und entscheide selbst, ob du dir das Flashen zutraust oder nicht.
 
-        Bei Rückfragen helfen wir gerne auf einem Treffen (siehe [Wann trefft ihr euch?](#wann-trefft-ihr-euch?)).
+        Bei Rückfragen helfen wir gerne auf einem Treffen (siehe [Wann und wo trefft ihr euch immer/kann man mit euch sprechen?](#wann-und-wo-trefft-ihr-euch-immer-kann-man-mit-euch-sprechen)).
     - question: Wie kann ich bei Freifunk mitmachen?
       answer: |
         Es gibt viele Möglichkeiten, sich für Freifunk einzusetzen. Eine einfache, aber effektive Möglichkeit uns zu helfen ist Mundpropaganda: Erzähl deinen Freund_innen und deiner Familie von dem Projekt und zeig ihnen, wo und wie sie Freifunk nutzen können.
