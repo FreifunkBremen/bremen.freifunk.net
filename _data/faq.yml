@@ -2,7 +2,7 @@
   questions:
     - question: Was ist Freifunk?
       answer: |
-        Freifunk ist ein Funknetzwerk in Bürgerhand. Privatleute stellen freiwillig offene WLAN-Zugangspunkte zur Verfügung, die jeder kostenlos nutzen kann. Diese Zugangspunkte sind untereinander verbunden (in der Fachsprache: sie „meshen” miteinander) und bilden so ein dezentrales vermaschtes Netzwerk. Man kann sich Freifunk als stadtweites „Intranet” vorstellen, also ein „Internet im Kleinen”. So kann man im Freifunknetz beispielsweise Websiten aufrufen, die es nur im Freifunknetz, aber nicht im Internet gibt. [Hier](http://wiki.bremen.freifunk.net/Dienste) findest du eine Liste der verfügbaren Dienste.
+        Freifunk ist ein Funknetzwerk in Bürgerhand. Privatleute stellen freiwillig offene WLAN-Zugangspunkte zur Verfügung, die jeder kostenlos nutzen kann. Diese Zugangspunkte sind untereinander verbunden (in der Fachsprache: sie „meshen” miteinander) und bilden so ein dezentrales vermaschtes Netzwerk. Man kann sich Freifunk als stadtweites „Intranet” vorstellen, also ein „Internet im Kleinen”. So kann man im Freifunknetz beispielsweise Websiten aufrufen, die es nur im Freifunknetz, aber nicht im Internet gibt. [Hier](http://wiki.bremen.freifunk.net/Dienste/Home) findest du eine Liste der verfügbaren Dienste.
     - question: Wie kann ich Freifunk nutzen?
       answer: |
         In Reichweite eines Zugangspunktes kannst Du das Freifunk-Netz mit jedem WLAN-fähigen Endgerät nutzen. Wenn Du bei eingeschaltetem WLAN den Netzwerknamen `bremen.freifunk.net` siehst, kannst Du Dich einfach und ohne Passwort mit dem Funknetzwerk verbinden. Den nächsten Zugangspunkt findest Du unter [knotenkarte.de](http://knotenkarte.de/)
@@ -51,7 +51,7 @@
   questions:
     - question: Wann und wo trefft ihr euch immer/kann man mit euch sprechen?
       answer: |
-        Wir treffen uns jeden dritten Freitag ab 19:00 im [Hackerspace Bremen](https://www.hackerspace-bremen.de/anfahrt/).
+        Wir treffen uns jeden ersten und dritten Freitag des Monats ab 19:00 im [Hackerspace Bremen](https://www.hackerspace-bremen.de/anfahrt/).
     - question: Darf ich Freifunk einfach so benutzen?
       answer: |
         Ja, du darfst Freifunk ohne zu bezahlen und schlechtes Gewissen nutzen. Und wenn Du doch eins bekommst, mach mit, indem Du einen Knoten aufstellst. ;)
@@ -65,9 +65,9 @@
         Die kurze Antwort ist: Ja, Du kannst! Auch wenn Du absolut keine Ahnung von Technik hast, aber dennoch einen Knoten betreiben möchtest, kannst du über uns einen vorbereiteten Knoten bekommen, den du nur noch an das Stromnetz (und gegebenenfalls an deinem bereits vorhandenen Internet-Router) anschließen musst. Ein derart vorbereiteter Knoten funktioniert “einfach so”.
     - question: Ich habe ein wenig Ahnung von Technik, aber noch nie ein Gerät geflasht. Ist es schwer, die Freifunksoftware auf den Router aufzuspielen?
       answer: |
-        Nein, die Installation unserer Software ist nicht schwer und wird von uns so einfach wie möglich gehalten. Wirf doch einfach einen Blick in die [Anleitung](http://wiki.bremen.freifunk.net/Anleitung) und entscheide selbst, ob du dir das Flashen zutraust oder nicht.
+        Nein, die Installation unserer Software ist nicht schwer und wird von uns so einfach wie möglich gehalten. Wirf doch einfach einen Blick in die [Anleitung](http://wiki.bremen.freifunk.net/Anleitungen/Firmware/Flashen) und entscheide selbst, ob du dir das Flashen zutraust oder nicht.
 
-        Bei Rückfragen helfen wir gerne auf einem Treffen (siehe [Wann trefft ihr euch?](#wann-trefft-ihr-euch?)).
+        Bei Rückfragen helfen wir gerne auf einem Treffen (siehe [Wann und wo trefft ihr euch immer/kann man mit euch sprechen?](#wann-und-wo-trefft-ihr-euch-immer-kann-man-mit-euch-sprechen)).
     - question: Wie kann ich bei Freifunk mitmachen?
       answer: |
         Es gibt viele Möglichkeiten, sich für Freifunk einzusetzen. Eine einfache, aber effektive Möglichkeit uns zu helfen ist Mundpropaganda: Erzähl deinen Freund_innen und deiner Familie von dem Projekt und zeig ihnen, wo und wie sie Freifunk nutzen können.
@@ -78,7 +78,7 @@
         Nein. Freifunk funktioniert auf freiwilliger Basis. Jede_r bringt sich so ein, wie er oder sie es für richtig hält. Eine Verpflichtung besteht nicht.
     - question: Wo bekomme ich einen Router?
       answer: |
-        Wir haben unserem Wiki eine [Liste](http://wiki.bremen.freifunk.net/Routerboerse), an welchen Orten du Router bekommen kannst.
+        Wir haben unserem Wiki eine [Liste](http://wiki.bremen.freifunk.net/Router/Routerboerse), an welchen Orten du Router bekommen kannst.
 - title: Technik
   questions:
     - question:  Ich habe alles angeschlossen und konfiguriert, aber mein Freifunk Router bekommt kein Internet.
