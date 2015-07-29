@@ -20,7 +20,7 @@ Es gibt zwei Möglichkeiten, wie du deinen eigenen Freifunk-Router bekommen kann
 
 Am einfachsten ist es, wenn du dir einen von uns bereits vorbereiteten Router abholst und eventuell sogar mit uns zusammen die Ersteinrichtung durchführst. Dann brauchst du den Router zu Hause nur noch anzuschließen und es funktioniert.
 
-In unserem Wiki haben wir eine kleine [Routerbörse](http://wiki.bremen.freifunk.net/Routerboerse). Schau doch dort einmal, ob jemand in deiner Nähe dir einen Freifunk-Router geben möchte. Ansonsten schreib einfach eine Mail an die [Mailingliste] und frag, wer in deiner Umgebung gerade Router abzugeben hat.
+In unserem Wiki haben wir eine kleine [Routerbörse](http://wiki.bremen.freifunk.net/Router/Routerboerse). Schau doch dort einmal, ob jemand in deiner Nähe dir einen Freifunk-Router geben möchte. Ansonsten schreib einfach eine Mail an die [Mailingliste] und frag, wer in deiner Umgebung gerade Router abzugeben hat.
 
 ## Router selbst flashen
 Aber natürlich kannst du auch selbst deinen Freifunk-Router bestellen. Dabei eignen sich für verschiedene Anwendungszwecke verschiedene Modelle:
@@ -48,9 +48,9 @@ Aber natürlich kannst du auch selbst deinen Freifunk-Router bestellen. Dabei ei
   </li>
 </ul>
 
-Eine [Liste mit noch mehr unterstützten Modellen](http://wiki.bremen.freifunk.net/Unterstuetzte-Router) findest du im Wiki.
+Eine [Liste mit noch mehr unterstützten Modellen](http://wiki.bremen.freifunk.net/Anleitungen/Firmware/Unterstuetzte-Router) findest du im Wiki.
 
-Lade dir anschließend die passende [Firmware] herunter und spiele sie nach [dieser Anleitung](http://wiki.bremen.freifunk.net/Anleitung) auf den Router.
+Lade dir anschließend die passende [Firmware] herunter und spiele sie nach [dieser Anleitung](http://wiki.bremen.freifunk.net/Anleitungen/Firmware/Flashen) auf den Router.
 
 [hshb]: http://hackerspace-bremen.de/anfahrt/
 [Mailingliste]: mailto:liste@bremen.freifunk.net
