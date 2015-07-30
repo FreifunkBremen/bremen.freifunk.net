@@ -94,7 +94,7 @@ Wer das gesprochene Wort vorzieht kann nebenbei auch unseren [Radiobeitrag](http
 </audio>
 
 ### Portalseite
-Für die Breminale wurde extra von einem unserer Freifunker eine dedizierte Website gebastelt, die Besuchern eine Übersicht an wichtigen Informationen anbieten sollte. Zentral war der Facebook-Feed, über den z.B. Unwetterwarnungen gesendet werden sollten. Im laufe der Veranstaltung haben wir festgestellt, dass die Seite wenig genutzt wurde und wir uns die Arbeit hätten sparen können.
+Für die Breminale wurde extra von einem unserer Freifunker eine dedizierte Website gebastelt, die Besuchern eine Übersicht an wichtigen Informationen anbieten sollte. Zentral war der Facebook-Feed, über den z.B. Unwetterwarnungen gesendet werden sollten. Im Laufe der Veranstaltung haben wir festgestellt, dass die Seite wenig genutzt wurde und wir uns die Arbeit hätten sparen können.
 
 (Screenshots folgen)
 
