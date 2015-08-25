@@ -8,7 +8,7 @@ Kontakt
 Bei Fragen zum Freifunk-Bremen-Projekt freuen wir uns über Kontaktaufnahmen…
 
 * …per Mail: [info@bremen.freifunk.net](mailto:info@bremen.freifunk.net) ([Abonnieren](https://planetcyborg.de/mailman/listinfo/ff-bremen))
-* …im Chat: [#ffhb im Hackint](irc://irc.hackint.org/ffhb) (per <a href="https://kiwiirc.com/client/irc.hackint.org/ffhb" target="_blank">Webchat</a>)
+* …im Chat: [#ffhb im Hackint](irc://irc.hackint.org/ffhb) (per <a href="https://webirc.hackint.org/#ffhb" target="_blank">Webchat</a>)
 * …auf Twitter: [@FreifunkHB](https://twitter.com/FreifunkHB)
 
 oder folge uns auf Facebook: [FreifunkBremen](https://www.facebook.com/FreifunkBremen)
