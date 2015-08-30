@@ -7,23 +7,23 @@
     "lat": 53.0758099,
     "lon": 8.80717
   },
+  "contact": {
+    "email": "info@bremen.freifunk.net",
+    "irc": "irc://irc.hackint.org/ffhb",
+    "ml": "liste@bremen.freifunk.net",
+    "facebook": "https://facebook.com/FreifunkBremen",
+    "twitter": "@FreifunkHB"
+  },
   "state": {
     "nodes": 292,
     "focus": [
       "Public Free Wifi",
       "Free internet access"
     ],
-    "lastchange": "2015-08-30T17:41:44.280Z"
-  },
-  "contact": {
-    "irc": "irc://irc.hackint.org/ffhb",
-    "ml": "liste@bremen.freifunk.net",
-    "facebook": "https://facebook.com/FreifunkBremen",
-    "twitter": "@FreifunkHB"
+    "lastchange": "2015-08-30T15:49:21.800Z"
   },
   "timeline": [
     {
-      "decription": "Birth",
       "timestamp": "2013-12-10"
     }
   ],
@@ -55,17 +55,17 @@
       "mapType": "structural"
     },
     {
-      "url": "http://bremen.freifunk.net/meshviewer/",
+      "url": "http://downloads.bremen.freifunk.net/data/nodelist.json",
       "interval": "1min",
-      "technicalType": "ffmap",
-      "mapType": "geographical"
+      "technicalType": "nodelist",
+      "mapType": "list/status"
     }
   ],
   "techDetails": {
     "firmware": {
       "name": "Gluon",
       "url": "http://downloads.bremen.freifunk.net/firmware/",
-      "docs": "http://wiki.bremen.freifunk.net/Firmware"
+      "docs": "http://wiki.bremen.freifunk.net/Anleitungen/Firmware/Home"
     },
     "networks": {
       "ipv6": [
@@ -86,7 +86,6 @@
       "batman-adv"
     ],
     "updatemode": [
-      "manual",
       "autoupdate"
     ],
     "legals": [
@@ -94,5 +93,5 @@
       "zappscript"
     ]
   },
-  "api": "0.4.1"
+  "api": "0.4.8"
 }
