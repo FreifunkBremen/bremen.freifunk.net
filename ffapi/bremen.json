@@ -8,12 +8,12 @@
     "lon": 8.80717
   },
   "state": {
-    "nodes": 192,
+    "nodes": 292,
     "focus": [
       "Public Free Wifi",
       "Free internet access"
     ],
-    "lastchange": "2015-05-16T10:18:44.280Z"
+    "lastchange": "2015-08-30T17:41:44.280Z"
   },
   "contact": {
     "irc": "irc://irc.hackint.org/ffhb",
