@@ -362,6 +362,23 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          8.9600962,
+          53.0688545
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "Status": "unbekannt",
+        "Tr\u00e4ger": "Innere Mission",
+        "marker-color": "7d1619",
+        "Adresse": "Andernacher Stra\u00dfe",
+        "Name": ""
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           8.857040405273438,
           53.11142636130284
         ]
