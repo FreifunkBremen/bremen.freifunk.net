@@ -14,6 +14,13 @@
     "facebook": "https://facebook.com/FreifunkBremen",
     "twitter": "@FreifunkHB"
   },
+  "support": {
+    "donations": {
+      "campaigns": [
+        {"projectid": "34387", "provider": "betterplace"}
+      ]
+    }
+  },
   "state": {
     "nodes": 292,
     "focus": [
