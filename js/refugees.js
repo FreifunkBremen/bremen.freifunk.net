@@ -2,7 +2,7 @@
 $(document).ready(function(){
 	var geoProzess = function(call){
 		$.ajax({
-			url:"http://bremen.freifunk.net/refugees.geojson",
+			url:"/refugees.geojson",
 			beforeSend: function(xhr){
 				if (xhr.overrideMimeType)
 				{
@@ -11,10 +11,11 @@ $(document).ready(function(){
 			},
 			dataType: 'json',
 			contentType: 'application/json',
+			mimeType: "textPlain",
 			success: function(data){
 				var all = data.features.length;
 				var count = $.grep(data.features,function(i){
-						return (i.properties.Status == "versorgt");
+						return (i.properties.Internet == "versorgt");
 				}).length;
 				prozet = Math.round(100*count/all);
 				if(call)
