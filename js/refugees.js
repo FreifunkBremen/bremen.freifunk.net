@@ -21,7 +21,7 @@ var geoProzess = function(call){
 				call(count,all);
 			else{
 				$("#geoprozess").width(prozet+'%');
-				var text = 'Noch'+(all-count)+' ohne Internet!';
+				var text = 'Noch '+(all-count)+' ohne Internet!';
 				$("#geoprozess").text(text);
 			}
 		}
