@@ -23,6 +23,12 @@ Die Übergangswohnheime werden von mehreren Trägern in Bremen getragen.
 * ASB: ?
 * Innere Mission: ?
 
+<div class="progress">
+	<div id="geoprozess" class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 0%;">
+		<span>0% Complete</span>
+	  </div>
+</div>
+
 
 ## Aktueller Stand
 
@@ -30,3 +36,4 @@ Die Karte erhebt keinen Anspruch auf Vollständigkeit und Korrektheit.
 Positionen sind mangels präziser Daten teilweise nur auf die Straße genau.
 
 <iframe height="640" width="420" frameborder="0" src="https://render.githubusercontent.com/view/geojson?url=https://raw.githubusercontent.com/FreifunkBremen/FreifunkBremen.github.io/master/refugees.geojson" style="width: 100%; height:400px; max-height: 100%;">
+</iframe>
