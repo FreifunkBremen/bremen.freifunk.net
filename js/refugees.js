@@ -9,6 +9,7 @@ $(document).ready(function(){
 					xhr.overrideMimeType("application/json");
 				}
 			},
+			dataType: 'json',
 			contentType: 'application/json',
 			success: function(data){
 				var all = data.features.length;
