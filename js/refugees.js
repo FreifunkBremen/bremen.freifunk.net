@@ -8,7 +8,7 @@ $(document).ready(function(){
 			}).length;
 			prozet = Math.round(100*count/all);
 			if(call)
-				call(prozet);
+				call(count,all);
 			else{
 				$("#geoprozess").width(prozet+'%');
 				$("#geoprozess").text(prozet+'% Complete');
