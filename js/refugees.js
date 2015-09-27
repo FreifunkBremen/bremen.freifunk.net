@@ -22,10 +22,9 @@ $(document).ready(function(){
 					call(count,all);
 				else{
 					$("#geoprozess").width(prozet+'%');
-					$("#geoprozess").text(prozet+'% Complete');
+					$("#geoprozess").text('Es gibt noch <b>'+(all-count)+'</b> Flüchtlingsheime ohne Internet!');
 				}
 			}
 	});
 	}
-	geoProzess();
 });
