@@ -1,7 +1,7 @@
 
 $(document).ready(function(){
 	var geoProzess = function(call){
-		$.getJSON("/refugees.geojson",{},function( data ) {
+		$.getJSON("http://bremen.freifunk.net/refugees.geojson",{},function( data ) {
 			var all = data.features.length;
 			var count = $.grep(data.features,function(i){
 					return (i.properties.Status == "versorgt");
