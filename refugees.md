@@ -4,7 +4,8 @@ title: Freifunk für Flüchtlinge
 ---
 # Freifunk für Flüchtlinge
 
-TODO: Einleitungstext
+In Bremen gibt es momentan ca. 25 Übergangswohnheime für Flüchtlinge.
+Die angekommenen Menschen benötigen neben einem Dach über den Kopf und Nahrungsmitteln dringend einen Internetzugang, um mit (zurückgebliebenden) Bekannten und Verwandten kommunizieren zu können, sich zu informieren und sich fortzubilden.
 
 ## So könnt ihr helfen
 
