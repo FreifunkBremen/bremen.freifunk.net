@@ -11,11 +11,11 @@
       },
       "type": "Feature",
       "properties": {
-        "Status": "unbekannt",
         "Tr\u00e4ger": "ASB",
         "marker-color": "7d1619",
         "Adresse": "Philosophenweg",
-        "Name": ""
+        "Name": "",
+        "Internet": "unbekannt"
       }
     },
     {
@@ -28,11 +28,11 @@
       },
       "type": "Feature",
       "properties": {
-        "Status": "unbekannt",
         "Tr\u00e4ger": "ASB",
         "marker-color": "7d1619",
         "Adresse": "Eduard-Grunow Stra\u00dfe",
-        "Name": ""
+        "Name": "",
+        "Internet": "unbekannt"
       }
     },
     {
@@ -45,11 +45,11 @@
       },
       "type": "Feature",
       "properties": {
-        "Status": "unbekannt",
         "Tr\u00e4ger": "ASB",
         "marker-color": "7d1619",
         "Adresse": "Osterholzer Landstra\u00dfe",
-        "Name": ""
+        "Name": "",
+        "Internet": "unbekannt"
       }
     },
     {
@@ -62,11 +62,11 @@
       },
       "type": "Feature",
       "properties": {
-        "Status": "unbekannt",
         "Tr\u00e4ger": "ASB",
         "marker-color": "7d1619",
         "Adresse": "Steingutstra\u00dfe",
-        "Name": ""
+        "Name": "",
+        "Internet": "unbekannt"
       }
     },
     {
@@ -79,11 +79,11 @@
       },
       "type": "Feature",
       "properties": {
-        "Status": "unbekannt",
         "Tr\u00e4ger": "ASB",
         "marker-color": "7d1619",
         "Adresse": "Johann-Lange-Stra\u00dfe",
-        "Name": ""
+        "Name": "",
+        "Internet": "unbekannt"
       }
     },
     {
@@ -96,11 +96,11 @@
       },
       "type": "Feature",
       "properties": {
-        "Status": "unbekannt",
         "Tr\u00e4ger": "ASB",
         "marker-color": "7d1619",
         "Adresse": "Ellener Dorfstra\u00dfe",
-        "Name": ""
+        "Name": "",
+        "Internet": "unbekannt"
       }
     },
     {
@@ -113,11 +113,11 @@
       },
       "type": "Feature",
       "properties": {
-        "Status": "unbekannt",
         "Tr\u00e4ger": "AWO",
         "marker-color": "7d1619",
         "Adresse": "Alfred-Faust-Stra\u00dfe 15",
-        "Name": "Erstaufnahme (ZAST)"
+        "Name": "Erstaufnahme (ZAST)",
+        "Internet": "unbekannt"
       }
     },
     {
@@ -130,11 +130,11 @@
       },
       "type": "Feature",
       "properties": {
-        "Status": "unbekannt",
         "Tr\u00e4ger": "AWO",
         "marker-color": "7d1619",
         "Adresse": "Arberger Heerstra\u00dfe",
-        "Name": ""
+        "Name": "",
+        "Internet": "unbekannt"
       }
     },
     {
@@ -147,11 +147,11 @@
       },
       "type": "Feature",
       "properties": {
-        "Status": "unbekannt",
         "Tr\u00e4ger": "AWO",
         "marker-color": "7d1619",
         "Adresse": "Ludwig-Quidde-Stra\u00dfe",
-        "Name": ""
+        "Name": "",
+        "Internet": "unbekannt"
       }
     },
     {
@@ -164,11 +164,11 @@
       },
       "type": "Feature",
       "properties": {
-        "Status": "unbekannt",
         "Tr\u00e4ger": "AWO",
         "marker-color": "7d1619",
         "Adresse": "Schiffbauerweg",
-        "Name": ""
+        "Name": "",
+        "Internet": "unbekannt"
       }
     },
     {
@@ -181,11 +181,11 @@
       },
       "type": "Feature",
       "properties": {
-        "Status": "unbekannt",
         "Tr\u00e4ger": "AWO",
         "marker-color": "7d1619",
         "Adresse": "",
-        "Name": "Klinikum Mitte"
+        "Name": "Klinikum Mitte",
+        "Internet": "unbekannt"
       }
     },
     {
@@ -198,11 +198,11 @@
       },
       "type": "Feature",
       "properties": {
-        "Status": "unbekannt",
         "Tr\u00e4ger": "AWO",
         "marker-color": "7d1619",
         "Adresse": "Buntentorsteinweg 86/88",
-        "Name": "Sonnenhaus"
+        "Name": "Sonnenhaus",
+        "Internet": "unbekannt"
       }
     },
     {
@@ -215,11 +215,11 @@
       },
       "type": "Feature",
       "properties": {
-        "Status": "unbekannt",
         "Tr\u00e4ger": "AWO",
         "marker-color": "7d1619",
         "Adresse": "Huckelriede",
-        "Name": "Scharnhorst-Kaserne"
+        "Name": "Scharnhorst-Kaserne",
+        "Internet": "unbekannt"
       }
     },
     {
@@ -232,11 +232,11 @@
       },
       "type": "Feature",
       "properties": {
-        "Status": "unbekannt",
         "Tr\u00e4ger": "AWO",
         "marker-color": "7d1619",
         "Adresse": "Luxemburger Stra\u00dfe",
-        "Name": "Notaufnahme Luxemburger Stra\u00dfe"
+        "Name": "Notaufnahme Luxemburger Stra\u00dfe",
+        "Internet": "unbekannt"
       }
     },
     {
@@ -249,11 +249,11 @@
       },
       "type": "Feature",
       "properties": {
-        "Status": "unbekannt",
         "Tr\u00e4ger": "AWO",
         "marker-color": "7d1619",
         "Adresse": "Bardowickstra\u00dfe 83a",
-        "Name": ""
+        "Name": "",
+        "Internet": "unbekannt"
       }
     },
     {
@@ -266,11 +266,11 @@
       },
       "type": "Feature",
       "properties": {
-        "Status": "versorgt",
         "Tr\u00e4ger": "Caritas",
         "marker-color": "2c8537",
         "Adresse": "Hamfhofsweg",
-        "Name": "Borgfelder Warft"
+        "Name": "Borgfelder Warft",
+        "Internet": "versorgt"
       }
     },
     {
@@ -283,11 +283,11 @@
       },
       "type": "Feature",
       "properties": {
-        "Status": "in Arbeit",
         "Tr\u00e4ger": "Caritas",
         "marker-color": "91a537",
         "Adresse": "Berckstra\u00dfe 10",
-        "Name": "ION Berckstra\u00dfe"
+        "Name": "ION Berckstra\u00dfe",
+        "Internet": "in Arbeit"
       }
     },
     {
@@ -300,11 +300,11 @@
       },
       "type": "Feature",
       "properties": {
-        "Status": "unbekannt",
         "Tr\u00e4ger": "Innere Mission",
         "marker-color": "7d1619",
         "Adresse": "Andernacher Stra\u00dfe",
-        "Name": ""
+        "Name": "",
+        "Internet": "unbekannt"
       }
     },
     {
@@ -317,11 +317,11 @@
       },
       "type": "Feature",
       "properties": {
-        "Status": "unbekannt",
         "Tr\u00e4ger": "Innere Mission",
         "marker-color": "7d1619",
         "Adresse": "Herdentorsteinweg 44/45",
-        "Name": "Bremen-Mitte"
+        "Name": "Bremen-Mitte",
+        "Internet": "unbekannt"
       }
     },
     {
@@ -334,11 +334,11 @@
       },
       "type": "Feature",
       "properties": {
-        "Status": "unbekannt",
         "Tr\u00e4ger": "Innere Mission",
         "marker-color": "7d1619",
         "Adresse": "Konsul-Smidt-Stra\u00dfe/\u00dcberseetor",
-        "Name": "\u00dcberseetor"
+        "Name": "\u00dcberseetor",
+        "Internet": "unbekannt"
       }
     },
     {
@@ -351,11 +351,11 @@
       },
       "type": "Feature",
       "properties": {
-        "Status": "unbekannt",
         "Tr\u00e4ger": "Innere Mission",
         "marker-color": "7d1619",
         "Adresse": "In der Vahr 76",
-        "Name": "Polizeipr\u00e4sidium in der Vahr"
+        "Name": "Polizeipr\u00e4sidium in der Vahr",
+        "Internet": "unbekannt"
       }
     },
     {
@@ -368,11 +368,11 @@
       },
       "type": "Feature",
       "properties": {
-        "Status": "unbekannt",
         "Tr\u00e4ger": "Innere Mission",
         "marker-color": "7d1619",
         "Adresse": "Andernacher Stra\u00dfe",
-        "Name": ""
+        "Name": "",
+        "Internet": "unbekannt"
       }
     },
     {
@@ -385,11 +385,11 @@
       },
       "type": "Feature",
       "properties": {
-        "Status": "versorgt",
         "Tr\u00e4ger": "",
         "marker-color": "2c8537",
         "Adresse": "",
-        "Name": "Fallturm"
+        "Name": "Fallturm",
+        "Internet": "versorgt"
       }
     },
     {
@@ -402,11 +402,11 @@
       },
       "type": "Feature",
       "properties": {
-        "Status": "versorgt",
         "Tr\u00e4ger": "",
         "marker-color": "2c8537",
         "Adresse": "",
-        "Name": "Uni NW1"
+        "Name": "Uni NW1",
+        "Internet": "versorgt"
       }
     },
     {
@@ -419,11 +419,11 @@
       },
       "type": "Feature",
       "properties": {
-        "Status": "versorgt",
         "Tr\u00e4ger": "",
         "marker-color": "2c8537",
         "Adresse": "Hermann-Ritter-Stra\u00dfe",
-        "Name": "Brinkmann-Produktionshalle"
+        "Name": "Brinkmann-Produktionshalle",
+        "Internet": "versorgt"
       }
     },
     {
@@ -436,11 +436,11 @@
       },
       "type": "Feature",
       "properties": {
-        "Status": "unbekannt",
         "Tr\u00e4ger": "",
         "marker-color": "7d1619",
         "Adresse": "",
-        "Name": "Stadtwerder"
+        "Name": "Stadtwerder",
+        "Internet": "unbekannt"
       }
     }
   ]
