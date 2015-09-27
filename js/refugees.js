@@ -21,7 +21,8 @@ var geoProzess = function(call){
 				call(count,all);
 			else{
 				$("#geoprozess").width(prozet+'%');
-				$("#geoprozess").text('Es gibt noch <b>'+(all-count)+'</b> Flüchtlingsheime ohne Internet!');
+				var text = 'Noch'+(all-count)+' ohne Internet!';
+				$("#geoprozess").text(text);
 			}
 		}
 });
