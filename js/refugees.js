@@ -12,16 +12,15 @@ var geoProzess = function(call){
 		contentType: 'application/json',
 		mimeType: "textPlain",
 		success: function(data){
-			var all = data.features.length;
-			var count = $.grep(data.features,function(i){
-					return (i.properties.Internet == "versorgt");
-			}).length;
-			prozet = Math.round(100*count/all);
+			var remaining = data.features.length;
+			var finished  = data.versorgt;
+			var all       = finished+remaining
+			var percent   = Math.round(100*finished/all);
 			if(call)
-				call(count,all);
+				call(remaining, finished);
 			else{
-				$("#geoprozess").width(prozet+'%');
-				var text = 'Noch '+(all-count)+' ohne Internet!';
+				$("#geoprozess").width(percent+'%');
+				var text = 'Noch '+remaining+' ohne Internet!';
 				$("#geoprozess").text(text);
 			}
 		}
