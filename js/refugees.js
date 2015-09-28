@@ -16,7 +16,7 @@ var geoProzess = function(callback){
 			var finished  = data.versorgt;
 			var all       = finished+remaining
 			if(callback)
-				callback(remaining, finished);
+				callback(finished, all);
 		}
 	});
 }
