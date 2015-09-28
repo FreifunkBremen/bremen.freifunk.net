@@ -74,7 +74,8 @@
 	<script src="/js/refugees.js"></script>
 	<script>
 		$(document).ready(function(){
-			geoProzess(function(remaining,finished){
+			geoProzess(function(finished,all){
+				var remaining = all - finished;
 				$("#wifi-finished").width(Math.round(100*finished/all)+'%').text(finished+' haben Internet');
 				$("#wifi-remaining").width(Math.round(100*remaining/all)+'%').text('Noch '+remaining+' ohne Internet');
 			});
