@@ -1,395 +1,395 @@
 {
-  "versorgt": 5,
-  "type": "FeatureCollection",
+  "versorgt": 5, 
+  "type": "FeatureCollection", 
   "features": [
     {
       "geometry": {
-        "type": "Point",
+        "type": "Point", 
         "coordinates": [
-          8.8100783,
+          8.8100783, 
           53.0816101
         ]
-      },
-      "type": "Feature",
+      }, 
+      "type": "Feature", 
       "properties": {
-        "Tr\u00e4ger": "ASB",
-        "marker-color": "7d1619",
-        "Adresse": "Philosophenweg",
-        "Name": null,
+        "Tr\u00e4ger": "ASB", 
+        "marker-color": "7d1619", 
+        "Adresse": "Philosophenweg", 
+        "Name": null, 
         "Internet": "unbekannt"
       }
-    },
+    }, 
     {
       "geometry": {
-        "type": "Point",
+        "type": "Point", 
         "coordinates": [
-          8.8209784,
+          8.8209784, 
           53.0772618
         ]
-      },
-      "type": "Feature",
+      }, 
+      "type": "Feature", 
       "properties": {
-        "Tr\u00e4ger": "ASB",
-        "marker-color": "7d1619",
-        "Adresse": "Eduard-Grunow Stra\u00dfe",
-        "Name": null,
+        "Tr\u00e4ger": "ASB", 
+        "marker-color": "7d1619", 
+        "Adresse": "Eduard-Grunow Stra\u00dfe", 
+        "Name": null, 
         "Internet": "unbekannt"
       }
-    },
+    }, 
     {
       "geometry": {
-        "type": "Point",
+        "type": "Point", 
         "coordinates": [
-          8.9397155,
+          8.9397155, 
           53.0650885
         ]
-      },
-      "type": "Feature",
+      }, 
+      "type": "Feature", 
       "properties": {
-        "Tr\u00e4ger": "ASB",
-        "marker-color": "7d1619",
-        "Adresse": "Osterholzer Landstra\u00dfe",
-        "Name": null,
+        "Tr\u00e4ger": "ASB", 
+        "marker-color": "7d1619", 
+        "Adresse": "Osterholzer Landstra\u00dfe", 
+        "Name": null, 
         "Internet": "unbekannt"
       }
-    },
+    }, 
     {
       "geometry": {
-        "type": "Point",
+        "type": "Point", 
         "coordinates": [
-          8.6516699,
+          8.6516699, 
           53.1712224
         ]
-      },
-      "type": "Feature",
+      }, 
+      "type": "Feature", 
       "properties": {
-        "Tr\u00e4ger": "ASB",
-        "marker-color": "7d1619",
-        "Adresse": "Steingutstra\u00dfe",
-        "Name": null,
+        "Tr\u00e4ger": "ASB", 
+        "marker-color": "7d1619", 
+        "Adresse": "Steingutstra\u00dfe", 
+        "Name": null, 
         "Internet": "unbekannt"
       }
-    },
+    }, 
     {
       "geometry": {
-        "type": "Point",
+        "type": "Point", 
         "coordinates": [
-          8.6262057,
+          8.6262057, 
           53.1745464
         ]
-      },
-      "type": "Feature",
+      }, 
+      "type": "Feature", 
       "properties": {
-        "Tr\u00e4ger": "ASB",
-        "marker-color": "7d1619",
-        "Adresse": "Johann-Lange-Stra\u00dfe",
-        "Name": null,
+        "Tr\u00e4ger": "ASB", 
+        "marker-color": "7d1619", 
+        "Adresse": "Johann-Lange-Stra\u00dfe", 
+        "Name": null, 
         "Internet": "unbekannt"
       }
-    },
+    }, 
     {
       "geometry": {
-        "type": "Point",
+        "type": "Point", 
         "coordinates": [
-          8.9352285,
+          8.9352285, 
           53.0680765
         ]
-      },
-      "type": "Feature",
+      }, 
+      "type": "Feature", 
       "properties": {
-        "Tr\u00e4ger": "ASB",
-        "marker-color": "7d1619",
-        "Adresse": "Ellener Dorfstra\u00dfe",
-        "Name": null,
+        "Tr\u00e4ger": "ASB", 
+        "marker-color": "7d1619", 
+        "Adresse": "Ellener Dorfstra\u00dfe", 
+        "Name": null, 
         "Internet": "unbekannt"
       }
-    },
+    }, 
     {
       "geometry": {
-        "type": "Point",
+        "type": "Point", 
         "coordinates": [
-          8.8299606,
+          8.8299606, 
           53.0347045
         ]
-      },
-      "type": "Feature",
+      }, 
+      "type": "Feature", 
       "properties": {
-        "Tr\u00e4ger": "AWO",
-        "marker-color": "7d1619",
-        "Adresse": "Alfred-Faust-Stra\u00dfe 15",
-        "Name": "Erstaufnahme (ZAST)",
+        "Tr\u00e4ger": "AWO", 
+        "marker-color": "7d1619", 
+        "Adresse": "Alfred-Faust-Stra\u00dfe 15", 
+        "Name": "Erstaufnahme (ZAST)", 
         "Internet": "unbekannt"
       }
-    },
+    }, 
     {
       "geometry": {
-        "type": "Point",
+        "type": "Point", 
         "coordinates": [
-          8.9186018,
+          8.9186018, 
           53.0387251
         ]
-      },
-      "type": "Feature",
+      }, 
+      "type": "Feature", 
       "properties": {
-        "Tr\u00e4ger": "AWO",
-        "marker-color": "7d1619",
-        "Adresse": "Arberger Heerstra\u00dfe",
-        "Name": null,
+        "Tr\u00e4ger": "AWO", 
+        "marker-color": "7d1619", 
+        "Adresse": "Arberger Heerstra\u00dfe", 
+        "Name": null, 
         "Internet": "unbekannt"
       }
-    },
+    }, 
     {
       "geometry": {
-        "type": "Point",
+        "type": "Point", 
         "coordinates": [
-          8.865213,
+          8.865213, 
           53.069429
         ]
-      },
-      "type": "Feature",
+      }, 
+      "type": "Feature", 
       "properties": {
-        "Tr\u00e4ger": "AWO",
-        "marker-color": "7d1619",
-        "Adresse": "Ludwig-Quidde-Stra\u00dfe",
-        "Name": null,
+        "Tr\u00e4ger": "AWO", 
+        "marker-color": "7d1619", 
+        "Adresse": "Ludwig-Quidde-Stra\u00dfe", 
+        "Name": null, 
         "Internet": "unbekannt"
       }
-    },
+    }, 
     {
       "geometry": {
-        "type": "Point",
+        "type": "Point", 
         "coordinates": [
-          8.751348,
+          8.751348, 
           53.1142824
         ]
-      },
-      "type": "Feature",
+      }, 
+      "type": "Feature", 
       "properties": {
-        "Tr\u00e4ger": "AWO",
-        "marker-color": "7d1619",
-        "Adresse": "Schiffbauerweg",
-        "Name": null,
+        "Tr\u00e4ger": "AWO", 
+        "marker-color": "7d1619", 
+        "Adresse": "Schiffbauerweg", 
+        "Name": null, 
         "Internet": "unbekannt"
       }
-    },
+    }, 
     {
       "geometry": {
-        "type": "Point",
+        "type": "Point", 
         "coordinates": [
-          8.838231,
+          8.838231, 
           53.073908
         ]
-      },
-      "type": "Feature",
+      }, 
+      "type": "Feature", 
       "properties": {
-        "Tr\u00e4ger": "AWO",
-        "marker-color": "7d1619",
-        "Adresse": "",
-        "Name": "Klinikum Mitte",
+        "Tr\u00e4ger": "AWO", 
+        "marker-color": "7d1619", 
+        "Adresse": "", 
+        "Name": "Klinikum Mitte", 
         "Internet": "unbekannt"
       }
-    },
+    }, 
     {
       "geometry": {
-        "type": "Point",
+        "type": "Point", 
         "coordinates": [
-          8.8041796,
+          8.8041796, 
           53.0665463
         ]
-      },
-      "type": "Feature",
+      }, 
+      "type": "Feature", 
       "properties": {
-        "Tr\u00e4ger": "AWO",
-        "marker-color": "7d1619",
-        "Adresse": "Buntentorsteinweg 86/88",
-        "Name": "Sonnenhaus",
+        "Tr\u00e4ger": "AWO", 
+        "marker-color": "7d1619", 
+        "Adresse": "Buntentorsteinweg 86/88", 
+        "Name": "Sonnenhaus", 
         "Internet": "unbekannt"
       }
-    },
+    }, 
     {
       "geometry": {
-        "type": "Point",
+        "type": "Point", 
         "coordinates": [
-          8.824235,
+          8.824235, 
           53.054245
         ]
-      },
-      "type": "Feature",
+      }, 
+      "type": "Feature", 
       "properties": {
-        "Tr\u00e4ger": "AWO",
-        "marker-color": "7d1619",
-        "Adresse": "Huckelriede",
-        "Name": "Scharnhorst-Kaserne",
+        "Tr\u00e4ger": "AWO", 
+        "marker-color": "7d1619", 
+        "Adresse": "Huckelriede", 
+        "Name": "Scharnhorst-Kaserne", 
         "Internet": "unbekannt"
       }
-    },
+    }, 
     {
       "geometry": {
-        "type": "Point",
+        "type": "Point", 
         "coordinates": [
-          8.7178459,
+          8.7178459, 
           53.0539032
         ]
-      },
-      "type": "Feature",
+      }, 
+      "type": "Feature", 
       "properties": {
-        "Tr\u00e4ger": "AWO",
-        "marker-color": "7d1619",
-        "Adresse": "Luxemburger Stra\u00dfe",
-        "Name": "Notaufnahme Luxemburger Stra\u00dfe",
+        "Tr\u00e4ger": "AWO", 
+        "marker-color": "7d1619", 
+        "Adresse": "Luxemburger Stra\u00dfe", 
+        "Name": "Notaufnahme Luxemburger Stra\u00dfe", 
         "Internet": "unbekannt"
       }
-    },
+    }, 
     {
       "geometry": {
-        "type": "Point",
+        "type": "Point", 
         "coordinates": [
-          8.8808828,
+          8.8808828, 
           53.0688951
         ]
-      },
-      "type": "Feature",
+      }, 
+      "type": "Feature", 
       "properties": {
-        "Tr\u00e4ger": "AWO",
-        "marker-color": "7d1619",
-        "Adresse": "Bardowickstra\u00dfe 83a",
-        "Name": null,
+        "Tr\u00e4ger": "AWO", 
+        "marker-color": "7d1619", 
+        "Adresse": "Bardowickstra\u00dfe 83a", 
+        "Name": null, 
         "Internet": "unbekannt"
       }
-    },
+    }, 
     {
       "geometry": {
-        "type": "Point",
+        "type": "Point", 
         "coordinates": [
-          8.87147,
+          8.87147, 
           53.09756
         ]
-      },
-      "type": "Feature",
+      }, 
+      "type": "Feature", 
       "properties": {
-        "Tr\u00e4ger": "Caritas",
-        "marker-color": "91a537",
-        "Adresse": "Berckstra\u00dfe 10",
-        "Name": "ION Berckstra\u00dfe",
+        "Tr\u00e4ger": "Caritas", 
+        "marker-color": "91a537", 
+        "Adresse": "Berckstra\u00dfe 10", 
+        "Name": "ION Berckstra\u00dfe", 
         "Internet": "in Arbeit"
       }
-    },
+    }, 
     {
       "geometry": {
-        "type": "Point",
+        "type": "Point", 
         "coordinates": [
-          8.957022,
+          8.957022, 
           53.069346
         ]
-      },
-      "type": "Feature",
+      }, 
+      "type": "Feature", 
       "properties": {
-        "Tr\u00e4ger": "Innere Mission",
-        "marker-color": "7d1619",
-        "Adresse": "Andernacher Stra\u00dfe",
-        "Name": null,
+        "Tr\u00e4ger": "Innere Mission", 
+        "marker-color": "7d1619", 
+        "Adresse": "Andernacher Stra\u00dfe", 
+        "Name": null, 
         "Internet": "unbekannt"
       }
-    },
+    }, 
     {
       "geometry": {
-        "type": "Point",
+        "type": "Point", 
         "coordinates": [
-          8.775796,
+          8.775796, 
           53.09719
         ]
-      },
-      "type": "Feature",
+      }, 
+      "type": "Feature", 
       "properties": {
-        "Tr\u00e4ger": "Innere Mission",
-        "marker-color": "7d1619",
-        "Adresse": "\u00dcberseetor",
-        "Name": null,
+        "Tr\u00e4ger": "Innere Mission", 
+        "marker-color": "7d1619", 
+        "Adresse": "\u00dcberseetor", 
+        "Name": null, 
         "Internet": "unbekannt"
       }
-    },
+    }, 
     {
       "geometry": {
-        "type": "Point",
+        "type": "Point", 
         "coordinates": [
-          8.8785508,
+          8.8785508, 
           53.0815546
         ]
-      },
-      "type": "Feature",
+      }, 
+      "type": "Feature", 
       "properties": {
-        "Tr\u00e4ger": "Innere Mission",
-        "marker-color": "7d1619",
-        "Adresse": "In der Vahr 76",
-        "Name": "Polizeipr\u00e4sidium in der Vahr",
+        "Tr\u00e4ger": "Innere Mission", 
+        "marker-color": "7d1619", 
+        "Adresse": "In der Vahr 76", 
+        "Name": "Polizeipr\u00e4sidium in der Vahr", 
         "Internet": "unbekannt"
       }
-    },
+    }, 
     {
       "geometry": {
-        "type": "Point",
+        "type": "Point", 
         "coordinates": [
-          8.9600962,
+          8.9600962, 
           53.0688545
         ]
-      },
-      "type": "Feature",
+      }, 
+      "type": "Feature", 
       "properties": {
-        "Tr\u00e4ger": "Innere Mission",
-        "marker-color": "7d1619",
-        "Adresse": "Andernacher Stra\u00dfe",
-        "Name": null,
+        "Tr\u00e4ger": "Innere Mission", 
+        "marker-color": "7d1619", 
+        "Adresse": "Andernacher Stra\u00dfe", 
+        "Name": null, 
         "Internet": "unbekannt"
       }
-    },
+    }, 
     {
       "geometry": {
-        "type": "Point",
+        "type": "Point", 
         "coordinates": [
-          8.8365217,
+          8.8365217, 
           53.0280592
         ]
-      },
-      "type": "Feature",
+      }, 
+      "type": "Feature", 
       "properties": {
-        "Tr\u00e4ger": "Innere Mission",
-        "marker-color": "7d1619",
-        "Adresse": "Egon-K\u00e4hler-Stra\u00dfe",
-        "Name": null,
+        "Tr\u00e4ger": "Innere Mission", 
+        "marker-color": "7d1619", 
+        "Adresse": "Egon-K\u00e4hler-Stra\u00dfe", 
+        "Name": null, 
         "Internet": "unbekannt"
       }
-    },
+    }, 
     {
       "geometry": {
-        "type": "Point",
+        "type": "Point", 
         "coordinates": [
-          8.825449,
+          8.825449, 
           53.060794
         ]
-      },
-      "type": "Feature",
+      }, 
+      "type": "Feature", 
       "properties": {
-        "Tr\u00e4ger": "",
-        "marker-color": "7d1619",
-        "Adresse": "",
-        "Name": "Stadtwerder",
+        "Tr\u00e4ger": "", 
+        "marker-color": "7d1619", 
+        "Adresse": "", 
+        "Name": "Stadtwerder", 
         "Internet": "unbekannt"
       }
-    },
+    }, 
     {
       "geometry": {
-        "type": "Point",
+        "type": "Point", 
         "coordinates": [
-          8.771402,
+          8.771402, 
           53.093405
         ]
-      },
-      "type": "Feature",
+      }, 
+      "type": "Feature", 
       "properties": {
-        "Tr\u00e4ger": "Stadt Bremen",
-        "marker-color": "7d1619",
-        "Adresse": "",
-        "Name": "Zelt \u00dcberseestadt",
+        "Tr\u00e4ger": "Stadt Bremen", 
+        "marker-color": "7d1619", 
+        "Adresse": "", 
+        "Name": "Zelt \u00dcberseestadt", 
         "Internet": "unbekannt"
       }
     }
