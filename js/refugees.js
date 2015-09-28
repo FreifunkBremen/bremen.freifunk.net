@@ -15,13 +15,11 @@ var geoProzess = function(call){
 			var remaining = data.features.length;
 			var finished  = data.versorgt;
 			var all       = finished+remaining
-			var percent   = Math.round(100*finished/all);
 			if(call)
 				call(remaining, finished);
 			else{
-				$("#geoprozess").width(percent+'%');
-				var text = 'Noch '+remaining+' ohne Internet!';
-				$("#geoprozess").text(text);
+				$("#wifi-finished").width(Math.round(100*finished/all)+'%').text(finished+' haben Internet');
+				$("#wifi-remaining").width(Math.round(100*remaining/all)+'%').text('Noch '+remaining+' ohne Internet');
 			}
 		}
 });
