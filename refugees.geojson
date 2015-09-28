@@ -318,10 +318,10 @@
       "type": "Feature",
       "properties": {
         "Tr\u00e4ger": "Innere Mission",
-        "marker-color": "7d1619",
+        "marker-color": "2c8537",
         "Adresse": "Herdentorsteinweg 44/45",
-        "Name": "Bremen-Mitte",
-        "Internet": "unbekannt"
+        "Name": "Central-Hostel",
+        "Internet": "versorgt"
       }
     },
     {
@@ -336,8 +336,8 @@
       "properties": {
         "Tr\u00e4ger": "Innere Mission",
         "marker-color": "7d1619",
-        "Adresse": "Konsul-Smidt-Stra\u00dfe/\u00dcberseetor",
-        "Name": "\u00dcberseetor",
+        "Adresse": "\u00dcberseetor",
+        "Name": null,
         "Internet": "unbekannt"
       }
     },
@@ -371,6 +371,23 @@
         "Tr\u00e4ger": "Innere Mission",
         "marker-color": "7d1619",
         "Adresse": "Andernacher Stra\u00dfe",
+        "Name": null,
+        "Internet": "unbekannt"
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.8365217,
+          53.0280592
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "Tr\u00e4ger": "Innere Mission",
+        "marker-color": "7d1619",
+        "Adresse": "Egon-K\u00e4hler-Stra\u00dfe",
         "Name": null,
         "Internet": "unbekannt"
       }
