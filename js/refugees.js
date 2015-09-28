@@ -1,5 +1,5 @@
 
-var geoProzess = function(call){
+var geoProzess = function(callback){
 	$.ajax({
 		url:"/refugees.geojson",
 		beforeSend: function(xhr){
@@ -15,12 +15,7 @@ var geoProzess = function(call){
 			var remaining = data.features.length;
 			var finished  = data.versorgt;
 			var all       = finished+remaining
-			if(call)
-				call(remaining, finished);
-			else{
-				$("#wifi-finished").width(Math.round(100*finished/all)+'%').text(finished+' haben Internet');
-				$("#wifi-remaining").width(Math.round(100*remaining/all)+'%').text('Noch '+remaining+' ohne Internet');
-			}
-		}
+			if(callback)
+				callback(remaining, finished);
 });
 }
