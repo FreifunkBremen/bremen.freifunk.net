@@ -17,5 +17,6 @@ var geoProzess = function(callback){
 			var all       = finished+remaining
 			if(callback)
 				callback(remaining, finished);
-});
+		}
+	});
 }
