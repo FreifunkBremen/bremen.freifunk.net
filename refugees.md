@@ -16,9 +16,10 @@ Die angekommenen Menschen benötigen neben einem Dach über den Kopf und Nahrung
 
 ## Unterstützung durch Träger
 
-Die Übergangswohnheime werden von mehreren Trägern in Bremen getragen.
+Die Übergangswohnheime werden von mehreren Trägern in Bremen getragen, die sich teilweise in Trägerverbünden zusammengeschlossen haben.
 
-* Trägerverbund (Caritas-Erziehungshilfe gGmbH, Alten Eichen Perspektiven für Kinder und Jugendliche gGmbH, JUS Jugendhilfe und Soziale Arbeit gGmbH, Kriz - Bremer Zentrum für Jugend- und Erwachsenenhilfe e. V.): Hat bereits ein Wohnheim mit Freifunk ausgestattet. Für zukünftige Wohnheime soll es ebenfalls Freifunk geben.
+* [Trägerverbund "Borfelder Warft"](http://www.borgfeld-warft.de) (Caritas, Alten Eichen, JUS, Kriz): Hat bereits die Unterkunft mit Freifunk ausgestattet. Für zukünftige Unterkünfte soll es ebenfalls Freifunk geben.
+* [Trägerverbund "ION Berckstraße"](http://www.alten-eichen.de/angebot/minderjaehrige-fluechtlinge/ion-berckstrasse/angebot.html) (Caritas, Alten Eichen, JUS, DRK): Plant die Unterkuft mit Freifunk auszustatten.
 * AWO: ?
 * ASB: ?
 * Innere Mission: ?
