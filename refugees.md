@@ -18,7 +18,7 @@ Die angekommenen Menschen benötigen neben einem Dach über den Kopf und Nahrung
 
 Die Übergangswohnheime werden von mehreren Trägern in Bremen getragen.
 
-* Caritas: Hat bereits ein Wohnheim mit Freifunk ausgestattet. Für zukünftige Wohnheime soll es ebenfalls Freifunk geben.
+* Trägerverbund (Caritas-Erziehungshilfe gGmbH, Alten Eichen Perspektiven für Kinder und Jugendliche gGmbH, JUS Jugendhilfe und Soziale Arbeit gGmbH, Kriz - Bremer Zentrum für Jugend- und Erwachsenenhilfe e. V.): Hat bereits ein Wohnheim mit Freifunk ausgestattet. Für zukünftige Wohnheime soll es ebenfalls Freifunk geben.
 * AWO: ?
 * ASB: ?
 * Innere Mission: ?
