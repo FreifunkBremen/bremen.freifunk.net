@@ -267,11 +267,28 @@
       },
       "type": "Feature",
       "properties": {
-        "Tr\u00e4ger": "Trägerverbund",
+        "Tr\u00e4ger": "Trägerverbund ION Berckstraße",
         "marker-color": "91a537",
         "Adresse": "Berckstra\u00dfe 10",
         "Name": "ION Berckstra\u00dfe",
         "Internet": "in Arbeit"
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.89737,
+          53.12794
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "Tr\u00e4ger": "Trägerverbund Borgfelder Warft",
+        "marker-color": "91a537",
+        "Adresse": "Hamfhofsweg 59",
+        "Name": "Borgfelder Warft",
+        "Internet": "Läuft"
       }
     },
     {
