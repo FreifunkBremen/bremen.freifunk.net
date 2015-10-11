@@ -31,10 +31,8 @@ Die Übergangswohnheime werden von mehreren Trägern in Bremen getragen, die sic
 	<div class="progress-bar progress-bar-danger" id="wifi-remaining" role="progressbar"></div>
 </div>
 
-
 Die Karte zeigt Einrichtungen, bei denen noch **keine Internet-Versorgung** besteht, oder der **Status unbekannt** ist.
 Sie erhebt keinen Anspruch auf Vollständigkeit und Korrektheit.
-Die Positionen sind mangels präziser Daten teilweise nur auf die Straße genau.
 
 <iframe height="640" width="420" frameborder="0" src="https://render.githubusercontent.com/view/geojson?url=https://raw.githubusercontent.com/FreifunkBremen/FreifunkBremen.github.io/master/refugees.geojson" style="width: 100%; height:400px; max-height: 100%;">
 </iframe>
