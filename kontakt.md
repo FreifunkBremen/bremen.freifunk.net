@@ -16,3 +16,5 @@ oder folge uns auf Facebook: [FreifunkBremen](https://www.facebook.com/FreifunkB
 Wir treffen uns außerdem zweimal im Monat, jeweils am 1. und 3. Freitag ab 19 Uhr im [Hackerspace
 Bremen](https://www.hackerspace-bremen.de/anfahrt/). Schau doch mal vorbei, wir
 freuen uns immer über neue Gesichter!
+
+Für Interessierte besteht außerdem die Möglichkeit, unsere Mailingliste zu [abonnieren](https://planetcyborg.de/mailman/listinfo/ff-bremen).
