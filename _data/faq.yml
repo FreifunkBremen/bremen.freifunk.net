@@ -135,7 +135,10 @@
     - question: Kann ich Uplink über WLAN machen statt über Kabel?
       answer: |
         Prinzipiell ja. Allerdings ist es nicht sehr Effizient, da dann schon Mesh, Client-Netz, alle Clients sowie der Router zu dem als Uplink verbunden wird auf dem selben Kanal funken. Hinzu kommen evtl. Geräte aus der Nachbarschaft, die vielleicht auch auf diesem Kanal sind.
-    - question: Kann ich ein privates WLAN parallel auf meinem Freifunk-Knoten herausgeben oder privates Netz über die LAN-Ports?
+    - question: Kann ich ein privates WLAN parallel auf meinem Freifunk-Knoten herausgeben?
+      answer: |
+        Ja, es ist möglich ein privates WLAN auf deinem Freifunk-Knoten herauszugeben. Um das private WLAN zu aktivieren muss man den Router in den Config Modus bringen (Anleitung [hier](#kann-ich-meine-knotendaten-name-ort-auf-der-knotenkarte-etc-ndern)) und dann in der Weboberfläche oben rechts auf "Experten Modus" klicken. Unter dem Tab "Privates WLAN" kann man dann die nötigen Einstellungen vornehmen.
+    - question: Kann ich die LAN-Ports verwenden um mein privates Netzwerk zu erweitern?
       answer: |
         Dies ist durch editieren der OpenWRT Netzwerkeinstellungen möglich. Jedoch existiert dafür noch keine Anleitung. Wenn du eine gefunden oder geschrieben hast, verknüpfe sie im Wiki.
     - question: Wie passe ich die Sendeleistung an?
