@@ -15,8 +15,8 @@ var geoProzess = function(callback){
 			var remaining = 0;
 			for(var i=0;i<data.features.length;i++){
 				var item = data.features[i];
-				if(item.Anzahl){
-					remaining += item.Anzahl;
+				if(item.properties && item.properties.Anzahl){
+					remaining += item.properties.Anzahl;
 				}else{
 					remaining++;
 				}
