@@ -12,7 +12,15 @@ var geoProzess = function(callback){
 		contentType: 'application/json',
 		mimeType: "textPlain",
 		success: function(data){
-			var remaining = data.features.length;
+			var remaining = 0;
+			for(var i=0;i<data.features.length;i++){
+				var item = ata.features[i];
+				if(item.Anzahl){
+					remaining += item.Anzahl;
+				}else{
+					remaining++;
+				}
+			}
 			var finished  = data.versorgt;
 			var all       = finished+remaining
 			if(callback)
