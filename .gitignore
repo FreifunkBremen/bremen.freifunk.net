@@ -2,6 +2,7 @@
 .settings
 .DS_Store
 .buildpath
+.jekyll-metadata
 video/*
 _site/*
 flyer
