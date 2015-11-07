@@ -14,7 +14,7 @@ url: http://bremen.freifunk.net
 paginate: 5
 paginate_path: blog/page/:num
 
-exclude: ['CNAME', 'wiki']
+exclude: ['CNAME', 'wiki', 'README.md']
 keep_files: ['.htaccess', 'webhook.php', 'in_freifunk.php', 'meshviewer']
 
 redcarpet:
