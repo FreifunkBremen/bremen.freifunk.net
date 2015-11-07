@@ -1,6 +1,8 @@
 name: Freifunk Bremen
 description: Freifunk steht für freie Kommunikation in digitalen Datennetzen. Wir verstehen frei als öffentlich zugänglich, nicht kommerziell, im Besitz der Gemeinschaft und unzensiert.
 
+gems: [jekyll-paginate]
+
 markdown: redcarpet
 highlight: pygments
 
