@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  Freifunk auf der Computerbörse
-date:   2015-07-11 12:20:00 +0100
+date:   2015-11-07 14:15:00 +0100
 author: SimJoSt
 ---
 
