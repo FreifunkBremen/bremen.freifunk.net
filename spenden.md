@@ -4,14 +4,24 @@ title:  Spenden
 ---
 # Spenden
 
-Am meisten ist dem Freifunk-Netz geholfen, wenn möglichst viele Personen [mitmachen] und sich einen Router ins Fenster stellen, damit das Netz wächst. Aber für einige Dinge braucht es natürlich mehr als einen Router für 20 Euro, beispielsweise für den Betrieb der Server, für Richtfunkstrecken oder Werbematerial.
+Am meisten ist dem Freifunk-Netz geholfen, wenn möglichst viele Personen [mitmachen] und sich einen Router ins Fenster stellen, damit das Netz wächst. Aber für einige Dinge braucht es natürlich mehr als einen Router für 20 Euro, beispielsweise für den Betrieb der Server, für Richtfunkstrecken oder das Drucken von Werbematerial.
 
-Momentan sammeln wir konkret für folgende Projekte Geld (Links zu betterplace.org folgen):
+Momentan sammeln wir konkret für folgende Projekte Geld:
 
+* Hardware für das Ausstatten von Übergangswohnheimen für Flüchtlinge
 * Hardware für Richtfunkstrecken
-* Betrieb des Internet-Übergabepunktes
+* Betrieb der Internet-Übergabepunkte
 
-Allgemein freuen wir uns natürlich auch ohne konkrete Projekte über Geldspenden, die der [Hackerspace Bremen e.V.] freundlicherweise für uns sammelt. Wer daher gerne projekt-ungebunden etwas spenden möchte, kann dies gerne per Banküberweisung tun:
+## Betterplace.org
+Seit dem 29.09.2015 haben wir auf Betterplace.org über den Projektträger [Förderverein Freie Netzwerke e.V.](https://www.betterplace.org/de/organisations/freifunk) die Kampagne "Freifunk für Flüchtlinge in Bremen".
+Dort lassen sich einfach und schnell mit unterschiedlichsten Zahlungsmitteln steuerlich absetzbare Spenden tätigen. Entweder für das gesamte Projekt oder einzelne Projektziele.
+
+Weitere Informationen und den aktuellen Stand der Arbeit Freifunk Bremens für die Flüchtlinge findet ihr hier: http://bremen.freifunk.net/refugees.html
+
+<iframe frameborder="0" marginheight="0" marginwidth="0" src="https://www.betterplace.org/de/projects/34467-freifunk-fur-fluchtlinge-in-bremen/widget" width="160" height="260" style="border: 0; padding:0; margin:0;">Informieren und spenden: <a href='https://www.betterplace.org/de/projects/34467-freifunk-fur-fluchtlinge-in-bremen/widget' target='_blank'>„Freifunk für Flüchtlinge in Bremen“</a> auf betterplace.org öffnen.</iframe>
+
+## Hackerspace Bremen
+Allgemein freuen wir uns natürlich auch ohne konkrete Projekte über Geldspenden, die der [Hackerspace Bremen e.V.] freundlicherweise für uns sammelt. Wer daher gerne Projekt-ungebunden etwas spenden möchte, kann dies gerne per Banküberweisung tun:
 
 <dl class="dl-horizontal">
     <dt>Kontoinhaber:</dt><dd>Hackerspace Bremen e.V.</dd>
@@ -23,6 +33,7 @@ Allgemein freuen wir uns natürlich auch ohne konkrete Projekte über Geldspende
     <dt>Verwendungszweck:</dt><dd>Freifunkspende</dd>
 </dl>
 
+Alle so getätigten Spenden kommen Freifunk Bremen zu Gute mit Verwendungszwecken im Rahmen der Satzung des Hackerspace Bremen e.V.
 Weitere Details auf der [Spenden-Seite vom Hackerspace e.V.]
 
 ## Unterstützer
