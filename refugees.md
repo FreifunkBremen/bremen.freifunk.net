@@ -13,16 +13,11 @@ Die angekommenen Menschen benötigen neben einem Dach über den Kopf und Nahrung
 * Anwohner: Installation von [Freifunk-Geräten](http://wiki.bremen.freifunk.net/Anleitungen/Firmware/Flashen#auswahl-der-hardware) an Fenster/Balkons
 * Spenden von Internet-tauglichen Computern und Smartphones
 
-
 ## Unterstützung durch Träger
 
-Die Übergangswohnheime werden von mehreren Trägern in Bremen getragen, die sich teilweise in Trägerverbünden zusammengeschlossen haben.
+Die Übergangswohnheime in Bremen werden von unterschiedlichen Träger getragen. Einige haben sich in Trägerverbünden zusammengeschlossen.
 
-* [Trägerverbund "Borfelder Warft"](http://www.borgfeld-warft.de) (Caritas, Alten Eichen, JUS, Kriz): Hat bereits die Unterkunft mit Freifunk ausgestattet. Für zukünftige Unterkünfte soll es ebenfalls Freifunk geben.
-* [Trägerverbund "ION Berckstraße"](http://www.caritas-bremen.de/beratung-hilfe/fuer-fluechtlinge/fluechtlingshilfe-ion-berckstrasse/) (Caritas, Alten Eichen, JUS, DRK): Plant die Unterkuft mit Freifunk auszustatten.
-* AWO: ?
-* ASB: ?
-* Innere Mission: ?
+Bisher haben wir mit einigen Träger erfolgreich zusammen gearbeitet. Dazu zählen unter Anderem der Trägerverbund ["Borfelder Warft"](http://www.borgfeld-warft.de) (Caritas, Alten Eichen, JUS, Kriz) und ["ION Berckstraße"](http://www.caritas-bremen.de/beratung-hilfe/fuer-fluechtlinge/fluechtlingshilfe-ion-berckstrasse/) (Caritas, Alten Eichen, JUS, DRK). 
 
 ## Aktueller Stand
 
