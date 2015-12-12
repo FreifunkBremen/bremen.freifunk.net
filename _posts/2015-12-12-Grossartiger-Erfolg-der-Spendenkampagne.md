@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Großartiger Erfolg der Spendenkampagne und des Benefitzkonzertes
+title:  Großartiger Erfolg der Spendenkampagne und des Benefizkonzertes
 author: mortzu
 date:   2015-12-12 14:59:19 +0200
 ---
