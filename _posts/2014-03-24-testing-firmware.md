@@ -5,7 +5,7 @@ date:   2014-03-24 21:16:44 +0200
 author: jplitza
 ---
 
-Lange hat sie auf sich warten lassen, nun ist sie endlich da: Die [Testing-Version unserer Firmware](http://downloads.bremen.freifunk.net/firmware/testing/)! Ich habe versucht, alle Links zur Firmware bereis darauf umzubiegen, da die Testing-Version den Nightlies auf jeden Fall vorzuziehen ist.
+Lange hat sie auf sich warten lassen, nun ist sie endlich da: Die [Testing-Version unserer Firmware](http://downloads.bremen.freifunk.net/firmware/testing/)! Ich habe versucht, alle Links zur Firmware bereits darauf umzubiegen, da die Testing-Version den Nightlies auf jeden Fall vorzuziehen ist.
 
 Alle Router, die bisher Nightly benutzt haben, haben automatisch auf Testing umgestellt. Wer weiterhin neue Nightlies per Autoupdater bekommen möchte, muss dafür kurz selbst Hand anlegen:
 
