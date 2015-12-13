@@ -94,7 +94,7 @@
         Nein. Freifunk funktioniert auf freiwilliger Basis. Jede_r bringt sich so ein, wie er oder sie es für richtig hält. Eine Verpflichtung besteht nicht.
     - question: Wo bekomme ich einen Router?
       answer: |
-        Wir haben unserem Wiki eine [Liste](http://wiki.bremen.freifunk.net/Router/Routerboerse), an welchen Orten du Router bekommen kannst.
+        Wir haben unserem Wiki eine [Liste](http://wiki.bremen.freifunk.net/Router/Routerabholstandorte), an welchen Orten du Router bekommen kannst.
 - title: Technik
   questions:
     - question:  Ich habe alles angeschlossen und konfiguriert, aber mein Freifunk Router bekommt kein Internet.
