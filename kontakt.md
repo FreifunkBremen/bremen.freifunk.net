@@ -12,6 +12,8 @@ Bei Fragen zum Freifunk-Bremen-Projekt freuen wir uns über Kontaktaufnahmen…
 * …auf Twitter: [@FreifunkHB](https://twitter.com/FreifunkHB)
 * …auf Facebook: [FreifunkBremen](https://www.facebook.com/FreifunkBremen)
 
+Für Fragen zu spezifischen Themen, gibt es eine  Wiki-Seite für [Ansprechpartner](http://wiki.bremen.freifunk.net/Infrastruktur/Ansprechpartner).
+
 Wir treffen uns außerdem zweimal im Monat, jeweils am 1. Freitag und 3. Donnerstag ab 19 Uhr im [Hackerspace
 Bremen](https://www.hackerspace-bremen.de/anfahrt/). Schau doch mal vorbei, wir
 freuen uns immer über neue Gesichter!
