@@ -18,4 +18,4 @@ Wir treffen uns außerdem zweimal im Monat, jeweils am 1. Freitag und 3. Donners
 Bremen](https://www.hackerspace-bremen.de/anfahrt/). Schau doch mal vorbei, wir
 freuen uns immer über neue Gesichter!
 
-Für Interessierte besteht außerdem die Möglichkeit, unsere Mailingliste zu [abonnieren](https://planetcyborg.de/mailman/listinfo/ff-bremen).
+Für Interessierte besteht außerdem die Möglichkeit, unsere [Mailingliste](https://planetcyborg.de/mailman/listinfo/ff-bremen) zu abonnieren. Auf ihr wird diskutiert und ausgetauscht.
