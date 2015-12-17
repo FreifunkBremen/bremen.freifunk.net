@@ -42,7 +42,7 @@
         Unser Anliegen ist nicht nur, jedem kostenlos Zugang zum Internet zu gewähren, sondern vielmehr ein Funknetzwerk in Bürgerhand aufzubauen, an dem jeder partizipieren kann und das von Niemandem kontrolliert, überwacht oder eingeschränkt werden kann.
     - question: Wie sicher ist es im Freifunk zu surfen?
       answer: |
-        Freifunk bietet ein offenes WLAN an, es ist also ohne weiteres möglich, allen unverschlüsselten Verkehr mitzuschneiden und später auszuwerten. Abhilfe schafft hier die konsequente Nutzung von HTTPS wo möglich (z.B. Addon https everywhere) oder zusätzlichen VPNs.
+        Freifunk bietet ein offenes WLAN an, es ist also ohne weiteres möglich, allen unverschlüsselten Verkehr mitzuschneiden und später auszuwerten. Abhilfe schafft hier die konsequente Nutzung von HTTPS wo möglich (z.B. Addon [HTTPS Everywhere](https://www.eff.org/HTTPS-everywhere)) oder zusätzlichen VPNs.
 
         Eine weitere Gefahr kann vom Freifunknetz selbst ausgehen. Durch die offene Netzstruktur kann *jeder Teilnehmer mit jeder Teilnehmerin kommunizieren*. Es  kann also nicht ausgeschlossen werden, dass einige böse Menschen Angriffe auf andere Freifunk-TeilnehmerInnen unternehmen. Abhilfe schaffen hier restriktive Firewalleinstellungen und zeitnahe Updates.
 
@@ -51,17 +51,17 @@
       answer: |
         Das Freifunk-Netz ist wie viele andere Netzwerke unverschlüsselt. Das bedeutet, dass jeder nicht seperat verschlüsselte Verkehr im Netz mitgelesen werden kann. Es sollte also dringend davon abgesehen werden, Passwörter und sonstige Formulardaten unverschlüsselt z.B. nur über HTTP im Browser zu übertragen.
 
-        Bevor ihr auch also mit dem Freifunk (oder irgend einem anderen offenen Netz) verbindet, stellt sicher, dass ihr im Browser möglichst immer HTTPS nutzt (dabei hilft z.B. [HTTPSEverywhere](https://www.eff.org/HTTPS-everywhere) und ein Blick in die Adresszeile des Browsers). Gleiches gilt natürlich für alle anderen Programme, wie z.B. E-Mail-Client analog. Besonders auf Apps, die auf dem Mobiltelefon installiert sind und bei denen die Verschlüsselung nicht überprüft werden kann, sollte in offenen WLANs verzichtet werden.
+        Bevor ihr auch also mit dem Freifunk (oder irgend einem anderen offenen Netz) verbindet, stellt sicher, dass ihr im Browser möglichst immer HTTPS nutzt (dabei hilft z.B. [HTTPS Everywhere](https://www.eff.org/HTTPS-everywhere) und ein Blick in die Adresszeile des Browsers). Gleiches gilt natürlich für alle anderen Programme, wie z.B. E-Mail-Client analog. Besonders auf Apps, die auf dem Mobiltelefon installiert sind und bei denen die Verschlüsselung nicht überprüft werden kann, sollte in offenen WLANs verzichtet werden.
 
-        Leider reicht HTTPs alleine nicht aus. Aufgrund der offenen Netzarchitektur ist es besonders bei Freifunk aber auch bei anderen offenen Netzen leicht möglich, dass sich Angreifer über sog. [Man in the Middle-Angriffe](https://de.wikipedia.org/wiki/Man-in-the-Middle-Angriff) Zugriff auf den Datenverkehr verschaffen. Dabei gibt sich der Angreifer als eine andere Netzwerkkomponente aus und leitet den gesamten Verkehr weiter, nachdem er diesen mitgelesen bzw. manipuliert hat.
+        Leider reicht HTTPS alleine nicht aus. Aufgrund der offenen Netzarchitektur ist es besonders bei Freifunk aber auch bei anderen offenen Netzen leicht möglich, dass sich Angreifer über so genannte [Man in the Middle-Angriffe](https://de.wikipedia.org/wiki/Man-in-the-Middle-Angriff) Zugriff auf den Datenverkehr verschaffen. Dabei gibt sich der Angreifer als eine andere Netzwerkkomponente aus und leitet den gesamten Verkehr weiter, nachdem er diesen mitgelesen bzw. manipuliert hat.
 
-        Um Verschlüsselten Verkehr über MITM-Angriffe zu lesen, muss der Angreifer dem Opfer in den meisten Fällen ein anderes Zertifikat unterjubeln. Sobald ihr auf eurem Rechner bzw. Mobiltelefon in einem offenen WLAN von einer bekannten Seite einen Zertifikatsfehler bekommt, solltet ihr misstrauisch werden.
+        Um verschlüsselten Verkehr über MITM-Angriffe zu lesen, muss der Angreifer dem Opfer in den meisten Fällen ein anderes Zertifikat unterjubeln. Sobald ihr auf eurem Rechner bzw. Mobiltelefon in einem offenen WLAN von einer bekannten Seite einen Zertifikatsfehler bekommt, solltet ihr misstrauisch werden.
 
         Wer auf Nummer sicher gehen möchte, setzt einen zusätzliche VPN-Software ein. Diese sendet den gesamten Netzwerkverkehr (bei richtiger Konfiguration) verschlüsselt zu einem vertrauenswürdigen Server, von wo aus die Daten dann ins Internet gelangen. Alternativ könnte auch der [Tor-Browser](https://www.torproject.org/projects/torbrowser.html.en) genutzt werden, mit der Einschränkung, das sich das eigentliche Problem hin zum Tor-Netzwerk verschiebt.
 
         Da ihr euch einen offenen Hotspot bzw. das Freifunk oft mit mehreren hundert Menschen teilt, solltet ihr darauf achten, dass auf dem eigenen Gerät immer alle aktuellen Patches und Updates installiert sind. Außerdem solltet ihr sichergehen, dass keine unerwünschten Dienste (Medien-Freigaben, Drucker usw.) freigegeben sind. So minimiert ihr die Chance von böswilligen Menschen innerhalb des Netzwerkes kompromitiert zu werden.
 
-        Bei weiteren Sicherheits-Fragen, Unregelmäßigkeiten oder konkreten Vorfällen könnt ihr euch natürlich immer an info@bremen.freifunk.net wenden!
+        Bei weiteren Sicherheitsfragen, Unregelmäßigkeiten oder konkreten Vorfällen könnt ihr euch natürlich immer an info@bremen.freifunk.net wenden!
 
 - title: Mitmachen
   questions:
