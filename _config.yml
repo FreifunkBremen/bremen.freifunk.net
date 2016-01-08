@@ -10,7 +10,7 @@ timezone: Europe/Berlin
 encoding: UTF-8
 
 future: true
-permalink: /blog/:year/:month/:day/:title.html
+permalink: /blog/:year/:month/:day/:slug.html
 url: http://bremen.freifunk.net
 
 paginate: 5
