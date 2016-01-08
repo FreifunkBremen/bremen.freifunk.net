@@ -14,7 +14,7 @@ Bei Fragen zum Freifunk-Bremen-Projekt freuen wir uns über Kontaktaufnahmen…
 
 Für Fragen zu spezifischen Themen, gibt es eine  Wiki-Seite für [Ansprechpartner](http://wiki.bremen.freifunk.net/Infrastruktur/Ansprechpartner).
 
-Wir treffen uns außerdem zweimal im Monat, jeweils am 1. Freitag und 3. Donnerstag ab 19 Uhr im [Hackerspace
+Wir treffen uns außerdem zweimal im Monat, jeweils am 1. und 3. Freitag ab 19 Uhr im [Hackerspace
 Bremen](https://www.hackerspace-bremen.de/anfahrt/). Schau doch mal vorbei, wir
 freuen uns immer über neue Gesichter!
 
