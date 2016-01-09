@@ -17,13 +17,13 @@ Die angekommenen Menschen benötigen neben einem Dach über den Kopf und Nahrung
 
 Die Übergangswohnheime in Bremen werden von unterschiedlichen Träger getragen. Einige haben sich in Trägerverbünden zusammengeschlossen.
 
-Bisher haben wir mit einigen Träger erfolgreich zusammen gearbeitet. Dazu zählen unter Anderem der Trägerverbund ["Borfelder Warft"](http://www.borgfeld-warft.de) (Caritas, Alten Eichen, JUS, Kriz) und ["ION Berckstraße"](http://www.caritas-bremen.de/beratung-hilfe/fuer-fluechtlinge/fluechtlingshilfe-ion-berckstrasse/) (Caritas, Alten Eichen, JUS, DRK).
+Bisher haben wir mit einigen Träger erfolgreich zusammen gearbeitet. Dazu zählen unter anderem der Trägerverbund ["Borfelder Warft"](http://www.borgfeld-warft.de) (Caritas, Alten Eichen, JUS, Kriz) und ["ION Berckstraße"](http://www.caritas-bremen.de/beratung-hilfe/fuer-fluechtlinge/fluechtlingshilfe-ion-berckstrasse/) (Caritas, Alten Eichen, JUS, DRK).
 
 ## Aktueller Stand
 
 <div class="progress">
   <div class="progress-bar progress-bar-success" id="wifi-finished" role="progressbar"></div>
-	<div class="progress-bar progress-bar-danger" id="wifi-remaining" role="progressbar"></div>
+  <div class="progress-bar progress-bar-danger" id="wifi-remaining" role="progressbar"></div>
 </div>
 
 Die Karte zeigt Stadtteile mit Einrichtungen, bei denen noch **keine Internet-Versorgung** besteht, oder der **Status unbekannt** ist.
