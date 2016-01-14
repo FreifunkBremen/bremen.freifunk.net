@@ -2,7 +2,7 @@
 title:  LWLcom sponsert Server für Webdienste
 author: SimJoSt
 layout: post
-date:   2016-01-014 15:58:00 +0100
+date:   2016-01-14 15:58:00 +0100
 ---
 Durch das Engagement von morpheus haben wir jetzt Zugriff auf einen, von
 LWLcom gesponserten, Server. Die Idee ist, alle unsere zentralen Webdienste auf ihn zu migrieren.
