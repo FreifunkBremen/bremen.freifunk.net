@@ -20,6 +20,8 @@ Planetcyborg, welche viele der Dienste die wir nutzen hosten, wären nicht mehr 
 Es kann einfacher ein Zugang für mehr Leute eingerichtet werden, wodurch hoffentlich eine geringere Latenz für das Fixen von Problemen erreicht wird.
 
 
-In der nächsten Zeit sollen die Ansible-Rollen in unserem begonnenen Webdienste Playbook vervollständigt werden, um die Migration zu vereinfachen und ein schnelles Wiederaufsetzen bei Ausfall zu ermöglichen. Außerdem sind die Ansible-Rollen eine vollständige Dokumentation dieser Dienste.
+In der nächsten Zeit sollen die [Ansible](http://www.ansible.com/)-Rollen in unserem begonnenen [Webdienste-Playbook](https://github.com/FreifunkBremen/ansible/blob/master/playbooks/webserver.yml) vervollständigt werden, um die Migration zu vereinfachen und ein schnelles Wiederaufsetzen bei Ausfall zu ermöglichen. Außerdem sind die Ansible-Rollen eine vollständige Dokumentation dieser Dienste.
 
 Neben der VM für die Webdienste, läuft auch die VM für den BGP-Router auf dem Server.
+
+Wer sich in Zukunft an der Einrichtung oder Administration des neuen Servers beteiligen möchte, ist eingeladen, sich mit den Ansible-Rollen vertraut zu machen, und sie zu testen und zu erweitern. Technische Details zu dem Server werden auf den Freifunktreffen besprochen werden.
