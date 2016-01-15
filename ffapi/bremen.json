@@ -14,20 +14,13 @@
     "facebook": "https://facebook.com/FreifunkBremen",
     "twitter": "@FreifunkHB"
   },
-  "support": {
-    "donations": {
-      "campaigns": [
-        {"projectid": "34467", "provider": "betterplace"}
-      ]
-    }
-  },
   "state": {
-    "nodes": 331,
+    "nodes": 398,
     "focus": [
       "Public Free Wifi",
       "Free internet access"
     ],
-    "lastchange": "2015-09-27T14:00:21.800Z"
+    "lastchange": "2016-01-15T17:35:17.079Z"
   },
   "timeline": [
     {
@@ -78,6 +71,9 @@
       "ipv6": [
         {
           "network": "fd2f:5119:f2c::/64"
+        },
+        {
+          "network": "2a06:8782::/32"
         },
         {
           "network": "2001:bf7:540::/48"
