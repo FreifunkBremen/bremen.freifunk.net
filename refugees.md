@@ -9,8 +9,7 @@ Die angekommenen Menschen benötigen neben einem Dach über den Kopf und Nahrung
 
 ## So könnt ihr helfen
 
-* Anwohner: Installation von [Freifunk-Geräten](http://wiki.bremen.freifunk.net/Anleitungen/Firmware/Flashen#auswahl-der-hardware) an Fenster/Balkons
-* Spenden von Internet-tauglichen Laptops. Das ist wichtig, damit die Bewohner_innen ihre Freifunk-Router selber warten können.
+**Anwohner\_innen** können das Netzwerk und die Versorgung durch die Installation von [Freifunk-Geräten](http://wiki.bremen.freifunk.net/Anleitungen/Firmware/Flashen#auswahl-der-hardware) an Fenster und Balkons unterstüzen. Damit die Bewohner\_innen die Router unabhängig Warten können, werden auch Spenden von Internet-tauglichen Laptops benötigt.
 
 Durch eine Kampagne auf [betterplace.org](https://www.betterplace.org/de/projects/34467-freifunk-fur-fluchlinge-in-bremen) konnten wir bereits 2.500€ für Freifunk-Router und Betrieb sammeln.
 
