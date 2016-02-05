@@ -25,9 +25,3 @@ Bisher haben wir mit einigen Träger erfolgreich zusammen gearbeitet. Dazu zähl
   <div class="progress-bar progress-bar-success" id="wifi-finished" role="progressbar"></div>
   <div class="progress-bar progress-bar-danger" id="wifi-remaining" role="progressbar"></div>
 </div>
-
-Die Karte zeigt Stadtteile mit Einrichtungen, bei denen noch **keine Internet-Versorgung** besteht, oder der **Status unbekannt** ist.
-Sie erhebt keinen Anspruch auf Vollständigkeit und Korrektheit.
-
-<iframe height="640" width="420" frameborder="0" src="https://render.githubusercontent.com/view/geojson?url=https://raw.githubusercontent.com/FreifunkBremen/FreifunkBremen.github.io/master/refugees.geojson" style="width: 100%; height:400px; max-height: 100%;">
-</iframe>
