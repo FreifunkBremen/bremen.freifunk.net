@@ -26,11 +26,20 @@ In seiner Nachbarschaft befindet sich seit Kurzem eine Unterkunft
 Nach einem kurzen Gespräch mit dem Träger und Heimleiter kam
 der Hardwareaufbau.
 
+<img src="/images/refugees-01-packen.png" style="padding: 1em" />
+
 Dazu waren drei Knoten und zwei Geräte für eine Richtfunkstrecke,
 um die 150 m zu überbrücken.
+<img src="/images/refugees-01-plan.png" style="padding: 1em" />
+<img src="/images/refugees-01-richtfunk.png" style="padding: 1em" />
+
+
 
 Das Fazit, die Hardware wurde durch Eure Spenden finanziert
 und es freuen sich nun 50 Flüchtlinge, um ins Internet zu kommen.
+
+<img src="/images/refugees-01-stats.png" style="padding: 1em" />
+
 
 Dort können Sie sich über Ämter, den deutschen Gepflogenheiten
  und den daheimgeblieben informieren.
