@@ -128,3 +128,44 @@ p, dd {
 	margin: 0 auto;
 	max-width: 100%;
 }
+
+#events h3 {
+	margin: 0 0 5px;
+	font-size: 18px;
+	float: left;
+	clear: left;
+	width: 20%;
+	text-align: center;
+	border: 1px #dc0067 solid;
+	border-radius: 3px;
+}
+#events h3 span {
+	display: block;
+}
+#events h3 .day {
+	background-color: #dc0067;
+	color: #fff;
+	font-weight: bold;
+}
+#events ul {
+	padding-left: 20px;
+	float: left;
+	width: 80%;
+}
+#events li {
+	list-style-type: "▸ ";
+	cursor: pointer;
+}
+#events li.expand {
+	list-style-type: "▾ ";
+}
+#events .details {
+	overflow-y: hidden;
+	overflow-x: visible;
+	max-height: 0;
+	transition: max-height 500ms;
+}
+#events .expand .details {
+	overflow-y: scroll;
+	max-height: 100px;
+}
