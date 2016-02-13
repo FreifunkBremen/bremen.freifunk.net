@@ -1,55 +1,39 @@
 ---
 layout: post
 title:  "Freifunk für Flüchtlinge"
-author: genofire
+author: genofire, heshsum
 ---
-// Wir sollten was zu Flüchtlinge schreiben, da wir ja eine kleine Summe erhalten haben.
-// Es folgt noch mehr, z.B. ein Screenshot der Map und aus Grafana mit Clientszahlen
-// Kann wer Fotos vor Ort villt. Entberren - der Installation (oder wir machen welche beider nächsten)
-
 ## Danksagung
-Nachdem wir so schnell die Spenden bekommen haben, sollen wir mal Berichten, wie dieses Geld arbeitet.
-Zunächst einmal wollen wir uns auch kurz bei den Trägern einiger Flüchtlingsheime bedanken,
- da Sie teilweise auch Gelder für Technik bereitstellt.
-Doch vor allem einen großen Lob an Euch, denn wir wollen uns im Namen der Flüchtlinge bedanken.
-Mit dem Geld werden wir, wie beabsichtigt, Freifunk für Flüchtlinge zur Verfügung zu stellen.
-Damit Ihnen ein Zugang zum Internet zu gewähren.
+Nachdem wir so schnell die Spenden bekommen haben, wollten  wir mal berichten, wie wir dieses Geld einsetzen.
+Zunächst einmal wollen wir uns auch kurz bei den Trägern einiger Flüchtlingsheime bedanken, da sie teilweise auch Gelder für Technik bereitstellen.
+Doch vor allem möchten wir uns bei ihnen im Namen der Flüchtlinge bedanken, denn ohne ihre Unterstützung wäre es nicht möglich gewesen so viele Flüchtlinge anzubinden.
+Mit dem Geld werden wir, wie beabsichtigt, Freifunk für Flüchtlinge zur Verfügung zu stellen um ihnen damit ein Zugang zum Internet zu gewähren.
 
-Wir haben bereits mit Eurer Unterstützung nun 17 Flüchtlingsheime von 40 uns bekannten versorgt.
-Bei Weiteren 7 sind wir bereits in Kontakt mit den Betreibern oder wir sind bereits dabei dort Freifunk zu installieren.
-Erste Installationen sind bereits im Gange.
+Wir haben bereits mit Eurer Unterstützung nun 19 von 54 uns bekannten Flüchtlingsheime versorgt.
+Bei Weiteren neun sind wir bereits in Kontakt mit den Betreibern oder wir sind bereits dabei dort Freifunk zu installieren, weitere Installationen sind also bereits im Gange.
 
 ## Einen kurzen Bericht zu einer Unterkunft im Norden von Bremen.
-Vor kurzen hat sich ein über Jahre inaktiver Freifunker zurückgemeldet.
-In seiner Nachbarschaft befindet sich seit Kurzem eine Unterkunft
- und er würde seine Internetverbindung gern zur Verfügung stellen.
-Nach einem kurzen Gespräch mit dem Träger und Heimleiter kam
-der Hardwareaufbau.
+Vor Kurzem hat sich ein Freifunker bei uns gemeldet. In seiner Nachbarschaft befindet sich seit einer Weile eine Unterkunft und er würde seine Internetverbindung gern zur Verfügung stellen.  
+Nach einem kurzen Gespräch mit dem Träger und Heimleiter kam ein Besuch vor Ort und ein Teil der notwendigen Hardware wurde installiert.
 
 <img src="/images/refugees-01-packen.png" style="padding: 1em" />
 
-Dazu waren drei Knoten und zwei Geräte für eine Richtfunkstrecke,
-um die 150 m zu überbrücken.
-<img src="/images/refugees-01-plan.png" style="padding: 1em" />
+Insgesamt waren drei Knoten und zwei Geräte für eine Richtfunkstrecke,
+um die 90 m zu überbrücken, notwendig.
+<img src="/images/refugees-01-plan.jpeg" style="padding: 1em" />
 <img src="/images/refugees-01-richtfunk.png" style="padding: 1em" />
 
 
 
-Das Fazit, die Hardware wurde durch Eure Spenden finanziert
-und es freuen sich nun 50 Flüchtlinge, um ins Internet zu kommen.
+Das Fazit: die Hardware wurde durch Eure Spenden finanziert
+und es freuen sich nun knapp 200 Flüchtlinge über die Möglichkeit das Internet nutzen zu können.
 
 <img src="/images/refugees-01-stats.png" style="padding: 1em" />
 
 
-Dort können Sie sich über Ämter, den deutschen Gepflogenheiten
- und den daheimgeblieben informieren.
-Vor allem Dingen können Sie ein bisschen Zeit verspielen,
- die Sie warten müssen, um den nächsten Schritt der Ämter zu erfahren.
+Hierüber können sie sich über Nachrichten, Politik, aber natürlich auch über die deutsche Kultur und die notwendigen Amtsgänge informieren. Außerdem bietet Freifunk ihnen auch die Möglichkeit zum Zeitvertreib und natürlich zur Kommunikation mit der Heimat, mit Freunden und Familie die sie zurücklassen mussten. Für viele Flüchtlinge ist das einer der wichtigsten Gründe das Internet nutzen zu wollen.
 
 
-Wir würden uns freuen, wenn weitere Leute sich melden,
- die sich ca. in Sichtweite eines Flüchtlings Zelts befinden.
-Die Anbindung in Zelten ist meist problematisch,
- da es dort meistens kein Internetanschluss verlegt werden kann.
+Wir würden uns freuen, wenn weitere Leute sich melden, besonders jenige, die in der Nähe von Flüchtlingszelten wohnen. Dort ist die Situation noch schwieriger, da diese Orte in der Regel nicht mit einer festen Internetverbindung versorgt werden können.
 
 
