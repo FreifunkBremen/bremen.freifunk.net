@@ -20,7 +20,7 @@ Nach einem kurzen Gespräch mit dem Träger und Heimleiter kam ein Besuch vor Or
 
 Insgesamt waren drei Knoten und zwei Geräte für eine Richtfunkstrecke,
 um die 90 m zu überbrücken, notwendig.
-<img src="/images/refugees-01-plan.png" style="padding: 1em" />
+<img src="/images/refugees-01-plan.jpeg" style="padding: 1em" />
 <img src="/images/refugees-01-richtfunk.png" style="padding: 1em" />
 
 
