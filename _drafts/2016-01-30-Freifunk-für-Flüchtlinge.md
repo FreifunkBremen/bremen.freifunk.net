@@ -15,14 +15,15 @@ Bei Weiteren neun sind wir bereits in Kontakt mit den Betreibern oder wir sind b
 ## Einen kurzen Bericht zu einer Unterkunft im Norden von Bremen.
 Vor Kurzem hat sich ein Freifunker bei uns gemeldet. In seiner Nachbarschaft befindet sich seit einer Weile eine Unterkunft und er würde seine Internetverbindung gern zur Verfügung stellen.  
 Nach einem kurzen Gespräch mit dem Träger und Heimleiter kam ein Besuch vor Ort und ein Teil der notwendigen Hardware wurde installiert.
-
+<br/>
 <img src="/images/refugees-01-packen.png" style="padding: 1em" />
-
+<br/>
 Insgesamt waren drei Knoten und zwei Geräte für eine Richtfunkstrecke,
-um die 90 m zu überbrücken, notwendig.
+um die 90m zwischen den Freifunker und der Flüchtlingsunterkunft zu  überbrücken, notwendig.
+<br/>
 <img src="/images/refugees-01-plan.jpeg" style="padding: 1em" />
 <img src="/images/refugees-01-richtfunk.png" style="padding: 1em" />
-
+<br/>
 
 
 Das Fazit: die Hardware wurde durch Eure Spenden finanziert
