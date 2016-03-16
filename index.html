@@ -65,105 +65,11 @@ layout: default
         </div>
       </div>
       <div class="row">
-        <div class="col-md-7 col-sm-12">
+        <div class="col-md-9 col-sm-8">
           <h2>Karte</h2>
           <iframe style="border: 0; width: 100%; height: 400px;" src="//bremen.freifunk.net/map/geomap.html"></iframe>
         </div>
-        <div class="col-md-3 col-sm-6">
-          <h2>Termine</h2>
-          <div id="events"></div>
-          <div style="clear: left;"></div>
-          <template id="event-day-template">
-            <h3><span class="day"></span> <span class="month"></span></h3>
-            <ul></ul>
-          </template>
-          <template id="event-template">
-            <li><span class="starttime"></span>&thinsp;Uhr: <span class="title"></span><div class="details"><p>Ende: Uhr <span class="endtime"></span></p><div class="description"></div></div></li>
-          </template>
-          <template id="allday-event-template">
-            <li><span class="title"></span><div class="details"><p class="description"></p></div></li>
-          </template>
-          <script>
-            (function(){
-                function zeropad(i, n) {
-                    if (n > 1 && i < Math.pow(10, n-1))
-                        return "0"+zeropad(i, n-1);
-                    else
-                        return ""+i;
-                }
-                var months = ["Jan.", "Feb.", "Mär.", "Apr.", "Mai", "Jun.", "Jul.", "Aug.", "Sep.", "Okt.", "Nov.", "Dez"];
-                var urlregexp = /\b(?:https?|ftp):\/\/[-A-Z0-9+&@#\/%?=~_|!:,.;]*[-A-Z0-9+&@#\/%=~_|]|\n/gim;
-                var xhr = window.XMLHttpRequest ? new XMLHttpRequest() : new ActiveXObject('Microsoft.XMLHTTP');
-                xhr.open('GET', '//downloads.bremen.freifunk.net/calendar/events.json');
-                xhr.onreadystatechange = function() {
-                    if (xhr.readyState > 3 && xhr.status == 200) {
-                        var events = JSON.parse(xhr.responseText)
-                        events.forEach(function(ev) {
-                            ev.start = new Date(ev.start.replace(' ', 'T'));
-                            ev.end = new Date(ev.end.replace(' ', 'T'));
-                        });
-                        events.sort(function(a, b) {
-                            if (a.start < b.start)
-                                return -1;
-                            if (a.start > b.start)
-                                return 1;
-                            return 0;
-                        });
-                        var events_by_date = Object.create(null);
-                        events.forEach(function(ev) {
-                            var dateString = zeropad(ev.start.getFullYear(), 4) + "-" + zeropad(ev.start.getMonth(), 2) + "-" + zeropad(ev.start.getDate(), 2);
-                            if(!events_by_date[dateString]) {
-                                events_by_date[dateString] = new Array();
-                            }
-                            events_by_date[dateString].push(ev);
-                        });
-                        var events_elem = document.querySelector('#events');
-                        var date_template = document.querySelector('#event-day-template').content;
-                        var event_template = document.querySelector('#event-template').content;
-                        var alldayevent_template = document.querySelector('#allday-event-template').content;
-                        for (var day in events_by_date) {
-                            var clone = document.importNode(date_template, true);
-                            clone.querySelector('.day').textContent = events_by_date[day][0].start.getDate() + ".";
-                            clone.querySelector('.month').textContent = months[events_by_date[day][0].start.getMonth()]
-                            events_by_date[day].forEach(function(ev) {
-                                var template;
-                                if (ev.allDay) {
-                                    template = alldayevent_template;
-                                } else {
-                                    template = event_template;
-                                    template.querySelector('.starttime').textContent = ev.start.getHours() + ':' + zeropad(ev.start.getMinutes(), 2);
-                                    template.querySelector('.endtime').textContent = ev.end.getHours() + ':' + zeropad(ev.end.getMinutes(), 2);
-                                }
-                                var eventclone = template.cloneNode(true);
-                                eventclone.querySelector('.title').textContent = ev.title;
-                                var desc_texts = ev.description.split(urlregexp);
-                                var desc_links = ev.description.match(urlregexp);
-                                for (var i = 0; i < desc_texts.length - 1; i++) {
-                                    eventclone.querySelector('.description').appendChild(document.createTextNode(desc_texts[i]));
-                                    if (desc_links[i] == '\n') {
-                                        var a = document.createElement('br');
-                                    } else {
-                                        var a = document.createElement('a');
-                                        a.href = desc_links[i];
-                                        a.textContent = '[Link]';
-                                    }
-                                    eventclone.querySelector('.description').appendChild(a);
-                                }
-                                eventclone.querySelector('.description').appendChild(document.createTextNode(desc_texts[desc_texts.length-1]));
-                                eventclone.querySelector("li").addEventListener("click", function() {
-                                    this.classList.toggle("expand");
-                                });
-                                clone.querySelector('ul').appendChild(eventclone)
-                            });
-                            events_elem.appendChild(clone);
-                        }
-                    }
-                };
-                xhr.send();
-            })();
-          </script>
-        </div>
-        <div class="col-md-2 col-sm-6">
+        <div class="col-md-3 col-sm-4">
           <h2>Twitter</h2>
           <a class="twitter-timeline"  href="https://twitter.com/FreifunkHB"  data-widget-id="449111353601425410">Tweets von @FreifunkHB</a>
           <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
