@@ -28,7 +28,7 @@
       "Social Community Building",
       "Free internet access"
     ],
-    "lastchange": "2016-04-20T15:13:17.377Z"
+    "lastchange": "2016-04-20T15:29:35.270Z"
   },
   "services": [
     {
@@ -111,6 +111,11 @@
       "category": "blog",
       "type": "atom",
       "url": "http://bremen.freifunk.net/blog/atom.xml"
+    },
+    {
+      "name": "Kalendar",
+      "category": "ics",
+      "url": "https://hb.jplitza.de/owncloud/remote.php/dav/calendars/ffhb/pers%c3%b6nlich1?export"
     }
   ],
   "nodeMaps": [
