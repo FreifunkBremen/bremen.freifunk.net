@@ -5,7 +5,12 @@
     "city": "Bremen",
     "country": "DE",
     "lat": 53.0758099,
-    "lon": 8.80717
+    "lon": 8.80717,
+    "address": {
+      "Name": "Hackerspace Bremen",
+      "Street": "Bornstraße 14/15",
+      "Zipcode": "28195"
+    }
   },
   "contact": {
     "email": "info@bremen.freifunk.net",
@@ -16,16 +21,82 @@
   },
   "state": {
     "nodes": 573,
+    "description": "Freifunk Bremen in it's current form has been founded in the end of 2013. Consisting of mostly young people, the community is still growing and establishing itself in it's city.",
     "focus": [
+      "infrastructure/backbone",
       "Public Free Wifi",
+      "Social Community Building",
       "Free internet access"
     ],
-    "lastchange": "2016-04-20T14:37:17.079Z"
+    "lastchange": "2016-04-20T15:13:17.377Z"
   },
+  "services": [
+    {
+      "serviceName": "SIP",
+      "serviceDescription": "SIP-based VoiP Service",
+      "internalUri": "http://sip.ffhb.de/web/"
+    },
+    {
+      "serviceName": "Wikipedia-Mirror",
+      "serviceDescription": "A Wikipedia mirror with German and English language as well as photos.",
+      "internalUri": "wikipedia.ffhb.de"
+    }
+  ],
   "timeline": [
     {
-      "decription": "Birth",
-      "timestamp": "2013-12-10"
+      "description": "Birth",
+      "timestamp": "2013-12-10",
+      "url": "http://wiki.bremen.freifunk.net/Treffen/2013_12_20"
+    },
+    {
+      "description": "new Website",
+      "timestamp": "2014-02-13",
+      "url": "http://bremen.freifunk.net/blog/2014/02/13/neue-webseite.html"
+    },
+    {
+      "description": "first testing version of firmware",
+      "timestamp": "2014-03-24",
+      "url": "http://bremen.freifunk.net/blog/2014/03/24/testing-firmware.html"
+    },
+    {
+      "description": "new node map \"Meshviewer\"",
+      "timestamp": "2015-05-16",
+      "url": "http://bremen.freifunk.net/blog/2015/05/16/neue-karte.html"
+    },
+    {
+      "description": "first stable version of firmware 2014.4+bremen0",
+      "timestamp": "2015-06-28",
+      "url": "http://bremen.freifunk.net/blog/2015/06/28/erste-stabile-firmware.html"
+    },
+    {
+      "description": "Freifunk Bremen goes Breminale",
+      "timestamp": "2015-07-15",
+      "url": "http://bremen.freifunk.net/blog/2015/07/29/breminale-r%C3%BCckblick.html"
+    },
+    {
+      "description": "new stable firmware 2015.1.2+bremen1",
+      "timestamp": "2015-08-07",
+      "url": "http://wiki.bremen.freifunk.net/Firmware/Changelog#freifunk-bremen-versionen_2015-1-1-bremen1"
+    },
+    {
+      "description": "new stable firmware 2015.1.2+bremen2",
+      "timestamp": "2015-11-08",
+      "url": "http://wiki.bremen.freifunk.net/Firmware/Changelog#freifunk-bremen-versionen_2015-1-2-bremen2"
+    },
+    {
+      "description": "new status page for gateways",
+      "timestamp": "2015-11-19",
+      "url": "http://bremen.freifunk.net/blog/2015/11/19/statusseite.html"
+    },
+    {
+      "description": "fundraising concert for refugees successful",
+      "timestamp": "2015-12-12",
+      "url": "http://bremen.freifunk.net/blog/2015/12/12/grossartiger-erfolg-der-spendenkampagne.html"
+    },
+    {
+      "description": "new stable firmware 2015.1.2+bremen3",
+      "timestamp": "2015-12-30",
+      "url": "http://bremen.freifunk.net/blog/2015/12/30/v2015-1-2-bremen3-wird-stable.html"
     }
   ],
   "feeds": [
@@ -41,9 +112,14 @@
       "type": "atom",
       "url": "http://bremen.freifunk.net/blog/atom.xml"
     }
-
   ],
   "nodeMaps": [
+    {
+      "url": "http://bremen.freifunk.net/map/meshviewer.html",
+      "interval": "1min",
+      "technicalType": "meshviewer",
+      "mapType": "geographical"
+    },
     {
       "url": "http://bremen.freifunk.net/map/list.html",
       "interval": "1min",
@@ -69,12 +145,42 @@
       "mapType": "list/status"
     }
   ],
+  "socialprojects": {
+    "number": 1,
+    "website": "http://bremen.freifunk.net/refugees.html",
+    "contact": "info@bremen.freifunk.net"
+  },
+  "support": {
+    "donations": {
+      "bankaccount": {
+        "IBAN": "DE69 4306 0967 2033 5844 00",
+        "BIC": "GENODEM1GLS",
+        "usage": "Freifunkspende"
+      },
+      "campaigns": [
+        {
+          "provider": "betterplace",
+          "projectid": "34467"
+        }
+      ]
+    }
+  },
   "techDetails": {
     "firmware": {
       "name": "Gluon",
       "url": "http://downloads.bremen.freifunk.net/firmware/",
-      "docs": "http://wiki.bremen.freifunk.net/Anleitungen/Firmware/Home"
+      "docs": "http://wiki.bremen.freifunk.net/Anleitungen/Firmware/Home",
+      "vpnaccess": "automatic",
+      "techrestrictions": "As the Freifunk Bremen firmware is using Gluon as it's basis, it has the same restrictions and hardwae requirements: http://gluon.readthedocs.org/"
     },
+    "dns": [
+      {
+        "domainname": "ffhb.de",
+        "nameserver": [
+          "dns.bremen.freifunk.net"
+        ]
+      }
+    ],
     "networks": {
       "ipv6": [
         {
@@ -94,12 +200,12 @@
       "batman-adv"
     ],
     "updatemode": [
+      "manual",
       "autoupdate"
     ],
     "legals": [
-      "vpnnational",
-      "zappscript"
+      "vpnnational"
     ]
   },
-  "api": "0.4.8"
+  "api": "0.4.12"
 }
