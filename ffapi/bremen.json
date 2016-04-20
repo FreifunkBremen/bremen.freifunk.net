@@ -20,7 +20,7 @@
       "Public Free Wifi",
       "Free internet access"
     ],
-    "lastchange": "2016-04-20T13:37:17.079Z"
+    "lastchange": "2016-04-20T14:37:17.079Z"
   },
   "timeline": [
     {
@@ -32,9 +32,16 @@
     {
       "name": "Blog",
       "category": "blog",
-      "type": "atom",
+      "type": "rss",
       "url": "http://bremen.freifunk.net/blog/feed.xml"
+    },
+    {
+      "name": "Blog",
+      "category": "blog",
+      "type": "atom",
+      "url": "http://bremen.freifunk.net/blog/atom.xml"
     }
+
   ],
   "nodeMaps": [
     {
