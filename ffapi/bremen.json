@@ -20,7 +20,7 @@
       "Public Free Wifi",
       "Free internet access"
     ],
-    "lastchange": "2016-01-15T17:35:17.079Z"
+    "lastchange": "2016-04-20T13:30:17.079Z"
   },
   "timeline": [
     {
@@ -70,13 +70,10 @@
     "networks": {
       "ipv6": [
         {
-          "network": "fd2f:5119:f2c::/64"
-        },
-        {
           "network": "2a06:8782::/32"
         },
         {
-          "network": "2001:bf7:540::/48"
+          "network": "fd2f:5119:f2c::/48"
         }
       ],
       "ipv4": [
