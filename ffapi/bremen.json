@@ -20,7 +20,7 @@
     "twitter": "@FreifunkHB"
   },
   "state": {
-    "nodes": 573,
+    "nodes": 579,
     "description": "Freifunk Bremen in it's current form has been founded in the end of 2013. Consisting of mostly young people, the community is still growing and establishing itself in it's city.",
     "focus": [
       "infrastructure/backbone",
@@ -28,7 +28,7 @@
       "Social Community Building",
       "Free internet access"
     ],
-    "lastchange": "2016-04-20T15:29:35.270Z"
+    "lastchange": "2016-05-21T17:00:11.473Z"
   },
   "services": [
     {
@@ -170,6 +170,9 @@
       ]
     }
   },
+  "privacy": {
+    "policyurl": "http://wiki.bremen.freifunk.net/Infrastruktur/Datenschutz"
+  },
   "techDetails": {
     "firmware": {
       "name": "Gluon",
@@ -212,5 +215,5 @@
       "vpnnational"
     ]
   },
-  "api": "0.4.12"
+  "api": "0.4.13"
 }
