@@ -4,8 +4,8 @@ title:  Stadtteilfest und Projekt Walle
 author: SimJoSt
 date:   2016-06-04 22:58:17 +0100
 ---
-Morgen, am Sonntag den 05.06.2016, findet von 11 - 18 Uhr das Stadtteilfest Walle in der Vegesacker Straße statt.  
-Wir werden auch mit einem Stand zu gegen sein.  
+Morgen, am Sonntag den 05.06.2016, findet von 11 - 18 Uhr das [Stadtteilfest Walle](http://dasfest.echt-walle.de/) in der Vegesacker Straße statt.  
+Wir werden auch mit einem Stand zu gegen sein, bei der Derfflingerstraße (gegenüber vom Backbord).  
 Unser Ziel ist es Fragen zu beantworten, Unsicherheiten auszuräumen, den Bürger unsere Mentalität des Teilens zu vermitteln und Freifunk generell mehr Leuten zugänglich zu machen. Besucht uns!
 
 Über das letzte Jahr waren wir in Gesprächen mit Ansprechpartnern aus der Politk, welche uns einen Einstieg in die Stadtteilpolitik Walles gaben. In Zusammenarbeit mit den [Waller Geschäftsleuten](http://www.waller-geschaeftsleute.de/) und, nach einer Präsentation unseres Vorhabens, auch mit der Unterstützung des [Ortsamt West](http://www.ortsamtwest.bremen.de/sixcms/detail.php?gsid=bremen02.c.730.de) konnte das Stadteilpilotprojekt Walle von Freifunk Bremen starten.  
