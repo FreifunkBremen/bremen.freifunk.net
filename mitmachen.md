@@ -48,7 +48,7 @@ Aber natürlich kannst du auch selbst deinen Freifunk-Router bestellen. Dabei ei
   </li>
 </ul>
 
-Eine [Liste mit noch mehr unterstützten Modellen](http://wiki.bremen.freifunk.net/Anleitungen/Firmware/Unterstuetzte-Router) findest du im Wiki.
+Eine [Liste mit noch mehr unterstützten Modellen](http://gluon.readthedocs.io/en/stable/#supported-devices-architectures) findest du in der Dokumentation der von uns verwendeten Software, Gluon.
 
 Lade dir anschließend die passende [Firmware] herunter und spiele sie nach [dieser Anleitung](http://wiki.bremen.freifunk.net/Anleitungen/Firmware/Flashen) auf den Router.
 
