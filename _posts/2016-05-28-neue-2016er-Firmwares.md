@@ -21,9 +21,9 @@ Zwei wichtige Änderungen wurden mit den neuen Firmwares eingeführt:
   Hinweis: auf dem 5 Ghz Frequenzband ist kein Mesh möglich
 - UDP-Port 10000 wurde zu 50000 geändert  
   im Rahmen der Unterstützung von eingehenden IPv6-VPN-Tunnel auf den Servern, wurde der Port geändert  
-  Knoten mit aktueller Firmware benötigen eine passende Freigabe des vorgelagerten Modems/Routers (z.B. FritzBox).
+  bei manchen vorgelagerten Modems/Routern (z.B. FritzBox) muss eventuell eine Portfreigabe eingerichtet werden; wer dies bereits getan hat, muss mit der neuen Firmware diese Freigabe auf den neuen Port ändern
 
-Außerdem wurden auf dem [Treffen vom 06.05.2016](http://wiki.bremen.freifunk.net/Treffen/2016_05_06#protokoll_firmware) die [Anforderungen zum Releasen von Firmware](http://wiki.bremen.freifunk.net/Anleitungen/Firmware-herausbringen#firmware-testen) allgemein, vor allem für den Testing-Branch, drastisch reduziert .
+Außerdem wurden auf dem [Treffen vom 06.05.2016](http://wiki.bremen.freifunk.net/Treffen/2016_05_06#protokoll_firmware) die [Anforderungen zum Releasen von Firmware](http://wiki.bremen.freifunk.net/Anleitungen/Firmware-herausbringen#firmware-testen) allgemein, vor allem für den Testing-Branch, drastisch reduziert.
 
 Weitere Änderungen seit Version 2015.1.2+bremen2 sind:
 
