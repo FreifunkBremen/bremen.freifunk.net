@@ -86,7 +86,7 @@ Im Vergleich zum letzten Jahr nutzten mit den oben genannten Änderung deutlich 
 Bisher wurden Statistiken über die Freifunk Router über "ALFRED" eingesammelt und mit dem Meshviewer visualisiert. Der Aktualisierungsintervall von einer Minute und eine grundsätzliche Unschärfe haben dazu geführt, dass über einen anderen Weg die Statisiken agreggiert und aufbereitet werden. Über einen eigenen, in "go" geschriebenen [Respond Client](https://github.com/FreifunkBremen/respond-collector) werden die Statistiken der Router gesammelt, in einer InfluxDB gespeichert und die für den Meshviewer nötige JSON erzeugt. Über die JSON kann der bekannte Meshviewer zur Visualisierung des Netzes weiterhin genutzt werden. Zusätzlich wurde eine Grafana-Instanz aufgesetzt, die die Daten aus der InfluxDB visualisiert. Die angezeigten Parameter umfassten die Anzahl verbundener Geräte, die Anzahl aller jemals verbundenen Geräte, die Clients pro Router und Netz, der eingehenden und ausgehenden Netzwerkverkehr, die Systemlast und Sendeleistung der Router und den Signal-Rausch-Abstand sowie die Airtime. Zusätzlich wurde die Temperatur innen und außen von unseren NOC-Bauwagen mit aufgenommen.
 
 Zur Ersteinrichtung der Access Points wurde der Respond Client um ein paar Informationen erweitert.
-Hier konnten ähnlich wie im letzten Jahr Werte eingepflegt werden, die dann per Ansible auf die Knoten gespielt wurden
+Hier konnten, ähnlich wie im letzten Jahr, Einstellungen wie Namen und Koordinaten hinterlegt werden, die dann per ansible auf die Knoten gespielt wurden.
 
 Zusätzlich zu Grafana und dem Meshviewer wurde eine Observium-Instanz und ein Icinga genutzt um die Router und den Uplink zu überwachen. Über einen zentralisierten Syslog konnte schnell auf Probleme reagiert werden.
 
