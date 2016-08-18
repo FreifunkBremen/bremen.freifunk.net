@@ -28,7 +28,7 @@
       "Social Community Building",
       "Free internet access"
     ],
-    "lastchange": "2016-07-21T14:47:20.165Z"
+    "lastchange": "2016-08-18T23:58:28.779Z"
   },
   "services": [
     {
@@ -115,6 +115,7 @@
     {
       "name": "Kalendar",
       "category": "ics",
+      "type": "ICS",
       "url": "https://hb.jplitza.de/owncloud/remote.php/dav/calendars/ffhb/pers%c3%b6nlich1?export"
     }
   ],
@@ -181,6 +182,12 @@
         "nameserver": [
           "dns.bremen.freifunk.net"
         ]
+      },
+      {
+        "domainname": "bremen.freifunk.net",
+        "nameserver": [
+          "dns.bremen.freifunk.net"
+        ]
       }
     ],
     "networks": {
@@ -209,5 +216,5 @@
       "vpnnational"
     ]
   },
-  "api": "0.4.13"
+  "api": "0.4.14"
 }
