@@ -15,13 +15,11 @@ layout: compress
   {{ page.header }}
 {% endif %}
 </head>
-<body>
+  <!-- These two wrapper divs sadly are necessary to correctly show the menu on Webkit mobile browsers, see http://stackoverflow.com/q/14270084 -->
+<body><div><div>
   <header>
     <button type="button" id="navbutton">
       <span class="sr-only">Toggle navigation</span>
-      <span class="icon-bar"></span>
-      <span class="icon-bar"></span>
-      <span class="icon-bar"></span>
     </button>
     <a href="/" id="logo">
       <svg width="170" height="188">
@@ -73,7 +71,6 @@ layout: compress
             <li><a href="/unterstuetzen.html#">Router verkaufen</a>
             <li><a href="/unterstuetzen.html#">Infos verbreiten</a>
             <li><a href="/unterstuetzen.html#">Dachflächen</a>
-            <li><a href="/infomaterial.html">Infomaterial</a>
         </ul>
       </ul>
       <ul>
@@ -96,5 +93,5 @@ layout: compress
   </footer>
   <div id="blur"></div>
   <script src="/assets/main.js"></script>
-</body>
+</div></div></body>
 </html>
