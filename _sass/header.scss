@@ -1,6 +1,6 @@
 header {
   background-color: $dark_background;
-  position: fixed;
+  position: absolute;
   top: 0;
   left: 0;
   width: 100%;
@@ -105,15 +105,16 @@ header {
 
   #navbutton {
     box-sizing: content-box;
-    position: absolute;
-    padding: 7px;
-    top: 20px;
-    left: 20px;
-    border: 1px #fff solid;
-    border-radius: 5px;
+    position: fixed;
+    top: -60px;
+    left: 0;
+    padding: 20px;
+    border: 0;
     cursor: pointer;
-    background: transparent;
+    background: $dark_background;
     display: none;
+    z-index: 5;
+    transition: margin-top .2s;
 
     .icon-bar {
       display: block;
@@ -128,8 +129,27 @@ header {
   }
 }
 
+@media screen and (min-width: #{$max_content_width}) {
+  header.fixed {
+    position: fixed;
+    top: -209px;
+    transition: margin-top .2s;
+
+    #skyline {
+      display: none;
+    }
+  }
+
+  header.fixed.detail {
+    margin-top: 39px;
+  }
+
+  body {
+    padding-top: 250px;
+  }
+}
+
 body {
-  padding-top: 250px;
   position: relative;
 }
 
@@ -148,6 +168,17 @@ body {
 }
 
 @media screen and (max-width: #{$max_content_width - 1}) {
+  header.fixed {
+    position: static;
+  }
+  header.fixed.detail {
+    margin-top: 0;
+  }
+
+  header.detail #navbutton {
+    margin-top: 60px;
+  }
+
   header {
     height: 200px;
     width: auto;
@@ -218,7 +249,6 @@ body {
 
   body {
     transition: margin-left .5s;
-    padding-top: 0;
     width: 100vw;
   }
 
