@@ -11,7 +11,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
   [].forEach.call(document.querySelectorAll("#navbutton, #blur"), function(elem) {
       elem.addEventListener("click", function(elem) {
-        document.documentElement.classList.toggle("navopen");
+        document.body.classList.toggle("navopen");
       });
   });
 
