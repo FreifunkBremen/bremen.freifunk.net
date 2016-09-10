@@ -1,7 +1,7 @@
 section {
   width: 100%;
   box-sizing: border-box;
-  padding: 170px calc((100vw - #{$max_content_width}) / 2) 100px;
+  padding: 100px calc((100vw - #{$max_content_width}) / 2);
   position: relative;
 
   h2 + p {
@@ -10,12 +10,11 @@ section {
 }
 
 h2 {
-  position: absolute;
-  top: 100px;
-  margin: 0;
-  left: 50%;
-  transform: translateX(-50%);
+  width: -moz-max-content;
+  width: -webkit-max-content;
+  margin: 0 auto;
   text-align: center;
+  max-width: 100%;
 }
 
 h2::after {
