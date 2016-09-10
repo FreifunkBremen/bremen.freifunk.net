@@ -11,13 +11,13 @@ header {
   #skyline {
     position: absolute;
     right: 10px;
-    bottom: 39px;
+    bottom: $navi_height;
   }
 
   #logo {
     position: absolute;
     left: calc((100vw - #{$max_design_width}) / 2 + 5px);
-    bottom: 47px;
+    bottom: #{$navi_height + 8px};
   }
 
   nav {
@@ -51,7 +51,7 @@ header {
     }
 
     #mainnav {
-      margin-bottom: 39px;
+      margin-bottom: $navi_height;
       display: inline-block;
 
       > li ul {
@@ -143,13 +143,13 @@ header {
   #mainnav > li:nth-child(2)::before {
     content: "Für…";
     position: absolute;
-    bottom: 80px;
+    bottom: #{2*$navi_height + 5px};
     color: #fff;
     margin-left: 10px;
   }
 
   header.fixed.detail {
-    margin-top: 39px;
+    margin-top: $navi_height;
   }
 
   body {
