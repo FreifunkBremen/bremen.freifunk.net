@@ -1,10 +1,9 @@
 ---
 layout: default
-title: Blog
-header: <link rel="alternate" type="application/rss+xml" title="Blog als RSS-Feed" href="/blog/feed.xml"><link rel="alternate" type="application/atom+xml" title="Blog als Atom-Feed" href="/blog/atom.xml">
+title: News
+header: <link rel="alternate" type="application/rss+xml" title="News als RSS-Feed" href="/blog/feed.xml"><link rel="alternate" type="application/atom+xml" title="News als Atom-Feed" href="/blog/atom.xml">
 ---
 
-<h1>Blog</h1>
 {% for post in paginator.posts %}
 {% include blogpost.html post=post content=post.content %}
 {% endfor %}
