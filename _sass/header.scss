@@ -140,6 +140,14 @@ header {
     }
   }
 
+  #mainnav > li:nth-child(2)::before {
+    content: "Für…";
+    position: absolute;
+    bottom: 80px;
+    color: #fff;
+    margin-left: 10px;
+  }
+
   header.fixed.detail {
     margin-top: 39px;
   }
