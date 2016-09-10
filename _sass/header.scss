@@ -22,7 +22,6 @@ header {
 
   nav {
     max-width: $max_design_width;
-    width: 100%;
     margin-left: calc((100vw - #{$max_design_width}) / 2 + 188px);
     font-weight: 700;
 
@@ -39,6 +38,8 @@ header {
         cursor: pointer;
         text-decoration: none !important;
         color: inherit;
+        height: $navi_height;
+        box-sizing: border-box;
       }
     }
     ul {
@@ -115,17 +116,14 @@ header {
     display: none;
     z-index: 5;
     transition: margin-top .2s;
+  }
 
-    .icon-bar {
-      display: block;
-      width: 25px;
-      height: 2px;
-      background-color: #fff;
-      margin-bottom: 7px;
-    }
-    .icon-bar:last-child {
-      margin-bottom: 0;
-    }
+  #navbutton::before {
+    content: "";
+    height: 0.25em;
+    width: 1.5em;
+    border-top: 0.75em double #fff;
+    border-bottom: 0.25em solid #fff;
   }
 }
 
@@ -255,15 +253,17 @@ body {
     }
   }
 
-  body {
+  body.navopen, body > div {
+    overflow: hidden;
+  }
+
+  body > div > div {
     transition: margin-left .5s;
     width: 100vw;
   }
 
-  html.navopen {
-    overflow: hidden;
-
-    body {
+  body.navopen {
+    > div > div {
       margin-left: 250px;
     }
 
