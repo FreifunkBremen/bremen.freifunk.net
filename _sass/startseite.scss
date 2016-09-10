@@ -1,26 +1,19 @@
 #karte {
-  height: 400px;
+  height: 500px;
   font-size: 34px;
   font-weight: 700;
+  background: url(/images/map.png) center center;
 
   a {
-    display: block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     position: absolute;
     top: 0;
     left: 0;
     right: 0;
     bottom: 0;
     text-decoration: none;
-
-    background: url(/images/map.png) center center;
-
-    span {
-      display: block;
-      position: absolute;
-      top: 50%;
-      left: 50%;
-      transform: translateX(-50%) translateY(-50%);
-    }
   }
 
   a:hover span {
