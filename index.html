@@ -1,88 +1,62 @@
 ---
 layout: default
 ---
-    <!-- Main jumbotron for a primary marketing message or call to action -->
-    <div class="jumbotron">
-      <div class="container">
-        <div class="col-md-12">
-          <h1>
-            Was ist <span class="freifunk">Freifunk</span>?
-          </h1>
-        </div>
-        <div class="col-md-6">
-          <p>
-            <span class="freifunk">Freifunk</span> ist ein Projekt, das versucht ein stadtweites Datennetz auf Basis von WLAN-Routern aufzubauen. Dieses Netz soll eine freie Kommunikation innerhalb der ganzen Stadt ermöglichen. Jedes WLAN-fähige Gerät, also beispielsweise Handy oder Notebook, kann
-            sich mit dem Netz verbinden und darüber mit anderen Teilnehmern kommunizieren. Auch ein Zugang ins Internet steht meistens zur Verfügung.
-          </p>
-          <p>
-            <a class="btn btn-primary btn-lg" role="button" href="/mitmachen.html">Mitmachen &raquo;</a>
-          </p>
-        </div>
-        <div class="col-md-6">
-          <video poster="//downloads.bremen.freifunk.net/video/freifunk_verbindet_sd.png" style="width: 100%; height: 100%" controls="">
-            <source src="//downloads.bremen.freifunk.net/video/freifunk_verbindet_hd.mp4" type="video/mp4">
-            <source src="//downloads.bremen.freifunk.net/video/freifunk_verbindet_hd.webm" type="video/webm">
-            <source src="//downloads.bremen.freifunk.net/video/freifunk_verbindet_hd.ogv" type="video/ogg">
-            Your browser does not support the video tag.
-          </video>
-        </div>
-      </div>
+<section id="was-ist-freifunk">
+  <h2>Was ist Freifunk?</h2>
+  <div class="flex">
+    <p>
+      <span class="freifunk">Freifunk</span> ist ein Projekt, das versucht ein stadtweites Datennetz auf Basis von WLAN-Routern aufzubauen. Dieses Netz soll eine freie Kommunikation innerhalb der ganzen Stadt ermöglichen. Jedes WLAN-fähige Gerät, also beispielsweise Handy oder Notebook, kann
+      sich mit dem Netz verbinden und darüber mit anderen Teilnehmern kommunizieren. Auch ein Zugang ins Internet steht meistens zur Verfügung.
+    </p>
+    <div style="align-self: center">
+      <video poster="//downloads.bremen.freifunk.net/video/freifunk_verbindet_sd.png" style="width: 100%;" controls="">
+        <source src="//downloads.bremen.freifunk.net/video/freifunk_verbindet_hd.mp4" type="video/mp4">
+        <source src="//downloads.bremen.freifunk.net/video/freifunk_verbindet_hd.webm" type="video/webm">
+        <source src="//downloads.bremen.freifunk.net/video/freifunk_verbindet_hd.ogv" type="video/ogg">
+        Your browser does not support the video tag.
+      </video>
     </div>
-    <div >
-      <!-- Example row of columns -->
-      <div class="row">
-        <div class="col-sm-6 col-md-3">
-          <h2>Anleitung</h2>
-          <p>
-            Wenn du in Bremen ein unverschlüsseltes WLAN mit dem Namen
-            <code>bremen.freifunk.net</code>
-            siehst, dann kannst du dich einfach mit diesem verbinden um ins Freifunk-Netz zu kommen.
-          </p>
-          <p>
-            Wenn du selbst mitmachen willst, findest du hier die Anleitung
-          </p>
-          <a class="btn btn-default" href="http://wiki.bremen.freifunk.net/Anleitungen/Firmware/Flashen" role="button">Anleitung &raquo;</a>
-        </div>
-        <div class="col-sm-6 col-md-3">
-          <h2>Unterstützen</h2>
-          <p>Freifunk basiert auf Freiwilligen, die WLAN-Geräte kaufen, betreiben und vernetzen. Es ist einfach und kostengünstig. Ein Freifunk-Node (Router) kostet 20 &euro;, dieser verbraucht nur ca. 1 &euro; Strom im Monat. Die Störer-Haftung wird mittels VPNs ausgeschlossen. Also: Hilf allen, indem du einen eigenen Freifunk-Node betreibst!</p>
-          <a class="btn btn-default" href="/mitmachen.html" role="button">Mitmachen &raquo;</a>
-          <a class="btn btn-default" href="/spenden.html" role="button">Spenden &raquo;</a>
-        </div>
-        <div class="col-sm-6 col-md-3">
-          <h2>Die Technik dahinter</h2>
-          <p>Das Freifunk-Netz besteht aus einer Kombination von klassischen WLANs, Ad-hoc WLANs (Mesh) und VPNs. So können sich die Router direkt per Funk, aber auch über das Internet, verbinden und der Zugang für Nutzer bleibt kinderleicht.</p>
-          <a class="btn btn-default" href="/technik.html" role="button">Mehr &raquo;</a>
-        </div>
-        <div class="col-sm-6 col-md-3">
-          <h2>Neuigkeiten</h2>
-          <ul class="list-unstyled" id="news">
-{% for post in site.posts limit:4 %}
-            <li><span>{{ post.date | date: "%d. %b" }}:</span> <a href="{{ post.url }}">{{ post.title }}</a></li>
-{% endfor %}
-          </ul>
-          <a class="btn btn-default" href="/blog/" role="button">Mehr &raquo;</a>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-md-9 col-sm-8">
-          <h2>Karte</h2>
-          <iframe style="border: 0; width: 100%; height: 400px;" src="//bremen.freifunk.net/meshviewer/"></iframe>
-        </div>
-        <div class="col-md-3 col-sm-4">
-          <h2>Twitter</h2>
-          <a class="twitter-timeline"  href="https://twitter.com/FreifunkHB"  data-widget-id="449111353601425410">Tweets von @FreifunkHB</a>
-          <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
-        </div>
-      </div>
+  </div>
+
+  <p class="flexbtns">
+    <a class="btn" href="/was-ist-freifunk.html">Was ist Freifunk noch?</a>
+    <a class="btn" href="/faq.html">FAQ</a>
+    <a class="btn" href="/kontakt.html">Kontakt</a>
+  </p>
+</section>
+
+<section id="news">
+  <div class="flex">
+    <div style="flex-grow: 2">
+      <h2>News</h2>
+      <ul class="list-unstyled" id="news">
+      {% for post in site.posts limit:4 %}
+        <li><span>{{ post.date | date: "%d. %b" }}:</span> <a href="{{ post.url }}">{{ post.title }}</a></li>
+      {% endfor %}
+      </ul>
+      <a class="btn btn-default" href="/blog/" role="button">Mehr &raquo;</a>
     </div>
-    <div class="row sponsors">
-      <h2>Sponsoren</h2>
+    <div id="twitter">
+      <h2>Twitter</h2>
+    </div>
+  </div>
+</section>
+
+<section id="kalender">
+  <h2>Kalender</h2>
+</section>
+
+<section id="karte">
+  <a href="/map/meshviewer.html"><span class="btn">Zur Knotenkarte</span></a>
+</section>
+
+<section id="partner">
+  <h2>Partner</h2>
+  <div class="flex">
 {% for sponsor in site.data.sponsors %}
-      <div class="col-md-4 col-sm-6">
-        <a href="{{ sponsor.url }}">
-          <img src="images/sponsors/{{ sponsor.img }}" alt="{{ sponsor.name }}">
-        </a>
-      </div>
+    <a href="{{ sponsor.url }}">
+      <img src="images/sponsors/{{ sponsor.img }}" alt="{{ sponsor.name }}">
+    </a>
 {% endfor %}
-    </div>
+  </div>
+</section>

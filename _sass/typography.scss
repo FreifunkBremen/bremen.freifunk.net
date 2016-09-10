@@ -1,0 +1,21 @@
+h2 {
+  font-size: 34px;
+}
+
+h3 {
+  font-size: 28px;
+}
+
+html {
+  font-size: 21px;
+  color: #333;
+}
+
+a {
+  color: $freifunk_magenta;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}

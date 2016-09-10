@@ -1,0 +1,93 @@
+section {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 170px calc((100vw - #{$max_content_width}) / 2) 100px;
+  position: relative;
+
+  h2 + p {
+    margin-top: 0;
+  }
+}
+
+h2 {
+  position: absolute;
+  top: 100px;
+  margin: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: center;
+}
+
+h2::after {
+  content: "";
+  background-color: $freifunk_magenta;
+  display: block;
+  height: 5px;
+  width: 80%;
+  margin: 5px auto;
+}
+
+section:nth-child(even) {
+  background-color: $dark_background;
+  color: #fff;
+
+  h2::after {
+    background-color: $freifunk_gelb;
+  }
+
+  a {
+    color: $freifunk_gelb;
+  }
+
+  .btn {
+    background-color: $freifunk_gelb;
+    color: #000 !important;
+  }
+  .btn:hover {
+    background-color: darken($freifunk_gelb, 5%);
+  }
+}
+
+.flexbtns {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+section .flex {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100vw;
+  margin-left: #{($max_content_width - $max_design_width) / 2};
+  max-width: $max_design_width;
+
+  > * {
+    padding: 20px;
+    position: relative;
+    flex: 1 1 0;
+  }
+}
+
+@media screen and (max-width: #{$max_design_width - 1}) {
+  section .flex {
+    margin-left: calc((#{$max_content_width} - 100vw) / 2);
+  }
+}
+
+@media screen and (max-width: #{$max_content_width - 1}) {
+  section .flex {
+    margin-left: 0;
+
+    > * {
+      flex-basis: auto;
+    }
+  }
+}
+
+section .flex:first-child {
+  margin-top: -170px;
+
+  > * {
+    padding-top: 170px;
+  }
+}

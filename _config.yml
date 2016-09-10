@@ -22,6 +22,24 @@ kramdown:
     input: GFM
     hard_wrap: false
 
+sass:
+    style: compressed
+
+defaults:
+  - scope:
+        path: ""
+        type: "posts"
+    values:
+        layout: "post"
+
+compress_html:
+    clippings: all
+    comments: ["<!--", "-->"]
+    endings: all
+    startings: [html, head, body]
+    ignore:
+        envs: [development]
+
 prose:
     rooturl: "_posts"
     media: "images"
@@ -31,10 +49,6 @@ prose:
               field:
                   element: "text"
                   label: "Title"
-            - name: "layout"
-              field:
-                  element: "hidden"
-                  value: "post"
             - name: "author"
               field:
                   element: "text"
