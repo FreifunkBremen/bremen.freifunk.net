@@ -1,12 +1,12 @@
+- name: LWLcom
+  url: http://www.lwlcom.com/
+  img: lwlcom.png
 - name: Plutex
   url: http://www.plutex.de/
   img: plutex.png
 - name: Planetcyborg
   url: http://www.planetcyborg.de/
   img: planetcyborg.png
-- name: Hackerspace Bremen
-  url: http://hackerspace-bremen.de/
-  img: hshb.png
 - name: Fremaks
   url: http://www.fremaks.de/
   img: fremaks.png
@@ -16,6 +16,6 @@
 - name: Freifunk Rheinland
   url: https://freifunk-rheinland.net/
   img: ffrl.png
-- name: LWLcom
-  url: http://www.lwlcom.com/
-  img: lwlcom.png
+- name: Hackerspace Bremen
+  url: http://hackerspace-bremen.de/
+  img: hshb.png
