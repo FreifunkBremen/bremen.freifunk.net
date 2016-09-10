@@ -1,0 +1,43 @@
+#karte {
+  height: 400px;
+  font-size: 34px;
+  font-weight: 700;
+
+  a {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    text-decoration: none;
+
+    background: url(/images/map.png) center center;
+
+    span {
+      display: block;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translateX(-50%) translateY(-50%);
+    }
+  }
+
+  a:hover span {
+    background: lighten($freifunk_magenta, 5%);
+  }
+}
+section:nth-child(even)#karte a:hover span {
+  background: darken($freifunk_gelb, 5%);
+}
+
+section#partner .flex {
+  justify-content: space-around;
+  align-items: center;
+
+  > * {
+    flex-basis: 0;
+    padding: 20px;
+    text-align: center;
+  }
+}

@@ -1,0 +1,9 @@
+.sr-only {
+  display: none;
+}
+
+@media speech {
+  .sr-only {
+    display: inline;
+  }
+}

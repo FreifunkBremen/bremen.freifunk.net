@@ -5,6 +5,7 @@
 .jekyll-metadata
 .bundle
 Gemfile.lock
+.sass-cache/
 video/*
 _site/*
 flyer
