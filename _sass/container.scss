@@ -22,7 +22,8 @@ h2::after {
   background-color: $freifunk_magenta;
   display: block;
   height: 5px;
-  width: 80%;
+  min-width: 80%;
+  width: calc(100% - 2em);
   margin: 5px auto;
 }
 
