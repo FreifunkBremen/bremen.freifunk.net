@@ -23,7 +23,7 @@ Den VPN-Tunnel hat ein WDR3600 in der Verteiler-Kiste aufgebaut, die übrigen Ro
 <a href="/images/Summersounds_Verteilerkiste.jpg"><img src="/images/Summersounds_Verteilerkiste.jpg" width="600px" alt=""></a>
 
 ### Clients
-Über den Tag verteilt waren zwischen 50 und 250 Clients im Netz, der Peak lag bei 272 Clients. [Bild: Stats]
+Über den Tag verteilt waren zwischen 50 und 250 Clients im Netz, der Peak lag bei 272 Clients. 
 Man sieht einen kleinen Netzeinbruch, dessen Ursache noch nicht so recht geklärt ist.
 
 <a href="/images/Summersounds_Statistik.png"><img src="/images/Summersounds_Statistik.png" width="600px" alt=""></a>
