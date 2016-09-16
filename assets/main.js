@@ -35,7 +35,7 @@ document.addEventListener("DOMContentLoaded", function() {
   var last_scrollY = window.scrollY;
   // shrink the header on scrolling
   window.addEventListener("throttledScroll", function(ev) {
-    var header = document.querySelector('header');
+    var header = document.querySelector('#pageheader');
     var threshold_down = Math.max(
       header.clientHeight - document.querySelector('#mainnav li.active ul').offsetHeight,
       1
