@@ -2,7 +2,7 @@
   height: 500px;
   font-size: 34px;
   font-weight: 700;
-  background: url(/images/map.png) center center;
+  background: url(/images/map/3840.png) center center;
 
   a {
     display: flex;
@@ -18,6 +18,26 @@
 
   a:hover span {
     background: lighten($freifunk_magenta, 5%);
+  }
+}
+@media (max-width: 1920px) {
+  #karte {
+    background: url(/images/map/1920.png) center center;
+  }
+}
+@media (max-width: 1107px) {
+  #karte {
+    background: url(/images/map/1107.png) center center;
+  }
+}
+@media (max-width: 720px) {
+  #karte {
+    background: url(/images/map/720.png) center center;
+  }
+}
+@media (max-width: 480px) {
+  #karte {
+    background: url(/images/map/480.png) center center;
   }
 }
 section:nth-child(even)#karte a:hover span {
