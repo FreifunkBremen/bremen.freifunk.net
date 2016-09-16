@@ -17,7 +17,8 @@ layout: compress
 </head>
   <!-- These two wrapper divs sadly are necessary to correctly show the menu on Webkit mobile browsers, see http://stackoverflow.com/q/14270084 -->
 <body><div><div>
-  <header>
+  <header id="pageheader">
+    <h1>Freifunk Bremen</h1>
     <button type="button" id="navbutton">
       <span class="sr-only">Toggle navigation</span>
     </button>
@@ -80,13 +81,14 @@ layout: compress
     </nav>
   </header>
   <main>
-        {{ content }}
+    {{ content }}
   </main>
   <footer>
     <div>
       Alle Texte sind lizensiert unter <a href="https://creativecommons.org/licenses/by-sa/4.0/deed.de">CC-BY-SA 4.0</a>.
     </div>
     <ul role="navigation">
+      <li><a href="https://github.com/FreifunkBremen/bremen.freifunk.net/edit/master/{{ page.path }}" target="_blank">Diese Seite bearbeiten</a></li>
       <li><a href="/kontakt.html">Kontakt</a>
       <li><a href="/impressum.html">Impressum</a>
     </ul>
