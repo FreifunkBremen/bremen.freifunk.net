@@ -1,0 +1,30 @@
+.newsitem {
+  .metadata {
+    display: flex;
+    font-size: 16px;
+  }
+
+  time {
+    margin-right: 50px;
+    padding-left: 24px;
+    background: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAAQCAYAAAAmlE46AAAAcUlEQVQoz82S0QnAMAhET8lgHSBDdSgHSCa7/iRQpNo2UOh9qofyPOAkGohAvldmQSokGrrqaTTg5XuSnfeJljfq6kZv7FIhA0TPoBVHbju/hwZGpPUuABEDjX5Gw/4azjjxuTFLTgqHhjbNNLR/BeAA99Iwx0A9JKsAAAAASUVORK5CYII=') no-repeat;
+  }
+
+  address {
+    font-style: normal;
+    padding-left: 23px;
+    background: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAwAAAAQCAYAAAAiYZ4HAAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAAN1wAADdcBQiibeAAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAADTSURBVCiRtc+tTgNRFEXh71zGUN6A8AAgCBZXgmxCUgyiQTfhJ/RhgEfA4DC1BIkkGDxFggNcL4JOOx0KGcNS9+6svZMTKuQbqwqXsjYId8ZOY89L6RTVgiXnsu5sQVcC+2WUzNNWJ9upfuuF/KNQy+qF2wWFuWz+hnAmy9idyoXBgpF/JMpHvras5QSHWJ/ET8KVdxdx4HNayENrxobY/GX4UdKJjlFMlu//kEserNhOWo4byLDlw1FCr4H8TdZLZgc2YSMJr4318JbQx6iB/Iz+F683LOkZuiRwAAAAAElFTkSuQmCC') no-repeat;
+  }
+}
+
+.newsitem::before {
+  content: "";
+  background-color: $freifunk_gelb;
+  display: block;
+  height: 5px;
+  width: 70%;
+  margin: 5px auto;
+}
+.newsitem:first-of-type::before {
+  content: none;
+}
