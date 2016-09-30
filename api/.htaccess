@@ -1,0 +1,11 @@
+RewriteEngine on
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^([^/\.]+)\.json$ $1.php [L]
+
+<Files config.php>
+    Require all denied
+</Files>
+
+<IfModule mod_deflate.c>
+    SetOutputFilter DEFLATE
+</IfModule>
