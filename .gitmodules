@@ -7,3 +7,9 @@
 [submodule "refugees"]
 	path = refugees
 	url = https://github.com/FreifunkBremen/refugees.git
+[submodule "api/vendor/sabre/vobject"]
+	path = api/vendor/sabre/vobject
+	url = https://github.com/fruux/sabre-vobject.git
+[submodule "api/vendor/sabre/xml"]
+	path = api/vendor/sabre/xml
+	url = https://github.com/fruux/sabre-xml.git
