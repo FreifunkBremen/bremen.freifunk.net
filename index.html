@@ -53,8 +53,21 @@ layout: nosection
   </div>
 </section>
 
-<section id="kalender">
-  <h2>Kalender</h2>
+<section id="termine">
+  <h2>Termine</h2>
+  <template id="event-template">
+    <div>
+      <h3 class="title"></h3>
+      <dl>
+        <dt>Wann?</dt>
+        <dd class="time"><time class="starttime"></time>–<time class="endtime"></time></dd>
+        <dt>Wo?</dt><dd class="location"></dd>
+        <dt>Was?</dt><dd class="description"></dd>
+      </dl>
+    </div>
+  </template>
+  <div class="flex">
+  </div>
 </section>
 
 <section id="karte">
