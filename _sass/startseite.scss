@@ -54,3 +54,25 @@ section#partner .flex {
     text-align: center;
   }
 }
+
+section#termine .flex {
+  justify-content: space-around;
+  > * {
+    flex: 0 0 auto;
+    padding: 15px;
+  }
+  h3, dl {
+    margin: 10px 0;
+  }
+  dd {
+    margin-left: 20px;
+  }
+  dt {
+    font-style: italic;
+  }
+}
+@media (min-width: 340px) {
+  section#termine .flex > * {
+    width: 330px;
+  }
+}
