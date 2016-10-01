@@ -38,7 +38,7 @@ Schließlich braucht es natürlich auch etwas Zeit, die Firmware zu bauen und fe
 ### Firmware-Workshop
 Um zumindest den Kreis der Personen die in der Lage wären, eine Firmware zu bauen und zu veröffentlichen, zu vergrößern, wollen wir demnächst einen "Firmware-Workshop" veranstalten. Ähnlich dem kürzlichen "Backbone-Treffen" (das übrigens auch eine Neuauflage erfahren soll) ist der Plan, allen Interessenten einen Einblick in die Struktur der Firmware und darein, wie man sie bearbeitet, baut und veröffentlicht, zu geben. Ein Termin steht leider noch nicht fest. Sowieso empfehlen wir aber allen, die sich für dieses und andere Freifunk-Themen verstärkt interessieren und dort mitreden möchten unsere [Mailingliste] zu abonnieren und die Protokolle der Treffen im [Wiki] zu lesen, falls sie es selbst nicht geschafft haben vorbei zu kommen. Denn Freifunk ist ja kein schlüsselfertiger Dienst, sondern soll zur Beschäftigung mit der Thematik offener Netzwerke anregen – technisch, organisatorisch und sozial.
 
-[Mailingliste]: https://planetcyborg.de/mailman/listinfo/ff-bremen
+[Mailingliste]: https://lists.ffhb.de/mailman/listinfo/ff-bremen/
 [Wiki]: http://wiki.bremen.freifunk.net
 
 ### Probleme?
