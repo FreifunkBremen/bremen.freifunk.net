@@ -3,6 +3,8 @@
 .DS_Store
 .buildpath
 .jekyll-metadata
+.bundle
+Gemfile.lock
 video/*
 _site/*
 flyer
