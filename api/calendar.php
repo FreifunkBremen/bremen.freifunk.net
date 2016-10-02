@@ -48,3 +48,5 @@ if (file_exists(CACHE_FILE) && filemtime(CACHE_FILE) >= time() - CACHE_LIFETIME)
 
 header('Content-Type: application/json');
 echo $out;
+
+# vim: syntax=php sw=4 ts=4 sts=4 et
