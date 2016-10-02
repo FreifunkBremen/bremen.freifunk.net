@@ -40,21 +40,46 @@
     background: url(/images/map/480.png) center center;
   }
 }
-section:nth-child(even)#karte a:hover span {
-  background: darken($freifunk_gelb, 5%);
-}
+.tweet {
+  margin: 30px 0;
 
-section#partner .flex {
-  justify-content: space-around;
-  align-items: center;
+  > div {
+    line-height: 1;
+  }
 
-  > * {
-    flex-basis: 0;
-    padding: 20px;
-    text-align: center;
+  .header {
+    text-align: justify;
+    text-align: justify-all;
+    text-align-last: justify;
+
+    svg {
+      float: left;
+      padding-right: 5px;
+    }
+
+    span {
+      display: inline-block;
+      text-decoration: inherit;
+    }
+  }
+
+  time {
+    font-size: small;
+  }
+
+  .handle {
+    font-size: small;
+  }
+
+  p {
+    margin: 10px 0;
+  }
+
+  .media {
+    display: flex;
+    justify-content: space-around;
   }
 }
-
 section#termine .flex {
   justify-content: space-around;
   > * {
@@ -76,3 +101,18 @@ section#termine .flex {
     width: 330px;
   }
 }
+section:nth-child(even)#karte a:hover span {
+  background: darken($freifunk_gelb, 5%);
+}
+
+section#partner .flex {
+  justify-content: space-around;
+  align-items: center;
+
+  > * {
+    flex-basis: 0;
+    padding: 20px;
+    text-align: center;
+  }
+}
+
