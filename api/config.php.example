@@ -2,5 +2,11 @@
 define('CACHE_LIFETIME', 300);
 define('CACHE_DIR', 'cache/');
 
+define('TWITTER_ACCESS_TOKEN',        'get it from apps.twitter.com');
+define('TWITTER_ACCESS_TOKEN_SECRET', 'get it from apps.twitter.com');
+define('TWITTER_CONSUMER_KEY',        'get it from apps.twitter.com');
+define('TWITTER_CONSUMER_SECRET',     'get it from apps.twitter.com');
+define('TWITTER_COUNT', 4);
+
 define('CALENDAR_URL', 'https://example.org/owncloud/remote.php/dav/calendars/user/personal?export');
 define('CALENDAR_DAYS', 28);
