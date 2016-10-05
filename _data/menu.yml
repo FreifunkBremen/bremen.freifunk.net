@@ -1,0 +1,61 @@
+---
+- name: Startseite
+  id: 0
+  items:
+    - name: Was ist Freifunk?
+      link: /#was-ist-freifunk
+    - name: Kontakt
+      link: /kontakt.html
+    - name: News
+      link: /#news
+    - name: Termine
+      link: /#termine
+    - name: Karte
+      link: /map/meshviewer.html
+    #- name: Projekte
+    #  link: /#projekte
+    - name: Partner
+      link: /#partner
+- name: Einsteiger
+  id: 1
+  items:
+    - name: Anleitungen
+      link: /anleitungen.html
+    - name: Firmware
+      link: /firmware/
+    - name: Referenzen
+      link: /referenzen.html
+    - name: Hardware
+      link: /hardware.html
+    - name: FAQ
+      link: /faq.html
+    - name: Dienste
+      link: /dienste.html
+- name: Engagierte
+  id: 2
+  items:
+    - name: Mailingliste
+      link: /kontakt.html
+    - name: Firmware
+      link: /firmware/
+    - name: Wiki
+      link: //wiki.bremen.freifunk.net/
+    - name: Technik
+      link: /technik.html
+    - name: Infomaterial
+      link: /infomaterial.html
+    - name: Struktur
+      link: /struktur.html
+- name: Unterstützer
+  id: 3
+  items:
+    - name: Spenden
+      link: /unterstuetzen.html#spenden
+    - name: Server stellen
+      link: /unterstuetzen.html#server-stellen
+    - name: Router verkaufen
+      link: /unterstuetzen.html#router-verkaufen
+    - name: Infos verbreiten
+      link: /infomaterial.html
+    - name: Dachflächen
+      link: /unterstuetzen.html#dachflaechen
