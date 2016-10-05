@@ -37,42 +37,15 @@ layout: compress
         </svg>
       </a>
       <ul id="mainnav">
-        <li class="active"><a>Startseite</a>
+{% for category in site.data.menu %}
+        <li data-catid="{{ category.id }}"{% if category.id == 0 %} class="active"{% endif %}>
+          <a>{{ category.name }}</a>
           <ul>
-            <li><a href="/#was-ist-freifunk">Was ist Freifunk?</a>
-            <li><a href="/#kontakt">Kontakt</a>
-            <li><a href="/#news">News</a>
-            <li><a href="/#termine">Termine</a>
-            <li><a href="/#karte">Karte</a>
-            <li><a href="/#projekte">Projekte</a>
-            <li><a href="/#partner">Partner</a>
+{% for item in category.items %}
+            <li><a href="{{ item.link }}?catid={{ category.id }}">{{ item.name }}</a>
+{% endfor %}
           </ul>
-        <li><a>Einsteiger</a>
-          <ul>
-            <li><a href="/anleitungen.html">Anleitungen</a>
-            <li><a href="/firmware/">Firmware</a>
-            <li><a href="/referenzen.html">Referenzen</a>
-            <li><a href="/hardware.html">Hardware</a>
-            <li><a href="/faq.html">FAQ</a>
-            <li><a href="/dienste.html">Dienste</a>
-          </ul>
-        <li><a>Engagierte</a>
-          <ul>
-            <li><a href="/kontakt.html">Mailingliste</a>
-            <li><a href="/firmware/">Firmware</a>
-            <li><a href="//wiki.bremen.freifunk.net/">Wiki</a>
-            <li><a href="/technik.html">Technik</a>
-            <li><a href="/infomaterial.html">Infomaterial</a>
-            <li><a href="/struktur.html">Struktur</a>
-          </ul>
-        <li><a>Unterstützer</a>
-          <ul>
-            <li><a href="/unterstuetzen.html#spenden">Spenden</a>
-            <li><a href="/unterstuetzen.html#">Server stellen</a>
-            <li><a href="/unterstuetzen.html#">Router verkaufen</a>
-            <li><a href="/unterstuetzen.html#">Infos verbreiten</a>
-            <li><a href="/unterstuetzen.html#">Dachflächen</a>
-        </ul>
+{% endfor %}
       </ul>
       <ul>
         <li><a href="//wiki.bremen.freifunk.net/#infos-zu-unseren-treffen" target="_blank">Treffen: 1.+&thinsp;3. Fr. im Monat</a></li>
