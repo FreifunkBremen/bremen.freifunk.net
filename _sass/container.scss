@@ -1,18 +1,27 @@
 section {
   width: 100%;
   box-sizing: border-box;
-  padding: 100px calc((100vw - #{$max_content_width}) / 2);
+  padding: 80px calc((100vw - #{$max_content_width}) / 2) 50px;
   position: relative;
 
   h2 + p {
     margin-top: 0;
+    padding-top: 0;
   }
+}
+
+section.wide {
+  padding: 80px calc((100vw - #{$max_design_width}) / 2) 50px;
+}
+
+section:first-child {
+  padding-top: 50px;
 }
 
 h2 {
   width: -moz-max-content;
   width: -webkit-max-content;
-  margin: 0 auto;
+  margin: 0 auto 20px;
   text-align: center;
   max-width: 100%;
 }
@@ -52,30 +61,29 @@ section:nth-child(even) {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
-}
-
-section .flex {
-  display: flex;
-  flex-wrap: wrap;
-  width: 100vw;
-  margin-left: #{($max_content_width - $max_design_width) / 2};
-  max-width: $max_design_width;
 
   > * {
-    padding: 20px;
+    margin: 10px;
+  }
+}
+
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+
+  > * {
+    padding: 0 20px;
     position: relative;
     flex: 1 1 0;
   }
 }
 
-@media screen and (max-width: #{$max_design_width - 1}) {
-  section .flex {
-    margin-left: calc((#{$max_content_width} - 100vw) / 2);
-  }
-}
-
 @media screen and (max-width: #{$max_content_width - 1}) {
-  section .flex {
+  section {
+    padding: 80px 20px 50px;
+  }
+  .flex {
     margin-left: 0;
 
     > * {
@@ -84,7 +92,7 @@ section .flex {
   }
 }
 
-section .flex:first-child {
+.flex:first-child {
   margin-top: -170px;
 
   > * {
