@@ -1,5 +1,19 @@
 ---
 ---
+function fuzzy_match(needle, haystack) {
+  var j = 0;
+  for (var i = 0; i < needle.length; i++) {
+    var c = needle.charAt(i);
+    while (j < haystack.length && haystack.charAt(j) != c)
+      j++;
+    j++;
+
+    if (j > haystack.length)
+      return false;
+  }
+  return true;
+}
+
 document.addEventListener("DOMContentLoaded", function() {
   var
     firmware_base_url = 'https://downloads.bremen.freifunk.net/firmware/',
@@ -72,7 +86,7 @@ document.addEventListener("DOMContentLoaded", function() {
         container = tmpl.querySelector('.model'),
         has_factory = true;
       container.style.backgroundImage = "url('/images/routers/" + model.vendor + "-" + model.id + ".svg')";
-      container.dataset.searchterms = vendors[model.vendor] + " " + model.model;
+      container.dataset.searchterms = (vendors[model.vendor] + model.model).toLowerCase().replace(/[^a-z0-9]/g, '');
       container.querySelector('.name').textContent = vendors[model.vendor] + " " + model.model;
       container.querySelector('.update a').href = firmware_base_url + branch + '/sysupgrade/' + model.file;
       no_factory.forEach(function(pattern) {
@@ -93,16 +107,11 @@ document.addEventListener("DOMContentLoaded", function() {
   xhr.send();
 
   searchbox.addEventListener("input", function(ev) {
-    var searchterm = this.value.toLowerCase();
-    if (searchterm.replace(' ', '').length < 3)
+    var searchterm = this.value.toLowerCase().replace(/[^a-z0-9]/g, '');
+    if (searchterm.length < 3)
       return;
-    var searchterms = searchterm.split(' ');
     [].forEach.call(document.querySelectorAll('#models .model'), function(a) {
-      var show = true;
-      searchterms.forEach(function(searchterm) {
-        if (a.dataset.searchterms.toLowerCase().indexOf(searchterm) == -1)
-          show = false;
-      });
+      var show = fuzzy_match(searchterm, a.dataset.searchterms);
       a.style.display = show? "block" : "";
     });
   });
