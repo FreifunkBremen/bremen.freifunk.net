@@ -4,9 +4,6 @@
 [submodule "images/logo"]
 	path = images/logo
 	url = https://github.com/FreifunkBremen/logo.git
-[submodule "refugees"]
-	path = refugees
-	url = https://github.com/FreifunkBremen/refugees.git
 [submodule "api/vendor/sabre/vobject"]
 	path = api/vendor/sabre/vobject
 	url = https://github.com/fruux/sabre-vobject.git
