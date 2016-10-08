@@ -7,17 +7,17 @@ date:   2016-08-09 23:00:00 +0200
 
 Auch dieses Jahr hat Freifunk Bremen die Breminale mit freiem WLAN versorgt. Wer die [Berichterstattung vom letzten Jahr](http://bremen.freifunk.net/blog/2015/07/29/breminale-r%C3%BCckblick.html) gelesen hat oder uns vielleicht bei [Twitter](https://twitter.com/FreifunkHB) folgt, wartet wahrscheinlich schon sehnsüchtig auf den Rückblick für dieses Jahr. Natürlich wollen wir dieses Jahr ähnlich detailliert berichten und besonders darauf eingehen, was dieses Jahr anders gemacht wurde als letztes Jahr.
 
-<a href="/images/breminale_2016/title_image.JPG"><img src="/images/breminale_2016/title_image.JPG" width="600px" alt=""></a>
+<a href="/blog/files/2016-08-09/title_image.jpg"><img src="/blog/files/2016-08-09/title_image.jpg" width="600px" alt=""></a>
 
 Erst wurde es für uns drei Wochen vor Beginn der Breminale mit dem ersten Planung-Treffen. Auf diesem Treffen wurde über die technische Umsetzung, Finanzen, organisatorisches und die Verteilung der Aufgaben geredet. Zwei weitere Treffen folgten, bis wir uns in der Woche vor der Breminale das erste mal am Osterdeich getroffen haben. Zuerst wurde das gesamte Berminalegelände mit allen Stromkästen, Zelten und Ständen kartiert und in den Meshviewer eingepflegt. Die nächsten Tage folgte das Ausrollen der Glasfaser und anschließend der Kupferkabel. Mit den ersten Glasfaserverbindungen konnte das NOC-Team mit der Einrichtung beginnen. Im letzten Schritt wurden die Freifunk-Router verteilt und die Verkabelung optimiert.
 
 Am Breminale-Mittwoch zählte das Netz 76 Freifunk-Router, 73 davon waren WDR3600 und drei WDR4300. im Vergleich zum [letzten Jahr](http://bremen.freifunk.net/blog/2015/07/29/breminale-r%C3%BCckblick.html) wurden von Anfang an deutlich mehr Router eingesetzt. 2015 arbeiteten lediglich 20 Freifunk-Router am ersten Tag im Netz. Das schlug sich natürlich auch in den Nutzerzahlen wieder. Währen letztes Jahr am Mittwoch maximal 500 Geräte das Breminale-Netz gleichzeitig genutzt haben, konnte dieses Jahr die Zahl auf 1300 fast verdreifacht werden. Unseren Rekord vom Breminale-Samstag im letzten Jahr mit über 3000 gleichzeitigen Nutzern konnten wir dieses Jahr jedoch nicht erreichen. Bei ca. 1700 Geräten war am Freitag der Höchstand erreicht. Insgesamt haben über 11000 Menschen das Breminale-Freifunk genutzt.
 
-<a href="/images/breminale_2016/clients1.png"><img src="/images/breminale_2016/clients1.png" width="600px" alt="Clients auf der Breminale"></a>
+<a href="/blog/files/2016-08-09/clients1.png"><img src="/blog/files/2016-08-09/clients1.png" width="600px" alt="Clients auf der Breminale"></a>
 
 Clientzahlen aus Grafana.
 
-<a href="/images/breminale_2016/meshviewer1.png"><img src="/images/breminale_2016/meshviewer1.png" width="600px" alt="Breminale im Meshviewer"></a>
+<a href="/blog/files/2016-08-09/meshviewer1.png"><img src="/blog/files/2016-08-09/meshviewer1.png" width="600px" alt="Breminale im Meshviewer"></a>
 
 Die 76 Freifunk-Router über das Breminalegelände verteilt. Zusätzlich sind die gemappten Elemente eingeblendet.
 
@@ -28,29 +28,29 @@ Grundsätzlich ähnelte das Breminale 2016 Netz dem des Vorjahres. Im Vergleich 
 Im letzten Jahr wurden die Freifunk-Router überall hin verteilt. Einige Router wurden in Strom-Verteilerkästen untergebracht, einige ans Bühnengeländer gehängt und wiedrum andere unter Tresen in Essensständen gelegt. Der damit verbundene Aufwand beim Auf- und Abbau war enorm, die Netzabdeckung hingegen hervorragend. Deshalb haben wir uns dieses Jahr dafür entschieden, die Freifunk-Router physisch weniger zu separieren und mehr Router an einem Ort auf zu stellen. Durch dyanmische Anpassung der Kanäle und Signalstärken war es so möglich, mit akzeptabelen Aufwand trotzdem eine gute Netzabdeckung zu erreichen. Zusätzlich wurden die Router vermehrt außerhalb der Stromkästen in "Outdoor-Boxen" installiert. Zur weiteren Vereinfachung wurden alle Router einer Box über ein gemeinsames Netzteil versorgt. So war es uns möglich, ohne die Elektriker und Elektrikerinnen zu belasten, Änderungen am Netz vorzunehmen. Bei Routern innerhalb der Stromkästen wurde außerdem darauf geachtet, jeweils zwei Ethernet-Kabel aus dem Kasten heraus zu führen, um auch hier das Netz ohne öffnen der Stromkästen erweitern zu können.
 
 
-<a href="/images/breminale_2016/outdoorbox1.jpg"><img src="/images/breminale_2016/outdoorbox1.jpg" width="600px" alt="Outdoorbox am Stromkasten"></a>
+<a href="/blog/files/2016-08-09/outdoorbox1.jpg"><img src="/blog/files/2016-08-09/outdoorbox1.jpg" width="600px" alt="Outdoorbox am Stromkasten"></a>
 
 Outdoorbox am Stromkasten
 
-<a href="/images/breminale_2016/outdoorbox2.jpg"><img src="/images/breminale_2016/outdoorbox2.jpg" width="600px" alt="Outdoorbox geoeffnet"></a>
+<a href="/blog/files/2016-08-09/outdoorbox2.jpg"><img src="/blog/files/2016-08-09/outdoorbox2.jpg" width="600px" alt="Outdoorbox geoeffnet"></a>
 
 Mehrere Router in einer Box
 
 
-<a href="/images/breminale_2016/stromkasten_mit_ethernet.JPG"><img src="/images/breminale_2016/stromkasten_mit_ethernet.JPG" width="600px" alt="Stromkasten mit Rausgeführten Netzwerkkabeln"></a>
+<a href="/blog/files/2016-08-09/stromkasten_mit_ethernet.jpg"><img src="/blog/files/2016-08-09/stromkasten_mit_ethernet.jpg" width="600px" alt="Stromkasten mit Rausgeführten Netzwerkkabeln"></a>
 
 Stromkasten mit rausgeführten Netzwerkkabeln
 
 ### Organisatorisches
 Im letzten Jahr gab es oft das Problem, dass die Kommunikation beim Auf- und Abbau und auch während der Breminale nicht optimal war. Für dieses Jahr wurde deshalb jeder Freifunker mit einem PMR-Handfunkgerät ausgestattet. Es hat sich gezeigt, dass Funkgeräte die Kommunikation wesentlich vereinfachen und viel Lauferei ersparen.
 
-<a href="/images/breminale_2016/pmr.jpg"><img src="/images/breminale_2016/pmr.jpg" width="600px" alt="PMR-Funkgeräte im NOC"></a>
+<a href="/blog/files/2016-08-09/pmr.jpg"><img src="/blog/files/2016-08-09/pmr.jpg" width="600px" alt="PMR-Funkgeräte im NOC"></a>
 
 PMR-Funkgeräte in der Ladestation im NOC
 
 Wie im [Rückblick vom letzten Jahr](http://bremen.freifunk.net/blog/2015/07/29/breminale-r%C3%BCckblick.html) zu lesen, waren wir mit der Resonanz am Freifunkstand vor Ort eher enttäuscht und es war schade um die Arbeit, die in den Aufbau und die Besetzung des Standes geflossen sind. Dieses Jahr wurde deshalb ein unspektakulärer Bauwagen gemietet, der Rückzugsort, Materiallager und NOC bildete. Es wurde zwar vereinzelt mit vorbeilaufenden Gästen über Freifunk gesprochen, aber deutlich weniger als im letzten Jahr. Die Werbung beschränkte sich auf unser Banner, kleine QR-Codes und natürlich das freie WLAN.
 
-<a href="/images/breminale_2016/bauwagen.JPG"><img src="/images/breminale_2016/bauwagen.JPG" width="600px" alt="FreifunkerInnen vor unserem Bauwagen"></a>
+<a href="/blog/files/2016-08-09/bauwagen.jpg"><img src="/blog/files/2016-08-09/bauwagen.jpg" width="600px" alt="FreifunkerInnen vor unserem Bauwagen"></a>
 
 FreifunkerInnen vor unserem Bauwagen
 
@@ -59,17 +59,17 @@ Genauso wie letztes Jahr wurde uns durch [LWLCom](https://www.lwlcom.com/) und m
 
 Ein Blick auf die Auslastung unseres Uplinks zeigt eingehend 17.3Mbit/s und ausgehend 10.5Mbit/s nach der 95% Mittelung. Insgesamt sind über die Leitung 327GB Daten ins Netzwerk geflossen und 154GB verschickt worden. Im Vergleich zum letzten Jahr sind knapp 20% mehr Daten heruntergeladen und gleich viele Daten hochgeladen worden. Für die nächsten Jahre ist noch Luft nach oben!
 
-<a href="/images/breminale_2016/traffic1.png"><img src="/images/breminale_2016/traffic1.png" width="600px" alt="Ein und ausgehender Netzwerkverkehr"></a>
+<a href="/blog/files/2016-08-09/traffic1.png"><img src="/blog/files/2016-08-09/traffic1.png" width="600px" alt="Ein und ausgehender Netzwerkverkehr"></a>
 
 Ein- und ausgehender Netzwerkverkehr über die Leitung von [LWLCom](https://www.lwlcom.com/).
 
 Die gesamte Hardware sowie der 1Gbit-Uplink wurde uns von [LWLCom](https://www.lwlcom.com/) und der [Digineo GmbH](https://www.digineo.de/) sowie einzelnen Privatpersonen gesponsort. Wir möchten uns für diese Hilfe herzlich bedanken, ohne die Hardware und die Anbindung wäre ein solches Netz nicht realisierbar gewesen.
 
-<a href="/images/breminale_2016/noc1.jpg"><img src="/images/breminale_2016/noc1.jpg" width="600px" alt="Blick ins NOC"></a>
+<a href="/blog/files/2016-08-09/noc1.jpg"><img src="/blog/files/2016-08-09/noc1.jpg" width="600px" alt="Blick ins NOC"></a>
 
 Blick ins NOC während des Aufbaus
 
-<a href="/images/breminale_2016/noc2.jpg"><img src="/images/breminale_2016/noc2.jpg" width="600px" alt="Blick ins NOC"></a>
+<a href="/blog/files/2016-08-09/noc2.jpg"><img src="/blog/files/2016-08-09/noc2.jpg" width="600px" alt="Blick ins NOC"></a>
 
 Blick ins NOC während der Breminale
 
@@ -91,22 +91,22 @@ Hier konnten, ähnlich wie im letzten Jahr, Einstellungen wie Namen und Koordina
 Zusätzlich zu Grafana und dem Meshviewer wurde eine Observium-Instanz und ein Icinga genutzt um die Router und den Uplink zu überwachen. Über einen zentralisierten Syslog konnte schnell auf Probleme reagiert werden.
 
 
-<a href="/images/breminale_2016/dashboard-monitor.png"><img src="/images/breminale_2016/dashboard-monitor.png" width="600px" alt="Grafana Dashboard"></a>
+<a href="/blog/files/2016-08-09/dashboard-monitor.png"><img src="/blog/files/2016-08-09/dashboard-monitor.png" width="600px" alt="Grafana Dashboard"></a>
 
 Grafana Dashboard
 
-<a href="/images/breminale_2016/dashboard-breminale.png"><img src="/images/breminale_2016/dashboard-breminale-small.png" width="100px" alt="Grafana Dashboard"></a>
+<a href="/blog/files/2016-08-09/dashboard-breminale.png"><img src="/blog/files/2016-08-09/dashboard-breminale-small.png" width="100px" alt="Grafana Dashboard"></a>
 
 Komplettes Grafana Dashboard (klick zum Vergrößern)
 
 ### Sonstiges
 Einer unserer Freifunker, der sonst auch professionelle WLAN installationen einrichtet hat sich den Spaß gemacht und die Signalstärke und Signalqualität des Netzes gemessen. Über ein Tablet mit GPS und WLAN-Antennen konnte so eine Karte der Signalstärke erstellt werden. Durch die einfachere Verteilung der Router war der Empfang nicht überall ausreichend und es sind auf der Karte graue Flecken zu sehen.
 
-<a href="/images/breminale_2016/signalrauschabstand.png"><img src="/images/breminale_2016/signalrauschabstand.png" width="600px" alt="signalrauschabstand"></a>
+<a href="/blog/files/2016-08-09/signalrauschabstand.png"><img src="/blog/files/2016-08-09/signalrauschabstand.png" width="600px" alt="signalrauschabstand"></a>
 
 Signalrauschabstand auf dem Breminalegelände (erzeugt mit Erahau Site Survey)
 
-<a href="/images/breminale_2016/signalstaerke.png"><img src="/images/breminale_2016/signalstaerke.png" width="600px" alt="signalstaerke"></a>
+<a href="/blog/files/2016-08-09/signalstaerke.png"><img src="/blog/files/2016-08-09/signalstaerke.png" width="600px" alt="signalstaerke"></a>
 
 Signalstaerkeauf dem Breminalegelände (erzeugt mit Erahau Site Survey)
 
@@ -119,5 +119,5 @@ Die lockere und leichte Zusammenarbeit mit dem [Veranstalter](http://www.sternku
 
 Ein typischer Breminale Tag vor dem Bauwagen und im NOC:
 
-<a href="/images/breminale_2016/wasfuer1life.JPG"><img src="/images/breminale_2016/wasfuer1life.JPG" width="300px" alt=""></a>
-<a href="/images/breminale_2016/wasfuer1life2.JPG"><img src="/images/breminale_2016/wasfuer1life2.JPG" width="300px" alt=""></a>
+<a href="/blog/files/2016-08-09/wasfuer1life.jpg"><img src="/blog/files/2016-08-09/wasfuer1life.jpg" width="300px" alt=""></a>
+<a href="/blog/files/2016-08-09/wasfuer1life2.jpg"><img src="/blog/files/2016-08-09/wasfuer1life2.jpg" width="300px" alt=""></a>
