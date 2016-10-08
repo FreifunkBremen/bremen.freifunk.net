@@ -11,12 +11,12 @@ Mit einer [ersten Richtfunkstrecke](http://bremen.freifunk.net/meshviewer/#!l:c4
 
 Die Weserquerung wurde mit zwei CPE210-Routern realisiert, die durch ihre Richtwirkung für solche langen Strecken gut geeignet sind. Bei der Verbindung zum Viertel ergab es sich dagegen so, dass der existierende [steintor5-Knoten](http://bremen.freifunk.net/meshviewer/#!n:e894f629786c) mit seinem einfachen WR841N-Router direkt erreichbar war und dadurch gleich der Stadtwerder ans Internet angeschlossen werden konnte. Zusätzlich gibt es aber auch am Osterdeich selbst noch einen Internet-Uplink, der über zwei WR841N im Haus bis zum Dach weitergeleitet wird.
 
-<img src="/images/osterdeich1.jpeg" style="padding: 1em" />
-<img src="/images/osterdeich2.jpeg" style="padding: 1em" />
-<img src="/images/osterdeich8.jpeg" style="padding: 1em" />
-<img src="/images/osterdeich4.jpeg" style="padding: 1em" />
-<img src="/images/osterdeich7.jpeg" style="padding: 1em" />
-<img src="/images/osterdeich3.jpeg" style="padding: 1em" />
-<img src="/images/osterdeich5.jpeg" style="padding: 1em" />
+<img src="/blog/files/2015-08-20/osterdeich1.jpg" style="padding: 1em" />
+<img src="/blog/files/2015-08-20/osterdeich2.jpg" style="padding: 1em" />
+<img src="/blog/files/2015-08-20/osterdeich8.jpg" style="padding: 1em" />
+<img src="/blog/files/2015-08-20/osterdeich4.jpg" style="padding: 1em" />
+<img src="/blog/files/2015-08-20/osterdeich7.jpg" style="padding: 1em" />
+<img src="/blog/files/2015-08-20/osterdeich3.jpg" style="padding: 1em" />
+<img src="/blog/files/2015-08-20/osterdeich5.jpg" style="padding: 1em" />
 
 Für die Zukunft sind weitere Richtfunkstrecken zwar schon in der Planung, aber es gibt immer noch Bedarf an hohen Standorten, an denen (Richtfunk-)Antennen angebracht werden können. Wenn du also dabei mitmachen willst, das Bremer Freifunknetz zu erweitern, dann besuch uns einfach mal: per [Mail](mailto:info@bremen.freifunk.net), im [Chat](https://webirc.hackint.org/#ffhb), auf [Facebook](https://www.facebook.com/FreifunkBremen), oder bei einem unserer [Treffen](http://bremen.freifunk.net/kontakt.html)! 

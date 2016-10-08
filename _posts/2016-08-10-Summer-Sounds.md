@@ -19,4 +19,4 @@ nachts geben, anschliessend gibts eine After-SummerSounds-Party im Modernes.
 Kommt vorbei!
 
 
-<a href="/images/summersounds_planed_nodes.png"><img src="/images/summersounds_planed_nodes.png" width="600px" alt=""></a>
+<a href="/blog/files/2016-08-10/summersounds_planed_nodes.png"><img src="/blog/files/2016-08-10/summersounds_planed_nodes.png" width="600px" alt=""></a>

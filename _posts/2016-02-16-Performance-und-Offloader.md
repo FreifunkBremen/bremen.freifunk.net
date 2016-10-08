@@ -37,16 +37,16 @@ In unserem Wiki befindet sich mittlerweile eine [Anleitung](http://wiki.bremen.f
 Der Futro lässt sich mit einer zusätzlichen Netzwerkkarte (oder VLANs) mit wenigen Handgriffen als leistungsstarker Freifunk-Offloader nutzen.
 Beim Einrichten weiterer Futros oder anderer Offloader helfen wir natürlich auf der [Mailingliste](http://bremen.freifunk.net/kontakt.html) oder auf [Treffen](http://wiki.bremen.freifunk.net/Home#infos-zu-unseren-treffen) gerne!
 
-<img src="/images/offloader_dual_nic.jpg" title="Offloader Futro" />
+<img src="/blog/files/2016-02-16/offloader_dual_nic.jpg" title="Offloader Futro" />
 
 Der Futro Offloader mit einem zweiten Freifunk-Router
 
 Um die Grenzen unseres Netzes und des Offloaders heraus zu finden, wurde eine Benchmark-Reihe mit dem Offloader in Kombination mit verschiedenen Gateways durchgeführt.
 
-<img src="/images/benchmark_offloader_down.png" title="Downloadspeed Offloader" />
+<img src="/blog/files/2016-02-16/benchmark_offloader_down.png" title="Downloadspeed Offloader" />
 Downloadgeschwindigkeit über den Offloader je Gateway (VDSL50 Anschluss)
 
-<img src="/images/benchmark_offloader_up.png" title="Uploadspeed Offloader" />
+<img src="/blog/files/2016-02-16/benchmark_offloader_up.png" title="Uploadspeed Offloader" />
 Uploadgeschwindigkeit über den Offloader je Gateway (VDSL50 Anschluss)
 
 Es zeigt sich, dass der Offloader den VDSL50 Anschluss voll auslasten kann. Das Surfen im Internet fühlt sich hinter dem Offloader an wie am normalen DSL-Anschluss, ohne Freifunk dazwischen.
