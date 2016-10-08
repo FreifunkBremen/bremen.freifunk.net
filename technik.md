@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Technik
+category_id: 2
 ---
 ## Netzwerk
 
