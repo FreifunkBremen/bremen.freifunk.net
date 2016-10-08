@@ -59,6 +59,36 @@ document.addEventListener("DOMContentLoaded", function() {
   });
   window.dispatchEvent(new CustomEvent("throttledScroll"));
 
+  // swipe in menu from the left
+  (function() {
+    var startY, startTime, startX = 20, endX = 150, distY = 100, max_time = 200;
+    window.addEventListener('touchstart', function(ev) {
+      if (window.innerWidth >= 720)
+        return;
+      var touch = ev.changedTouches[0];
+      if (touch.clientX > startX)
+        return;
+      startY = touch.clientY;
+      startTime = new Date().getTime();
+    });
+    window.addEventListener('touchmove', function(ev) {
+      if (!startY)
+        return;
+      var touch = ev.changedTouches[0];
+      var failed = Math.abs(startY - touch.clientY) > distY || new Date().getTime() - startTime > max_time;
+      var finished = touch.clientX > endX;
+      if (!failed && finished) {
+        document.body.classList.add("navopen");
+        ev.preventDefault();
+      }
+      if (failed || finished) {
+        startY = undefined;
+        startTime = undefined;
+        return;
+      }
+      ev.preventDefault();
+    });
+  })();
 });
 
 // vim: syntax=javascript sw=2 ts=2 sts=2 et
