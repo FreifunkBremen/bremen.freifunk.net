@@ -16,8 +16,11 @@
     text-decoration: none;
   }
 
+  a span {
+    background: rgba($freifunk_magenta, 0.9);
+  }
   a:hover span {
-    background: lighten($freifunk_magenta, 5%);
+    background: rgba(lighten($freifunk_magenta, 5%), 0.9);
   }
 }
 @media (max-width: 1920px) {
@@ -106,8 +109,13 @@ section#termine .flex {
     width: 330px;
   }
 }
-section:nth-child(even)#karte a:hover span {
-  background: darken($freifunk_gelb, 5%);
+section:nth-child(even)#karte {
+  a span {
+    background: rgba($freifunk_gelb, 0.9);
+  }
+  a:hover span {
+    background: rgba(darken($freifunk_gelb, 5%), 0.9);
+  }
 }
 
 section#partner .flex {
