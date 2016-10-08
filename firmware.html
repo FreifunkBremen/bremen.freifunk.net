@@ -1,0 +1,31 @@
+---
+title: Firmware
+layout: nosection
+category_id: 1
+---
+<section class="wide">
+<h2>Firmware finden</h2>
+<div class="center">
+    <input type="search" id="model-search" placeholder="Modell eingeben…">
+    <p class="center">oder</p>
+    <a href="#all" class="btn" id="show-all">alle anzeigen</a>
+</div>
+<template id="model-template">
+    <div class="model">
+        <span class="name"></span>
+        <ul class="links">
+            <li class="factory"><a class="btn" href="">Erstinstallation</a></li>
+            <li class="update"><a class="btn" href="">Update</a></li>
+        </ul>
+    </div>
+</template>
+<div id="models"></div>
+<script src="assets/firmware.js?{{ site.data['hash'] }}"></script>
+
+<p class="small">
+    Die Bilder der Router kommen von
+    <a href="https://github.com/Moorviper/Freifunk-Router-Anleitungen">Daniel Krah</a>
+    und sind lizensiert unter
+    <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC-BY-NC-SA 4.0</a>.
+</p>
+</section>
