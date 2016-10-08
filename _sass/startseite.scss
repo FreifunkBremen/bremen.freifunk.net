@@ -46,6 +46,9 @@
 
 #twitter {
   max-width: 400px;
+  width: 100%;
+  box-sizing: border-box;
+  word-wrap: break-word;
   margin: 0 auto;
 }
 .tweet {

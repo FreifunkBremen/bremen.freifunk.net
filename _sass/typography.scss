@@ -1,9 +1,11 @@
 h2 {
   font-size: 34px;
+  hyphens: auto;
 }
 
 h3 {
   font-size: 28px;
+  hyphens: auto;
 }
 
 html {
@@ -22,8 +24,8 @@ a:hover {
 }
 
 p {
-    text-align: justify;
-    hyphens: auto;
+  text-align: justify;
+  hyphens: auto;
 }
 
 /* vim: syntax=css sw=2 ts=2 sts=2 et
