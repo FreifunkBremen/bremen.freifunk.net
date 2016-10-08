@@ -38,11 +38,11 @@ layout: compress
       </a>
       <ul id="mainnav">
 {% for category in site.data.menu %}
-        <li data-catid="{{ category.id }}"{% if category.id == 0 %} class="active"{% endif %}>
+        <li data-catid="{{ category.id }}"{% if category.id == page.category_id %} class="active"{% endif %}>
           <a>{{ category.name }}</a>
           <ul>
 {% for item in category.items %}
-            <li><a href="{{ item.link }}?catid={{ category.id }}">{{ item.name }}</a>
+            <li><a href="{{ item.link }}">{{ item.name }}</a>
 {% endfor %}
           </ul>
 {% endfor %}
