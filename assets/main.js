@@ -8,13 +8,6 @@ document.addEventListener("DOMContentLoaded", function() {
       this.parentNode.classList.add("active");
     });
   });
-  var match = document.location.search.match(/^[\?\&]catid=(\d+)($|\&)/);
-  if (match) {
-    var catid = match[1];
-    var catlink = document.querySelector("#mainnav [data-catid=\"" + catid + "\"] > a");
-    if (catlink)
-      catlink.dispatchEvent(new CustomEvent("click"));
-  }
 
   [].forEach.call(document.querySelectorAll("#navbutton, #blur"), function(elem) {
       elem.addEventListener("click", function(elem) {
