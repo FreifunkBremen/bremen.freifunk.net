@@ -22,7 +22,7 @@
     - name: Anleitungen
       link: /anleitungen.html
     - name: Firmware
-      link: /firmware/
+      link: /firmware.html
     - name: Referenzen
       link: /referenzen.html
     - name: Hardware
@@ -37,7 +37,7 @@
     - name: Mailingliste
       link: /kontakt.html
     - name: Firmware
-      link: /firmware/
+      link: /firmware.html
     - name: Wiki
       link: //wiki.bremen.freifunk.net/
     - name: Technik
