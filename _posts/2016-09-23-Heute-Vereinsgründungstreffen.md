@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Heute Vereinsgründungstreffen"
+title:  "Heute Vereins­gründungstreffen"
 author: SimJoSt
 date:   2016-09-23 16:52:07 +0200
 ---
