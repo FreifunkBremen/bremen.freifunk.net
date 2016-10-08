@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Freifunk für Flüchtlinge
+category_id: 1
 ---
 # Freifunk für Flüchtlinge
 

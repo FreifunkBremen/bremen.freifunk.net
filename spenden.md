@@ -1,6 +1,7 @@
 ---
 layout: default
 title:  Spenden
+category_id: 3
 ---
 # Spenden
 

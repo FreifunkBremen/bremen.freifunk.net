@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Mitmachen
+category_id: 1
 ---
 # Mitmachen
 
