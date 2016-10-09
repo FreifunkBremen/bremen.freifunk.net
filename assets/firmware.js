@@ -39,7 +39,7 @@ document.addEventListener("DOMContentLoaded", function() {
       if (lineparts.length != 4)
         return;
       for (vendor in vendors) {
-        if (model.startsWith(vendor)) {
+        if (model.indexOf(vendor) == 0) {
           var name = new Array(),
             model = model.substr(vendor.length + 1);
           model.split('-').forEach(function(part) {
