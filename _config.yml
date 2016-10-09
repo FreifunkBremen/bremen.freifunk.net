@@ -6,7 +6,6 @@ gems: [jekyll-paginate]
 timezone: Europe/Berlin
 encoding: UTF-8
 
-future: true
 permalink: /blog/:year/:month/:day/:slug.html
 url: http://bremen.freifunk.net
 
