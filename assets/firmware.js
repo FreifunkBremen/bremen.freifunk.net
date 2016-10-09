@@ -72,7 +72,10 @@ document.addEventListener("DOMContentLoaded", function() {
         container = tmpl.querySelector('.model'),
         has_factory = true;
       container.style.backgroundImage = "url('/images/routers/" + model.vendor + "-" + model.id + ".svg')";
-      container.dataset.searchterms = vendors[model.vendor] + " " + model.model;
+      container.dataset.searchterms =
+        vendors[model.vendor].toLowerCase().replace(/[^a-z0-9]/g, '')
+        + " " +
+        model.model.toLowerCase().replace(/[^a-z0-9]/g, '');
       container.querySelector('.name').textContent = vendors[model.vendor] + " " + model.model;
       container.querySelector('.update a').href = firmware_base_url + branch + '/sysupgrade/' + model.file;
       no_factory.forEach(function(pattern) {
@@ -100,7 +103,7 @@ document.addEventListener("DOMContentLoaded", function() {
     [].forEach.call(document.querySelectorAll('#models .model'), function(a) {
       var show = true;
       searchterms.forEach(function(searchterm) {
-        if (a.dataset.searchterms.toLowerCase().indexOf(searchterm) == -1)
+        if (a.dataset.searchterms.indexOf(searchterm.replace(/[^a-z0-9]/g, '')) == -1)
           show = false;
       });
       a.style.display = show? "block" : "";
