@@ -1,6 +1,8 @@
 ---
 ---
 document.addEventListener("DOMContentLoaded", function() {
+  var scrolling = false;
+
   // Make navigation categories clickable
   [].forEach.call(document.querySelectorAll("#mainnav > li > a"), function(elem) {
     elem.addEventListener("click", function(ev) {
@@ -50,7 +52,7 @@ document.addEventListener("DOMContentLoaded", function() {
     else if (window.scrollY < threshold_up)
       header.classList.remove('fixed');
 
-    if (window.scrollY < last_scrollY || window.scrollY < threshold_up)
+    if (!scrolling && (window.scrollY < last_scrollY || window.scrollY < threshold_up))
       header.classList.add('detail');
     else if (window.scrollY > last_scrollY)
       header.classList.remove('detail');
@@ -87,6 +89,52 @@ document.addEventListener("DOMContentLoaded", function() {
         return;
       }
       ev.preventDefault();
+    });
+  })();
+
+  // smooth scroll to anchor
+  (function() {
+    var target, interval, timeLapsed, startPos, distance, duration = 512, stepSize = 16;
+    var scrollLoop = function() {
+      timeLapsed += stepSize;
+      var percentage = Math.min(1, timeLapsed / duration),
+        position = startPos + (distance * (
+          (percentage < 0.5)? 2 * percentage * percentage : -1 + (4 - 2 * percentage ) * percentage
+        ));
+        window.scrollTo(0, Math.floor(position));
+        if (percentage == 1) {
+          clearInterval(interval);
+          target.focus();
+          setTimeout(function() { scrolling = false; }, 16);
+        }
+    };
+    [].forEach.call(document.querySelectorAll('a[href*="#"]'), function(elem) {
+      var href = elem.href.split('#');
+      if (href[0] != document.location.href.split('#')[0])
+        return;
+      href = decodeURIComponent(href[1]);
+      if (!document.getElementById(href))
+        return;
+      elem.addEventListener('click', function(ev) {
+        target = document.getElementById(href);
+        timeLapsed = 0;
+        startPos = window.pageYOffset;
+        distance = -startPos;
+        if (window.innerWidth >= 720)
+          distance -= document.querySelector('#mainnav li.active ul').offsetHeight;
+        var anchor = target;
+        while (anchor) {
+          distance += anchor.offsetTop;
+          anchor = anchor.offsetParent;
+        }
+        scrolling = true;
+        target.id = '';
+        document.location.hash = '#' + href;
+        target.id = href;
+        clearInterval(interval);
+        interval = setInterval(scrollLoop, stepSize);
+        ev.preventDefault();
+      });
     });
   })();
 });
