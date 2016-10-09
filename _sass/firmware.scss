@@ -33,7 +33,7 @@
     background: #fff;
 }
 .links {
-    height: 150px;
+    height: 175px;
     width: 100%;
     transition: bottom .4s;
     position: absolute;
@@ -47,7 +47,7 @@
     justify-content: center;
 }
 .model:hover .links {
-    bottom: 25px;
+    bottom: 0px;
 }
 .links li {
     margin: 10px 0;
