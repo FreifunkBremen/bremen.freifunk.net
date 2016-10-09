@@ -61,7 +61,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
   // swipe in menu from the left
   (function() {
-    var startY, startTime, startX = 20, endX = 150, distY = 100, max_time = 200;
+    var startY, startTime, startX = 50, endX = 150, distY = 100, max_time = 200;
     window.addEventListener('touchstart', function(ev) {
       if (window.innerWidth >= 720)
         return;
