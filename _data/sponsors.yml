@@ -1,18 +1,18 @@
 - name: LWLcom
-  url: http://www.lwlcom.com/
+  url: https://www.lwlcom.com/
   img: lwlcom.png
 - name: Plutex
-  url: http://www.plutex.de/
-  img: plutex.png
+  url: https://www.plutex.de/
+  img: plutex.svg
 - name: Digineo
-  url: http://www.digineo.de/
+  url: https://www.digineo.de/
   img: digineo.svg
 - name: Freifunk Hamburg
   url: https://hamburg.freifunk.net/
   img: ffhh.png
 - name: Freifunk Rheinland
-  url: https://freifunk-rheinland.net/
-  img: ffrl.png
+  url: https://www.freifunk-rheinland.net/
+  img: ffrl.svg
 - name: Hackerspace Bremen
-  url: http://hackerspace-bremen.de/
+  url: https://www.hackerspace-bremen.de/
   img: hshb.png

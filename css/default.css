@@ -127,4 +127,8 @@ p, dd {
 	vertical-align: middle;
 	margin: 0 auto 15px;
 	max-width: 100%;
+	max-height: 100px;
+}
+.sponsors img[src$=".svg"] {
+	width: 100%;
 }
