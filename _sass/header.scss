@@ -129,6 +129,7 @@
     width: 1.5em;
     border-top: 0.75em double #fff;
     border-bottom: 0.25em solid #fff;
+    display: block;
   }
 }
 
@@ -210,7 +211,7 @@ body {
     }
 
     #navbutton {
-      display: flex;
+      display: block;
     }
 
     nav {
