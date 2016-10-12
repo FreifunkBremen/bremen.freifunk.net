@@ -9,6 +9,7 @@ Da bei dieser Version Images für die Archer C5/C7 Geräte fehlten, wurde diese 
 
 Am 21.09.2016 wurde zudem Gluon [2016.2](https://wiki.bremen.freifunk.net/Firmware/Changelog#gluon-versionen_2016-2) fertiggestellt und wir haben bereits 2 Firmware-Versionen auf dieser Basis gebaut. Jedoch gibt es noch Probleme mit dem WLAN-Modul vieler Geräte, weshalb diese Version noch nicht über das Autoupdate an die Bremer Geräte verteilt wird. Wir erwarten jedoch, dass in naher Zukunft 2016.2.1 mit den entsprechenden Fehlerkorrekturen folgen wird.  
 Mit diesem Major-Release erhalten einige Neuerungen und Fehlerkorrekturen Einzug:
+
 - bessere Unterstützung für Archer C5/C7
 - eine Menge neuer Geräte werden unterstützt
 - verbesserter SSH-Server auf den Knoten
