@@ -116,6 +116,7 @@ document.addEventListener("DOMContentLoaded", function() {
       if (!document.getElementById(href))
         return;
       elem.addEventListener('click', function(ev) {
+        document.body.classList.remove("navopen");
         target = document.getElementById(href);
         timeLapsed = 0;
         startPos = window.pageYOffset;
