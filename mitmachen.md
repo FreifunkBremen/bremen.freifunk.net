@@ -32,18 +32,23 @@ Aber natürlich kannst du auch selbst deinen Freifunk-Router bestellen. Dabei ei
     <span class="badge">~20 €</span>
   </li>
   <li class="list-group-item">
+    <strong>Mittelklasse:</strong>
+    TP-Link TL-WR1043ND V3
+    <span class="badge">~40 €</span>
+  </li>
+  <li class="list-group-item">
     <strong>Viele Nutzer/5 GHz:</strong>
-    TP-Link TL-WDR4300
-    <span class="badge">~50 €</span>
+    TP-Link Archer C5 V1 oder C7 V2 
+    <span class="badge">80-90 €</span>
   </li>
   <li class="list-group-item">
     <strong>Outdoor für Clients:</strong>
-    Ubiquiti NanoStation M2 Loco, 8dBi, 2.4GHz
+    TP-Link CPE210
     <span class="badge">~40 €</span>
   </li>
   <li class="list-group-item">
     <strong>Outdoor für Meshing:</strong>
-    Ubiquiti NanoStation M5 Loco, 13 dBi, 5 GHz
+    TP-Link CPE510
     <span class="badge">~55 €</span>
   </li>
 </ul>
