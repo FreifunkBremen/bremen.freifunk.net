@@ -126,6 +126,8 @@ document.addEventListener("DOMContentLoaded", function() {
     };
     xhr.send();
   })();
+
+  // Twitter
   (function() {
     var xhr = window.XMLHttpRequest? new XMLHttpRequest() : new ActiveXObject('Microsoft.XMLHTTP');
     xhr.open('GET', '/api/tweets.json');
@@ -159,6 +161,26 @@ document.addEventListener("DOMContentLoaded", function() {
         }
         tweets_elem.appendChild(tmpl);
       });
+    };
+    xhr.send();
+  })();
+
+  // Statistics
+  (function() {
+    var xhr = window.XMLHttpRequest? new XMLHttpRequest() : new ActiveXObject('Microsoft.XMLHTTP'),
+      query = 'SELECT last("clients.total") AS "clients", last("nodes") AS "nodes" FROM "global"';
+    xhr.open('GET', 'http://5.9.250.32:8086/query?db=breminale&q=' + encodeURIComponent(query) + '&u=public&p=public');
+    xhr.onreadystatechange = function() {
+      if (xhr.readyState <= 3 || xhr.status != 200)
+        return;
+      var values = JSON.parse(xhr.responseText).results[0].series[0].values[0],
+        clients = values[1],
+        nodes = values[2],
+        btn = document.querySelector('#karte .btn'),
+        container = document.createElement('span');
+      container.id = 'stats';
+      container.textContent = nodes + ' Knoten, ' + clients + ' Nutzer';
+      btn.appendChild(container);
     };
     xhr.send();
   })();

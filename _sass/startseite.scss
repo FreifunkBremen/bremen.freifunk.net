@@ -22,6 +22,10 @@
   a:hover span {
     background: rgba(lighten($freifunk_magenta, 5%), 0.9);
   }
+  #stats {
+    display: block;
+    font-size: 70%;
+  }
 }
 @media (max-width: 1920px) {
   #karte {
