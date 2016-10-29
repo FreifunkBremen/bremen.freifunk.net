@@ -3,48 +3,17 @@ layout: default
 title: News
 header: <link rel="alternate" type="application/rss+xml" title="News als RSS-Feed" href="/blog/feed.xml"><link rel="alternate" type="application/atom+xml" title="News als Atom-Feed" href="/blog/atom.xml">
 ---
-
-{% for post in paginator.posts %}
-{% include blogpost.html post=post content=post.content %}
+<h2>News</h2>
+<ul class="newslist">
+{% for post in site.posts %}
+  <li>
+    {% assign m = post.date | date: "%m" | minus: 1 %}
+    <span class="date">
+        {{ post.date | date: "%-d." }}
+        {{ site.data.months.short[m] }}
+        {{ post.date | date: "%Y" }}
+    </span>
+    <a href="{{ post.url }}" class="title">{{ post.title }}</a>
+  </li>
 {% endfor %}
-
-{% if paginator.total_pages > 1 %}
-<ul class="pagination">
-  {% if paginator.previous_page %}
-  <li>
-    <a href="{{ paginator.previous_page_path | prepend: "/" | prepend: site.baseurl | replace: '//', '/' }}" aria-label="Vorherige">
-  {% else %}
-  <li class="disabled">
-    <a href="#" aria-label="Vorherige">
-  {% endif %}
-      <span aria-hidden="true">&laquo;</span>
-    </a>
-  </li>
-  {% for page in (1..paginator.total_pages) %}
-    {% if page == paginator.page %}
-  <li class="active">
-    {% else %}
-  <li>
-    {% endif %}
-    {% if page == 1 %}
-    <a href="{{ '/blog/index.html' | prepend: site.baseurl | replace: '//', '/' }}">
-    {% else %}
-    <a href="{{ site.paginate_path | prepend: "/" | prepend: site.baseurl | replace: '//', '/' | replace: ':num', page }}">
-    {% endif %}
-      {{ page }}
-    </a>
-  </li>
-  {% endfor %}
-
-  {% if paginator.next_page %}
-  <li>
-    <a href="{{ paginator.next_page_path | prepend: "/" | prepend: site.baseurl | replace: '//', '/' }}" aria-label="Nächste">
-  {% else %}
-  <li class="disabled">
-    <a href="#" aria-label="Nächste">
-  {% endif %}
-      <span aria-hidden="true">&raquo;</span>
-    </a>
-  </li>
-</div>
-{% endif %}
+</ul>
