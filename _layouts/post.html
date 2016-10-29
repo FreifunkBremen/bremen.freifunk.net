@@ -1,14 +1,14 @@
 ---
-layout: default
+layout: nosection
 ---
+<section>
 {% include blogpost.html post=page content=content full=1 %}
-<nav>
-    <ul class="pager">
+</section>
+<ul class="pager" role="navigation">
 {% if page.next %}
-        <li class="previous"><a href="{{ page.next.url }}">← Neuerer Eintrag: „{{ page.next.title }}“</a></li>
+    <li><a href="{{ page.next.url }}"><span>Neuerer Eintrag: „{{ page.next.title }}“</span></a></li>
 {% endif %}
 {% if page.previous %}
-        <li class="next"><a href="{{ page.previous.url}}">Älterer Eintrag: „{{page.previous.title}}“ →</a></li>
+    <li><a href="{{ page.previous.url}}"><span>Älterer Eintrag: „{{page.previous.title}}“</span></a></li>
 {% endif %}
-    </ul>
-</nav>
+</ul>
