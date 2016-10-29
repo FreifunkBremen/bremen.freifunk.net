@@ -1,20 +1,38 @@
 <article class="newsitem">
 <header>
-    <h2><a href="{{ include.post.url }}">{{ include.post.title }}</a></h2>
+{% if include.full == 1 %}
+    <h2>
+{% else %}
+    <h3>
+        <a href="{{ include.post.url }}">
+{% endif %}
+        {{ include.post.title }}
+{% if include.full == 1 %}
+    </h2>
+{% else %}
+        </a>
+    </h3>
+{% endif %}
     <div class="metadata">
-        <time datetime="">{{ include.post.date | date: "%d. %b %Y" }}</time>
+        <time datetime="">
+            {% assign m = include.post.date | date: "%m" | minus: 1 %}
+            {{ include.post.date | date: "%d." }}
+            {{ site.data.months.long[m] }}
+            {{ include.post.date | date: "%Y" }}
+        </time>
 {% if include.post.author %}
-        <address>{{ include.post.author|default:'Freifunk Bremen' }}</address>
+        <address>{{ include.post.author }}</address>
 {% endif %}
     </div>
 </header>
 
 <div class="post">
 {% if include.full %}
-{{ include.content | replace_first:site.more_sep,'' }}
-{% elsif include.content contains site.more_sep %}
-{{ include.content | split:site.more_sep | first }}<a href="{{ include.post.url }}">… Weiterlesen…</a>
+{{ include.content }}
 {% else %}
-{{ include.content | truncatewords:100, '' }}<a href="{{ include.post.url }}">… Weiterlesen…</a>
+{{ include.post.excerpt | remove:'</p>' | rstrip }}
+{% if include.post.excerpt != include.post.content %}<a href="{{ include.post.url }}"> (Weiterlesen)</a>{% endif %}
+</p>
 {% endif %}
 </div>
+</article>

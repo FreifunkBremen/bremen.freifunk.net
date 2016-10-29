@@ -1,16 +1,11 @@
 name: Freifunk Bremen
 description: Freifunk steht für freie Kommunikation in digitalen Datennetzen. Wir verstehen frei als öffentlich zugänglich, nicht kommerziell, im Besitz der Gemeinschaft und unzensiert.
 
-gems: [jekyll-paginate]
-
 timezone: Europe/Berlin
 encoding: UTF-8
 
 permalink: /blog/:year/:month/:day/:slug.html
 url: http://bremen.freifunk.net
-
-paginate: 5
-paginate_path: blog/page/:num
 
 exclude: ['wiki', 'README.md', 'Gemfile', 'Gemfile.lock', 'api/config.php.example', 'images/icons']
 keep_files: ['.htaccess', 'webhook.php', 'in_freifunk.php', 'meshviewer', 'api/config.php', 'api/cache/']
