@@ -37,6 +37,25 @@ section:nth-child(even) .newsitem {
   content: none;
 }
 
+.pager {
+  padding: 0;
+
+  li {
+    float: left;
+    list-style-type: none;
+    padding: 10px;
+  }
+  li:first-child span::before {
+    content: "← ";
+  }
+  li:last-child {
+    float: right;
+  }
+  li:last-child span::after {
+    content: " →";
+  }
+}
+
 .newslist {
   list-style: none;
   padding: 0;
