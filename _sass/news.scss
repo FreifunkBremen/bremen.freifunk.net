@@ -37,5 +37,49 @@ section:nth-child(even) .newsitem {
   content: none;
 }
 
+.newslist {
+  list-style: none;
+  padding: 0;
+  li {
+    padding: 0;
+  }
+  .date {
+    font-style: italic;
+  }
+}
+@media (min-width: 480px) {
+  .newslist {
+    display: table;
+
+    li {
+      display: table-row;
+    }
+    li > * {
+      display: table-cell;
+    }
+    .date {
+      white-space: nowrap;
+      padding: 0 0 10px 0;
+      text-align: right;
+    }
+    .title {
+      padding: 0 0 10px 30px;
+      background: no-repeat 10px 0 url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="10"><path d="M5,0l0,1000" stroke="%23ccc"/><circle r="5" cx="5" cy="15" fill="%23ccc"/></svg>');
+    }
+    .title:hover {
+      background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="10"><path d="M5,0l0,1000" stroke="%23ccc"/><circle r="5" cx="5" cy="15" fill="%23dc0067"/></svg>');
+    }
+  }
+}
+@media (max-width: 479px) {
+  .newslist .date {
+    padding: 0;
+  }
+  .newslist .title {
+    display: block;
+    padding: 0 0 10px 20px;
+  }
+}
+
 /* vim: syntax=css sw=2 ts=2 sts=2 et
  */
