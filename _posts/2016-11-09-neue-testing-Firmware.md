@@ -9,6 +9,7 @@ Seit gestern Abend steht unsere neue Firmware 2016.2.1+bremen1 allen Freifunk Br
 Dies ist die erste Freifunk Bremen Firmware auf Basis von Gluon 2016.2.x, da beim initialen Release dieser Major-Version von Gluon noch einige WLAN-Probleme auftraten. Dank der unermüdlichen Arbeit vieler Freiwilliger wurden die betroffenen Änderungen identifiziert und rückgängig gemacht, während gleichzeitig die Verbesserungen beibehalten werden konnten. Danke dafür!
 
 Dies sind alle Änderungen, welche mit der neuen Firmware Einzug in das Bremer Netz halten:
+
 - spezifische Freifunk Bremen Änderungen seit der letzten Stable
     - Abschaltung eines veralteten WLAN-Standards, welcher zu massiven Geschwindigkeitseinbußen führen kann
     - IPv6-Gateways werden nicht mehr zufällig vom Client ausgewählt, sondern das optimale wird vom Knoten zugeteilt (wie bei IPv4)
