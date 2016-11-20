@@ -169,7 +169,7 @@ document.addEventListener("DOMContentLoaded", function() {
   (function() {
     var xhr = window.XMLHttpRequest? new XMLHttpRequest() : new ActiveXObject('Microsoft.XMLHTTP'),
       query = 'SELECT last("clients.total") AS "clients", last("nodes") AS "nodes" FROM "global"';
-    xhr.open('GET', 'http://5.9.250.32:8086/query?db=breminale&q=' + encodeURIComponent(query) + '&u=public&p=public');
+    xhr.open('GET', 'https://grafana.bremen.freifunk.net/api/datasources/proxy/1/query?db=ffhb-nodes&q=' + encodeURIComponent(query) + '&u=public&p=public');
     xhr.onreadystatechange = function() {
       if (xhr.readyState <= 3 || xhr.status != 200)
         return;
