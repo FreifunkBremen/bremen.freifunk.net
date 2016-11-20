@@ -11,7 +11,7 @@
     - name: Termine
       link: /#termine
     - name: Karte
-      link: /map/meshviewer.html
+      link: //map.bremen.freifunk.net/
     #- name: Projekte
     #  link: /#projekte
     - name: Partner
