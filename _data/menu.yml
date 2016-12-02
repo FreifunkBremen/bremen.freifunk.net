@@ -4,8 +4,6 @@
   items:
     - name: Was ist Freifunk?
       link: /#was-ist-freifunk
-    - name: Kontakt
-      link: /kontakt.html
     - name: News
       link: /#news
     - name: Termine
@@ -16,6 +14,8 @@
     #  link: /#projekte
     - name: Partner
       link: /#partner
+    - name: Kontakt
+      link: /kontakt.html
 - name: Einsteiger
   id: 1
   items:
