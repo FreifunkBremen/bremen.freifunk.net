@@ -97,17 +97,23 @@ document.addEventListener("DOMContentLoaded", function() {
 
   searchbox.addEventListener("input", function(ev) {
     var searchterm = this.value.toLowerCase();
-    if (searchterm.replace(' ', '').length < 3)
+    var searchbox = document.getElementById('model-search');
+    if (searchterm.replace(' ', '').length < 3) {
+      searchbox.setCustomValidity('');
       return;
+    }
     var searchterms = searchterm.split(' ');
+    var any = false;
     [].forEach.call(document.querySelectorAll('#models .model'), function(a) {
       var show = true;
       searchterms.forEach(function(searchterm) {
         if (a.dataset.searchterms.indexOf(searchterm.replace(/[^a-z0-9]/g, '')) == -1)
           show = false;
       });
+      any |= show;
       a.style.display = show? "block" : "";
     });
+    searchbox.setCustomValidity(any? "" : "Keine Modelle gefunden!");
   });
   searchbox.value = "";
   searchbox.focus();
