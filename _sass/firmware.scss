@@ -6,6 +6,9 @@
     background: #fff;
     padding: 3px;
 }
+#model-search:invalid {
+    box-shadow: rgb(255, 0, 0) 0px 0px 1.5px 1px;
+}
 #models {
     margin: 20px 0;
     display: flex;
