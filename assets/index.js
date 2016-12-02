@@ -132,8 +132,12 @@ document.addEventListener("DOMContentLoaded", function() {
     var xhr = window.XMLHttpRequest? new XMLHttpRequest() : new ActiveXObject('Microsoft.XMLHTTP');
     xhr.open('GET', '/api/tweets.json');
     xhr.onreadystatechange = function() {
-      if (xhr.readyState <= 3 || xhr.status != 200)
+      if (xhr.readyState <= 3)
         return;
+      if (xhr.status != 200) {
+        document.querySelector('#twitter').remove();
+        return;
+      }
       var
         tweets = JSON.parse(xhr.responseText),
         tweets_elem = document.querySelector('#tweets'),
