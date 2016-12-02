@@ -4,6 +4,3 @@
 [submodule "images/logo"]
 	path = images/logo
 	url = https://github.com/FreifunkBremen/logo.git
-[submodule "refugees"]
-	path = refugees
-	url = https://github.com/FreifunkBremen/refugees.git
