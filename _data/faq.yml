@@ -116,7 +116,7 @@
       answer: |
         Ja! Du kannst diese Daten im Config-Mode (siehe nächste Frage) jederzeit ändern.
 
-        Falls du Fernzugriff (SSH) aktiviert hast, lässt sich auch alles über die Konsol ändern (siehe [Freifunk Hamburg Commandline Administration](https://github.com/freifunk-gluon/gluon/wiki/Commandline-administration))
+        Falls du Fernzugriff (SSH) aktiviert hast, lässt sich auch alles über die Konsole ändern (siehe [Freifunk Hamburg Commandline Administration](https://github.com/freifunk-gluon/gluon/wiki/Commandline-administration))
     - question: Wie kann ich meine Knoteneinstellungen ändern?
       answer: |
         Dazu musst du in den Config Mode gehen:
