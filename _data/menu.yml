@@ -35,7 +35,7 @@
   id: 2
   items:
     - name: Mailingliste
-      link: /kontakt.html
+      link: /kontakt.html#mailingliste
     - name: Firmware
       link: /firmware.html
     - name: Wiki
