@@ -5,7 +5,7 @@
         Freifunk ist ein Funknetzwerk in Bürgerhand. Privatleute stellen freiwillig offene WLAN-Zugangspunkte zur Verfügung, die jeder kostenlos nutzen kann. Diese Zugangspunkte sind untereinander verbunden (in der Fachsprache: sie „meshen” miteinander) und bilden so ein dezentrales vermaschtes Netzwerk. Man kann sich Freifunk als stadtweites „Intranet” vorstellen, also ein „Internet im Kleinen”. So kann man im Freifunknetz beispielsweise Websiten aufrufen, die es nur im Freifunknetz, aber nicht im Internet gibt. [Hier](http://wiki.bremen.freifunk.net/Dienste/Home) findest du eine Liste der verfügbaren Dienste.
     - question: Wie kann ich Freifunk nutzen?
       answer: |
-        In Reichweite eines Zugangspunktes kannst Du das Freifunk-Netz mit jedem WLAN-fähigen Endgerät nutzen. Wenn Du bei eingeschaltetem WLAN den Netzwerknamen `bremen.freifunk.net` siehst, kannst Du Dich einfach und ohne Passwort mit dem Funknetzwerk verbinden. Den nächsten Zugangspunkt findest Du unter [knotenkarte.de](http://knotenkarte.de/)
+        In Reichweite eines Zugangspunktes kannst Du das Freifunk-Netz mit jedem WLAN-fähigen Endgerät nutzen. Wenn Du bei eingeschaltetem WLAN den Netzwerknamen `bremen.freifunk.net` siehst, kannst Du Dich einfach und ohne Passwort mit dem Funknetzwerk verbinden. Den nächsten Zugangspunkt findest Du unter [freifunk-karte.de](https://freifunk-karte.de/)
     - question: Wer seid ihr?
       answer: |
         Wir sind die unterschiedlichsten Menschen, die in unserer Freizeit ehrenamtlich zusamen an diesem Projekt arbeiten. In unseren Reihen sind fast alle Schichten vertreten, von Schülern über Studenten bis hin zu Berufstätigen.
