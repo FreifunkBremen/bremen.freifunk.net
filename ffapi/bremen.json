@@ -28,7 +28,7 @@
       "Social Community Building",
       "Free internet access"
     ],
-    "lastchange": "2016-08-18T23:58:28.779Z"
+    "lastchange": "2017-02-07T22:25:19.018Z"
   },
   "services": [
     {
@@ -121,28 +121,16 @@
   ],
   "nodeMaps": [
     {
-      "url": "http://bremen.freifunk.net/map/meshviewer.html",
+      "url": "https://bremen.freifunk.net/meshviewer",
       "interval": "1min",
       "technicalType": "meshviewer",
       "mapType": "geographical"
     },
     {
-      "url": "http://bremen.freifunk.net/map/list.html",
+      "url": "https://bremen.freifunk.net/meshviewer/#!v:g",
       "interval": "1min",
-      "technicalType": "ffmap",
-      "mapType": "list/status"
-    },
-    {
-      "url": "http://bremen.freifunk.net/map/graph.html",
-      "interval": "1min",
-      "technicalType": "ffmap",
+      "technicalType": "meshviewer",
       "mapType": "structural"
-    },
-    {
-      "url": "http://downloads.bremen.freifunk.net/data/nodelist.json",
-      "interval": "1min",
-      "technicalType": "nodelist",
-      "mapType": "list/status"
     }
   ],
   "socialprojects": {
