@@ -14,6 +14,7 @@ Somit hatten Freifunk-Vereine schon seit Längerem sehr unterschiedliche Erfahru
 
 Diese Unklarheit wurde im April 2016 bei der „Sitzung der Referatsleiter Körperschaftsteuer des Bundes und der Länder zur Anerkennung der Gemeinnützigkeit für Freifunkvereine" in Berlin beseitigt. Vom Finanzamt Bremen erhielten wir die Information, dass Freifunk-Vereine seitdem generell nicht als gemeinnützig anerkannt werden und ohne Ausnahme alle Finanzämter danach entscheiden würden.  
 Der genaue Wortlaut von Herrn Bartels vom Finanzamt Bremen lautet wie folgt:
+
 > …
 >
 > die Anerkennung der Gemeinnützigkeit von Freifunkvereinen war Gegenstand der Besprechung der obersten Finanzbehörden des Bundes und der Länder.
