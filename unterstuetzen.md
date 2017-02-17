@@ -1,6 +1,6 @@
 ---
 layout: default
-title:  Unterstützen
+title: Unterstützen
 category_id: 3
 ---
 ## Spenden
