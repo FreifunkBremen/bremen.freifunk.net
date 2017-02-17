@@ -10,3 +10,6 @@
 [submodule "api/vendor/twitteroauth"]
 	path = api/vendor/twitteroauth
 	url = https://github.com/abraham/twitteroauth.git
+[submodule "presentation"]
+	path = presentation
+	url = https://github.com/FreifunkBremen/presentation
