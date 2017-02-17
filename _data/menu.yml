@@ -9,7 +9,7 @@
     - name: Termine
       link: /#termine
     - name: Karte
-      link: //map.bremen.freifunk.net/
+      link: https://map.bremen.freifunk.net/
     #- name: Projekte
     #  link: /#projekte
     - name: Partner
@@ -23,8 +23,8 @@
       link: /anleitungen.html
     - name: Firmware
       link: /firmware.html
-    - name: Referenzen
-      link: /referenzen.html
+    #- name: Referenzen
+    #  link: /referenzen.html
     - name: Hardware
       link: /hardware.html
     - name: FAQ
@@ -39,7 +39,7 @@
     - name: Firmware
       link: /firmware.html
     - name: Wiki
-      link: //wiki.bremen.freifunk.net/
+      link: https://wiki.bremen.freifunk.net/
     - name: Technik
       link: /technik.html
     - name: Struktur

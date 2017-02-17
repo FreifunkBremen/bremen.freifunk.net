@@ -1,6 +1,3 @@
-[submodule "map"]
-	path = map
-	url = https://github.com/FreifunkBremen/ffmap-d3.git
 [submodule "images/logo"]
 	path = images/logo
 	url = https://github.com/FreifunkBremen/logo.git
