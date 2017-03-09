@@ -31,6 +31,7 @@ Allgemein freuen wir uns natürlich auch ohne konkrete Projekte über Geldspende
 Alle so getätigten Spenden kommen Freifunk Bremen zu Gute mit Verwendungszwecken im Rahmen der Satzung des Hackerspace Bremen e.V.
 Weitere Details auf der [Spenden-Seite vom Hackerspace e.V.]
 
+[Hackerspace Bremen e.V.]: https://www.hackerspace-bremen.de
 [Spenden-Seite vom Hackerspace e.V.]: https://www.hackerspace-bremen.de/spenden/
 
 ## Server stellen
