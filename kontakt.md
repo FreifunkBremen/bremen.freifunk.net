@@ -13,7 +13,7 @@ Bei Fragen zum Freifunk-Bremen-Projekt freuen wir uns über Kontaktaufnahmen…
 * …auf Facebook: [FreifunkBremen](https://www.facebook.com/FreifunkBremen)
 
 ## Reaktionszeit
-Wir geben uns Mühe innerhalb eines **Tages** (im Chat in einer **Stunde**) zu antworten dies ist jedoch nicht immer möglich. Wir bitten deshalb um ein wenig Geduld, lasst euch Chatfenster länger geöffnet und erwähnt einen der Anwesenden mit Namen, wartet ein paar Tage nach einer Mail und schickt dann gerne eine Erinnerungsmail. 
+Wir geben uns Mühe, innerhalb eines **Tages** (im Chat in einer **Stunde**) zu antworten; dies ist jedoch nicht immer möglich. Wir bitten deshalb um ein wenig Geduld, lasst euch Chatfenster länger geöffnet und erwähnt einen der Anwesenden mit Namen, wartet ein paar Tage nach einer Mail und schickt dann gerne eine Erinnerungsmail. 
 Bei komplexeren Fragen empfiehlt sich der Besuch unserer Treffen.
 
 ## Wiki und FAQ
