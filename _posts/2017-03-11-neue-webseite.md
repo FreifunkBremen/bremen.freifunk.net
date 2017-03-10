@@ -16,7 +16,7 @@ weniger überfüllt mit Informationen, enthält dennoch mehr nützliche
 Informationen (z.B. den Kalender), lädt schneller und ist gemacht für jede
 Displaygröße.
 
-Natürlich ist niemand perfekt, und so gibt es noch vieles was getan werden muss
+Natürlich ist niemand perfekt, und so gibt es noch vieles, was getan werden muss
 oder getan werden kann. Wenn dir, geneigter Leser, eine missverständliche
 Formulierung, ein toter Link oder eine Designsünde auffällt, freuen wir uns
 natürlich über einen [Hinweis](/kontakt.html), oder noch besser: Behebe den
