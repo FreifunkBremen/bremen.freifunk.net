@@ -12,6 +12,8 @@ Momentan sammeln wir konkret für folgende Projekte Geld:
 * Hardware für Richtfunkstrecken
 * Betrieb der Internet-Übergabepunkte
 
+[mitmachen]: /mitmachen.html
+
 ### Förderverein Freifunk Bremen
 Unser eigener, leider nicht gemeinnütziger Verein, befindet sich noch im Prozess der Eintragung. Sobald wir ein Konto haben, auf das ihr uns Geld überweisen könnt, aktualisieren wir diese Seite.
 
