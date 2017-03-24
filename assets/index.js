@@ -5,9 +5,9 @@ document.addEventListener("DOMContentLoaded", function() {
     return (n < 10? '0' : '') + n;
   }
   function fmtdate(d) {
-    return ["", "Mo", "Di", "Mi", "Do", "Fr", "Sa", "So"][d.getDay()] + '., ' +
+    return ["So", "Mo", "Di", "Mi", "Do", "Fr", "Sa"][d.getDay()] + '., ' +
       d.getDate() + '. ' +
-      ["", "Jan.", "Feb.", "März", "Mai", "Juni", "Juli", "Aug.", "Sep.", "Okt.", "Nov.", "Dez."][d.getMonth()];
+      ["Jan.", "Feb.", "März", "Apr.", "Mai", "Juni", "Juli", "Aug.", "Sep.", "Okt.", "Nov.", "Dez."][d.getMonth()];
   }
   function fmttime(d) {
     return d.getHours() + ':' + pad(d.getMinutes());
