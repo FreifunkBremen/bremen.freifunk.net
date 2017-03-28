@@ -127,10 +127,16 @@
       "mapType": "geographical"
     },
     {
-      "url": "https://bremen.freifunk.net/meshviewer/#!v:g",
+      "url": "https://map.bremen.freifunk.net/#!v:g",
       "interval": "1min",
       "technicalType": "meshviewer",
       "mapType": "structural"
+    },
+    {
+      "url": "https://downloads.bremen.freifunk.net/data/v2/nodes.json",
+      "interval": "1min",
+      "technicalType": "meshviewer",
+      "mapType": "list/status"
     }
   ],
   "socialprojects": {
