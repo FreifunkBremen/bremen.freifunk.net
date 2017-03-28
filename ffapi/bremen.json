@@ -200,6 +200,7 @@
       ]
     },
     "routing": [
+      "802.11s",
       "batman-adv"
     ],
     "updatemode": [
