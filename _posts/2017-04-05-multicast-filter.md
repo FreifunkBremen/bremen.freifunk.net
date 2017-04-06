@@ -2,7 +2,7 @@
 layout: post
 title:  "Multicast-Filter"
 author: SimJoSt
-date:   2017-04-05 19:14:17 +0100
+date:   2017-04-05 19:14:17 +0200
 ---
 Mit der Firmware [2016.2.3+bremen1](https://wiki.bremen.freifunk.net/Firmware/Changelog#freifunk-bremen-versionen_2016-2-3-bremen1) wurde ein sogenannter **"Multicast-Filter"** eingeführt, welcher beim Blogpost zu der Firmwareversion beiläufig erwähnt wurde. Da die Einführung desselben weitreichende Änderungen für und Auswirkungen auf das Freifunk Bremen Netz hat, ist ein extra Blogeintrag zu dem Thema sinnvoll.  
 *(Multicast-Traffic ist Datenverkehr, welcher an eine Mehrzahl an Geräten gleichzeitig gesendet wird.)*
