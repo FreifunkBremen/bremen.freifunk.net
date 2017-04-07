@@ -55,12 +55,13 @@ document.addEventListener("DOMContentLoaded", function() {
 
           name = name.join(" ").replace('N ND ', 'N/ND ');
 
-          models.push({
-            vendor: vendor,
-            model: name,
-            id: model,
-            file: filename,
-          });
+          if (models.length == 0 || models[models.length-1].file != filename)
+            models.push({
+              vendor: vendor,
+              model: name,
+              id: model,
+              file: filename,
+            });
           break;
         }
       }
