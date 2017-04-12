@@ -12,5 +12,5 @@ category_id: 1
     Zeitliche Aufzeichnung im Netzwerk als Graphen
 
 ## Weiteres
-- [**Wikipeda**](http://wikipedia.bremen.freifunk.net/)
+- [**Wikipedia**](http://wikipedia.bremen.freifunk.net/)
     Wikipedia im Freifunk, unüberwacht und fallback
