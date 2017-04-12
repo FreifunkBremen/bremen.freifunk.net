@@ -31,6 +31,7 @@ if (file_exists(CACHE_FILE) && filemtime(CACHE_FILE) >= time() - CACHE_LIFETIME)
     )->expand(new DateTime(), $end_date);
 
     $ret = array();
+    $i = 0;
     foreach ($vcalendar->VEVENT as $event) {
         $ret[] = array(
             'summary' => (string)$event->SUMMARY,
@@ -41,6 +42,8 @@ if (file_exists(CACHE_FILE) && filemtime(CACHE_FILE) >= time() - CACHE_LIFETIME)
             'allday' => (isset($event->DTSTART->parameters['VALUE']) &&
                 (string)$event->DTSTART->parameters['VALUE'] == 'DATE'),
         );
+        if (CALENDAR_LIMIT > 0 && $i++ >= CALENDAR_LIMIT)
+            break;
     }
     $out = json_encode($ret);
     file_put_contents(CACHE_FILE, $out);

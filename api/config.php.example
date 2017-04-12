@@ -9,4 +9,5 @@ define('TWITTER_CONSUMER_SECRET',     'get it from apps.twitter.com');
 define('TWITTER_COUNT', 4);
 
 define('CALENDAR_URL', 'https://example.org/owncloud/remote.php/dav/calendars/user/personal?export');
-define('CALENDAR_DAYS', 28);
+define('CALENDAR_DAYS', 60);
+define('CALENDAR_LIMIT', 3);
