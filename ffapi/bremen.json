@@ -139,11 +139,6 @@
       "mapType": "list/status"
     }
   ],
-  "socialprojects": {
-    "number": 1,
-    "website": "https://bremen.freifunk.net/refugees.html",
-    "contact": "info@bremen.freifunk.net"
-  },
   "support": {
     "donations": {
       "bankaccount": {
