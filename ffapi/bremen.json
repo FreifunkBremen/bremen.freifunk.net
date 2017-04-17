@@ -21,7 +21,7 @@
   },
   "state": {
     "nodes": 707,
-    "description": "Freifunk Bremen in it's current form has been founded in the end of 2013. Consisting of mostly young people, the community is still growing and establishing itself in it's city.",
+    "description": "Freifunk Bremen in its current form has been founded in the end of 2013. Consisting of mostly young people, the community is still growing and establishing itself in its city.",
     "focus": [
       "infrastructure/backbone",
       "Public Free Wifi",
@@ -163,7 +163,7 @@
       "url": "http://downloads.bremen.freifunk.net/firmware/",
       "docs": "https://wiki.bremen.freifunk.net/Anleitungen/Firmware/Home",
       "vpnaccess": "automatic",
-      "techrestrictions": "As the Freifunk Bremen firmware is using Gluon as it's basis, it has the same restrictions and hardwae requirements: http://gluon.readthedocs.org/"
+      "techrestrictions": "As the Freifunk Bremen firmware is using Gluon as its basis, it has the same restrictions and hardware requirements: http://gluon.readthedocs.org/"
     },
     "dns": [
       {
