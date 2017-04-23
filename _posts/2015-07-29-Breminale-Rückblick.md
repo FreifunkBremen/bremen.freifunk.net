@@ -82,7 +82,7 @@ Nach vielen Schritten und Regen haben wir die 5 Quadratmeter unseres Unterstande
 
 Unser Stand mit einigen Freifunkern.
 
-<a href="http://jel.to/ff_pics/breminale/stand_2.jpg"><img src="http://jel.to/ff_pics/breminale/stand_2_thumb.jpg" width="600px"alt="Stand1"></a>
+<a href="http://jel.to/ff_pics/breminale/stand_2.jpg"><img src="http://jel.to/ff_pics/breminale/stand_2_thumb.jpg" width="600px" alt="Stand2"></a>
 
 Routerausstellung aufgebaut.
 
