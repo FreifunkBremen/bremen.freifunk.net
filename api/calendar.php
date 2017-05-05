@@ -31,7 +31,7 @@ if (file_exists(CACHE_FILE) && filemtime(CACHE_FILE) >= time() - CACHE_LIFETIME)
     )->expand(new DateTime(), $end_date);
 
     $ret = array();
-    $i = 0;
+    $i = 1;
     foreach ($vcalendar->VEVENT as $event) {
         $ret[] = array(
             'summary' => (string)$event->SUMMARY,
