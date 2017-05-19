@@ -182,18 +182,18 @@
       answer: |
         Grundstücksübergreifende Datenverbindungen (also eine WLAN-Verbindung zum Nachbarn) waren früher lizenzflichtig.
         Seit 2003 können jedoch ohne Abnahme und Genehmigung duch die Bundesnetzagentur grundstücksübergreifende WLAN-Netzwerke eingerichtet werden.
-        Diese Regelung gilt für 2.4GHz und 5GHz.
+        Diese Regelung gilt für 2.4 GHz und 5 GHz.
     - question: Darf ich meinen Internetanschluss überhaupt mit anderen teilen?
       answer: |
         Grundsätzlich spricht nichts dagegen. Einige Internetprovider schließen jedoch per AGB aus, dass der eigene Anschluss mit anderen geteilt werden darf.
         Eine kleine Zusammenstellung findet sich [hier](http://wiki.freifunk.net/AGB). Besonders kommerzielle Mitnutzung wird von fast allen Providern verboten.
     - question: Wie ist das mit der Sendeleistung?
       answer: |
-        Die Sendeleistung ist Abhängig von der Antenne und dem Frequenzband (2.4Ghz oder 5Ghz) mit dem das Gerät arbeitet.
+        Die Sendeleistung ist Abhängig von der Antenne und dem Frequenzband (2.4 GHz oder 5 GHz) mit dem das Gerät arbeitet.
         Sendeleistung und Antennengewinn ergeben zusammen die sog. 'mittleren äquivalenten isotropen Strahlungsleistung' (kurz EIRP).
-        Im 2.4GHz-Band ist eine maximale 'Strahlenleistung' von 100mW bzw. 20db zulässig, im 5GHz-Band 200mW (23db) bzw. 30db (1W) (und als Provider sogar 4W (36db) ;)).
+        Im 2.4-GHz-Band ist eine maximale 'Strahlenleistung' von 100mW bzw. 20db zulässig, im 5-GHz-Band 200mW (23db) bzw. 30db (1W) (und als Provider sogar 4W (36db) ;)).
         Für die Nutzung der vollen 1W bzw. 30db ist es jedoch nötig, dass vom Gerät die Standards TPC und DFS implementiert werden.
-        Daher gelten für unsere Freifunkrouter als Maximalwerte 100mW (20db) im 2.4GHz Band und 200mW in 5Ghz-Band (23db).
+        Daher gelten für unsere Freifunkrouter als Maximalwerte 100mW (20db) im 2.4-GHz-Band und 200mW in 5-GHz-Band (23db).
 
         Unsere Standardrouter TP-Link 841N haben beispielsweise eine 3db Antenne und somit eine Sendeleistung von 17db, um auf den zulässigen Maximalwert von 20db (100mW) zu kommen.
         Besonders bei den Ubiquiti Geräten mit stärkerer Antenne ist es wichtig, die Sendeleistung zu kontrollieren und gegebenenfalls anzupassen.
