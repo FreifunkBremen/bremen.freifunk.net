@@ -69,7 +69,7 @@
   questions:
     - question: Wann und wo trefft ihr euch immer/kann man mit euch sprechen?
       answer: |
-        Wir treffen uns zweimal im Monat: Am 1. und 3. Freitag im Monat im [Hackerspace Bremen](https://www.hackerspace-bremen.de/anfahrt/) um 19 Uhr. Üblicherweise dauern die Treffen 2-3 Stunden mit kleinen Pausen zwischen drin.
+        Wir treffen uns zweimal im Monat: Am 1. und 3. Freitag im Monat im [Hackerspace Bremen](https://www.hackerspace-bremen.de/anfahrt/) um 19 Uhr. Üblicherweise dauern diese öffentlichen Treffen 2-3 Stunden mit kleinen Pausen zwischen drin.
     - question: Darf ich Freifunk einfach so benutzen?
       answer: |
         Ja! Du darfst Freifunk ohne zu bezahlen und schlechtes Gewissen nutzen. Und wenn Du doch eins bekommst, mach mit, indem Du einen Knoten aufstellst. ;)
@@ -85,12 +85,12 @@
       answer: |
         Nein! Die Installation unserer Software ist nicht schwer und wird von uns so einfach wie möglich gehalten. Wirf doch einfach einen Blick in die [Anleitung](http://wiki.bremen.freifunk.net/Anleitungen/Firmware/Flashen) und entscheide selbst, ob Du dir das Flashen zutraust oder nicht.
 
-        Bei Rückfragen helfen wir gerne auf einem Treffen (siehe [Wann und wo trefft ihr euch immer/kann man mit euch sprechen?](#wann-und-wo-trefft-ihr-euch-immer-kann-man-mit-euch-sprechen)).
+        Bei Rückfragen helfen wir gerne auf einem öffentlichen Treffen (siehe [Wann und wo trefft ihr euch immer/kann man mit euch sprechen?](#wann-und-wo-trefft-ihr-euch-immer-kann-man-mit-euch-sprechen)).
     - question: Wie kann ich bei Freifunk mitmachen?
       answer: |
         Es gibt viele Möglichkeiten, sich für Freifunk einzusetzen. Eine einfache, aber effektive Möglichkeit uns zu helfen ist Mundpropaganda: Erzähl Deinen Freund_innen und Deiner Familie von dem Projekt und zeig ihnen, wo und wie sie Freifunk nutzen können.
 
-        Du kannst uns auch aktiv unterstützen, indem Du einen eigenen Knoten (Zugangspunkt) aufstellst. Du bist auch herzlich zu unseren Treffen eingeladen. Dort können wir dann besprechen, was gerade konkret anliegt und wie Du Dich auch mit eigenen Ideen einbringen kannst.
+        Du kannst uns auch aktiv unterstützen, indem Du einen eigenen Knoten (Zugangspunkt) aufstellst. Du bist auch herzlich zu unseren öffentlichen Treffen eingeladen. Dort können wir dann besprechen, was gerade konkret anliegt und wie Du Dich auch mit eigenen Ideen einbringen kannst.
     - question: Muss ich zu den Treffen, wenn ich nur einen Router aufstellen möchte oder gelegentlich das WLAN mit meinem Smartphone nutze?
       answer: |
         Nein! Freifunk funktioniert auf freiwilliger Basis. Jede_r bringt sich so ein, wie er oder sie es für richtig hält. Eine Verpflichtung besteht nicht.
