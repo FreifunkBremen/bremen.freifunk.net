@@ -2,7 +2,7 @@
 layout: post
 title:  "Breminale 2017 Vorbereitungen"
 author: SimJoSt
-date:   2017-05-19 18:58:12 +0200
+date:   2017-05-19 21:56:36 +0200
 ---
 Zum dritten Mal in Folge werden wir uns an der Versorgung der Breminale mit Freifunk versuchen. Jedes Jahr lief etwas anders ab, jedes Jahr haben wir andere Techniken und Strukturen probiert mit unterschiedlichen Ergebnissen. Mal viel Abdeckung, dafür nicht so schnell, beim anderen Mal das Gegenteil.
 
