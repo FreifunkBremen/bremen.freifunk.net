@@ -7,7 +7,7 @@
       answer: |
         In Reichweite eines Zugangspunktes kannst Du das Freifunk-Netz mit jedem WLAN-fähigen Endgerät nutzen. Wenn Du bei eingeschaltetem WLAN den Netzwerknamen `bremen.freifunk.net` siehst, kannst Du Dich einfach und ohne Passwort mit dem Funknetzwerk verbinden.
         Den nächsten bremischen Zugangspunkt findest Du auf unserer [Karte "Meshviewer"](https://map.bremen.freifunk.net/).
-        Deutschland weit wirst Du unter [freifunk-karte.de](https://freifunk-karte.de/) fündig.
+        Deutschlandweit wirst Du unter [freifunk-karte.de](https://freifunk-karte.de/) fündig.
     - question: Wer seid ihr?
       answer: |
         Wir sind unterschiedlichste Menschen, die in unserer Freizeit ehrenamtlich zusammen an diesem Projekt arbeiten. In unseren Reihen sind fast alle Schichten vertreten, von Schülern über Studenten bis hin zu Berufstätigen und Eltern.
@@ -23,10 +23,10 @@
       answer: |
         Weil es super viel Spaß macht! ;)
 
-        Es gibt bei uns die verschiedensten Motivationen. Einige von uns interessieren sich für die Technik hinter den Routern und toben sich daran gerne aus. Andere machen bei Freifunk aus ideologischen Gründen mit - um ein freie Kommunikationsinfrastruktur zu schaffen. Einige interessiert vor allem die soziale Interaktion mit Nachbarn, anderen Freifunkern oder völlig unbekannten Menschen.
+        Es gibt bei uns die verschiedensten Motivationen. Einige von uns interessieren sich für die Technik hinter den Routern und toben sich daran gerne aus. Andere machen bei Freifunk aus ideologischen Gründen mit - um eine freie Kommunikationsinfrastruktur zu schaffen. Einige interessiert vor allem die soziale Interaktion mit Nachbarn, anderen Freifunkern oder völlig unbekannten Menschen.
     - question: Was ist ein Knoten (Node)?
       answer: |
-        Knoten (engl. „Node“) ist gleichbedeutend mit Router, Access-Point oder Zugangspunkt. Sie werden in der Regel von Privatpersonen betrieben und bieten dir und anderen Zugang zum Freifunknetzwerk. Ein handelsüblicher WLAN-Router wird in unserem Sinne zum "Knoten", wenn die bremer Freifunk-Software aufgespielt wurde.
+        Knoten (engl. „Node“) ist gleichbedeutend mit Router, Access-Point oder Zugangspunkt. Sie werden in der Regel von Privatpersonen betrieben und bieten dir und anderen Zugang zum Freifunknetzwerk. Ein handelsüblicher WLAN-Router wird in unserem Sinne zum "Knoten", wenn die Bremer Freifunk-Software aufgespielt wurde.
     - question: Kann ich einen Freifunk-Knoten mit Bremer Firmware außerhalb Bremens betreiben?
       answer: |
         Erst mal großartig, dass Du Freifunk machen möchtest!
@@ -34,9 +34,9 @@
         Freifunk steht u.a. für Denzentralität. Deshalb wäre es klasse, wenn Du Dich einer Community in Deiner Nähe anschließt oder vielleicht sogar Deine eigene gründest. Da aller Anfang schwer ist, ergibt es für eben diesen vielleicht Sinn sich erst mal einer nahegelegen Gruppe anzuschließen. Auch wir von Freifunk Bremen stehen dir natürlich gerne mit Rat und Tat zur Seite. Mit den existierenden Hilfsmitteln (Dokus und Know-How) sind die technische Hürden auch nicht mehr ganz so groß.
 
         Es gibt auch technische Gründe, die gegen eine Erweiterung über die Grenzen von Freifunk Bremen hinaus sprechen. Das Problem mit Mesh-Netzen ist, dass sie nicht beliebig gut skalieren, mit jedem weiteren Router sinkt die Leistung.
-        Das Betreiben der bremer Firmware in Städten, die bereits ein eigenes Freifunk-Netz haben, ergibt gar kein Sinn. Dies würde das Meshen, was ein zentraler Bestandteil von Freifunk ist, verhindern.
+        Das Betreiben der Bremer Firmware in Städten, die bereits ein eigenes Freifunk-Netz haben, ergibt gar keinen Sinn. Dies würde das Meshen, was ein zentraler Bestandteil von Freifunk ist, verhindern.
 
-        Zur Zeit enstehen ständig neue Freifunk-Gemeinden. Welche Gemeinden es schon gibt, siehts Du in [dieser Übersicht](http://freifunk.net/wie-mache-ich-mit/community-finden/).
+        Zur Zeit enstehen ständig neue Freifunk-Gemeinden. Welche Gemeinden es schon gibt, siehst Du in [dieser Übersicht](http://freifunk.net/wie-mache-ich-mit/community-finden/).
     - question: Moment, aber ich geh doch mit Freifunk ins Internet! Wieso sagt ihr, ihr seid ein Intranet?
       answer: |
         Freifunk soll primär keinen HotSpot-Internetzugang darstellen, wie ihn etwa große Telekommunikationsunternehmen bereits anbieten. Die Vision von Freifunk ist, ein auf WLAN basierendes, eigenständiges Netz aufzubauen - ein Bürgernetz. Die Verbindung zum Internet ist daher nur ein zusätzliches, optionales Feature.
@@ -59,7 +59,7 @@
 
         Um verschlüsselten Verkehr über MITM-Angriffe zu lesen, muss der Angreifer dem Opfer in den meisten Fällen ein anderes Zertifikat unterjubeln. Sobald ihr auf eurem Rechner bzw. Mobiltelefon in einem offenen WLAN von einer bekannten Seite einen Zertifikatsfehler bekommt, solltet ihr misstrauisch werden.
 
-        Wer auf Nummer sicher gehen möchte, setzt einen zusätzliche VPN-Software ein. Diese sendet den gesamten Netzwerkverkehr (bei richtiger Konfiguration) verschlüsselt zu einem vertrauenswürdigen Server, von wo aus die Daten dann ins Internet gelangen. Alternativ könnte auch der [Tor-Browser](https://www.torproject.org/projects/torbrowser.html.en) genutzt werden, mit der Einschränkung, das sich das eigentliche Problem hin zum Tor-Netzwerk verschiebt.
+        Wer auf Nummer sicher gehen möchte, setzt eine zusätzliche VPN-Software ein. Diese sendet den gesamten Netzwerkverkehr (bei richtiger Konfiguration) verschlüsselt zu einem vertrauenswürdigen Server, von wo aus die Daten dann ins Internet gelangen. Alternativ könnte auch der [Tor-Browser](https://www.torproject.org/projects/torbrowser.html.en) genutzt werden, mit der Einschränkung, das sich das eigentliche Problem hin zum Tor-Netzwerk verschiebt.
 
         Da ihr euch einen offenen Hotspot bzw. das Freifunk oft mit mehreren hundert Menschen teilt, solltet ihr darauf achten, dass auf dem eigenen Gerät immer alle aktuellen Patches und Updates installiert sind. Außerdem solltet ihr sichergehen, dass keine unerwünschten Dienste (Medien-Freigaben, Drucker usw.) freigegeben sind. So minimiert ihr die Chance von böswilligen Menschen innerhalb des Netzwerkes kompromitiert zu werden.
 
@@ -146,7 +146,7 @@
         * ggf. Kennword aendern: passwd
     - question: Wie ist die Belegung der Ports?
       answer: |
-        Die Standarbelegung für die LAN-Ports (gelb bei TP-Link) ist Nutzer-Netz – also für Endgeräte im Freifunknetz, genauso als wären sie per WLAN verbunden.
+        Die Standardbelegung für die LAN-Ports (gelb bei TP-Link) ist Nutzer-Netz – also für Endgeräte im Freifunknetz, genauso als wären sie per WLAN verbunden.
 
         Der WAN-Port (blau bei TP-Link) macht standardmässig entweder Mesh-VPN (VPN-Verbindung zu den Servern) und sollte dementsprechend hinter einem Internet-Anschluss hängen, oder Mesh-on-WAN (also meshen per Kabel), solltest Du das im Konfigurationsmodus so eingestellt haben.
 
@@ -186,7 +186,7 @@
         Alle etwaigen Abmahnungen gehen an uns. Um uns vor diesen zu schützen verwenden wir das Providerprivileg, genau wie die Telekom, Vodafone oder andere große WLAN-Hotspot-Betreiber.
     - question: Darf ich überhaupt WLAN außerhalb meiner Wohnung versenden?
       answer: |
-        Grundstücksübergreifende Datenverbindungen (also eine WLAN-Verbindung zum Nachbarn) waren früher lizenzflichtig.
+        Grundstücksübergreifende Datenverbindungen (also eine WLAN-Verbindung zum Nachbarn) waren früher lizenzpflichtig.
         Seit 2003 können jedoch ohne Abnahme und Genehmigung durch die Bundesnetzagentur grundstücksübergreifende WLAN-Netzwerke eingerichtet werden.
         Diese Regelung gilt für 2.4 GHz und 5 GHz.
     - question: Darf ich meinen Internetanschluss überhaupt mit anderen teilen?
@@ -195,7 +195,7 @@
         Eine kleine Zusammenstellung findet sich [hier](http://wiki.freifunk.net/AGB). Besonders kommerzielle Mitnutzung wird von fast allen Providern verboten.
     - question: Wie ist das mit der Sendeleistung?
       answer: |
-        Die Sendeleistung ist Abhängig von der Antenne und dem Frequenzband (2.4 GHz oder 5 GHz) mit dem das Gerät arbeitet.
+        Die Sendeleistung ist abhängig von der Antenne und dem Frequenzband (2.4 GHz oder 5 GHz) mit dem das Gerät arbeitet.
         Sendeleistung und Antennengewinn ergeben zusammen die sog. 'mittleren äquivalenten isotropen Strahlungsleistung' (kurz EIRP).
         Im 2.4-GHz-Band ist eine maximale 'Strahlenleistung' von 100mW bzw. 20db zulässig, im 5-GHz-Band 200mW (23db) bzw. 30db (1W) (und als Provider sogar 4W (36db) ;)).
         Für die Nutzung der vollen 1W bzw. 30db ist es jedoch nötig, dass vom Gerät die Standards TPC und DFS implementiert werden.
