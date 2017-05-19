@@ -29,10 +29,10 @@
       answer: |
         Erst mal großartig, dass Du Freifunk machen möchtest!
 
-        Freifunk steht u.a. für Denzentralität. Deshalb wäre es klasse, wenn Du Dich einer Community in Deiner Nähe anschließt oder vielleicht sogar Deine eigene gründest. Da aller Anfang schwer ist, macht es für eben diesen vielleicht Sinn sich erst mal einer nahegelegen Gruppe anzuschließen. Auch wir von Freifunk Bremen stehen dir natürlich gerne mit Rat und Tat zur Seite. Mit den existierenden Hilfsmitteln (Dokus und Know-How) sind die technische Hürden auch nicht mehr ganz so groß.
+        Freifunk steht u.a. für Denzentralität. Deshalb wäre es klasse, wenn Du Dich einer Community in Deiner Nähe anschließt oder vielleicht sogar Deine eigene gründest. Da aller Anfang schwer ist, ergibt es für eben diesen vielleicht Sinn sich erst mal einer nahegelegen Gruppe anzuschließen. Auch wir von Freifunk Bremen stehen dir natürlich gerne mit Rat und Tat zur Seite. Mit den existierenden Hilfsmitteln (Dokus und Know-How) sind die technische Hürden auch nicht mehr ganz so groß.
 
         Es gibt auch technische Gründe, die gegen eine Erweiterung über die Grenzen von Freifunk Bremen hinaus sprechen. Das Problem mit Mesh-Netzen ist, dass sie nicht beliebig gut skalieren, mit jedem weiteren Router sinkt die Leistung.
-        Das Betreiben der bremer Firmware in Städten, die bereits ein eigenes Freifunk-Netz haben, macht gar kein Sinn. Dies würde das Meshen, was ein zentraler Bestandteil von Freifunk ist, verhindern.
+        Das Betreiben der bremer Firmware in Städten, die bereits ein eigenes Freifunk-Netz haben, ergibt gar kein Sinn. Dies würde das Meshen, was ein zentraler Bestandteil von Freifunk ist, verhindern.
 
         Zur Zeit enstehen ständig neue Freifunk-Gemeinden. Welche Gemeinden es schon gibt, siehts Du in [dieser](http://freifunk.net/wie-mache-ich-mit/community-finden/) Übersicht.
     - question: Moment, aber ich geh doch mit Freifunk ins Internet! Wieso sagt ihr, ihr seid ein Intranet?
@@ -51,7 +51,7 @@
       answer: |
         Das Freifunk-Netz ist wie viele andere Netzwerke unverschlüsselt. Das bedeutet, dass jeder nicht seperat verschlüsselte Verkehr im Netz mitgelesen werden kann. Es sollte also dringend davon abgesehen werden, Passwörter und sonstige Formulardaten unverschlüsselt z.B. nur über HTTP im Browser zu übertragen.
 
-        Bevor ihr auch also mit dem Freifunk (oder irgend einem anderen offenen Netz) verbindet, stellt sicher, dass ihr im Browser möglichst immer HTTPS nutzt (dabei hilft z.B. [HTTPS Everywhere](https://www.eff.org/HTTPS-everywhere) und ein Blick in die Adresszeile des Browsers). Gleiches gilt natürlich für alle anderen Programme, wie z.B. E-Mail-Client analog. Besonders auf Apps, die auf dem Mobiltelefon installiert sind und bei denen die Verschlüsselung nicht überprüft werden kann, sollte in offenen WLANs verzichtet werden.
+        Bevor ihr auch also mit dem Freifunk (oder irgend einem anderen offenen Netz) verbindet, stellt sicher, dass ihr im Browser möglichst immer HTTPS nutzt (dabei hilft z.B. [HTTPS Everywhere](https://www.eff.org/HTTPS-everywhere) und ein Blick in die Adresszeile des Browsers). Gleiches gilt natürlich für alle anderen Programme, wie z.B. E-Mail-Anwendungen analog. Besonders auf Apps, die auf dem Mobiltelefon installiert sind und bei denen die Verschlüsselung nicht überprüft werden kann, sollte in offenen WLANs verzichtet werden.
 
         Leider reicht HTTPS alleine nicht aus. Aufgrund der offenen Netzarchitektur ist es besonders bei Freifunk aber auch bei anderen offenen Netzen leicht möglich, dass sich Angreifer über so genannte [Man in the Middle-Angriffe](https://de.wikipedia.org/wiki/Man-in-the-Middle-Angriff) Zugriff auf den Datenverkehr verschaffen. Dabei gibt sich der Angreifer als eine andere Netzwerkkomponente aus und leitet den gesamten Verkehr weiter, nachdem er diesen mitgelesen bzw. manipuliert hat.
 
@@ -99,7 +99,7 @@
   questions:
     - question:  Ich habe alles angeschlossen und konfiguriert, aber mein Freifunk Router bekommt kein Internet.
       answer: |
-        Hast Du das Ethernet-Kable von Deinem Heimrouter in den richtigen Port am Freifunkrouter gesteckt? Es muss im **blauen WAN-Port** stecken.
+        Hast Du das Netzwerk-Kabel von Deinem Heimrouter in den richtigen Port am Freifunkrouter gesteckt? Es muss im **blauen WAN-Port** stecken.
     - question: Lässt sich die original Firmware wieder einspielen?
       answer: |
         Ja! Ein bereits in einen Freifunk-Knoten umgewandeltes Gerät kann jederzeit wieder mit der original Hersteller-Firmware geflasht (bespielt) werden und entspricht damit wieder dem Original.
@@ -111,23 +111,23 @@
         Das zweite WLAN mit einer SSID `mesh.ffhb` ist ein Ad-hoc-WLAN und dient der Vernetzung der einzelnen Router untereinander. „Sehen” sich zwei Freifunk-Konten in ihrem Empfangsbereich, so nehmen sie über diese WLAN-SSID miteinander Kontakt auf und leiten den Datenverkehr weiter. Wir sprechen dann davon, dass sie “meshen”, der eigentlichen Funktion des Freifunk-Netzes.
     - question: Kann ich den Funkkanal wechseln?
       answer: |
-        Freifunk arbeitet auf Kanal 6. Da sich die einzelnen WLAN-Knoten nur miteinander vernetzen können, wenn auch alle auf dem selben Kanal funken, macht eine Änderung keinen Sinn. Eine Veränderung des Kanals würde dazu führen, dass ein Router nicht mehr seine Kernfunktion, das “Meshen”, erfüllen kann, es sei denn, alle anderen Router würde auch umgestellt. Sollte es zu Kollisionen mit benachbarten Netzen kommen, schlagen wir den diplomatischen Weg vor, indem man sich mit seinen Nachbarn über die Kanalbelegung abstimmt.
+        Freifunk arbeitet auf Kanal 6. Da sich die einzelnen WLAN-Knoten nur miteinander vernetzen können, wenn auch alle auf dem selben Kanal funken, ergibt eine Änderung keinen Sinn. Eine Veränderung des Kanals würde dazu führen, dass ein Router nicht mehr seine Kernfunktion, das “Meshen”, erfüllen kann, es sei denn, alle anderen Router würde auch umgestellt. Sollte es zu Kollisionen mit benachbarten Netzen kommen, schlagen wir den diplomatischen Weg vor, indem man sich mit seinen Nachbarn über die Kanalbelegung abstimmt.
     - question: Kann ich meine Knotendaten (Name, Ort auf der Knotenkarte, etc.) ändern?
       answer: |
-        Ja! Du kannst diese Daten im Config-Mode (siehe nächste Frage) jederzeit ändern.
+        Ja! Du kannst diese Daten im Konfigurationsmodus (siehe nächste Frage) jederzeit ändern.
 
         Falls Du Fernzugriff (SSH) aktiviert hast, lässt sich auch alles über die Konsole ändern (siehe [Freifunk Hamburg Commandline Administration](https://github.com/freifunk-gluon/gluon/wiki/Commandline-administration))
     - question: Wie kann ich meine Knoteneinstellungen ändern?
       answer: |
-        Dazu musst Du in den Config Mode gehen:
+        Dazu musst Du in den Konfigurationsmodus gehen:
 
         * Per Kabel Deinen Rechner mit einem LAN-Port des Knotens verbinden (die gelben bei den Modellen von TP-Link)
-        * Im normalen Betrieb die QSS- oder Reset-Taste hinten am Knoten einige Sekunden drücken bis alle Lampen vorne leuchten, dann loslassen und den Knoten neu booten lassen
+        * Im normalen Betrieb die QSS- oder Reset-Taste hinten am Knoten einige Sekunden drücken bis alle Lampen vorne leuchten, dann loslassen und den Knoten neustarten lassen
         * Dein Rechner bekommt eine IP-Adresse via DHCP zugewiesen
-        * Der Config Mode ist nun erreichbar unter [192.168.1.1](http://192.168.1.1/)
+        * Der Konfigurationsmodus ist nun erreichbar unter [192.168.1.1](http://192.168.1.1/)
 
         #### SSH
-        Wenn Du im Config Mode eine Root-Passwort oder einen SSH-Schlüssel hinterlegt hast, kannst Du auch im normalen Betrieb per SSH auf den Knoten zugreifen: `ssh root@[IPv6-Adresse des Freifunk Knotens]` oder falls Du direkt mit dem Knoten verbunden bist `ssh root@node.ffhb.de` oder `ssh root@10.196.0.127`.
+        Wenn Du im Konfigurationsmodus eine Root-Passwort oder einen SSH-Schlüssel hinterlegt hast, kannst Du auch im normalen Betrieb per SSH auf den Knoten zugreifen: `ssh root@[IPv6-Adresse des Freifunk Knotens]` oder falls Du direkt mit dem Knoten verbunden bist `ssh root@node.ffhb.de` oder `ssh root@10.196.0.127`.
 
         Wenn der Knoten am Netz ist, taucht er in [der Knoten-Liste](http://bremen.freifunk.net/map/list.html) auf. Klickst Du auf den Knotennamen, siehst Du seine IPv6-Adresse.
 
@@ -142,18 +142,18 @@
         * ggf. Kennword aendern: passwd
     - question: Wie ist die Belegung der Ports?
       answer: |
-        Die Standarbelegung für die LAN-Ports (gelb bei TP-Link) ist Client-Netz – also für Endgeräte im Freifunknetz, genauso als wären sie per WLAN verbunden.
+        Die Standarbelegung für die LAN-Ports (gelb bei TP-Link) ist Nutzer-Netz – also für Endgeräte im Freifunknetz, genauso als wären sie per WLAN verbunden.
 
-        Der WAN-Port (blau bei TP-Link) macht standardmässig entweder Mesh-VPN (VPN-uplink zum Gateway) und sollte dementsprechend hinter einem Internet-Anschluss hängen, oder Mesh-on-WAN (also meshen per Kabel), solltest Du das im Konfigurationsmodus so eingestellt haben.
+        Der WAN-Port (blau bei TP-Link) macht standardmässig entweder Mesh-VPN (VPN-Verbindung zum Server) und sollte dementsprechend hinter einem Internet-Anschluss hängen, oder Mesh-on-WAN (also meshen per Kabel), solltest Du das im Konfigurationsmodus so eingestellt haben.
 
         Näher erklärt werden alle Netzwerkschnittstellen im Wiki.
 
-    - question: Kann ich Uplink über WLAN machen statt über Kabel?
+    - question: Kann ich meinen Knoten auch über WLAN mit meinen Internetzugang verbinden, statt über Kabel?
       answer: |
-        Prinzipiell ja. Allerdings ist es nicht sehr Effizient, da dann schon Mesh, Client-Netz, alle Clients sowie der Router zu dem als Uplink verbunden wird auf dem selben Kanal funken. Hinzu kommen evtl. Geräte aus der Nachbarschaft, die vielleicht auch auf diesem Kanal sind.
+        Prinzipiell ja. Allerdings ist es nicht sehr Effizient, da dann schon Mesh, Nutzer-Netz, alle Nutzgeräte sowie der Router, zu dem sich für die Internetverbindung verbunden wird, auf dem selben Kanal funken. Hinzu kommen evtl. Geräte aus der Nachbarschaft, die vielleicht auch auf diesem Kanal sind.
     - question: Kann ich ein privates WLAN parallel auf meinem Freifunk-Knoten herausgeben?
       answer: |
-        Ja! Es ist möglich ein privates WLAN auf Deinem Freifunk-Knoten herauszugeben. Um das private WLAN zu aktivieren muss man den Router in den Config Modus bringen (Anleitung [hier](#kann-ich-meine-knotendaten-name-ort-auf-der-knotenkarte-etc-ndern)) und dann in der Weboberfläche oben rechts auf "Experten Modus" klicken. Unter dem Tab "Privates WLAN" kann man dann die nötigen Einstellungen vornehmen.
+        Ja! Es ist möglich ein privates WLAN auf Deinem Freifunk-Knoten herauszugeben. Um das private WLAN zu aktivieren muss man den Router in den Konfigurationsmodus bringen (Anleitung [hier](#kann-ich-meine-knotendaten-name-ort-auf-der-knotenkarte-etc-ndern)) und dann in der Weboberfläche oben rechts auf "Experten Modus" klicken. Unter dem Tab "Privates WLAN" kann man dann die nötigen Einstellungen vornehmen.
     - question: Kann ich die LAN-Ports verwenden um mein privates Netzwerk zu erweitern?
       answer: |
         Dies ist durch editieren der OpenWRT Netzwerkeinstellungen möglich. Jedoch existiert dafür noch keine Anleitung. Wenn Du eine gefunden oder geschrieben hast, verknüpfe sie im Wiki.
