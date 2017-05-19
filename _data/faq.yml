@@ -70,7 +70,7 @@
         Wir treffen uns zweimal im Monat: Am 1. und 3. Freitag im Monat im [Hackerspace Bremen](https://www.hackerspace-bremen.de/anfahrt/) um 19 Uhr. Üblicherweise dauern die Treffen 2-3 Stunden mit kleinen Pausen zwischen drin.
     - question: Darf ich Freifunk einfach so benutzen?
       answer: |
-        Ja, Du darfst Freifunk ohne zu bezahlen und schlechtes Gewissen nutzen. Und wenn Du doch eins bekommst, mach mit, indem Du einen Knoten aufstellst. ;)
+        Ja! Du darfst Freifunk ohne zu bezahlen und schlechtes Gewissen nutzen. Und wenn Du doch eins bekommst, mach mit, indem Du einen Knoten aufstellst. ;)
     - question: Was kostet Freifunk?
       answer: |
         Für die Nutzung fallen für Dich keine Kosten an. Falls Du selbst einen Freifunk-Zugang anbieten möchtest, benötigst Du neben Deinem eigenen Internetanschluss (falls noch kein anderer Freifunk-Knoten in Reichweite ist) einen passenden Router. Dieser kostet je nach Modell ab 20€. Du kannst ihn im Laden oder von uns bekommen. Die jährlichen Stromkosten für das Betreiben des Routers belaufen sich auf unter 10€, weitere Kosten fallen nicht an.
@@ -81,7 +81,7 @@
         Die kurze Antwort ist: Ja, Du kannst! Auch wenn Du absolut keine Ahnung von Technik hast, aber dennoch einen Knoten betreiben möchtest, kannst Du über uns einen vorbereiteten Knoten bekommen, den Du nur noch an das Stromnetz (und gegebenenfalls an Deinem bereits vorhandenen Internet-Router) anschließen musst. Ein derart vorbereiteter Knoten funktioniert “einfach so”.
     - question: Ich habe ein wenig Ahnung von Technik, aber noch nie ein Gerät geflasht. Ist es schwer, die Freifunksoftware auf den Router aufzuspielen?
       answer: |
-        Nein, die Installation unserer Software ist nicht schwer und wird von uns so einfach wie möglich gehalten. Wirf doch einfach einen Blick in die [Anleitung](http://wiki.bremen.freifunk.net/Anleitungen/Firmware/Flashen) und entscheide selbst, ob Du dir das Flashen zutraust oder nicht.
+        Nein! Die Installation unserer Software ist nicht schwer und wird von uns so einfach wie möglich gehalten. Wirf doch einfach einen Blick in die [Anleitung](http://wiki.bremen.freifunk.net/Anleitungen/Firmware/Flashen) und entscheide selbst, ob Du dir das Flashen zutraust oder nicht.
 
         Bei Rückfragen helfen wir gerne auf einem Treffen (siehe [Wann und wo trefft ihr euch immer/kann man mit euch sprechen?](#wann-und-wo-trefft-ihr-euch-immer-kann-man-mit-euch-sprechen)).
     - question: Wie kann ich bei Freifunk mitmachen?
@@ -91,7 +91,7 @@
         Du kannst uns auch aktiv unterstützen, indem Du einen eignen Knoten (Zugangspunkt) aufstellst. Du bist auch herzlich zu unseren Treffen eingeladen. Dort können wir dann besprechen, was gerade konkret anliegt und wie Du Dich auch mit eigenen Ideen einbringen kannst.
     - question: Muss ich zu den Treffen, wenn ich nur einen Router aufstellen möchte oder gelegentlich das WLAN mit meinem Smartphone nutze?
       answer: |
-        Nein. Freifunk funktioniert auf freiwilliger Basis. Jede_r bringt sich so ein, wie er oder sie es für richtig hält. Eine Verpflichtung besteht nicht.
+        Nein! Freifunk funktioniert auf freiwilliger Basis. Jede_r bringt sich so ein, wie er oder sie es für richtig hält. Eine Verpflichtung besteht nicht.
     - question: Wo bekomme ich einen Router?
       answer: |
         Wir haben unserem Wiki eine [Liste](http://wiki.bremen.freifunk.net/Router/Routerabholstandorte), an welchen Orten Du Router bekommen kannst.
@@ -153,7 +153,7 @@
         Prinzipiell ja. Allerdings ist es nicht sehr Effizient, da dann schon Mesh, Client-Netz, alle Clients sowie der Router zu dem als Uplink verbunden wird auf dem selben Kanal funken. Hinzu kommen evtl. Geräte aus der Nachbarschaft, die vielleicht auch auf diesem Kanal sind.
     - question: Kann ich ein privates WLAN parallel auf meinem Freifunk-Knoten herausgeben?
       answer: |
-        Ja, es ist möglich ein privates WLAN auf Deinem Freifunk-Knoten herauszugeben. Um das private WLAN zu aktivieren muss man den Router in den Config Modus bringen (Anleitung [hier](#kann-ich-meine-knotendaten-name-ort-auf-der-knotenkarte-etc-ndern)) und dann in der Weboberfläche oben rechts auf "Experten Modus" klicken. Unter dem Tab "Privates WLAN" kann man dann die nötigen Einstellungen vornehmen.
+        Ja! Es ist möglich ein privates WLAN auf Deinem Freifunk-Knoten herauszugeben. Um das private WLAN zu aktivieren muss man den Router in den Config Modus bringen (Anleitung [hier](#kann-ich-meine-knotendaten-name-ort-auf-der-knotenkarte-etc-ndern)) und dann in der Weboberfläche oben rechts auf "Experten Modus" klicken. Unter dem Tab "Privates WLAN" kann man dann die nötigen Einstellungen vornehmen.
     - question: Kann ich die LAN-Ports verwenden um mein privates Netzwerk zu erweitern?
       answer: |
         Dies ist durch editieren der OpenWRT Netzwerkeinstellungen möglich. Jedoch existiert dafür noch keine Anleitung. Wenn Du eine gefunden oder geschrieben hast, verknüpfe sie im Wiki.
@@ -177,7 +177,7 @@
   questions:
     - question: Kann ich als Knotenbetreiber_in dafür verantwortlich gemacht werden was andere über mein Freifunk tun? (Störerhaftung)
       answer: |
-        Nein. Der Datenverkehr wird verschlüsselt durch sogenannte Gateway Server getunnelt. Dadurch ist ist der Datenverkehr nicht zu Deinem Anschluss zurückverfolgbar und die sogenannte 'Störerhaftung' nicht durchsetzbar.
+        Nein! Der Datenverkehr wird verschlüsselt durch sogenannte Gateway Server getunnelt. Dadurch ist ist der Datenverkehr nicht zu Deinem Anschluss zurückverfolgbar und die sogenannte 'Störerhaftung' nicht durchsetzbar.
     - question: Darf ich überhaupt WLAN außerhalb meiner Wohnung versenden?
       answer: |
         Grundstücksübergreifende Datenverbindungen (also eine WLAN-Verbindung zum Nachbarn) waren früher lizenzflichtig.
