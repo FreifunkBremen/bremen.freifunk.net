@@ -177,7 +177,9 @@
   questions:
     - question: Kann ich als Knotenbetreiber_in dafür verantwortlich gemacht werden was andere über mein Freifunk tun? (Störerhaftung)
       answer: |
-        Nein! Der Datenverkehr wird verschlüsselt durch sogenannte Gateway Server getunnelt. Dadurch ist ist der Datenverkehr nicht zu Deinem Anschluss zurückverfolgbar und die sogenannte 'Störerhaftung' nicht durchsetzbar.
+        Nein! Die Internetverbindung, an die der Knoten angeschlossen ist, wird nicht für die Nutzer von Freifunk freigegeben.
+        Um den Nutzern_innen im Freifunk Zugriff auf Dienste des Internets zu geben, werden unsere Internetverbindungen an unseren Servern verwendet.
+        Alle etwaigen Abmahnungen gehen an uns. Um uns vor diesen zu schützen verwenden wir das Providerprivileg, genau wie die Telekom, Vodafone oder andere große WLAN-Hotspot-Betreiber.
     - question: Darf ich überhaupt WLAN außerhalb meiner Wohnung versenden?
       answer: |
         Grundstücksübergreifende Datenverbindungen (also eine WLAN-Verbindung zum Nachbarn) waren früher lizenzflichtig.
