@@ -5,7 +5,9 @@
         Freifunk ist ein Funknetzwerk in Bürgerhand. Privatleute stellen freiwillig offene WLAN-Zugangspunkte zur Verfügung, die jeder kostenlos nutzen kann. Diese Zugangspunkte sind untereinander verbunden (in der Fachsprache: sie „meshen” miteinander) und bilden so ein dezentrales vermaschtes Netzwerk. Man kann sich Freifunk als stadtweites „Intranet” vorstellen, also ein „Internet im Kleinen”. So kann man im Freifunknetz beispielsweise Websiten aufrufen, die es nur im Freifunknetz, aber nicht im Internet gibt. [Hier](http://wiki.bremen.freifunk.net/Dienste/Home) findest Du eine Liste der verfügbaren Dienste.
     - question: Wie kann ich Freifunk nutzen?
       answer: |
-        In Reichweite eines Zugangspunktes kannst Du das Freifunk-Netz mit jedem WLAN-fähigen Endgerät nutzen. Wenn Du bei eingeschaltetem WLAN den Netzwerknamen `bremen.freifunk.net` siehst, kannst Du Dich einfach und ohne Passwort mit dem Funknetzwerk verbinden. Den nächsten Zugangspunkt findest Du unter [freifunk-karte.de](https://freifunk-karte.de/)
+        In Reichweite eines Zugangspunktes kannst Du das Freifunk-Netz mit jedem WLAN-fähigen Endgerät nutzen. Wenn Du bei eingeschaltetem WLAN den Netzwerknamen `bremen.freifunk.net` siehst, kannst Du Dich einfach und ohne Passwort mit dem Funknetzwerk verbinden.
+        Den nächsten bremischen Zugangspunkt findest Du auf unserer [Karte "Meshviewer"](https://map.bremen.freifunk.net/).
+        Deutschland weit wirst Du unter [freifunk-karte.de](https://freifunk-karte.de/) fündig.
     - question: Wer seid ihr?
       answer: |
         Wir sind unterschiedlichste Menschen, die in unserer Freizeit ehrenamtlich zusammen an diesem Projekt arbeiten. In unseren Reihen sind fast alle Schichten vertreten, von Schülern über Studenten bis hin zu Berufstätigen und Eltern.
@@ -24,7 +26,7 @@
         Es gibt bei uns die verschiedensten Motivationen. Einige von uns interessieren sich für die Technik hinter den Routern und toben sich daran gerne aus. Andere machen bei Freifunk aus ideologischen Gründen mit - um ein freie Kommunikationsinfrastruktur zu schaffen. Einige interessiert vor allem die soziale Interaktion mit Nachbarn, anderen Freifunkern oder völlig unbekannten Menschen.
     - question: Was ist ein Knoten (Node)?
       answer: |
-        Knoten (engl. „Node“) ist gleichbedeutend mit Router, Access-Point oder Zugangspunkt. Sie werden in der Regel von Privatpersonen betrieben und bieten dir und anderen Zugang zum Freifunknetzwerk.
+        Knoten (engl. „Node“) ist gleichbedeutend mit Router, Access-Point oder Zugangspunkt. Sie werden in der Regel von Privatpersonen betrieben und bieten dir und anderen Zugang zum Freifunknetzwerk. Ein handelsüblicher WLAN-Router wird in unserem Sinne zum "Knoten", wenn die bremer Freifunk-Software aufgespielt wurde.
     - question: Kann ich einen Freifunk-Knoten mit Bremer Firmware außerhalb Bremens betreiben?
       answer: |
         Erst mal großartig, dass Du Freifunk machen möchtest!
@@ -106,6 +108,7 @@
     - question: Wie schnell ist mein Zugang im Freifunk?
       answer: |
         Innerhalb des Funknetzes hängt die Geschwindigkeit stark von der Qualität der Funkverbindung ab und über wie viele Knoten sie geht. Die Geschwindigkeit der Knoten ins kabelgebundene Netz (z.B. Internet) wird jedoch maßgeblich durch die Prozessor-Leistung der Knoten begrenzt. Denn die müssen den VPN-Tunnel ver- und entschlüsseln, was viel Rechenleistung benötigt. Gemessene Richtwerte pro Modell findest Du [hier](https://projects.universe-factory.net/projects/fastd/wiki/Benchmarks). Grundsätzlich surfst Du also übers Freifunk minimal langsamer.
+        Die Verschlüsselung kann auch ausgeschaltet werden um eine höhere Geschwindigkeit zu erreichen. Da das Freifunk-Netz sowiso komplett offen für jeden ist, geht man auch kein zusätzliches Risiko ein.
     - question: Mein Freifunk-Router spannt ein zweites WLAN mit dem Namen mesh.ffhb.de auf. Was bedeutet das?
       answer: |
         Das zweite WLAN mit dem Namen (SSID) `mesh.ffhb.de` ist ein Ad-hoc-WLAN und dient der Vernetzung der einzelnen Router untereinander. „Sehen” sich zwei Freifunk-Knoten in ihrem Empfangsbereich, so nehmen sie über diese WLAN-SSID miteinander Kontakt auf und leiten den Datenverkehr weiter. Wir sprechen dann davon, dass sie “meshen”, der eigentlichen Funktion des Freifunk-Netzes.
@@ -128,6 +131,7 @@
 
         #### SSH
         Wenn Du im Konfigurationsmodus ein Passwort oder einen SSH-Schlüssel hinterlegt hast, kannst Du auch im normalen Betrieb per SSH auf den Knoten zugreifen: `ssh root@[IPv6-Adresse des Freifunk Knotens]` oder falls Du direkt mit dem Knoten verbunden bist `ssh root@node.ffhb.de` oder `ssh root@10.196.0.127`.
+        Solang der Name des Knotens keine Punkte enthält kann auch `ssh root@Name-des-Knotens.nodes.ffhb.de` verwendet werden.
 
         Wenn der Knoten am Netz ist, taucht er auf der [Knoten-Karte "Meshviewer"](https://map.bremen.freifunk.net) auf. Klickst Du auf den Knotennamen, siehst Du seine IPv6-Adresse.
 
