@@ -5,7 +5,7 @@ title: Impressum
 # Impressum
 
 <div itemscope itemtype='http://schema.org/Person'>
-  <div itemprop='name'>Simon Joda Stößer</div>
+  <div itemprop='name'>Förderverein Freifunk Bremen e.V.</div>
   <div itemprop='address' itemscope itemtype='http://schema.org/PostalAddress'>
   <div itemprop='streetaddress'>Sommerstr. 2a</div>
   <div>
@@ -20,7 +20,7 @@ title: Impressum
   <meta content='work' itemprop='ContactType'>
   <div>
     Telefon:
-    <a href='tel:+4942167368010' itemprop='telephone'>+49 421 - 673 680 10</a>
+    <a href='tel:+4942140895114' itemprop='telephone'>+49 421 - 408 951 14</a>
   </div>
   <div>
     E-Mail: <a href='mailto:info@bremen.freifunk.net'>info[at]bremen.freifunk.net</a>
