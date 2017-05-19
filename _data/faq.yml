@@ -8,7 +8,7 @@
         In Reichweite eines Zugangspunktes kannst Du das Freifunk-Netz mit jedem WLAN-fähigen Endgerät nutzen. Wenn Du bei eingeschaltetem WLAN den Netzwerknamen `bremen.freifunk.net` siehst, kannst Du Dich einfach und ohne Passwort mit dem Funknetzwerk verbinden. Den nächsten Zugangspunkt findest Du unter [freifunk-karte.de](https://freifunk-karte.de/)
     - question: Wer seid ihr?
       answer: |
-        Wir sind die unterschiedlichsten Menschen, die in unserer Freizeit ehrenamtlich zusamen an diesem Projekt arbeiten. In unseren Reihen sind fast alle Schichten vertreten, von Schülern über Studenten bis hin zu Berufstätigen.
+        Wir sind die unterschiedlichsten Menschen, die in unserer Freizeit ehrenamtlich zusammen an diesem Projekt arbeiten. In unseren Reihen sind fast alle Schichten vertreten, von Schülern über Studenten bis hin zu Berufstätigen.
 
         In naher Zukunft werden wir uns außerdem in die enge Hülle eines eingetragenen Vereins zwängen, sodass wir nach außen ein homogenes Auftreten haben.
     - question: Warum überhaupt Freifunk?
@@ -25,7 +25,7 @@
     - question: Was ist ein Knoten (Node)?
       answer: |
         Knoten (engl. „Node“) ist gleichbedeutend mit Router, Access-Point oder Zugangspunkt. Sie werden in der Regel von Privatpersonen betrieben und bieten dir und anderen Zugang zum Freifunknetzwerk.
-    - question: Kann ich einen Freifunk-Knoten mit Bremer Firmware ausserhalb Bremens betreiben?
+    - question: Kann ich einen Freifunk-Knoten mit Bremer Firmware außerhalb Bremens betreiben?
       answer: |
         Erst mal großartig, dass Du Freifunk machen möchtest!
 
@@ -37,7 +37,7 @@
         Zur Zeit enstehen ständig neue Freifunk-Gemeinden. Welche Gemeinden es schon gibt, siehts Du in [dieser](http://freifunk.net/wie-mache-ich-mit/community-finden/) Übersicht.
     - question: Moment, aber ich geh doch mit Freifunk ins Internet! Wieso sagt ihr, ihr seid ein Intranet?
       answer: |
-        Freifunk soll primär keinen HotSpot-Internetzugang darstellen, wie ihn etwa große Telekommunikationsunternehmen bereits anbietet. Die Vision von Freifunk ist, ein auf WLAN basierendes, eigenständiges Netz aufzubauen - ein Bürgernetz. Die Verbindung zum Internet ist daher nur ein zusätzliches, optionales Feature.
+        Freifunk soll primär keinen HotSpot-Internetzugang darstellen, wie ihn etwa große Telekommunikationsunternehmen bereits anbieten. Die Vision von Freifunk ist, ein auf WLAN basierendes, eigenständiges Netz aufzubauen - ein Bürgernetz. Die Verbindung zum Internet ist daher nur ein zusätzliches, optionales Feature.
 
         Unser Anliegen ist nicht nur, jedem kostenlos Zugang zum Internet zu gewähren, sondern vielmehr ein Funknetzwerk in Bürgerhand aufzubauen, an dem jeder partizipieren kann und das von Niemandem kontrolliert, überwacht oder eingeschränkt werden kann.
     - question: Wie sicher ist es im Freifunk zu surfen?
@@ -79,7 +79,7 @@
     - question: Ich habe keine Ahnung von Technik. Kann ich dennoch einen Zugangspunkt betreiben?
       answer: |
         Die kurze Antwort ist: Ja, Du kannst! Auch wenn Du absolut keine Ahnung von Technik hast, aber dennoch einen Knoten betreiben möchtest, kannst Du über uns einen vorbereiteten Knoten bekommen, den Du nur noch an das Stromnetz (und gegebenenfalls an Deinem bereits vorhandenen Internet-Router) anschließen musst. Ein derart vorbereiteter Knoten funktioniert “einfach so”.
-    - question: Ich habe ein wenig Ahnung von Technik, aber noch nie ein Gerät geflasht. Ist es schwer, die Freifunksoftware auf den Router aufzuspielen?
+    - question: Ich habe ein wenig Ahnung von Technik, aber noch nie ein Gerät geflasht. Ist es schwer, die Freifunk-Software auf den Router aufzuspielen?
       answer: |
         Nein! Die Installation unserer Software ist nicht schwer und wird von uns so einfach wie möglich gehalten. Wirf doch einfach einen Blick in die [Anleitung](http://wiki.bremen.freifunk.net/Anleitungen/Firmware/Flashen) und entscheide selbst, ob Du dir das Flashen zutraust oder nicht.
 
@@ -88,7 +88,7 @@
       answer: |
         Es gibt viele Möglichkeiten, sich für Freifunk einzusetzen. Eine einfache, aber effektive Möglichkeit uns zu helfen ist Mundpropaganda: Erzähl Deinen Freund_innen und Deiner Familie von dem Projekt und zeig ihnen, wo und wie sie Freifunk nutzen können.
 
-        Du kannst uns auch aktiv unterstützen, indem Du einen eignen Knoten (Zugangspunkt) aufstellst. Du bist auch herzlich zu unseren Treffen eingeladen. Dort können wir dann besprechen, was gerade konkret anliegt und wie Du Dich auch mit eigenen Ideen einbringen kannst.
+        Du kannst uns auch aktiv unterstützen, indem Du einen eigenen Knoten (Zugangspunkt) aufstellst. Du bist auch herzlich zu unseren Treffen eingeladen. Dort können wir dann besprechen, was gerade konkret anliegt und wie Du Dich auch mit eigenen Ideen einbringen kannst.
     - question: Muss ich zu den Treffen, wenn ich nur einen Router aufstellen möchte oder gelegentlich das WLAN mit meinem Smartphone nutze?
       answer: |
         Nein! Freifunk funktioniert auf freiwilliger Basis. Jede_r bringt sich so ein, wie er oder sie es für richtig hält. Eine Verpflichtung besteht nicht.
@@ -100,18 +100,18 @@
     - question:  Ich habe alles angeschlossen und konfiguriert, aber mein Freifunk Router bekommt kein Internet.
       answer: |
         Hast Du das Netzwerk-Kabel von Deinem Heimrouter in den richtigen Port am Freifunkrouter gesteckt? Es muss im **blauen WAN-Port** stecken.
-    - question: Lässt sich die original Firmware wieder einspielen?
+    - question: Lässt sich die Original-Firmware wieder einspielen?
       answer: |
-        Ja! Ein bereits in einen Freifunk-Knoten umgewandeltes Gerät kann jederzeit wieder mit der original Hersteller-Firmware geflasht (bespielt) werden und entspricht damit wieder dem Original.
+        Ja! Ein bereits in einen Freifunk-Knoten umgewandeltes Gerät kann jederzeit wieder mit der originalen Hersteller-Firmware geflasht (bespielt) werden und entspricht damit wieder dem Original.
     - question: Wie schnell ist mein Zugang im Freifunk?
       answer: |
-        Innerhalb des Funknetzes hängt die Geschwindigkeit stark von der Qualität der Funk-Verbindung ab und über wie viele Knoten sie geht. Die Geschwindigkeit der Knoten ins kabelgebundene Netz (z.B. Internet) wird jedoch maßgeblich durch die Prozessor-Leistung der Knoten begrenzt. Denn die müssen den VPN-Tunnel ver- und entschlüsseln, was viel Rechenleistung benötigt. Gemessene Richtwerte pro Modell findest Du [hier](https://projects.universe-factory.net/projects/fastd/wiki/Benchmarks). Grundsätzlich surfst Du also übers Freifunk minimal langsamer.
+        Innerhalb des Funknetzes hängt die Geschwindigkeit stark von der Qualität der Funkverbindung ab und über wie viele Knoten sie geht. Die Geschwindigkeit der Knoten ins kabelgebundene Netz (z.B. Internet) wird jedoch maßgeblich durch die Prozessor-Leistung der Knoten begrenzt. Denn die müssen den VPN-Tunnel ver- und entschlüsseln, was viel Rechenleistung benötigt. Gemessene Richtwerte pro Modell findest Du [hier](https://projects.universe-factory.net/projects/fastd/wiki/Benchmarks). Grundsätzlich surfst Du also übers Freifunk minimal langsamer.
     - question: Mein Freifunk-Router spannt ein zweites WLAN mit dem Namen mesh.ffhb auf. Was bedeutet das?
       answer: |
-        Das zweite WLAN mit einer SSID `mesh.ffhb` ist ein Ad-hoc-WLAN und dient der Vernetzung der einzelnen Router untereinander. „Sehen” sich zwei Freifunk-Konten in ihrem Empfangsbereich, so nehmen sie über diese WLAN-SSID miteinander Kontakt auf und leiten den Datenverkehr weiter. Wir sprechen dann davon, dass sie “meshen”, der eigentlichen Funktion des Freifunk-Netzes.
+        Das zweite WLAN mit einer SSID `mesh.ffhb` ist ein Ad-hoc-WLAN und dient der Vernetzung der einzelnen Router untereinander. „Sehen” sich zwei Freifunk-Knoten in ihrem Empfangsbereich, so nehmen sie über diese WLAN-SSID miteinander Kontakt auf und leiten den Datenverkehr weiter. Wir sprechen dann davon, dass sie “meshen”, der eigentlichen Funktion des Freifunk-Netzes.
     - question: Kann ich den Funkkanal wechseln?
       answer: |
-        Freifunk arbeitet auf Kanal 6. Da sich die einzelnen WLAN-Knoten nur miteinander vernetzen können, wenn auch alle auf dem selben Kanal funken, ergibt eine Änderung keinen Sinn. Eine Veränderung des Kanals würde dazu führen, dass ein Router nicht mehr seine Kernfunktion, das “Meshen”, erfüllen kann, es sei denn, alle anderen Router würde auch umgestellt. Sollte es zu Kollisionen mit benachbarten Netzen kommen, schlagen wir den diplomatischen Weg vor, indem man sich mit seinen Nachbarn über die Kanalbelegung abstimmt.
+        Freifunk arbeitet auf Kanal 6. Da sich die einzelnen WLAN-Knoten nur miteinander vernetzen können, wenn auch alle auf dem selben Kanal funken, ergibt eine Änderung keinen Sinn. Eine Veränderung des Kanals würde dazu führen, dass ein Router nicht mehr seine Kernfunktion, das “Meshen”, erfüllen kann, es sei denn, alle anderen Router würden auch umgestellt. Sollte es zu Kollisionen mit benachbarten Netzen kommen, schlagen wir den diplomatischen Weg vor, indem man sich mit seinen Nachbarn über die Kanalbelegung abstimmt.
     - question: Kann ich meine Knotendaten (Name, Ort auf der Knotenkarte, etc.) ändern?
       answer: |
         Ja! Du kannst diese Daten im Konfigurationsmodus (siehe nächste Frage) jederzeit ändern.
@@ -127,7 +127,7 @@
         * Der Konfigurationsmodus ist nun erreichbar unter [192.168.1.1](http://192.168.1.1/)
 
         #### SSH
-        Wenn Du im Konfigurationsmodus eine Root-Passwort oder einen SSH-Schlüssel hinterlegt hast, kannst Du auch im normalen Betrieb per SSH auf den Knoten zugreifen: `ssh root@[IPv6-Adresse des Freifunk Knotens]` oder falls Du direkt mit dem Knoten verbunden bist `ssh root@node.ffhb.de` oder `ssh root@10.196.0.127`.
+        Wenn Du im Konfigurationsmodus ein Root-Passwort oder einen SSH-Schlüssel hinterlegt hast, kannst Du auch im normalen Betrieb per SSH auf den Knoten zugreifen: `ssh root@[IPv6-Adresse des Freifunk Knotens]` oder falls Du direkt mit dem Knoten verbunden bist `ssh root@node.ffhb.de` oder `ssh root@10.196.0.127`.
 
         Wenn der Knoten am Netz ist, taucht er in [der Knoten-Liste](http://bremen.freifunk.net/map/list.html) auf. Klickst Du auf den Knotennamen, siehst Du seine IPv6-Adresse.
 
@@ -150,7 +150,7 @@
 
     - question: Kann ich meinen Knoten auch über WLAN mit meinen Internetzugang verbinden, statt über Kabel?
       answer: |
-        Prinzipiell ja. Allerdings ist es nicht sehr Effizient, da dann schon Mesh, Nutzer-Netz, alle Nutzgeräte sowie der Router, zu dem sich für die Internetverbindung verbunden wird, auf dem selben Kanal funken. Hinzu kommen evtl. Geräte aus der Nachbarschaft, die vielleicht auch auf diesem Kanal sind.
+        Prinzipiell ja. Allerdings ist es nicht sehr effizient, da dann schon Mesh, Nutzer-Netz, alle Nutzgeräte sowie der Router, zu dem sich für die Internetverbindung verbunden wird, auf dem selben Kanal funken. Hinzu kommen evtl. Geräte aus der Nachbarschaft, die vielleicht auch auf diesem Kanal sind.
     - question: Kann ich ein privates WLAN parallel auf meinem Freifunk-Knoten herausgeben?
       answer: |
         Ja! Es ist möglich ein privates WLAN auf Deinem Freifunk-Knoten herauszugeben. Um das private WLAN zu aktivieren muss man den Router in den Konfigurationsmodus bringen (Anleitung [hier](#kann-ich-meine-knotendaten-name-ort-auf-der-knotenkarte-etc-ndern)) und dann in der Weboberfläche oben rechts auf "Experten Modus" klicken. Unter dem Tab "Privates WLAN" kann man dann die nötigen Einstellungen vornehmen.
@@ -181,7 +181,7 @@
     - question: Darf ich überhaupt WLAN außerhalb meiner Wohnung versenden?
       answer: |
         Grundstücksübergreifende Datenverbindungen (also eine WLAN-Verbindung zum Nachbarn) waren früher lizenzflichtig.
-        Seit 2003 können jedoch ohne Abnahme und Genehmigung duch die Bundesnetzagentur grundstücksübergreifende WLAN-Netzwerke eingerichtet werden.
+        Seit 2003 können jedoch ohne Abnahme und Genehmigung durch die Bundesnetzagentur grundstücksübergreifende WLAN-Netzwerke eingerichtet werden.
         Diese Regelung gilt für 2.4 GHz und 5 GHz.
     - question: Darf ich meinen Internetanschluss überhaupt mit anderen teilen?
       answer: |
