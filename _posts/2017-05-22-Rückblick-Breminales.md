@@ -13,9 +13,9 @@ Dieser Rückblick dient der Generation von Vorfreude.
 ### 2015
 2015 gab es noch keine Erwartungen, der ganze Aufbau war ein großes Experiment. 
 Unter anderem dadurch konnten einige Sponsoren für dieses Experiment gewonnen werden.
-Zunächst wurde noch geplant, das ganze Gelände anzubinden, jedoch wurde dies mehr und mehr utopisch.
 Die erste Unterkunft war bei den DreiMeterBrettern, welche uns herzlich empfingen! Im Gegenzug versuchten sich einige 
 Freifunker am Hämmern und Schrauben.
+Die Utopie eines komplett vernetzten Geländes wurde tatsächlich nach und nach Realität.
 Unser Netz orientierte sich am Stromnetz der Breminale, wir verlegten hauptsälich CAT7-Kabel, welches extra dafür 
 angeschafft wurde.
 Die Installation hat viel Zeit gekostet, aber auch viel Spass gemacht. 
