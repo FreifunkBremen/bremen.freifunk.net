@@ -2,12 +2,13 @@
 layout: post
 title:  "Rückblick: Breminales 2015 und 2016"
 author: Yannik
-date:   2017-05-19 21:56:36 +0200
+date:   2017-05-22 15:36:36 +0200
 ---
 
 ## Der Rückblick
 
-Dieser Rückblick dient der Generation von Vorfreude.
+Dieser Rückblick dient der Generation von Vorfreude. 
+(Und der kurzen Zusammenfassung aka "was bisher geschah...")
 
 ### 2015
 2015 gab es noch keine Erwartungen, der ganze Aufbau war ein großes Experiment. 
