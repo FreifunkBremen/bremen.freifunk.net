@@ -43,3 +43,7 @@ Die Abdeckung war in den Zelten recht gut, jedoch sollten in der Nähe der Nahru
 möglich sein.
 Es gab nach der Breminale 2015 eine Menge neuer Knoten auf unserer Knotenkarte, dieser Schub fiel nach der 
 Breminale 2016 deutlich geringer aus.
+
+## Fazit
+Mit dem Wissen und den Erfahrungen der letzten beiden Jahre wird diese Breminale (und vor allem das Netz auf 
+dieser) megacool!
