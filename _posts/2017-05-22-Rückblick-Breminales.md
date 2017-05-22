@@ -47,3 +47,6 @@ Breminale 2016 deutlich geringer aus.
 ## Fazit
 Mit dem Wissen und den Erfahrungen der letzten beiden Jahre wird diese Breminale (und vor allem das Netz auf 
 dieser) megacool!
+
+
+PS: dieser Blogpost basiert auf genos Idee und Text, danke dafür! 
