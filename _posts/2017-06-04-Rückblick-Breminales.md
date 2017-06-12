@@ -4,13 +4,11 @@ title:  "Rückblick: Breminales 2015 und 2016"
 author: Yannik
 date:   2017-06-04 19:00:00 +0200
 ---
-
-## Der Rückblick
-
 Dieser Rückblick dient der Generation von Vorfreude. 
 (Und der kurzen Zusammenfassung aka "was bisher geschah...")
 
-### 2015
+
+## 2015
 2015 gab es noch keine Erwartungen, der ganze Aufbau war ein großes Experiment. 
 Unter anderem dadurch konnten einige Sponsoren für dieses Experiment gewonnen werden.
 Die erste Unterkunft war bei den DreiMeterBrettern, welche uns herzlich empfingen! Im Gegenzug versuchten sich einige 
@@ -22,8 +20,7 @@ Die Installation hat viel Zeit gekostet, aber auch viel Spass gemacht.
 Am Ende hat sich der Aufwand gelohnt: Die Presse war interessiert, es kam zu unglaublichen Nutzerzahlen.
 
 
-
-### 2016
+## 2016
 Mit den Erfahrungen aus dem Jahr zuvor, dem Equipment, Leihgaben und mit ein paar Spenden, die direkt 
 nach der Breminale letzten Jahres kamen, wurde das ganze Vorhaben um einiges professioneller.
 Die WLAN-SSIDs für die beiden Frequenzen (2.4 und 5 GHz) wurden aufgetrennt, damit sich Handys nicht 
@@ -43,6 +40,7 @@ Die Abdeckung war in den Zelten recht gut, jedoch sollte in der Nähe der Nahrun
 möglich sein.
 Es gab nach der Breminale 2015 eine Menge neuer Knoten auf unserer Knotenkarte, dieser Schub fiel nach der 
 Breminale 2016 deutlich geringer aus.
+
 
 ## Fazit
 Mit dem Wissen und den Erfahrungen der letzten beiden Jahre wird diese Breminale (und vor allem das Netz auf 
