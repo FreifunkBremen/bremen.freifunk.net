@@ -2,7 +2,7 @@
 layout: post
 title:  "Gluon wechselt Softwarebasis"
 author: SimJoSt
-date:   2017-06-13 11:55:21 +0200
+date:   2017-06-13 11:59:21 +0200
 ---
 Vor etwas über einem Jahr gab es einen Umbruch in der Entwicklergemeinde von OpenWrt, einem Projekt für Linux-Router-Software, auf dem Gluon und auf welchem wiederum unsere Bremer Firmware basiert. Wegen langsamem Fortschritt und träger Strukturen organisierten sich die meisten Hauptentwickler unter dem neuen Namen "[LEDE](https://lede-project.org/about)".  
 Ziel war mehr Aktivität der Entwickler sowie einfachere und dynamischere Strukturen.
