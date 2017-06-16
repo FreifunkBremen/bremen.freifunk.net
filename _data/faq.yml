@@ -182,8 +182,9 @@
     - question: Kann ich als Knotenbetreiber_in dafür verantwortlich gemacht werden was andere über mein Freifunk tun? (Störerhaftung)
       answer: |
         Nein! Die Internetverbindung, an die der Knoten angeschlossen ist, wird nicht für die Nutzer von Freifunk freigegeben.
-        Um den Nutzern_innen im Freifunk Zugriff auf Dienste des Internets zu geben, werden unsere Internetverbindungen an unseren Servern verwendet.
-        Alle etwaigen Abmahnungen gehen an uns. Um uns vor diesen zu schützen verwenden wir das Providerprivileg, genau wie die Telekom, Vodafone oder andere große WLAN-Hotspot-Betreiber.
+        Diese wird nur genutzt um einen Tunnel (VPN-Verbindung) zu unseren Servern herzustellen über die der Knoten auch mit allen Knoten außerhalb seiner Sendereichweite kommunizieren kann.
+        Ins Internet gelangen die Nutzer dann erst auf unseren Servern.
+        Alle etwaigen Abmahnungen gehen also an uns. Als Provider sind wir aber nicht verantwortlich für den Datenverkehr, den wir befördern, ebenso wie beispielsweise die Telekom oder Vodafone. Deshalb sind wir zuversichtlich, ggf. anfallende Abmahnungen erfolgreich abwehren zu können.
     - question: Darf ich überhaupt WLAN außerhalb meiner Wohnung versenden?
       answer: |
         Grundstücksübergreifende Datenverbindungen (also eine WLAN-Verbindung zum Nachbarn) waren früher lizenzpflichtig.
