@@ -183,8 +183,8 @@
       answer: |
         Nein! Die Internetverbindung, an die der Knoten angeschlossen ist, wird nicht für die Nutzer von Freifunk freigegeben.
         Diese wird nur genutzt um einen Tunnel (VPN-Verbindung) zu unseren Servern herzustellen über die der Knoten auch mit allen Knoten außerhalb seiner Sendereichweite kommunizieren kann.
-        Ins Internet gelangen die Nutzer dann erst auf unseren Servern.
-        Alle etwaigen Abmahnungen gehen also an uns. Als Provider sind wir aber nicht verantwortlich für den Datenverkehr, den wir befördern, ebenso wie beispielsweise die Telekom oder Vodafone. Deshalb sind wir zuversichtlich, ggf. anfallende Abmahnungen erfolgreich abwehren zu können.
+        Ins Internet gelangen die Nutzer dann erst von unseren Servern aus.
+        Alle etwaigen Abmahnungen gehen also an uns. Als Provider sind wir aber nicht verantwortlich für den Datenverkehr, den wir befördern, ebenso wie andere große Hotspot-Anbieter. Deshalb sind wir zuversichtlich, ggf. anfallende Abmahnungen erfolgreich abwehren zu können.
     - question: Darf ich überhaupt WLAN außerhalb meiner Wohnung versenden?
       answer: |
         Grundstücksübergreifende Datenverbindungen (also eine WLAN-Verbindung zum Nachbarn) waren früher lizenzpflichtig.
