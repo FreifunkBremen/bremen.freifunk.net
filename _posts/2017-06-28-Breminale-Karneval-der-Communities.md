@@ -6,7 +6,7 @@ date:   2017-06-28 19:53:21 +0200
 ---
 Wir laden ein!
 
-Die Versorgung und Abdeckung des kostenlosen OpenAir-Kultur- und Musikfestivals Breminale ist in den letzten zwei Jahren eine Art Klassenfahrt für uns Bremer Freifunker gewesen. Wir sind alle, selbst die inaktiven, zusammengekommen und haben mal richtig an einem Stück Netz gebaut. Mit Bier, viel Material sowie vielen, Leuten die es nutzen und wertschätzen können.
+Die Versorgung und Abdeckung des kostenlosen OpenAir-Kultur- und Musikfestivals [Breminale](http://breminale.sternkultur.de/) ist in den letzten zwei Jahren eine Art Klassenfahrt für uns Bremer Freifunker gewesen. Wir sind alle, selbst die inaktiven, zusammengekommen und haben mal richtig an einem Stück Netz gebaut. Mit Bier, viel Material sowie vielen, Leuten die es nutzen und wertschätzen können.
 
 Wir konnten mit unterschiedlichen Verkabelungsarten, Firmwares, Aufstellungsorten und Verwaltungstechniken rumspielen. Auch Unterschiede zwischen typischen Freifunk-Knoten und professionellen WLAN-Geräten mit Originalfirmare sind interessant zu beobachten.
 
