@@ -14,9 +14,6 @@ Momentan sammeln wir konkret für folgende Projekte Geld:
 
 [mitmachen]: /mitmachen.html
 
-### Förderverein Freifunk Bremen
-Unser eigener, leider nicht gemeinnütziger Verein, befindet sich noch im Prozess der Eintragung. Sobald wir ein Konto haben, auf das ihr uns Geld überweisen könnt, aktualisieren wir diese Seite.
-
 ### Hackerspace Bremen
 Allgemein freuen wir uns natürlich auch ohne konkrete Projekte über Geldspenden, die der [Hackerspace Bremen e.V.] freundlicherweise für uns sammelt. Wer daher gerne Projekt-ungebunden etwas spenden möchte, kann dies gerne per Banküberweisung tun:
 

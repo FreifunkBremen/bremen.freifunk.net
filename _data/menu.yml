@@ -47,6 +47,8 @@
 - name: Unterstützer
   id: 3
   items:
+    - name: Verein
+      link: /verein.html
     - name: Spenden
       link: /unterstuetzen.html#spenden
     - name: Server stellen
