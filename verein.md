@@ -14,3 +14,26 @@ Anträge auf ordentliche sowie Fördermitgliedschaften werden in naher Zukunft m
 
 [Satzung]: /satzung.html
 [Beitragsordnung]: /beitragsordnung.html
+
+## Spenden
+Am meisten ist dem Freifunk-Netz geholfen, wenn möglichst viele Personen [mitmachen] und sich einen Router ins Fenster stellen, damit das Netz wächst. Aber für einige Dinge braucht es natürlich mehr als einen Router für 20 Euro, beispielsweise für den Betrieb der Server, für Richtfunkstrecken oder das Drucken von Werbematerial.
+
+Spenden als Überweisung können an folgende Bankdaten gesendet werden:
+<dl class="dl-horizontal">
+    <dt>Kontoinhaber:</dt><dd>Förderverein Freifunk Bremen e.V.</dd>
+    <dt>IBAN:</dt><dd>DE86 8306 5408 0004 0015 91</dd>
+    <dt>BIC:</dt><dd>GENODEF1SLR</dd>
+    <dt>Kontonummer:</dt><dd>0004001591</dd>
+    <dt>Bankleitzahl:</dt><dd>83065408</dd>
+    <dt>Name der Bank:</dt><dd>Skatbank</dd>
+    <dt>Verwendungszweck:</dt><dd>Spende</dd>
+</dl>
+
+Momentan sammeln wir konkret für folgende Projekte Geld:
+
+* Hardware für befristete Leihgaben zum Testen
+* Hardware für Events
+* Hardware für Richtfunkstrecken
+* Betrieb der Internet-Übergabepunkte
+
+[mitmachen]: /mitmachen.html
