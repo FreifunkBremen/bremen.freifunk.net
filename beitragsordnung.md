@@ -1,4 +1,6 @@
 ---
+layout: default
+category_id: 3
 title: Beitragsordnung des Förderverein Freifunk Bremen
 subtitle: beschlossen auf der Gründungsversammlung am 23.09.2016
 lang: de-DE
