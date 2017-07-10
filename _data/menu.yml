@@ -47,8 +47,10 @@
 - name: Unterstützer
   id: 3
   items:
+    - name: Verein
+      link: /verein.html
     - name: Spenden
-      link: /unterstuetzen.html#spenden
+      link: /verein.html#spenden
     - name: Server stellen
       link: /unterstuetzen.html#server-stellen
     - name: Router verkaufen
