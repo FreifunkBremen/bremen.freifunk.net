@@ -9,7 +9,7 @@ Bei Fragen zum Freifunk-Bremen-Projekt freuen wir uns über Kontaktaufnahmen:
 
 * per E-Mail: [info@bremen.freifunk.net](mailto:info@bremen.freifunk.net)
 * im Chat:
-  * per Browser: <a href="https://webirc.hackint.org/#ffhb" target="_blank">Webchat</a>
+  * per Browser: <a href="https://webirc.hackint.org/#ircs://irc.hackint.org/#ffhb?nick=Gast_?" target="_blank">Webchat</a>
   * IRC: [#ffhb im Hackint](irc://irc.hackint.org/ffhb)
   * XMPP/Jabber: [#ffhb@irc.hackint.org](xmpp:#ffhb@irc.hackint.org)
 * auf Twitter: [@FreifunkHB](https://twitter.com/FreifunkHB)
