@@ -17,6 +17,12 @@
     padding-left: 23px;
     background: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAwAAAAQCAYAAAAiYZ4HAAAAv0lEQVQoz73RIW4CURjE8d++1PQKTeUKEE1tHU0lCixBQ2gbephSsQfgCliCRJIaBA4qW1sJZrd5bIEshlHvm8x/kslLRFrp3+ADjdya4TWVfRWZK/t6Ryu6i3e7MEIJaPivx/goA9sDwPYUMD0A7HnlDcO88SkKv7mokugPrvGCLmq5vcQYo1T2+wes9G8xwd2R4k80U9kmyZvnJ8KFFngIeK4QhnsMAjpnbO6EaGAV1QO+zwB+AnrYVAiv0dsBz/4iZqMRiKsAAAAASUVORK5CYII=') no-repeat;
   }
+
+  img {
+    display: block;
+    max-width: 100%;
+    margin: 5px auto;
+  }
 }
 section:nth-child(even) .newsitem {
   time {
