@@ -2,7 +2,7 @@
 layout: post
 title:  "Updateproblem und neue Testing-Firmware 2016.2.7+bremen1"
 author: SimJoSt
-date:   2017-10-23 20:15:21 +0200
+date:   2017-10-23 22:29:21 +0200
 ---
 Es gibt eine neue testing-Firmware für die Knoten des Bremer Freifunks: 2016.2.7+bremen1  
 Diese behebt ein Updateproblem, welches in der aktuellen Firmware existiert. Knoten mit wenig Arbeitspeicher sind am ehesten betroffen und hängen beim Updaten einfach fest. Der WLAN-, VPN- und Freifunk-Betrieb ist in diesem Zustand nicht mehr aktiv, aber nichts geht dauerhaft kaputt. Nach einmal vom Strom trennen nimmt der Knoten wieder den regulären Betrieb auf.  
