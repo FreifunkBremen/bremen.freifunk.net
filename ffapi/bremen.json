@@ -20,7 +20,7 @@
     "twitter": "@FreifunkHB"
   },
   "state": {
-    "nodes": 707,
+    "nodes": 741,
     "description": "Freifunk Bremen in its current form has been founded in the end of 2013. Consisting of mostly young people, the community is still growing and establishing itself in its city.",
     "focus": [
       "infrastructure/backbone",
@@ -28,7 +28,7 @@
       "Social Community Building",
       "Free internet access"
     ],
-    "lastchange": "2017-03-23T11:25:00.000Z"
+    "lastchange": "2017-11-01T19:25:00.000Z"
   },
   "services": [
     {
@@ -127,15 +127,15 @@
       "mapType": "geographical"
     },
     {
-      "url": "https://map.bremen.freifunk.net/#!v:g",
+      "url": "https://map.bremen.freifunk.net/#/graph",
       "interval": "1min",
       "technicalType": "meshviewer",
       "mapType": "structural"
     },
     {
-      "url": "https://downloads.bremen.freifunk.net/data/v2/nodes.json",
+      "url": "https://downloads.bremen.freifunk.net/data/nodelist.json",
       "interval": "1min",
-      "technicalType": "meshviewer",
+      "technicalType": "nodelist",
       "mapType": "list/status"
     }
   ],
