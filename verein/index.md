@@ -10,10 +10,12 @@ Er soll die Kosten und Verwaltung eines Teils der für Freifunk Bremen nötigen 
 Gegründet am [23. September 2016](https://bremen.freifunk.net/blog/2016/09/23/heute-vereinsgr%C3%BCndungstreffen.html) von 15 Freifunkern mit folgender [Satzung] und [Beitragsordnung] wurde er am 14. Februar 2017 offiziell ins Vereinsregister eingetragen.
 Der Verein genießt aktuell keine Gemeinnützigkeit und ihre Vorteile, wird diese jedoch anstreben sobald die rechtliche Grundlage dafür vorhanden ist. So sollen absetzbare Spenden möglich werden und klargestellt werden, dass der Verein nicht profitorientiert handelt.
 
-Anträge auf ordentliche sowie Fördermitgliedschaften werden in naher Zukunft möglich sein, sobald die nötigen Formulare fertiggestellt sind.
+Wer den Verein nicht nur finanziell sondern auch inhaltlich unterstützen möchte, kann gerne den [Mitgliedsantrag] ausfüllen und dem Vorstand postalisch unter der Adresse im [Impressum] oder persönlich auf einem Treffen zukommen lassen.
 
-[Satzung]: /satzung.html
-[Beitragsordnung]: /beitragsordnung.html
+[Satzung]: satzung.html
+[Beitragsordnung]: beitragsordnung.html
+[Mitgliedsantrag]: mitgliedsantrag.pdf
+[Impressum]: /impressum.html
 
 ## Spenden
 Spenden als Überweisung können an folgende Bankdaten gesendet werden:
