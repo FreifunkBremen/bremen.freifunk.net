@@ -42,4 +42,4 @@ nimm [Kontakt] zu uns auf.
 
 
 [Kontakt]: /kontakt.html
-[Förderverein]: /verein.html
+[Förderverein]: /verein/

@@ -48,9 +48,9 @@
   id: 3
   items:
     - name: Verein
-      link: /verein.html
+      link: /verein/
     - name: Spenden
-      link: /verein.html#spenden
+      link: /verein/#spenden
     - name: Server stellen
       link: /unterstuetzen.html#server-stellen
     - name: Router verkaufen
