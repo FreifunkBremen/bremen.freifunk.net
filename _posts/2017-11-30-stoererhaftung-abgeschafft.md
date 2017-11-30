@@ -2,7 +2,7 @@
 layout: post
 title:  Störerhaftung abgeschafft, was nun?
 author: Joda Stößer (SimJoSt)
-date:   2017-11-17 18:50:12 +0100
+date:   2017-11-30 18:50:12 +0100
 ---
 Vor anderthalb Jahren gab es eine Gesetzesänderung, welche von der Politik als "Ende der Störerhaftung" deklariert wurde. Wir stellten uns die Frage "[Störerhaftung wird abgeschafft, ist Freifunk jetzt überflüssig?](../../../2016/05/11/stoererhaftung-wird-abgeschafft.html)". Damals war das Fazit: "abwarten", denn wichtig war nicht die Gesetzesänderung, sondern ob sie den endlosen Abmahnungen ein Ende setzt.  
 Da dem nicht so war, wurde vor etwa einem halben Jahr eine weitere Gesetzesänderung unterzeichnet. Mit dieser sollte die Störerhaftung tatsächlich ein für alle mal verschwinden. Dies konnten auch Kritiker des vorherigen Gesetzes bestätigen. Jedoch wurde stattdessen eine neue Klausel angelegt. Diese kann bei extremen Umständen dazu führen, dass ein WLAN-Betreiber Webseiten sperren muss. Dazu müssen an seinem Anschluss die zu sperrenden Webseiten schon ein mal missbraucht worden sein. Außerdem dürfen andere Maßnahmen der Strafverfolgung nicht zum Erfolg geführt haben.
