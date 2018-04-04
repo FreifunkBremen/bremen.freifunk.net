@@ -10,6 +10,7 @@
   z-index: 6;
   font-size: 16px;
   box-shadow: 0 0 5px #000;
+  overflow-x: hidden;
 
   h1 {
     display: none;
@@ -63,14 +64,15 @@
       display: inline-block;
 
       > li ul {
-        display: none; /* this is overwritten for :hover and .active */
+        left: -100%; /* this is overwritten for :hover and .active */
         position: absolute;
-        left: 0;
         bottom: 0;
         width: 100%;
         padding-left: calc((100vw - #{$max_design_width}) / 2);
         box-sizing: border-box;
         background: inherit;
+        transition-property: left;
+        transition-duration: .2s;
       }
 
       > li:nth-child(1) {
@@ -92,17 +94,24 @@
         background: $menu_background_4;
         color: $menu_textcolor_4;
       }
+    }
 
-      > li.active ul {
-        display: block;
-      }
+    #mainnav:hover {
       > li:hover ul {
-        display: block !important;
+        left: 0;
+      }
+      > li:hover ~ li ul {
+        left: 100%;
       }
     }
 
-    #mainnav:hover li.active ul {
-      display: none;
+    #mainnav:not(:hover) {
+      > li.active ul {
+        left: 0;
+      }
+      > li.active ~ li ul {
+        left: 100%;
+      }
     }
   }
 
@@ -239,19 +248,18 @@ body {
       }
 
       #mainnav {
-        > li:hover > ul {
-          display: none !important;
-        }
-        > li > ul {
+        > li ul {
           position: static;
+          display: none;
+          left: 0 !important;
 
           li a {
             padding-left: 25px;
           }
         }
-      }
-      #mainnav:hover > li.active > ul {
-        display: block !important;
+        > li.active ul {
+          display: block;
+        }
       }
     }
   }
