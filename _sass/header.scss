@@ -129,13 +129,17 @@
     transition: margin-top .2s, left .5s;
   }
 
-  #navbutton::before {
-    content: "";
+  #navbutton > .bar {
+    display: block;
     height: 0.25em;
     width: 1.5em;
-    border-top: 0.75em double #fff;
-    border-bottom: 0.25em solid #fff;
-    display: block;
+    margin-top: 0.25em;
+    background-color: #fff;
+    transition: transform .5s;
+  }
+
+  #navbutton > .bar:first-child {
+    margin-top: 0;
   }
 }
 
@@ -284,6 +288,14 @@ body {
 
     #pageheader #navbutton {
       left: 250px;
+
+      > .bar:first-child {
+        transform: skewy(-30deg) scaleX(.70) translate(-20%, 0.05em);
+      }
+
+      > .bar:nth-child(3) {
+        transform: skewy(30deg) scaleX(.70) translate(-20%, -0.05em);
+      }
     }
 
     #blur {
