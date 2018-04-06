@@ -126,7 +126,7 @@
     background: $dark_background;
     display: none;
     z-index: 5;
-    transition: margin-top .2s;
+    transition: margin-top .2s, left .5s;
   }
 
   #navbutton::before {
@@ -280,6 +280,10 @@ body {
 
     #pageheader nav {
       left: 0;
+    }
+
+    #pageheader #navbutton {
+      left: 250px;
     }
 
     #blur {
