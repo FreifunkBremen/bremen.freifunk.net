@@ -19,6 +19,7 @@ document.addEventListener("DOMContentLoaded", function() {
       "alfa-network": "ALFA Network",
       "meraki": "Cisco Meraki",
       "8devices": "8devices",
+      "raspberry": "Raspberry",
       "x86": "PC",
     },
     no_factory = ["8devices", "meraki", "unifi-ac", "gl-ar150", "allnet", "wzr-600dhp"],
