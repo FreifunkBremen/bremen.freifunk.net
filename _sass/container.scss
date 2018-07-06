@@ -56,6 +56,11 @@ section:nth-child(even) {
     color: $freifunk_gelb;
   }
 
+  h2 a {
+    color: inherit;
+    text-decoration: none;
+  }
+
   .btn {
     background-color: $freifunk_gelb;
     color: #000 !important;
