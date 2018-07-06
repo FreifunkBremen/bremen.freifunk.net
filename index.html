@@ -28,7 +28,7 @@ layout: nosection
 <section id="news" class="wide">
   <div class="flex">
     <div style="flex-grow: 2">
-      <h2>News</h2>
+      <h2><a href="/blog/">News</a></h2>
       {% for post in site.posts limit:4 %}
       {% include blogpost.html post=post %}
       {% endfor %}
@@ -37,7 +37,7 @@ layout: nosection
       </p>
     </div>
     <div id="twitter">
-      <h2>Twitter</h2>
+      <h2><a href="https://twitter.com/FreifunkHB">Twitter</a></h2>
       <template id="tweet-template">
         <div class="tweet">
           <div class="header">
