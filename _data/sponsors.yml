@@ -1,3 +1,6 @@
+- name: TP-LINK
+  url: https://www.tp-link.com/de/news-details-18008.html
+  img: tplink.png
 - name: LWLcom
   url: https://www.lwlcom.com/
   img: lwlcom.png
