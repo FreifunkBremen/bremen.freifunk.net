@@ -18,21 +18,24 @@ Vom Dach des Künstlerhauses sollte einerseits Richtfunk zu den Querlenkern in B
 
 ## Aufbau
 Der Aufbau der Hardware auf dem Dach lief relativ problemlos, die Verbindung zum Schlachthof läuft über ein Paar Ubiquiti Nanobeam (5GHz, bis zu 450 MBit/s).
+Die Finanzierung des Aufbaus am Künstlerhaus übernimmt der [Verein23](http://verein23.de/)
+, die Kosten des Aufbaus am Schlachthof trägt der [Schlachthof](https://www.schlachthof-bremen.de/home.html).
 Zwei CPEs wurden direkt mit installiert, eine Richtung Querlenker, die andere entgegengesetzt in Richtung Ateliers.
 <img src="/blog/files/2018-10-10/aussicht.jpg" width="450" height="600">
+
 
 Zunächst hat ein TPlink WDR4900 für das Meshing gesorgt, mittlerweile wurde er durch einen Archer C7 ersetzt.
 An zwei Stellen auf den langen Hallen (in denen aktuell uA Künstler ihre Ateliers und/oder Werkstätten haben) haben wir jeweils eine CPE 210 an einem selbstgebauten Pfosten mit Betonfuß befestigt, an denen hängen wiederum Archer zum Weiterverteilen und für WLAN.
 
 ## Aktuelles
 In der Planung ist der Ausbau des Kabelnetzes, am Besten bis zu den Richtfunk-Standorten auf den Hallen.
-Dadurch würde man eine Redundanz erreichen. 
-Die WLAN-Abdeckung des Innenhofs ist ebenfalls in Planung. 
+Dadurch würde man eine Redundanz erreichen.
+Die WLAN-Abdeckung des Innenhofs ist ebenfalls in Planung.
 
 ## Zukunftsvision
 Der  Traum eines stadtweiten Mesh-Netzwerks liegt zwar noch in (vmtl) ferner Zukunft, aber durch diesen recht zentralen Richtfunkstandort kommen wir dem Ziel näher, das sollten wir noch für weitere Verbindungen nutzen.
 
 ## Verteiler / Mitmachen
-Anfang September bildete sich ein Arbeitskreis/-Gruppe, die den Ausbau plant und vornimmt. 
+Anfang September bildete sich ein Arbeitskreis/-Gruppe, die den Ausbau plant und vornimmt.
 Die Gruppe ist ein gemischter Haufen aus Freifunkern und Künstlern, beteiligt euch gerne!
 Es wurde sogar eine Mailingliste zur Kommunikation eingerichtet: [https://mailman.zfn.uni-bremen.de/cgi-bin/mailman/listinfo/agffgb](https://mailman.zfn.uni-bremen.de/cgi-bin/mailman/listinfo/agffgb)
