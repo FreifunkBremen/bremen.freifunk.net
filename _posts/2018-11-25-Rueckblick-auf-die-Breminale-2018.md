@@ -2,9 +2,8 @@
 layout: post
 title:  Rückblick auf die Breminale 2018
 author: Louis
-date:   2018-11-25 00:19:00 +0200
+date:   2018-11-30 08:19:00 +0200
 ---
-# Rückblick auf die Breminale 2018
 Wir haben es wieder vom Osterdeich in unser Freifunk-Hauptquartier in den [Hackerspace](https://www.hackerspace-bremen.de)
 geschafft. Nach längerer Funkstille bezüglich der Breminale wollen wir noch einen kleinen Rückblick auf diese phänomenalen
 Tage werfen.
@@ -29,7 +28,7 @@ Neu in diesem Jahr war ein übergroßer (länger als 4 m) ausgedruckter Veransta
 Ausnahmsweise galt: Analog for the win. Auf ihm konnten wir in ausgezeichneter Größe die Position unserer 
 Hardware markieren. Das hat gut geholfen, um auch Personen
 einen Überblick über das Netz zu geben, die nicht von Anfang an dabei waren.
-<a href="/blog/files/2018-11-25/breminale_plan.jpg"><img src="/blog/files/2018-11-25/breminale_plan.jpg" alt="Plan mit Menschen, die darauf Zeigen" style="max-height:400px"></a>
+<a href="/blog/files/2018-11-30/breminale_plan.jpg"><img src="/blog/files/2018-11-30/breminale_plan.jpg" alt="Plan mit Menschen, die darauf Zeigen" style="max-height:400px"></a>
 
 ## Der Versuch
 Neben dem Anspruch, tausende Besucher mit Internet per WLAN zu versorgen ist die Breminale für uns auch eine Spielwiese.
@@ -44,7 +43,7 @@ die bisherige Software-Technik verwendet worden.
 Während der Breminale lief das Netz nicht kontinuierlich stabil. Wenn es lief, waren Geschwindigkeiten von 80 MB/s
 der Durchschnitt. Die Probleme, die zeitweise zum Ausfall des Netzes führten, sind nicht alle eindeutig
 identifiziert.
-<a href="/blog/files/2018-11-25/breminale_map.jpg"><img src="/blog/files/2018-11-25/breminale_map.jpg" alt="Plan mit Menschen, die darauf Zeigen" style="max-height:400px"></a>
+<a href="/blog/files/2018-11-30/breminale_map.jpg"><img src="/blog/files/2018-11-30/breminale_map.jpg" alt="Stadtplan, auf dem Routerstandorte markiert sind" style="max-height:400px"></a>
 
 
 ## Die Stimmung
@@ -54,7 +53,6 @@ Crew selbst nicht unbeteiligt: Sie haben uns mit Essen und Getränken stets gut 
 ## Das Dankeschön
 Man darf nicht vergessen, dass diese Freifunk-Veranstaltung ohne die vielfältige und unterschiedliche Hilfe
 von ganz vielen aktiven Anpackern, Programmieren und Organisatoren, Bierbank-Stellern und einigen Firmen nicht
-möglich gewesen wäre. Hierzu wollen wir uns bei [TP-LINK](https://www.tp-link.com/de/), 
+möglich gewesen wäre. Hierzu wollen wir uns explizit bei [TP-LINK](https://www.tp-link.com/de/), 
 [LWLcom](https://lwlcom.com/privatkunden), [Plutex](https://www.plutex.de) und [Digineo](https://digineo.de)
-bedanken. [anm. Was ist mit dem
-Kühlschrank-Lieferdienst? Habe ich jemanden vergessen?]
+bedanken.
