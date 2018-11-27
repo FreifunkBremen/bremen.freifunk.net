@@ -6,13 +6,13 @@ date:   2018-11-22 00:19:00 +0200
 ---
 
 <center>
-	<img src="/blog/files/2018-11-22/urkunde.jpg" alt="Die Urkunde des Bürgerpreises#" style="width:60%;min-width:400px;" />
+	<img src="/blog/files/2018-11-22/urkunde.jpg" alt="Die Urkunde des Bürgerpreises" style="width:60%;min-width:400px;" />
 </center>
 
-Dieses Jahr ist Freifunk Bremen einer der sieben Gewinner des Bürgerpreises der Stadt Bremen in der Kategorie "Alltagshelden".
+Dieses Jahr ist Freifunk Bremen einer der sieben Gewinner des Bürgerpreises der Sparkasse Bremen in der Kategorie "Alltagshelden".
 Wir bedanken uns herzlich für die Anerkennung unserer ehrenamtlichen Arbeit.
 
-Mehr dazu ist im [Buten und Binnen](https://www.butenunbinnen.de/videos/buergerpreis-sparkasse100.html) Beitrag zu sehen
+Mehr dazu ist im Beitrag des lokalen Nachrichtenmagazins [buten un binnen](https://www.butenunbinnen.de/videos/buergerpreis-sparkasse100.html) zu sehen
  und in dem Artikel vom [Weser Kurier](https://www.weser-kurier.de/bremen/bremen-stadt_artikel,-buergerpreis-an-engagierte-bremerinnen-und-bremer-verliehen-_arid,1786167.html) zu lesen.
 
 
