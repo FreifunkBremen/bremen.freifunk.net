@@ -116,7 +116,7 @@
       "name": "Kalendar",
       "category": "ics",
       "type": "ICS",
-      "url": "https://hb.jplitza.de/owncloud/remote.php/dav/calendars/ffhb/pers%c3%b6nlich1?export"
+      "url": "https://cloud.ffhb.de/remote.php/dav/public-calendars/rcPxo5enJc75etx5?export"
     }
   ],
   "nodeMaps": [
@@ -127,7 +127,7 @@
       "mapType": "geographical"
     },
     {
-      "url": "https://map.bremen.freifunk.net/#/graph",
+      "url": "https://map.bremen.freifunk.net/#!/de/graph",
       "interval": "1min",
       "technicalType": "meshviewer",
       "mapType": "structural"
