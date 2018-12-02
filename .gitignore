@@ -12,3 +12,4 @@ flyer
 wiki
 api/config.php
 api/cache/
+/vendor/
