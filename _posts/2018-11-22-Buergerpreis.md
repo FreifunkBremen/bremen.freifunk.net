@@ -2,7 +2,7 @@
 layout: post
 title:  "Bremer Bürgerpreis"
 author: genofire
-date:   2018-11-22 00:19:00 +0200
+date:   2018-12-05 17:29:00 +0200
 ---
 
 <center>
