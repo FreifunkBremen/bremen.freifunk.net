@@ -2,7 +2,7 @@
 layout: post
 title:  Rückblick auf die Breminale 2018
 author: Louis
-date:   2018-11-30 08:19:00 +0200
+date:   2018-12-09 13:00:00 +0200
 ---
 Wir haben es wieder vom Osterdeich in unser Freifunk-Hauptquartier in den [Hackerspace](https://www.hackerspace-bremen.de)
 geschafft. Nach längerer Funkstille bezüglich der Breminale wollen wir noch einen kleinen Rückblick auf diese phänomenalen
