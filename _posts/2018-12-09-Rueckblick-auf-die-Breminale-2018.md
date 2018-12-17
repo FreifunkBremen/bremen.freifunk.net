@@ -22,7 +22,7 @@ ein oder anderen jetzt der Hit von Queen im Kopf aufploppt: Uns ging es [ähnlic
 Dieses Jahr hatten wir bis auf einen starken, kurzen Regenschauer keine Probleme mit Nässe von oben. Und durch günstige
 Tide-Zeiten auch keine Probleme mit Nässe von unten. Dafür hat die Sonne in diesem Jahr ihr Bestes gegeben. Bereits ab
 Tag zwei des Aufbaus wurden die Helfer unbekleideter, ab Tag drei waren T-Shirts die Ausnahme. Ab Tag vier musste man
-Aufpassen, dass der Schweiß nicht auf die Router tropft. 
+aufpassen, dass der Schweiß nicht auf die Router tropft. 
 
 Neu in diesem Jahr war ein übergroßer (länger als 4 m) ausgedruckter Veranstaltungsplan. 
 Ausnahmsweise galt: Analog for the win. Auf ihm konnten wir in ausgezeichneter Größe die Position unserer 
@@ -35,12 +35,12 @@ Neben dem Anspruch, tausende Besucher mit Internet per WLAN zu versorgen ist die
 Wie reagiert unsere Firmware mit einem großen Mesh-Netz? Wie kommen die Router mit massig Clients klar? Wir haben
 außerdem versucht, auf eine neue Technologie zu setzen, die die Geschwindigkeit im Freifunk-Netz rapide erhöhen kann:
 Babel. 
-Leider mussten wir am Dienstag feststellen, dass sie noch an ein ein paar Stellen ausbesserungswürdig ist.
+Leider mussten wir am Dienstag feststellen, dass sie noch an ein paar Stellen ausbesserungswürdig ist.
 Unter anderem hat die Umsetzung von IPv4- auf IPv6-Adressen und zurück nicht zuverlässig funktioniert. Somit ist
 die bisherige Software-Technik verwendet worden.
 
 ## Die Clienten
-Während der Breminale lief das Netz nicht kontinuierlich stabil. Wenn es lief, waren Geschwindigkeiten von 80 MB/s
+Während der Breminale lief das Netz nicht kontinuierlich stabil. Wenn es lief, waren Geschwindigkeiten von 80 MBit/s
 der Durchschnitt. Die Probleme, die zeitweise zum Ausfall des Netzes führten, sind nicht alle eindeutig
 identifiziert.
 <a href="/blog/files/2018-11-30/breminale_map.jpg"><img src="/blog/files/2018-11-30/breminale_map.jpg" alt="Stadtplan, auf dem Routerstandorte markiert sind" style="max-height:400px"></a>
