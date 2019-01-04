@@ -14,6 +14,7 @@ Bei Fragen zum Freifunk-Bremen-Projekt freuen wir uns über Kontaktaufnahmen:
   * XMPP/Jabber: [#ffhb@irc.hackint.org](xmpp:#ffhb@irc.hackint.org)
 * auf Twitter: [@FreifunkHB](https://twitter.com/FreifunkHB)
 * auf Facebook: [FreifunkBremen](https://www.facebook.com/FreifunkBremen)
+* auf Instagram: [@freifunkhb](https://www.instagram.com/freifunkhb)
 
 ## Reaktionszeit
 Wir geben uns Mühe, innerhalb eines **Tages** (im Chat in einer **Stunde**) zu antworten; dies ist jedoch nicht immer möglich. Wir bitten deshalb um ein wenig Geduld, lasst euch Chatfenster länger geöffnet und erwähnt einen der Anwesenden mit Namen, wartet ein paar Tage nach einer Mail und schickt dann gerne eine Erinnerungsmail. 
