@@ -8,5 +8,13 @@
   }
 }
 
+/* anchor navbar fix*/
+@media screen and (min-width: $max_content_width) {
+	main h2 {
+	  padding-top: $navi_height;
+	  margin-top: -$navi_height;
+	}
+}
+
 /* vim: syntax=css sw=2 ts=2 sts=2 et
  */
