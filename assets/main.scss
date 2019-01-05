@@ -1,5 +1,14 @@
 ---
 ---
+
+// image data urls used in other stylesheets:
+$image-calendar-png: '{% base64 images/icons/calendar.png %}';
+$image-calendar_magenta-png: '{% base64 images/icons/calendar_magenta.png %}';
+$image-person-png: '{% base64 images/icons/person.png %}';
+$image-person_magenta-png: '{% base64 images/icons/person_magenta.png %}';
+$image-newslist-svg: '{% base64 images/icons/newslist.svg %}';
+$image-newslist_magenta-svg: '{% base64 images/icons/newslist_magenta.svg %}';
+
 @charset "UTF-8";
 @import "variables";
 @import "normalize";
