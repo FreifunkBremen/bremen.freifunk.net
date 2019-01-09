@@ -3,7 +3,7 @@ layout: default
 title: Unterstützen
 category_id: 3
 ---
-## Unterstützen
+# Unterstützen
 
 Am meisten ist dem Freifunk-Netz geholfen, wenn möglichst viele Personen [mitmachen] und sich einen Router ins Fenster stellen, damit das Netz wächst. Aber für einige Dinge braucht es natürlich mehr als einen Router für 20 Euro, beispielsweise für den Betrieb der Server, für Richtfunkstrecken oder das Drucken von Werbematerial. Ansprechpartner für Spenden und Verträge ist dabei der [Förderverein].
 
