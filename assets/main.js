@@ -121,8 +121,9 @@ document.addEventListener("DOMContentLoaded", function() {
         timeLapsed = 0;
         startPos = window.pageYOffset;
         distance = -startPos;
+        anchorNavbarFix = document.getElementById("mainnav").offsetHeight;
         if (window.innerWidth >= 720)
-          distance -= document.querySelector('#mainnav li.active ul').offsetHeight;
+          distance -= document.querySelector('#mainnav li.active ul').offsetHeight-anchorNavbarFix;
         var anchor = target;
         while (anchor) {
           distance += anchor.offsetTop;
