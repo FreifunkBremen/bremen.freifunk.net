@@ -28,7 +28,7 @@ Neu in diesem Jahr war ein übergroßer (länger als 4 m) ausgedruckter Veransta
 Ausnahmsweise galt: Analog for the win. Auf ihm konnten wir in ausgezeichneter Größe die Position unserer 
 Hardware markieren. Das hat gut geholfen, um auch Personen
 einen Überblick über das Netz zu geben, die nicht von Anfang an dabei waren.
-<a href="/blog/files/2018-11-30/breminale_plan.jpg"><img src="/blog/files/2018-11-30/breminale_plan.jpg" alt="Plan mit Menschen, die darauf Zeigen" style="max-height:400px"></a>
+{% image AUTOx800 blog/files/2018-11-30/breminale_plan.jpg style="max-height:400px" alt="Plan mit Menschen, die darauf zeigen" %}
 
 ## Der Versuch
 Neben dem Anspruch, tausende Besucher mit Internet per WLAN zu versorgen ist die Breminale für uns auch eine Spielwiese.
@@ -43,7 +43,7 @@ die bisherige Software-Technik verwendet worden.
 Während der Breminale lief das Netz nicht kontinuierlich stabil. Wenn es lief, waren Geschwindigkeiten von 80 MBit/s
 der Durchschnitt. Die Probleme, die zeitweise zum Ausfall des Netzes führten, sind nicht alle eindeutig
 identifiziert.
-<a href="/blog/files/2018-11-30/breminale_map.jpg"><img src="/blog/files/2018-11-30/breminale_map.jpg" alt="Stadtplan, auf dem Routerstandorte markiert sind" style="max-height:400px"></a>
+{% image AUTOx800 blog/files/2018-11-30/breminale_map.jpg style="max-height:400px" alt="Stadtplan, auf dem Routerstandorte markiert sind" %}
 
 
 ## Die Stimmung
