@@ -6,6 +6,7 @@ encoding: UTF-8
 
 permalink: /blog/:year/:month/:day/:slug.html
 url: http://bremen.freifunk.net
+baseurl: /
 
 exclude: ['wiki', 'README.md', 'Gemfile', 'Gemfile.lock', 'api/config.php.example', 'images/icons', 'vendor']
 keep_files: ['.htaccess', 'webhook.php', 'in_freifunk.php', 'meshviewer', 'api/config.php', 'api/cache/']
@@ -18,6 +19,13 @@ kramdown:
 
 sass:
     style: compressed
+
+image:
+  output: generated
+  presets:
+    dummy:
+      width: 400
+      height: 400
 
 defaults:
   - scope:
