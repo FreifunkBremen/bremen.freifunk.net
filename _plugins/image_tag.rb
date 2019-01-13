@@ -158,6 +158,7 @@ module Jekyll
 
         # Scale and crop
         image.combine_options do |i|
+          i.quality(80)
           i.resize "#{gen_width}x#{gen_height}^"
           i.gravity "center"
           i.crop "#{gen_width}x#{gen_height}+0+0"
