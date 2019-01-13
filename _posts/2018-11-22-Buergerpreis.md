@@ -5,9 +5,7 @@ author: genofire
 date:   2018-12-05 17:29:00 +0200
 ---
 
-<center>
-	<img src="/blog/files/2018-11-22/urkunde.jpg" alt="Die Urkunde des Bürgerpreises" style="width:400px" />
-</center>
+{% image 800xAUTO blog/files/2018-11-22/urkunde.jpg width="400" alt="Die Urkunde des Bürgerpreises" %}
 
 Dieses Jahr ist Freifunk Bremen einer der sieben Gewinner des Bürgerpreises der Sparkasse Bremen in der Kategorie "Alltagshelden".
 Wir bedanken uns herzlich für die Anerkennung unserer ehrenamtlichen Arbeit.
