@@ -161,7 +161,6 @@ module Jekyll
           i.resize "#{gen_width}x#{gen_height}^"
           i.gravity "center"
           i.crop "#{gen_width}x#{gen_height}+0+0"
-          i.layers "Optimize"
         end
 
         image.write gen_dest_file
