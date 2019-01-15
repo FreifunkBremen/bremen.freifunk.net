@@ -38,12 +38,12 @@
       link: /kontakt.html#mailingliste
     - name: Firmware
       link: /firmware.html
-    - name: Wiki
-      link: https://wiki.bremen.freifunk.net/
     - name: Technik
       link: /technik.html
     - name: Struktur
       link: /struktur.html
+    - name: Wiki
+      link: https://wiki.bremen.freifunk.net/
 - name: Unterstützer
   id: 3
   items:
@@ -51,11 +51,11 @@
       link: /verein/
     - name: Spenden
       link: /verein/#spenden
+    - name: Infos verbreiten
+      link: /infomaterial.html
     - name: Server stellen
       link: /unterstuetzen.html#server-stellen
     - name: Router verkaufen
       link: /unterstuetzen.html#router-verkaufen
-    - name: Infos verbreiten
-      link: /infomaterial.html
     - name: Dachflächen
       link: /unterstuetzen.html#dachflächen
