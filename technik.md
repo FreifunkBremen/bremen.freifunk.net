@@ -3,7 +3,7 @@ layout: default
 title: Technik
 category_id: 2
 ---
-## Netzwerk
+## Technik
 
 Das Freifunk-Netz besteht aus einer Kombination von klassischen WLANs, Ad-hoc WLANs (Mesh) und VPNs.
 
