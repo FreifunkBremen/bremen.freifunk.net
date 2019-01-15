@@ -3,7 +3,7 @@ layout: default
 title: Mitmachen
 category_id: 1
 ---
-# Mitmachen
+## Mitmachen
 
 Freifunk wird nicht von einer profitorientierten Firma betrieben, sondern basiert auf Freiwilligen, die WLAN-Geräte kaufen, betreiben und vernetzen. Viele geben auch ihren eigenen Internetanschluss frei – zumindest in Teilen – und ermöglichen so umliegenden Routern und Benutzern den Zugang zum Internet.
 
