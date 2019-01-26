@@ -66,21 +66,25 @@ Im Freifunk Bremen funktioniert IPv6 schon bevor ich, vor über fünf Jahren, da
 
 Auf der anderen Seite, gibt es viele Dienste, die immer noch nicht per IPv6 erreichbar sind, schaut doch mal bei [ipv6.watch](https://ipv6.watch) vorbei und erinnert Eure Lieblingsdienst daran.
 
-Diese zu verlieren ist momentan ein zu großer Verlust, den wir nicht eingehen wollen. Dafür gibt es neben der Weiterbetreibung von IPv4 im gesamten Netz eine Alternative.
-Indem ein mindestens /96 reserviert wird, um die kleineren IPv4-Adressen in einer IPv6-Adresse zu "stecken", können so Pakete transportiert werden und z.B. von einem unsere Gateways/VPN-Servern wieder in ein IPv4 Adresse übersetzt werden.
+Diese zu verlieren ist momentan ein zu großer Verlust, den wir nicht eingehen wollen. Dafür gibt es neben der Weiterbetreibung von IPv4 im gesamten Netz die alternative NAT64.
+Indem ein IPv6 Subnet von /96 reserviert wird, um die kleineren IPv4-Adressen in einer IPv6-Adresse zu "stecken", können so Pakete in ein IPv6-only Netz transportiert werden und z.B. von einem unsere Gateways/VPN-Servern wieder in ein IPv4 Adresse übersetzt werden.
 
 Beispiel: Wenn man die IPv4-Adresse `8.8.8.8` und im Gateway nun das IPv6 Subnetz `64:ff9b::/96` reserviert ist, "steckt" man in dieses Subnetz die IPv4-Adresse, was `64:ff9b::8.8.8.8` ergibt. Dies reicht oftmals schon, doch wenn man nun noch die offizielle IPv6 Schreibweise verwendet, erhält man `64:ff9b::808:808`.
 
 ###### Technische Umsetzung um IPv4-only Dienste zu erreichen (für Profis)
 
-Hierzu gibt es mehrere Möglichkeiten, wie man erreicht das ein Gerät diese Übersetzung vornimmt (abgesehen vom Gateway).
+Hierzu gibt es mehrere Möglichkeiten, wie man erreicht das ein Gerät diese Übersetzung vornimmt (abgesehen vom Gegenstück NAT64 am Gateway).
 
-**DNS64** man manipuliert die nicht vorhandenen IPv6 DNS-Einträge so, dass es solche gibt.
+**DNS64** manipuliert die nicht vorhandenen IPv6 DNS-Einträge, so dass die passende NAT64-IPv6-Adresse enthält.
 
 Beispiel: `github.com` hat keine offiziellen IPv6 DNS Eintrag, sondern nur den für IPv4 z.B. `140.82.118.3`. Mit dem reserviert IPv6 Subnetz `64:ff9b::/96` ergibt sich `64:ff9b::8c52:7603`. Wenn man nun ein DNS64 Server anfragt, erhält man genau diese IPv6-Adresse, da es ansonsten keine IPv6 (AAAA) DNS Eintrag vorhanden ist.
 
-Nachteil ist, dass man dabei die DNSSEC-Kette zerstört ist und der Client nicht mehr verifizieren kann, ob DNS Einträge manipuliert wurden.
+Nachteil ist, dass dabei möglicherweise die DNSSEC-Kette bei IPv4only Diensten zerstört wird und der Client nicht mehr verifizieren kann, ob DNS Einträge manipuliert wurden.
+[Diese Webseite](https://dnssec.vs.uni-due.de/) zur Verifikation funktioniert ohne Probleme in unserem Babel-Testnetz, da sie IPv6 unterstützen.
+
 (Anmerkung: Momentan ist DNSSEC nicht weit verbreitet und bekommt Konkurrenz von DNS over TLS. In einigen Browser sind mit vorinstallierten DNSoverTLS-Servern von Cloudflare oder Google ausgestattet. Für die Privatsphäre gibt es hier eine Liste von [alternativ Servern](https://dnsprivacy.org/wiki/display/DP/DNS+Privacy+Test+Servers).)
+
+_Meine Meinung ist, dass die Wahrscheinlichkeit gering ist, dass bei einem Dienst im Internet DNSSEC bereits implementiert wurde, aber noch kein IPv6_
 
 
 **464XLAT** ist eine Technik, indem eine IPv4 Paket in ein IPv6 Paket und dann wieder in ein IPv4 Paket verwandelt wird. Die zweite Umwandlung von einem IPv6 zu ein IPv4 Paket kann weiterhin unser VPN-Server vornehmen, diese wird p(rovider)lat genannt. Die Schwierigkeit besteht in der ersten Umwandlung, welche c(ustomer)lat genannt wird.
@@ -93,16 +97,16 @@ Dabei gibt es allein zwei Orte, wo dies möglich ist.
 Wie dabei das passende IPv6 Subnetz erkannt wird, ist bei dieser Technik das nächste Problem.
 Im Access Point / Node / Knoten kann diese mit in der Software hinterlegt werden, allerdings nicht bei den Clients.
 
-Dieses Problem wurde bis heute nicht bei der IETF komplett gelöst,
-- es gibt einmal das Standard Subnet `64:ff9b::/96`.
-- Eine weitere Möglichkeit ist die Domain `ipv4only.arpa` einmal beim DNS64-Server die IPv6-Adresse zu erfragen und dann das Subnetz herauszurechnen ([sogenanntes Discovery](https://tools.ietf.org/html/draft-ietf-behave-nat64-discovery-heuristic-17)).
-- Die mir als letzte bekannte Möglichkeit ist, per Route Advertisment ([den Perf64 Eintrag](https://tools.ietf.org/html/draft-pref64folks-6man-ra-pref64-02)) - ähnlich der "IP-Adressvergabe" bei IPv6.
+Hierfür gibt es verschiedene Lösungen,
+- einmal das Standard Subnet `64:ff9b::/96`.
+- Eine weitere Möglichkeit ist die Domain `ipv4only.arpa` einmal beim DNS64-Server die IPv6-Adresse zu erfragen und dann das Subnetz herauszurechnen ([sogenanntes Discovery](https://datatracker.ietf.org/doc/html/rfc7050)).
+- Eine Weitere zukünftige Möglichkeit ist, per Route Advertisment ([den Perf64 Eintrag](https://tools.ietf.org/html/draft-pref64folks-6man-ra-pref64-02)) - ähnlich der "IP-Adressvergabe" bei IPv6.
 
-**Fazit:** Insgesamt ist dies Feld sehr konfus und mit Wahrscheinlichkeit nicht vollständig. Dennoch betreibt die Telekom US seit Jahren sehr erfolgreich ein 464XLAT mit noch weiteren (hier nicht erwähnten) Annehmlichkeiten.
+**Fazit:** Insgesamt ist dies Feld etwas konfus und weltweit ist eine solche Lösung noch nicht oft im Einsatz. Dennoch betreibt die Telekom US seit Jahren sehr erfolgreich ein 464XLAT mit noch weiteren (hier nicht erwähnten) Annehmlichkeiten.
 
 ## Aktueller Stand (für "Alle")
 Für die nun "Profis" ganz kurz:
-Es findet ein aktuell im Testnetz ein NAT64/DNS64 statt, sodass auf Clientseite ein 464xlat mit dem Standard Subnet `64:ff9b::/96` und den Discovery mit `ipv4only.arpa` möglich ist. (Letzteres kann man in Android an der eigenen IPv4-Adresse erkenne, wenn diese `192.0.0.x` lautet)
+Es findet ein aktuell im Testnetz ein NAT64/DNS64 statt, sodass auf Clientseite ein 464XLAT mit dem Standard Subnet `64:ff9b::/96` und den Discovery mit `ipv4only.arpa` möglich ist. (Letzteres kann man in Android an der eigenen IPv4-Adresse erkenne, wenn diese `192.0.0.x` lautet)
 
 Dieses Netzwerk ist bereits auf der Freifunk-Karte zu sehen. Dieses wir von [VPN04](https://map.bremen.freifunk.net/#!/map/4e3ce46883fb) und seinen Knoten zur Verfügung gestellt.
 
