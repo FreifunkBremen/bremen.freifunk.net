@@ -34,7 +34,7 @@ Eine "schöne" Implementierung vom veralteten IPv4 ist zu aufwendig und heutzuta
 
 ##### Geräte / Clients
 
-In [Android](https://android.stackexchange.com/questions/176111/can-android-be-used-in-ipv6-only-networks-what-level-of-ipv4-faking-is-necessar) ist dies nicht genau festzumachen. Fakt ist mit Android 4.x ging es noch nicht und mit Android 6 sollte es keine Probleme mehr geben.
+In [Android](https://android.stackexchange.com/questions/176111/can-android-be-used-in-ipv6-only-networks-what-level-of-ipv4-faking-is-necessar) ist dies nicht genau festzumachen. Fakt ist mit Android 4.0 ging es noch nicht und mit Android 5 sollte es keine Probleme mehr geben.
 [Apple](https://developer.apple.com/support/ipv6/) geht dort bereits um einiges weiter, seit Mitte 2016 müssen alle App bereits IPv6-only Netzwerk unterstützen.
 
 Selbst wenn sämtliche Geräte auf der Welt inzwischen IPv6 unterstützen, bedeutet es noch lange nicht, das überall auf der Welt IPv6 auch eingesetzt wird.
@@ -102,7 +102,9 @@ Hierfür gibt es verschiedene Lösungen,
 - Eine weitere Möglichkeit ist die Domain `ipv4only.arpa` einmal beim DNS64-Server die IPv6-Adresse zu erfragen und dann das Subnetz herauszurechnen ([sogenanntes Discovery](https://datatracker.ietf.org/doc/html/rfc7050)).
 - Eine Weitere zukünftige Möglichkeit ist, per Route Advertisment ([den Perf64 Eintrag](https://tools.ietf.org/html/draft-pref64folks-6man-ra-pref64-02)) - ähnlich der "IP-Adressvergabe" bei IPv6.
 
-**Fazit:** Insgesamt ist dies Feld etwas konfus und weltweit ist eine solche Lösung noch nicht oft im Einsatz. Dennoch betreibt die Telekom US seit Jahren sehr erfolgreich ein 464XLAT mit noch weiteren (hier nicht erwähnten) Annehmlichkeiten.
+**Fazit:** Insgesamt ist dies Feld etwas konfus und weltweit ist eine solche Lösung noch nicht oft im Einsatz. Dennoch betreibt die [Telekom US](https://www.internetsociety.org/resources/deploy360/2014/case-study-t-mobile-us-goes-ipv6-only-using-464xlat/) seit 2013 sehr erfolgreich ein 464XLAT.
+
+(P.S: ein super Talk über die Einführung von 464XLAT auf der nanog 2014 gibt es [hier](https://www.youtube.com/watch?v=Xl-hIyZSAmA))
 
 ## Aktueller Stand (für "Alle")
 Für die nun "Profis" ganz kurz:
