@@ -149,6 +149,6 @@ Ein NAT64 ist natürlich rechenaufwendiger als ein NAT, wie es bei einem nativen
 Genauso die Tatsache, dass das Babeltestnetz momentan noch ziemlich klein ist.
 All dies zeigt, das gerade am NAT64 noch einiges zu machen ist.
 Dies könnte durch weitere NAT64-Server und weiteren IPv4-Adressen und Ports zum NATten bereitstellen.
-Eine Verringerung der Zeiten für die NAT(64)-Einträge wäre ebenfalls möglich, momentan bleibt z.B. eine Sitzung mit TCP für zwei Stunden offen, während UDP nur 5min und ICMP sogar nur 1min offen gehalten werden.
+Eine Verringerung der Sitzungszeiten der NAT(64)-Einträge wäre ebenfalls möglich, momentan bleibt z.B. eine Sitzung mit TCP für zwei Stunden offen, während UDP nur 5min und ICMP sogar nur 1min offen gehalten werden.
 
-Des Weiteren gibt es noch ein bzw. zwei kleine Bugs in der Babel Firmware, welche noch gelöst werden müssen, um sie für den offiziellen Einsatz zu nutzen. So ist z.B. der [Wireguard-Support](https://github.com/freifunk-gluon/gluon/pull/1534) noch gar nicht offiziell in Gluon vorhanden.
+Des Weiteren gibt es noch ein bzw. zwei kleine Bugs in der Babel-Firmware, welche noch gelöst werden müssen, um sie für den offiziellen Einsatz zu nutzen. So ist z.B. der [Wireguard-Support](https://github.com/freifunk-gluon/gluon/pull/1534) noch gar nicht offiziell in Gluon vorhanden.
