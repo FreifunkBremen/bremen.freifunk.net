@@ -141,3 +141,14 @@ Manuell wurden die Website duckduckgo.com, github.com und viele andere aufgerufe
 Des Weitere den Mirror-Test von [test-ipv6.com](http://test-ipv6.com/mirrors.html), welcher erst IPv4 und dann IPv6 überprüft:
 
 ![ipv6-mirror Tabelle](/blog/files/babel-update/test-mirrors.png)
+
+
+### Ausblick
+Wie in den Tests zu sehen, ist das NAT64 nicht so schnell, als nativem IP(v6).
+Ein NAT64 ist natürlich rechenaufwendiger als ein NAT, wie es bei einem nativen IPv4 Netz nötig ist.
+Genauso die Tatsache, dass das Babeltestnetz momentan noch ziemlich klein ist.
+All dies zeigt, das gerade am NAT64 noch einiges zu machen ist.
+Dies könnte durch weitere NAT64-Server und weiteren IPv4-Adressen und Ports zum NATten bereitstellen.
+Eine Verringerung der Zeiten für die NAT(64)-Einträge wäre ebenfalls möglich, momentan bleibt z.B. eine Sitzung mit TCP für zwei Stunden offen, während UDP nur 5min und ICMP sogar nur 1min offen gehalten werden.
+
+Des Weiteren gibt es noch ein bzw. zwei kleine Bugs in der Babel Firmware, welche noch gelöst werden müssen, um sie für den offiziellen Einsatz zu nutzen. So ist z.B. der [Wireguard-Support](https://github.com/freifunk-gluon/gluon/pull/1534) noch gar nicht offiziell in Gluon vorhanden.
