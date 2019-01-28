@@ -82,8 +82,6 @@ Beispiel: `github.com` hat keine offiziellen IPv6 DNS Eintrag, sondern nur den f
 Nachteil ist, dass dabei möglicherweise die DNSSEC-Kette bei IPv4only Diensten zerstört wird und der Client nicht mehr verifizieren kann, ob DNS Einträge manipuliert wurden.
 [Diese Webseite](https://dnssec.vs.uni-due.de/) zur Verifikation funktioniert ohne Probleme in unserem Babel-Testnetz, da sie IPv6 unterstützen.
 
-(Anmerkung: Momentan ist DNSSEC nicht weit verbreitet und bekommt Konkurrenz von DNS over TLS. In einigen Browser sind mit vorinstallierten DNSoverTLS-Servern von Cloudflare oder Google ausgestattet. Für die Privatsphäre gibt es hier eine Liste von [alternativ Servern](https://dnsprivacy.org/wiki/display/DP/DNS+Privacy+Test+Servers).)
-
 _Meine Meinung ist, dass die Wahrscheinlichkeit gering ist, dass bei einem Dienst im Internet DNSSEC bereits implementiert wurde, aber noch kein IPv6_
 
 
