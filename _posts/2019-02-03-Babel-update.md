@@ -100,9 +100,9 @@ Hierfür gibt es verschiedene Lösungen,
 - Eine weitere Möglichkeit ist die Domain `ipv4only.arpa` einmal beim DNS64-Server die IPv6-Adresse zu erfragen und dann das Subnetz herauszurechnen ([sogenanntes Discovery](https://datatracker.ietf.org/doc/html/rfc7050)).
 - Eine Weitere zukünftige Möglichkeit ist, per Route Advertisment ([den Perf64 Eintrag](https://tools.ietf.org/html/draft-pref64folks-6man-ra-pref64-02)) - ähnlich der "IP-Adressvergabe" bei IPv6.
 
-**Fazit:** Insgesamt ist dies Feld etwas konfus und weltweit ist eine solche Lösung noch nicht oft im Einsatz. Dennoch betreibt die [Telekom US](https://www.internetsociety.org/resources/deploy360/2014/case-study-t-mobile-us-goes-ipv6-only-using-464xlat/) seit 2013 sehr erfolgreich ein 464XLAT.
+**Fazit:** Insgesamt ist dies Feld etwas konfus und weltweit ist eine solche Lösung noch nicht oft im Einsatz. Dennoch betreibt die [Telekom US](https://www.internetsociety.org/resources/deploy360/2014/case-study-t-mobile-us-goes-ipv6-only-using-464xlat/) seit 2013 sehr erfolgreich ein 464XLAT. Unsere Deutsche Vodafone hat 2014 auch ein Testnetz geplant, deren [Präsentationen](https://ftp.gwdg.de/pub/magazine/konferenzen/ipv6-2014/Freitag_23052014/In-Depth/Spanier_IPv6%20Kongress%202014-464XLAT.pdf) beinhaltet sämtlich erwähnten Technologien und dazu erläuternde Grafiken.
 
-(P.S: ein super Talk über die Einführung von 464XLAT auf der nanog 2014 gibt es [hier](https://www.youtube.com/watch?v=Xl-hIyZSAmA))
+(P.S: ein Talk über die Einführung von 464XLAT auf der nanog 2014 gibt es [hier](https://www.youtube.com/watch?v=Xl-hIyZSAmA))
 
 ## Aktueller Stand (für "Alle")
 Für die nun "Profis" ganz kurz:
