@@ -12,12 +12,13 @@ Bei Fragen zum Freifunk-Bremen-Projekt freuen wir uns über Kontaktaufnahmen:
   * per Browser: <a href="https://webirc.hackint.org/#ircs://irc.hackint.org/#ffhb?nick=Gast_?" target="_blank">Webchat</a>
   * IRC: [#ffhb im Hackint](irc://irc.hackint.org/ffhb)
   * XMPP/Jabber: [#ffhb@irc.hackint.org](xmpp:#ffhb@irc.hackint.org)
-* auf Twitter: [@FreifunkHB](https://twitter.com/FreifunkHB)
-* auf Facebook: [FreifunkBremen](https://www.facebook.com/FreifunkBremen)
-* auf Instagram: [@freifunkhb](https://www.instagram.com/freifunkhb)
+* auf Twitter: <a href="https://twitter.com/FreifunkHB" target="_blank">@FreifunkHB</a>
+* auf Facebook: <a href="https://www.facebook.com/FreifunkBremen" target="_blank">@FreifunkBremen</a>
+* auf Instagram: <a href="https://www.instagram.com/freifunkhb" target="_blank">@freifunkhb</a>
+* auf ActivityPub / Mastodon: <a href="https://chaos.social/@FreifunkBremen" target="_blank">@FreifunkBremen@chaos.social</a>
 
 ## Reaktionszeit
-Wir geben uns Mühe, innerhalb eines **Tages** (im Chat in einer **Stunde**) zu antworten; dies ist jedoch nicht immer möglich. Wir bitten deshalb um ein wenig Geduld, lasst euch Chatfenster länger geöffnet und erwähnt einen der Anwesenden mit Namen, wartet ein paar Tage nach einer Mail und schickt dann gerne eine Erinnerungsmail. 
+Wir geben uns Mühe, innerhalb eines **Tages** (im Chat in einer **Stunde**) zu antworten; dies ist jedoch nicht immer möglich. Wir bitten deshalb um ein wenig Geduld, lasst euer Chatfenster länger geöffnet und erwähnt einen der Anwesenden mit Namen, wartet ein paar Tage nach einer Mail und schickt dann gerne eine Erinnerungsmail. 
 Bei komplexeren Fragen empfiehlt sich der Besuch unserer Treffen.
 
 ## Wiki und FAQ
