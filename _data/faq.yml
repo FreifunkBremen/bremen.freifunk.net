@@ -99,9 +99,15 @@
         Wir haben unserem Wiki eine [Liste](http://wiki.bremen.freifunk.net/Router/Routerabholstandorte), an welchen Orten Du Router bekommen kannst.
 - title: Technik
   questions:
+    - question:  Nach der Installation lädt die Weboberfläche nicht.
+      answer: |
+        Nach der Installation hat sich die Adresse geändert und lautet nun 192.168.<span style="color: #B40404">1</span>.1.
     - question:  Ich habe alles angeschlossen und konfiguriert, aber mein Freifunk Router bekommt kein Internet.
       answer: |
         Hast Du das Netzwerk-Kabel von Deinem Heimrouter in den richtigen Port am Freifunkrouter gesteckt? Es muss im **blauen WAN-Port** stecken.
+    - question:  Es geht immer noch nicht!
+      answer: |
+        Hast Du es schon mit an- und ausschalten probiert? Klingt banal, löst aber Probleme wie von Wunderhand.
     - question: Lässt sich die Original-Firmware wieder einspielen?
       answer: |
         Ja! Ein bereits in einen Freifunk-Knoten umgewandeltes Gerät kann jederzeit wieder mit der originalen Hersteller-Firmware geflasht (bespielt) werden und entspricht damit wieder dem Original.
