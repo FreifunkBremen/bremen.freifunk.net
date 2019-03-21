@@ -2,10 +2,10 @@
 layout: post
 title:  Zukunft von Freifunk - das Babel-Netzwerk
 author: genofire
-date:   2019-02-03 17:55:00 +0200
+date:   2019-04-03 17:55:00 +0200
 ---
 
-Wie bereits zur Zeit der Breminale erwähnt, forschen wir bereits an einer zukünftigen Software und Protokoll und Struktur des Netzwerkes.
+Wie bereits zur Zeit der Breminale erwähnt, forschen wir seit einiger Zeit an einer zukünftigen Softwarelösung, einem Protokoll und einer Struktur des Netzwerkes.
 
 Im [Blogpost von Juli 2018](/blog/2018/07/18/firmware-mesh-technik.html) wurden folgende zukünftige Anpassungen bereits erwähnt:
 - Austausch des Meshprotokolls (zukünftig babel mit l3roam)
@@ -138,7 +138,7 @@ Dieses Netz wurde erst sporadisch getestet, mit  einem  "Digineo"-Router / ZBT-W
 | NAT64 / IPv4 | 34.4 Mb/s | 9.78 Mb/s |
 | IPv6         | 79.3 Mb/s | 8.88 Mb/s |
 
-**Website zu [speedtest.plutex.de](https://speedtest.plutex.de)** :
+**Website zu [speedtest.plutex.de](http://speedtest.plutex.de)** :
 
 | avg          | Download   | Upload    |
 |--------------|------------|-----------|
