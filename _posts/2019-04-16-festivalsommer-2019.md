@@ -4,7 +4,7 @@ title:  Festivalsommer 2019
 author: Louis
 date:   2019-04-18 12:30:00 +0200
 ---
-In den letzen Jahren haben wir auf mehreren Veranstaltungen Freifunk aufgebaut,
+In den letzten Jahren haben wir auf mehreren Veranstaltungen Freifunk aufgebaut,
  manchmal recht kurzfristig.
 Mit dabei war die [Breminale](/blog/2018/12/09/rueckblick-auf-die-breminale-2018.html),
  das [SummerSounds](/blog/2017/08/21/summersounds-2017.html),
@@ -16,10 +16,10 @@ Dazu nutzen wir meist unsere Outdoor-Boxen und Archer C7 Router von TP-Link.
 In diesem Jahr haben wir wieder vor, auf Veranstaltungen unterwegs zu sein.
 Solche Festivals sind neben dem Werbeeffekt eine gute Gelegenheit für uns,
  unsere Software mal unter Vollauslastung zu testen.
-Gleichzeitg lernt man beim Netzaufbau gegenseitig von einander und hat in der Gruppe recht viel Spaß.
+Gleichzeitig lernt man beim Netzaufbau gegenseitig voneinander und hat in der Gruppe recht viel Spaß.
 
 ## Die Crew
-Damit das klappt brauchen wir Freiwillige,
+Damit das klappt, brauchen wir Freiwillige,
  die mithelfen.
 Falls man nicht so viel Erfahrung hat,
  lernt man spätestens vor Ort viel dazu.
@@ -35,11 +35,11 @@ Wir sind grade dabei, offene Fragen [im Pad](https://hackmd.io/HPeyrnwxQD2Ny9fUa
 
 ## Finanzierung der Festival-Installationen
 Für größere Veranstaltungen sind wir auf Förderung und Sponsoren angewiesen.
-Dieses Jahr versuchen wir Förderungen aus dem Förderprojekt "Vorausdenker" der LBS zu bekommen.
+Dieses Jahr versuchen wir eine Förderung, aus dem Förderprojekt "Vorausdenker" der LBS, zu bekommen. 
 Bitte stimmt [auf der Seite der LBS](https://lbs-vorausdenker.de/contributors/geraetebeschaffung-fuer-freies-wlan-an-besonderen-punkten-und-fuer-festivals-projekt-breminale-2019/?item=1353) für unseren Förderantrag bis zum 23. April ab.
 Sollte jemand andere Fördertöpfe kennen, informiert uns doch bitte dadrüber.
 
-<a href="/blog/files/2018-11-07/blogpost13grad_2.jpg"><img src="/blog/files/2018-11-07/blogpost13grad_2.jpg" alt="Montage mit einer Hebebühne" style="max-height:400px"></a>
+<a href="/blog/files/2019-04-16/breminale_wlan.gif"><img src="/blog/files/2019-04-16/breminale_wlan.gif" alt="Montage mit einer Hebebühne" style="max-height:400px"></a>
 
 ## Das Treffen
 Auf dem nächsten Treffen wird es einen Tagesordnungspunkt geben, an dem wir schon mal kurz über die Breminale sprechen werden. Komme doch dazu!
