@@ -7,9 +7,9 @@ date:   2019-04-18 12:30:00 +0200
 In den letzen Jahren haben wir auf mehreren Veranstaltungen Freifunk aufgebaut,
  manchmal recht kurzfristig.
 Mit dabei war die [Breminale](/blog/2018/12/09/rueckblick-auf-die-breminale-2018.html),
- das SummerSounds,
+ das [SummerSounds](/blog/2017/08/21/summersounds-2017.html),
  das [Sommerfest Vorstraße](/blog/2018/06/17/sommerfest-vorstraße.html),
- das HeVie
+ das [HeVie](/blog/2017/09/15/hevie.html)
  und das [13°-Festival](/blog/2018/11/06/13grad.html) in Bremen Nord. 
 Dazu nutzen wir meist unsere Outdoor-Boxen und Archer C7 Router von TP-Link.
 
