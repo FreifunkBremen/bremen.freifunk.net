@@ -18,7 +18,7 @@ Solche Festivals sind neben dem Werbeeffekt eine gute Gelegenheit für uns,
  unsere Software mal unter Vollauslastung zu testen.
 Gleichzeitig lernt man beim Netzaufbau gegenseitig voneinander und hat in der Gruppe recht viel Spaß.
 
-## Die Crew
+## Neue Crew-Mitglieder gesucht
 Damit das klappt, brauchen wir Freiwillige,
  die mithelfen.
 Falls man nicht so viel Erfahrung hat,
@@ -28,8 +28,8 @@ Für unser größtes bespieltes Festival, die Breminale,
  beginnen wir jetzt schon mit den Planungen.
 Wenn du dir vorstellen kannst mitzuhelfen,
  trage dich doch bitte in unserer [Planungliste](https://dudle.hackerspace-bremen.de/FFHB_Breminale_2019/) ein.
-Die ist nicht verbindlich, hilft aber unter anderem bei der Essenplanung.
-Auch wenn du dich nicht einträgst bist du herzlich eingeladen, mit dabei zu sein!
+Die ist nicht verbindlich, hilft allerdings unter anderem bei der Essenplanung.
+Falls du dich nicht einträgst, bist du dennoch herzlich eingeladen, mit dabei zu sein!
 Wir sind grade dabei, offene Fragen [im Pad](https://hackmd.io/HPeyrnwxQD2Ny9fUaZoiKQ?view) zu sammeln.
  Schreib gerne deine Fragen mit dazu.
 
@@ -38,6 +38,7 @@ Für größere Veranstaltungen sind wir auf Förderung und Sponsoren angewiesen.
 Dieses Jahr versuchen wir eine Förderung, aus dem Förderprojekt "Vorausdenker" der LBS, zu bekommen. 
 Bitte stimmt [auf der Seite der LBS](https://lbs-vorausdenker.de/contributors/geraetebeschaffung-fuer-freies-wlan-an-besonderen-punkten-und-fuer-festivals-projekt-breminale-2019/?item=1353) für unseren Förderantrag bis zum 23. April ab.
 Sollte jemand andere Fördertöpfe kennen, informiert uns doch bitte dadrüber.
+Wir nehmen natürlich auch direkt [spenden](/verein/#spenden) an.
 
 <a href="/blog/files/2019-04-16/breminale_wlan.gif"><img src="/blog/files/2019-04-16/breminale_wlan.gif" alt="Montage mit einer Hebebühne" style="max-height:400px"></a>
 
