@@ -40,7 +40,7 @@ Bitte stimmt [auf der Seite der LBS](https://lbs-vorausdenker.de/contributors/ge
 Sollte jemand andere Fördertöpfe kennen, informiert uns doch bitte dadrüber.
 Wir nehmen natürlich auch direkt [spenden](/verein/#spenden) an.
 
-<a href="/blog/files/2019-04-16/breminale_wlan.gif"><img src="/blog/files/2019-04-16/breminale_wlan.gif" alt="Montage mit einer Hebebühne" style="max-height:400px"></a>
+<a href="/blog/files/2019-04-16/breminale_wlan.gif"><img src="/blog/files/2019-04-16/breminale_wlan.gif" alt="Freifunk Nutzer auf der Breminale (mit animierten Wifi-Symbolen)" style="max-height:400px"></a>
 
 ## Das Treffen
 Auf dem nächsten Treffen wird es einen Tagesordnungspunkt geben, an dem wir schon mal kurz über die Breminale sprechen werden. Komme doch dazu!
