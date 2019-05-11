@@ -10,5 +10,5 @@ Es gibt eine neue testing-Firmware für die Knoten des Bremer Freifunks: 2018.2.
 Damit sind wir wieder auf den aktuellsten Stand der Gluon Entwicklung.
 Unter anderem können nun einige Geräte der Serie "Fritz!WLAN Repeater" verwendet werden.
 
-Ein bekanntes Problem ist weiterhin, dass in einigen WLAN-Chipsets der Betrieb des Mesh-Netzes und des Client-Netzes auf 5 GHz nicht funktioniert.
+Ein bekanntes Problem ist weiterhin, dass in einigen WLAN-Chipsets (z.B. beim Archer C7) der Betrieb des Mesh-Netzes auf 5 GHz nicht funktioniert.
 Daher können wir noch nicht sagen, wann die nächste "stable"-Firmware veröffentlicht wird.
