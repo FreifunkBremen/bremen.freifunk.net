@@ -2,7 +2,7 @@
 layout: post
 title:  Zukunft von Freifunk - das Babel-Netzwerk
 author: genofire
-date:   2019-04-03 17:55:00 +0200
+date:   2019-05-30 17:55:00 +0200
 ---
 
 Wie bereits zur Zeit der Breminale erwähnt, forschen wir seit einiger Zeit an einer zukünftigen Softwarelösung, einem Protokoll und einer Struktur des Netzwerkes.
@@ -10,26 +10,26 @@ Wie bereits zur Zeit der Breminale erwähnt, forschen wir seit einiger Zeit an e
 Im [Blogpost von Juli 2018](/blog/2018/07/18/firmware-mesh-technik.html) wurden folgende zukünftige Anpassungen bereits erwähnt:
 - Austausch des Meshprotokolls (zukünftig babel mit l3roam)
 - Wechsel von Ad-Hoc zu 11s
-- Vorhersagbare Schwierigkeiten bei einer "flächendeckend" Umstellung
+- Vorhersagbare Schwierigkeiten bei einer "flächendeckenden" Umstellung
 
 Nun werden weitere Änderungen konkreter und sind bereits in einem Testnetzwerk umgesetzt:
 - Wireguard (Alternative zu fastd, mehr Performance)
 - IPv6-only
 
 ### VPN-Tunnel nun mit Wireguard
-Momentan strauchelt die neu VPN-Tunnel Software noch etwas.
+Momentan strauchelt die neue VPN-Tunnel-Software noch etwas.
 Die wir Wireguard als Ersatz für fastd verwenden wollen, welche in Batman-Netzen aktuell verwendet wird.
 
 Für den Austausch gibt es die folgenden zwei Gründe:
 1. Wireguard ist ein Layer3-VPN-Tunnel, dadurch wird der mit Babel unnötige Layer2 von Fastd abgeschaltet.
-2. Wireguard läuft als Kernelmodule, wird also Teil des Betriebssystems von der Firmware/Gluon/OpenWRT. Somit wird die CPU weniger belastet, da weniger sogenannte Kontextwechsel notwendig sind.
+2. Wireguard läuft als Kernelmodul, wird also Teil des Betriebssystems von der Firmware/Gluon/OpenWRT. Somit wird die CPU weniger belastet, da weniger sogenannte Kontextwechsel notwendig sind.
 (Kontextwechsel sind Wechsel zwischen Kernel-Befehlen und User-Befehlen.)
 
 ### IPv6-only (das geht doch noch gar nicht?)
 Kurz: Doch, nach gut 20 Jahren und durch die Vergabe aller IPv4 Adressen hat sich einiges in den letzten paar Jahren getan.
 
 Eine "schöne" Implementierung vom veralteten IPv4 ist zu aufwendig und heutzutage nicht mehr unbedingt notwendig.
-Daher wird das Babelnetz selbst ein IPv6-only Netzwerk werden, jedoch mit der Option, durch Übersetzung an unseren VPNs/Gateways immer noch auf IPv4-only Dienste im Internet zugreiffen zu können.
+Daher wird das Babelnetz selbst ein IPv6-only Netzwerk werden, jedoch mit der Option, durch Übersetzung an unseren VPNs/Gateways immer noch auf IPv4-only Dienste im Internet zugreifen zu können.
 Dieses Verfahren nennt man übrigens NAT64.
 
 #### Ausführliche Erläuterung (für Technik Interessierte)
@@ -72,7 +72,7 @@ Im Freifunk Bremen funktioniert IPv6 schon bevor ich, vor über fünf Jahren, da
 Auf der anderen Seite, gibt es viele Dienste, die immer noch nicht per IPv6 erreichbar sind, schaut doch mal bei [ipv6.watch](https://ipv6.watch) vorbei und erinnert Eure Lieblingsdienst daran.
 
 Diese zu verlieren ist momentan ein zu großer Verlust, den wir nicht eingehen wollen. Dafür gibt es neben der Weiterbetreibung von IPv4 im gesamten Netz die alternative NAT64.
-Indem ein IPv6 Subnet (von /96) reserviert wird, um die kleineren IPv4-Adressen in einer IPv6-Adresse zu "stecken", können so Pakete in einem IPv6-only Netz transportiert werden und z.B. von einem unsere Gateways/VPN-Servern wieder in ein IPv4 Adresse übersetzt werden.
+Indem ein IPv6-Subnetz (von /96) reserviert wird, um die kleineren IPv4-Adressen in einer IPv6-Adresse zu "stecken", können so Pakete in einem IPv6-only Netz transportiert werden und z.B. von einem unserer Gateways/VPN-Server wieder in eine IPv4-Adresse übersetzt werden.
 
 Beispiel: Wenn man die IPv4-Adresse `8.8.8.8` und im Gateway nun das IPv6 Subnetz `64:ff9b::/96` reserviert ist, "steckt" man in dieses Subnetz die IPv4-Adresse, was `64:ff9b::8.8.8.8` ergibt. Dies reicht oftmals schon, doch wenn man nun noch die offizielle IPv6 Schreibweise verwendet, erhält man `64:ff9b::808:808`.
 <!--- sind diese beiden IPv6-Adressen wirklich komplett äquivalent? -->
@@ -83,11 +83,11 @@ Es gibt mehrere Möglichkeiten, diese Übersetzung auf einem Gerät zu erreichen
 (abgesehen vom Gegenstück NAT64 am Gateway).
 
 
-**DNS64** manipuliert die (nicht vorhandenen) IPv6 DNS-Einträge, so dass die
+**DNS64** manipuliert die (nicht vorhandenen) IPv6-DNS-Einträge, so dass die
 passende NAT64-IPv6-Adresse enthält.
 <!--- Das verstehe ich nicht :) --->
 
-Beispiel: `github.com` hat keine offiziellen IPv6 DNS Eintrag, sondern nur den für IPv4 z.B. `140.82.118.3` (Hexadezimal-Schreibweise ist `8c.52.76.03`). Mit dem reserviert IPv6 Subnetz `64:ff9b::/96` ergibt sich `64:ff9b::/96 + 140.82.118.3 = 64:ff9b::8c52:7603`. Wenn man nun ein DNS64 Server anfragt, erhält man genau diese IPv6-Adresse, da es ansonsten keine IPv6 (AAAA) DNS Eintrag vorhanden ist.
+Beispiel: `github.com` hat keinen offiziellen IPv6-DNS-Eintrag, sondern nur den für IPv4 z.B. `140.82.118.3` (Hexadezimal-Schreibweise ist `8c.52.76.03`). Mit dem reserviert IPv6 Subnetz `64:ff9b::/96` ergibt sich `64:ff9b::/96 + 140.82.118.3 = 64:ff9b::8c52:7603`. Wenn man nun ein DNS64 Server anfragt, erhält man genau diese IPv6-Adresse, da es ansonsten keine IPv6 (AAAA) DNS Eintrag vorhanden ist.
 
 Nachteil ist, dass dabei möglicherweise die DNSSEC-Kette bei IPv4only Diensten zerstört wird und der Client nicht mehr verifizieren kann, ob DNS Einträge manipuliert wurden.
 [Diese Webseite](https://dnssec.vs.uni-due.de/) zur Verifikation funktioniert ohne Probleme in unserem Babel-Testnetz, da sie IPv6 unterstützen.
@@ -154,7 +154,7 @@ Des Weitere den Mirror-Test von [test-ipv6.com](http://test-ipv6.com/mirrors.htm
 
 
 ### Ausblick
-Wie in den Tests zu sehen, ist das NAT64 nicht so schnell, als nativem IP(v6).
+Wie in den Tests zu sehen, ist das NAT64 nicht so schnell, als natives IP(v6).
 Ein NAT64 ist natürlich rechenaufwendiger als ein NAT, wie es bei einem nativen IPv4 Netz nötig ist.
 Genauso die Tatsache, dass das Babeltestnetz momentan noch ziemlich klein ist.
 All dies zeigt, das gerade am NAT64 noch einiges zu machen ist.
