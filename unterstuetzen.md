@@ -13,9 +13,7 @@ Am meisten ist dem Freifunk-Netz geholfen, wenn möglichst viele Personen [mitma
 Der Betrieb der Gateways erfordert möglichst gut angebundene Server.
 Idealerweise sollte das direkte Ausleiten des Nutzer-Traffics möglich sein.
 Um ggf. Richtfunkstrecken zu ermöglichen versuchen wir besonders in Bremen
-Serverstandorte zu sammeln. Bei den großen Rechenzentrumsbetreibern Deutschlands
-(insbesondere Hetzner) haben wir hingegen schon genug Server, die zudem keine
-sonderlich gute Anbindung an viele DSL-Anschlüsse haben.
+Serverstandorte zu sammeln.
 
 Über Betreiber neuer Gateways in netztopologisch günstigen Rechenzentren,
 vielleicht sogar in Bremen, freuen wir uns hingegen immer sehr! Bei Interesse
