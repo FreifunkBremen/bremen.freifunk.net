@@ -30,7 +30,7 @@ Kurz: Doch, nach gut 20 Jahren und durch die Vergabe aller IPv4 Adressen hat sic
 
 Eine "schöne" Implementierung vom veralteten IPv4 ist zu aufwendig und heutzutage nicht mehr unbedingt notwendig.
 Daher wird das Babelnetz selbst ein IPv6-only Netzwerk werden, jedoch mit der Option, durch Übersetzung an unseren VPNs/Gateways immer noch auf IPv4-only Dienste im Internet zugreifen zu können.
-Dieses Verfahren nennt man übrigens NAT64.
+Dieses Verfahren wird NAT64 genannt.
 
 #### Ausführliche Erläuterung (für Technik Interessierte)
 
