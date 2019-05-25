@@ -23,7 +23,8 @@ Die wir Wireguard als Ersatz für fastd verwenden wollen, welche in Batman-Netze
 Für den Austausch gibt es die folgenden zwei Gründe:
 1. Wireguard ist ein Layer3-VPN-Tunnel, dadurch wird der mit Babel unnötige Layer2 von Fastd abgeschaltet.
 2. Wireguard läuft als Kernelmodul, wird also Teil des Betriebssystems von der Firmware/Gluon/OpenWRT. Somit wird die CPU weniger belastet, da weniger sogenannte Kontextwechsel notwendig sind.
-(Kontextwechsel sind Wechsel zwischen Kernel-Befehlen und User-Befehlen.)
+(Kontextwechsel sind Wechsel zwischen dem Kernel- und Benutzerbereich, bei welchem der Inhalt des Kontextes gesichert werden muss, um zum anderen Bereich zu wechseln.
+Dieses ist sehr zeitintensiv und sollte vermieden werden.)
 
 ### IPv6-only (das geht doch noch gar nicht?)
 Kurz: Doch, nach gut 20 Jahren und durch die Vergabe aller IPv4 Adressen hat sich einiges in den letzten paar Jahren getan.
