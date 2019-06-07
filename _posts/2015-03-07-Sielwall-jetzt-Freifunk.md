@@ -7,7 +7,7 @@ date:   2015-03-07 19:00:00 +0200
 
 Dank einer tollen Freifunk-Installation kann nun auch auf der Sielwallkreuzung frei, unzensiert und ungedrosselt gesurft werden.
 
-<a href="http://jel.to/ff_pics/sielwall.jpg"><img src="http://jel.to/ff_pics/sielwall_thumb.jpg" alt="freifunk_aufm_sielwall"></a>
+<a href="/blog/files/2015-03-07/sielwall.jpg"><img src="/blog/files/2015-03-07/sielwall.jpgsielwall_thumb.jpg" alt="freifunk_aufm_sielwall"></a>
 
 Besonders die Sielwallkreuzung bietet viel 'Durchgangsverkehr', der mit dem Freifunk-Netzwerk in Kontakt kommt. Wir versprechen uns dadurch eine weiter steigende Bekanntheit.
 
