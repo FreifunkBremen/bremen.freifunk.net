@@ -105,7 +105,7 @@ Grundsätzlich sind wir mit dem Ablauf des Projektes zufrieden. Wir haben uns je
 
 Eine der eingesetztes Kisten als Alternative zur Montage im Stromkasten.
 
-<a href="/blog/files/2015-07-29/roueter_im_kasten.jpg"><img src="/blog/files/2015-07-29/roueter_im_kasten_thumb.jpg" width="600px" alt="Router im Stromkasten"></a>
+<a href="/blog/files/2015-07-29/router_im_kasten.jpg"><img src="/blog/files/2015-07-29/roueter_im_kasten_thumb.jpg" width="600px" alt="Router im Stromkasten"></a>
 
 Router im Stromkasten.
 
