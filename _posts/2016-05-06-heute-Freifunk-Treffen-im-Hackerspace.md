@@ -5,10 +5,10 @@ author: SimJoSt
 date:   2016-05-06 15:50:12 +0100
 ---
 Heute ist wieder Freifunk Treffen.  
-Es wird um neue Firmware, den fast vollständigen Umzug des Webservers, die Breminale, Walle und die ausstehende Vereinsgründung gehen ([vollständige Tagesordnung](http://wiki.bremen.freifunk.net/Treffen/2016_05_06)).
+Es wird um neue Firmware, den fast vollständigen Umzug des Webservers, die Breminale, Walle und die ausstehende Vereinsgründung gehen ([vollständige Tagesordnung](https://wiki.bremen.freifunk.net/Treffen/2016_05_06)).
 
-Auf dem letzten Treffen besprachen wir ([vollständiges Protokoll](http://wiki.bremen.freifunk.net/Treffen/2016_04_15#protokoll)):
-* die neue Info-Seite für das Projekt Walle (http://www.wlan-walle.de/)
+Auf dem letzten Treffen besprachen wir ([vollständiges Protokoll](https://wiki.bremen.freifunk.net/Treffen/2016_04_15#protokoll)):
+* die neue Info-Seite für das Projekt WLAN - Walle
 * Versorgung des Bauwagenplatzes der Querlenker
 * Updates aus dem Schachthof
 * die Zukunft unserer Firmware
