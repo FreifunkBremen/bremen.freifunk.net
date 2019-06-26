@@ -14,6 +14,6 @@ Realisiert ist das über [IFTTT], was das gleiche auch für andere Social Networ
 
 Next up on my list: Knoten-Monitor, der den Inhaber eines Knotens informiert, wenn er offline ist.
 
-[bremen.freifunk.net]: http://bremen.freifunk.net/
+[bremen.freifunk.net]: https://bremen.freifunk.net/
 [@FreifunkHB]: https://twitter.com/FreifunkHB
 [IFTTT]: https://ifttt.com/
