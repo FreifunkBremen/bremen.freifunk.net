@@ -23,7 +23,7 @@ Zwei wichtige Änderungen wurden mit den neuen Firmwares eingeführt:
   im Rahmen der Unterstützung von eingehenden IPv6-VPN-Tunnel auf den Servern, wurde der Port geändert  
   bei manchen vorgelagerten Modems/Routern (z.B. FritzBox) muss eventuell eine Portfreigabe eingerichtet werden; wer dies bereits getan hat, muss mit der neuen Firmware diese Freigabe auf den neuen Port ändern
 
-Außerdem wurden auf dem [Treffen vom 06.05.2016](http://wiki.bremen.freifunk.net/Treffen/2016_05_06#protokoll_firmware) die [Anforderungen zum Releasen von Firmware](http://wiki.bremen.freifunk.net/Anleitungen/Firmware-herausbringen#firmware-testen) allgemein, vor allem für den Testing-Branch, drastisch reduziert.
+Außerdem wurden auf dem [Treffen vom 06.05.2016](https://wiki.bremen.freifunk.net/Treffen/2016_05_06#protokoll_firmware) die [Anforderungen zum Releasen von Firmware](https://wiki.bremen.freifunk.net/Anleitungen/Firmware-herausbringen#firmware-testen) allgemein, vor allem für den Testing-Branch, drastisch reduziert.
 
 Weitere Änderungen seit Version 2015.1.2+bremen2 sind:
 
@@ -31,4 +31,4 @@ Weitere Änderungen seit Version 2015.1.2+bremen2 sind:
 - MTU geändert
 - TP-LINK WR841N/ND v10 und v11 Unterstützung
 
-Alle Änderungen und Details finden sich natürlich wie immer in unserem [Changelog](http://wiki.bremen.freifunk.net/Firmware/Changelog)
+Alle Änderungen und Details finden sich natürlich wie immer in unserem [Changelog](https://wiki.bremen.freifunk.net/Firmware/Changelog#freifunk-bremen-versionen_2016-1-5-bremen1)
