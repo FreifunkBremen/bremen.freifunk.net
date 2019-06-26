@@ -18,7 +18,7 @@ Neben Geld von der Bremischen Landesmedienanstalt, mit dem wir vor allem kilomet
 
 Für uns ging der eigentliche Aufbau schon am Donnerstag (09.07.15) mit dem Verlegen der Cat.7 Netzwerkkabel los. Überall, wo bereits Strom- bzw. Wasserkabel lagen, wurden unsere Netzwerkkabel dazugelegt.
 
-Am Freitag (10.07.15) waren einige von uns vor Ort um beim Aufbau der [Dreimeterbretter](http://www.dreimeterbretter.de/dreimeter_4.html) zu helfen. Diese bieten uns freundlicherweise Platz für einen Stand und im Gegenzug schwingen wir den Zimmermannshammer. Währen der Breminale findet ihr uns also auch dort.
+Am Freitag (10.07.15) waren einige von uns vor Ort um beim Aufbau der **Dreimeterbretter** zu helfen. Diese bieten uns freundlicherweise Platz für einen Stand und im Gegenzug schwingen wir den Zimmermannshammer. Währen der Breminale findet ihr uns also auch dort.
 
 Auch unser Internetzugang wurde am Freitag in den Betrieb genommen, nachdem wir uns mit den Eigenarten von Glasfasernetzwerken vertraut gemacht haben. Außerdem wurden die ersten zwei Freifunk-Knoten installiert, um das gesamte Orga-Team am Breminaletag -5 bereits mit Internet zu versorgen.
 
