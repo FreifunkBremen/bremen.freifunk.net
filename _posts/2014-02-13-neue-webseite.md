@@ -15,5 +15,5 @@ Und wenn wir eh schon ein git haben, was liegt näher als es bei [github] zu hos
 
 Da jekyll aber noch mehr als nur Blogs kann, habe ich das zum Anlass genommen, gleich das gesamte Design der Webseite außenrum zu basteln. Somit ist dies jetzt die neue Webseite! Falls uns das Blog nicht gefällt halte ich das trotzdem zumindest für die Webseite für eine ganz gute Infrastruktur und Technik.
 
-[jekyll]:    http://jekyllrb.com
-[github]:    http://github.com
+[jekyll]:    https://jekyllrb.com/
+[github]:    https://github.com/
