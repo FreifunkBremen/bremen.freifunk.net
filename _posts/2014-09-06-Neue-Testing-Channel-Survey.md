@@ -33,6 +33,6 @@ Ganz konkret sehen die Daten, die versendet werden, so aus:
 Vorne steht jeweils die Frequenz, dahinter eine Liste der gekürzten BSSIDs, ggf. mit + bzw. - falls der darüber bzw. darunter liegende Kanal auch betroffen ist. Wir übermitteln also insbesondere nicht die ESSIDs, also die Namen der WLANs in der Umgebung, sondern nur die für uns wichtigen Daten. Unser erster Ansatz, lediglich die Anzahl der APs auf jeder Frequenz zu übermitteln, erwies sich als zu sparsam, da wir damit APs, die von mehr als einem Knoten gesehen werden, doppelt gezählt hätten. Durch das übertragen der gekürzten BSSID können wir diese Dopplungen eliminieren.
 
 [letzten Monat]: /blog/2014/08/08/Neue-Testing.html
-[neuen Testing-Version unserer Firmware]: http://downloads.bremen.freifunk.net/firmware/testing/
+[neuen Testing-Version unserer Firmware]: https://downloads.bremen.freifunk.net/firmware/testing/
 [Mailingliste]: mailto:liste@bremen.freifunk.net
 [IRC-Chat]: irc://irc.hackint.org/#ffhb
