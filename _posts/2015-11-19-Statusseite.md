@@ -5,4 +5,4 @@ author: mortzu
 date:   2015-11-19 16:30:19 +0200
 ---
 
-Wir haben eine Statusseite, die den Zustand der VPN-Server darstellt. Diese findet ihr unter [status.ffhb.de](http://status.ffhb.de/).
+Wir haben eine Statusseite, die den Zustand der VPN-Server darstellt. Diese findet ihr unter [status.bremen.freifunk.net](https://status.bremen.freifunk.net) (und verkürzt: [status.ffhb.de](https://status.ffhb.de/).
