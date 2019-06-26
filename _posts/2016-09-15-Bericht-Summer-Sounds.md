@@ -10,8 +10,8 @@ hier ein kleiner Bericht vom SummerSounds-Festival:
 
 
 ### Internetzugänge und Aufbau
-Bereitgestellt wurden einerseits ein 100MBit-Anschluss des [Modernes](http://www.modernes.de/) sowie ein 16M-Anschluss an 
-einem Gebäude der [Schwankhalle](http://schwankhalle.de/). Vielen Dank an die Beiden.  
+Bereitgestellt wurden einerseits ein 100MBit-Anschluss des [Modernes](https://www.modernes.de/) sowie ein 16M-Anschluss an 
+einem Gebäude der [Schwankhalle](https://schwankhalle.de/). Vielen Dank an die Beiden.  
 Der Anschluss der Schwankhalle wurde genutzt, um mit 2 CPEs und einem WDR3600 im Bereich hinter dem "Hügel" eine Abdeckung 
 zu Schaffen.   
 <a href="/blog/files/2016-09-15/Summersounds_Schwankhalle.png"><img src="/blog/files/2016-09-15/Summersounds_Schwankhalle.png" width="600px" alt=""></a>
