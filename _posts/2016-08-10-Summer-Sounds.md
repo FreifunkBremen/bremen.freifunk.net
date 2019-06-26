@@ -5,10 +5,10 @@ author: Yannik
 date:   2016-08-10 01:00:00 +0200
 ---
 
-Diesen Samstag, am 13.8. findet das [SummerSounds-Festival](http://www.summersounds.de/) in der
+Diesen Samstag, am 13.8. findet das [SummerSounds-Festival](https://summersounds.de/) in der
 Neustadt statt und es wird kostenloses, freies WLAN geben!
 
-Nach dem Überseetörn, dem [Stadtteilfest](http://bremen.freifunk.net/blog/2016/06/04/stadtteilfest-und-projekt-walle.html) in Walle und der [Breminale](http://bremen.freifunk.net/blog/2016/08/09/breminale-r%C3%BCckblick.html) versorgt die Freifunk-Initiative nun als
+Nach dem Überseetörn, dem [Stadtteilfest](/blog/2016/06/04/stadtteilfest-und-projekt-walle.html) in Walle und der [Breminale](/blog/2016/08/09/breminale-r%C3%BCckblick.html) versorgt die Freifunk-Initiative nun als
 nächstes das SummerSounds-Festival. Die Outdoor-Boxen stehen schon in den Startlöchern, sogar die
 Koordinaten wurden schon eingetragen! (siehe Bild unten)
 
