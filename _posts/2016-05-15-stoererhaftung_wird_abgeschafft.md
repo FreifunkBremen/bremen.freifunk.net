@@ -18,7 +18,7 @@ Die Störerhaftung hat so in den letzten Jahren erfolgreich dafür gesorgt, dass
 
 
 Nachdem die Union im Koalitionsschreit um die Neuregelung der Störerhaftung nun eingelenkt hat, scheint freiem WLAN [ohne Vorschaltseiten und Passwort](https://freifunkstattangst.de/2016/01/26/wlan-stoererhaftung-eine-vorschaltseite-und-die-rechtstreueerklaerung-ist-keine-loesung/) nichts mehr im Weg zu stehen.
-Es soll jetzt sogar alles ganz schnell gehen: bereits in der nächsten Sitzungswoche sollen die Änderungsanträge beschlossen werden [SPON](http://www.spiegel.de/netzwelt/netzpolitik/stoererhaftung-union-und-spd-einigen-sich-auf-wlan-gesetz-a-1091731.html).
+Es soll jetzt sogar alles ganz schnell gehen: bereits in der nächsten Sitzungswoche sollen die Änderungsanträge beschlossen werden [SPON](https://www.spiegel.de/netzwelt/netzpolitik/stoererhaftung-union-und-spd-einigen-sich-auf-wlan-gesetz-a-1091731.html).
 
 
 Viele Freifunker, Freifunkerinnen und Netzpolitiker verfolgen die Wandlung der Störerhaftung natürlich gespannt. Wir können auch davon ausgehen, dass die Neuregelung ähnlich detailliert beleuchtet wird, [wie schon der Gesetztesentwurf 2015](https://freifunkstattangst.de/2015/12/03/fauler-kompromiss-beim-wlan-gesetz-bundestag-muss-wlan-stoererhaftung-endlich-ganz-abschaffen/).
