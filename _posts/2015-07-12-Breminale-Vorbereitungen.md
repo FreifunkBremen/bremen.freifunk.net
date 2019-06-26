@@ -12,7 +12,7 @@ Erst im April konkretisierten sich die Pläne für das Projekt bei uns. Ab diese
 
 Besonders bei der Frage des Uplinks und der Finanzierung haben wir sehr viel Unterstützung bekommen. Internetzugang beziehen wir während der Breminale über [LWLCOM](https://www.lwlcom.com/) durch eine großzügig dimensionierte 1GBit-Glasfaserverbindung. An dieser Stelle dafür noch einmal ein großes Dankeschön!
 
-Neben Geld von der Bremischen Landesmedienanstalt, mit dem wir vor allem kilometerweise Kabel gekauft haben, wurden wir auch mit Hardwareleihgaben unterstützt. Der Dank gilt hier allen Freifunkern und der Firma [Digineo](http://www.digineo.de/) für die üppigen Hardwarespenden!
+Neben Geld von der Bremischen Landesmedienanstalt, mit dem wir vor allem kilometerweise Kabel gekauft haben, wurden wir auch mit Hardwareleihgaben unterstützt. Der Dank gilt hier allen Freifunkern und der Firma [Digineo](https://www.digineo.de/) für die üppigen Hardwarespenden!
 
 ### Aufbau
 
