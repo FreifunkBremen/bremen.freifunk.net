@@ -92,5 +92,5 @@ Die gesammelten [Rohdaten] (ohne die Information, von welchem Knoten welche Mess
 [kleines Python-Skript]: https://gist.github.com/jplitza/f29d9151c94f520fc4bc#file-channelsurvey-py
 [letzten Update]: /blog/2014/09/06/Neue-Testing-Channel-Survey.html
 [kleines Paket]: https://github.com/FreifunkBremen/ffhb-packages/tree/master/ffhb/gluon-channel-survey
-[Alfred]: http://www.open-mesh.org/projects/open-mesh/wiki/Alfred
+[Alfred]: https://www.open-mesh.org/projects/alfred/wiki
 [Rohdaten]: https://gist.github.com/jplitza/f29d9151c94f520fc4bc#file-channelsurvey-json
