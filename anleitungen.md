@@ -166,6 +166,5 @@ Um WLAN trotzdem noch zur Verfügung zu stellen, kann ein weiterer TP-Link-Route
 Wird dieser noch mit OpenWRT bespielt, ergeben sich zusätzliche Möglichkeiten zur Konfiguration.
 
 ## Weiterführende Links
-[Wiki von freifunk.net](http://wiki.freifunk.net/Freifunk_Firmware_Gluon/Hardware)
-Welche Firmware-Version gerade aktuell ist und welche Router sie unterstützt, findest du [hier](http://wiki.bremen.freifunk.net/Firmware/Changelog).
-
+* [Geräte-Liste bei wiki.freifunk.net](http://wiki.freifunk.net/Freifunk_Firmware_Gluon/Hardware)
+* welche Firmware-Version gerade aktuell ist und welche Router sie unterstützt, findest du [hier](http://wiki.bremen.freifunk.net/Firmware/Changelog).
