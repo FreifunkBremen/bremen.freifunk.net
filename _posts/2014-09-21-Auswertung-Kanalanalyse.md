@@ -63,7 +63,7 @@ Für diese vier Datenreihen wurde dann jeweils das arithmetische Mittel gebildet
 <div style="max-width: 100%; overflow-x: clip; clear: right;" id="abb2">
     <div style="text-align: center; overflow-x: auto; max-width: 100%;">
         <svg width="960" height="500">
-            <image xlink:href="/blog/files/2014-09-21/channelsurvey.svg" src="/blog/files/2014-09-21/channelsurvey.png" width="960" height="500">
+            <image xlink:href="/blog/files/2014-09-21/channelsurvey.svg" src="/blog/files/2014-09-21/channelsurvey.png" width="960" height="500" />
         </svg>
     </div>
     <p style="max-width: 960px; margin: 0 auto;">
