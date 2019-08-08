@@ -2,7 +2,7 @@
 layout: post
 title:  "Endlich eine neue Stable-Version"
 author: oliver
-date:   2019-08-08 18:12:27 +0200
+date:   2019-08-08 20:42:27 +0200
 ---
 
 Es hat lange gedauert, aber nun gibt es endlich wieder eine neue Stable-Firmware.
