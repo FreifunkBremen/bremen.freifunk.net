@@ -10,12 +10,6 @@
 - name: Digineo
   url: https://www.digineo.de/
   img: digineo.svg
-- name: Freifunk Hamburg
-  url: https://hamburg.freifunk.net/
-  img: ffhh.png
-- name: Freifunk Rheinland
-  url: https://www.freifunk-rheinland.net/
-  img: ffrl.svg
 - name: Hackerspace Bremen
   url: https://www.hackerspace-bremen.de/
   img: hshb.png
