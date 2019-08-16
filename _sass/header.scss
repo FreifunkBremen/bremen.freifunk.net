@@ -24,13 +24,13 @@
 
   #logo {
     position: absolute;
-    left: calc((100vw - #{$max_design_width}) / 2 + 5px);
+    left: calc((100vw - #{$header_width_large}) / 2 + 5px);
     bottom: #{$navi_height + 8px};
   }
 
   nav {
-    max-width: $max_design_width;
-    margin-left: calc((100vw - #{$max_design_width}) / 2 + 188px);
+    max-width: $header_width_large;
+    margin-left: calc((100vw - #{$header_width_large}) / 2 + 188px);
     font-weight: 700;
 
     #navlogo {
@@ -68,7 +68,7 @@
         position: absolute;
         bottom: 0;
         width: 100%;
-        padding-left: calc((100vw - #{$max_design_width}) / 2);
+        padding-left: calc((100vw - #{$header_width_large}) / 2);
         box-sizing: border-box;
         background: inherit;
         transition-property: left;
@@ -163,7 +163,7 @@
   }
 }
 
-@media screen and (min-width: #{$max_content_width}) {
+@media screen and (min-width: #{$header_width_small}) {
   #pageheader.fixed {
     position: fixed;
     top: -209px;
@@ -195,7 +195,7 @@ body {
   position: relative;
 }
 
-@media screen and (max-width: #{$max_design_width - 1}) {
+@media screen and (max-width: #{$header_width_large - 1}) {
   #pageheader {
     #skyline {
       display: none;
@@ -209,7 +209,7 @@ body {
   }
 }
 
-@media screen and (max-width: #{$max_content_width - 1}) {
+@media screen and (max-width: #{$header_width_small - 1}) {
   #pageheader.fixed {
     position: static;
   }
@@ -348,7 +348,7 @@ body {
 footer {
   background-color: $dark_background;
   font-size: 14px;
-  padding: 20px calc((100vw - #{$max_design_width}) / 2);
+  padding: 20px calc((100vw - #{$header_width_large}) / 2);
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
