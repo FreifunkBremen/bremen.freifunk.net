@@ -134,7 +134,9 @@
   ],
   "support": {
     "club": {
-      "name": "Förderverein Freifunk Bremen e.V."
+      "name": "Förderverein Freifunk Bremen e.V.",
+      "url": "https://bremen.freifunk.net/verein/",
+      "email": "vereinsvorstand@lists.ffhb.de"
     },
     "donations": {
       "bankaccount": {
