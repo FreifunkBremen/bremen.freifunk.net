@@ -20,7 +20,7 @@
     "twitter": "@FreifunkHB"
   },
   "state": {
-    "nodes": 741,
+    "nodes": 905,
     "description": "Freifunk Bremen in its current form has been founded in the end of 2013. Consisting of mostly young people, the community is still growing and establishing itself in its city.",
     "focus": [
       "infrastructure/backbone",
@@ -28,20 +28,8 @@
       "Social Community Building",
       "Free internet access"
     ],
-    "lastchange": "2017-11-01T19:25:00.000Z"
+    "lastchange": "2019-08-16T19:41:01.081Z"
   },
-  "services": [
-    {
-      "serviceName": "SIP",
-      "serviceDescription": "SIP-based VoiP Service",
-      "internalUri": "http://sip.ffhb.de/web/"
-    },
-    {
-      "serviceName": "Wikipedia-Mirror",
-      "serviceDescription": "A Wikipedia mirror with German and English language as well as photos.",
-      "internalUri": "wikipedia.ffhb.de"
-    }
-  ],
   "timeline": [
     {
       "description": "Birth",
@@ -97,6 +85,11 @@
       "description": "new stable firmware 2015.1.2+bremen3",
       "timestamp": "2015-12-30",
       "url": "https://bremen.freifunk.net/blog/2015/12/30/v2015-1-2-bremen3-wird-stable.html"
+    },
+    {
+      "description": "Endlich eine neue Stable-Version",
+      "timestamp": "2019-08-19",
+      "url": "https://bremen.freifunk.net/blog/2019/08/08/neue-stable-version.html"
     }
   ],
   "feeds": [
@@ -140,18 +133,15 @@
     }
   ],
   "support": {
+    "club": {
+      "name": "Förderverein Freifunk Bremen e.V."
+    },
     "donations": {
       "bankaccount": {
-        "IBAN": "DE69 4306 0967 2033 5844 00",
-        "BIC": "GENODEM1GLS",
+        "IBAN": "DE86 8306 5408 0004 0015 91",
+        "BIC": "GENODEF1SLR",
         "usage": "Freifunkspende"
-      },
-      "campaigns": [
-        {
-          "provider": "betterplace",
-          "projectid": "34467"
-        }
-      ]
+      }
     }
   },
   "privacy": {
