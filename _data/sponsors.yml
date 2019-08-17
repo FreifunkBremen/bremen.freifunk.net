@@ -7,6 +7,9 @@
 - name: PLUTEX
   url: https://www.plutex.de/
   img: plutex.svg
+- name: Community-IX
+  url: https://www.community-ix.de
+  img: community-ix.svg
 - name: Digineo
   url: https://www.digineo.de/
   img: digineo.svg
