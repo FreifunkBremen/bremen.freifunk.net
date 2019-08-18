@@ -10,6 +10,10 @@ div {
   max-width: 100%;
 }
 
+img {
+  max-width: $max_content_width;
+}
+
 section {
   width: 100%;
   box-sizing: border-box;
