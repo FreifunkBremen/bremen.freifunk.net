@@ -122,6 +122,46 @@ document.addEventListener("DOMContentLoaded", function() {
           description.remove();
         }
         events_elem.appendChild(tmpl);
+
+        // TODO: hard coding location here, maybe request those informations via OSM API somehow?
+        let event_location = {};
+        if(ev.location == "Hackerspace Bremen e.V.") {
+          event_location = {
+            "@type": "Place",
+            "name": ev.location,
+            "address": {
+              "@type": "PostalAddress",
+              "streetAddress": "Bornstraße 14/15",
+              "addressLocality": "Bremen",
+              "postalCode": "28195",
+              "addressRegion": "Bremen",
+              "addressCountry": "Germany"
+            }
+          }
+        }
+        
+        // json-ld markup
+        let data = {
+          "@context": "https://schema.org",
+          "@type": "Event",
+          "name": ev.summary,
+          "startDate": dtstart.toISOString(),
+          "endDate": dtend.toISOString(),
+          "location": event_location,
+          "image": [
+            "https://bremen.freifunk.net/images/favicon/16x16.png",
+            "https://bremen.freifunk.net/images/favicon/32x32.png",
+            "https://bremen.freifunk.net/images/favicon/192x192.png",
+            "https://bremen.freifunk.net/images/favicon/512x512.png"
+           ],
+           "description": ev.description,
+        };
+
+        // add json-ld to head element
+        let script = document.createElement('script');
+        script.type = "application/ld+json";
+        script.innerHTML = JSON.stringify(data);
+        document.getElementsByTagName('head')[0].appendChild(script);
       });
     };
     xhr.send();
