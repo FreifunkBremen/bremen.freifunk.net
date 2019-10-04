@@ -74,7 +74,7 @@ if (file_exists(CACHE_FILE) && filemtime(CACHE_FILE) >= time() - CACHE_LIFETIME)
                 if (isset($entity->media_url)) {
                     $repl = "";
                     $tweet_parsed['media'][] = array(
-                        'thumb' => preg_replace("/^http:/", "https:", $entity->media_url) . ':thumb',
+                        'thumb' => $entity->media_url_https . ':thumb',
                         'url' => $entity->expanded_url
                     );
                 }
