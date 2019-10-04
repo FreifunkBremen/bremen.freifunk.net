@@ -5,7 +5,7 @@ Seit wir bei der Breminale 2015 ein freies WLAN auf dem Osterdeich aufgebaut hab
 nicht mehr davon weggekommen und waren seither jedes Jahr wieder dabei.
 Da es nun 5 Jahre waren, wollen wir ein kleines Re­sü­mee wagen.
 
-2015: Unsere "Basisstation" war ein kleiner Stand an der Rückseite der Drei-Meter-Bretter-Bühne.
+[2015](/blog/2015/07/13/breminale-vorbereitungen.html): Unsere "Basisstation" war ein kleiner Stand an der Rückseite der Drei-Meter-Bretter-Bühne.
 Dort verstauten wir unser Werkzeug, Kabel und alles andere, was man als Freifunker so braucht.
 Der Stand hatte den Vorteil, dass man nah am Besucherstrom dran war, und in freier Zeit
 auch Flyer austeilen konnte.
@@ -13,7 +13,7 @@ Leicht nachteilig war die geringe Größe des Standes und die direkte Nähe zur 
 Bei diesem ersten großen Netz wurden viele Erfahrungen bezüglich Vorbereitung, Routerwahl und
 Struktur des Netzwerks gemacht.
 
-2016: Unsere "Basisstation" war ab 2016 stets ein Bauwagen am oberen Ende des Osterdeichs.
+[2016](/blog/2016/08/09/breminale-rückblick.html): Unsere "Basisstation" war ab 2016 stets ein Bauwagen am oberen Ende des Osterdeichs.
 Da wir den Bauwagen auch abschließen konnten, und er deutlich größer als der 2015er-Stand ist,
 verstauen wir mehr Technik darin und erfreuen uns beim anstrengenden Aufbau an gekühlten Getränken aus dem eigenen Kühlschrank.
 Das aufgebaute Netz gewinnt in diesem Jahr an Struktur, es gibt ein Glasfaser-Backbone, die
@@ -25,7 +25,7 @@ gesponsert.
 2017 [**WIP**] : Mix aus "guten" Geräten auf dem Osterdeich und "Freifunk-Entwicklungs-Spielwiese" auf der
 Himmlichen Wiese. Am Ende gemischtes Feedback zu der Aufteilung.
 
-2018 [**WIP**] : Sponsoring durch TP-Link, 80 Archer C7 + Geräte von Freifunkern
+[2018](https://bremen.freifunk.net/blog/2018/12/09/rueckblick-auf-die-breminale-2018.html) [**WIP**] : Sponsoring durch TP-Link, 80 Archer C7 + Geräte von Freifunkern
 
 2019 [**WIP**] : Probleme in Firmware führt zu deutlichem Wissensvorschub in Entwicklung,
 leider aber auch zu Motivationslücken im Team und erheblichen Mehraufwand für einige wenige.
