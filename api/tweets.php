@@ -18,6 +18,15 @@ function mb_substr_replace($string, $replacement, $start, $length) {
     $length);
 }
 
+function getTwitterContent($media_url) {
+    $file_name = basename($media_url, ':thumb');
+    $file_path = '../images/twitter/' . $file_name;
+    if(!file_exists($file_path)) {
+        $file = file_get_contents($media_url);
+        file_put_contents($file_path, $file, LOCK_EX);
+    }
+    return '/images/twitter/' . $file_name;
+}
 
 if (!is_dir(CACHE_DIR))
     mkdir(CACHE_DIR);
@@ -74,7 +83,7 @@ if (file_exists(CACHE_FILE) && filemtime(CACHE_FILE) >= time() - CACHE_LIFETIME)
                 if (isset($entity->media_url)) {
                     $repl = "";
                     $tweet_parsed['media'][] = array(
-                        'thumb' => $entity->media_url_https . ':thumb',
+                        'thumb' => getTwitterContent($entity->media_url . ':thumb'),
                         'url' => $entity->expanded_url
                     );
                 }
