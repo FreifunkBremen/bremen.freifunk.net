@@ -22,7 +22,7 @@ function getTwitterContent($media_url) {
     $file_name = basename($media_url, ':thumb');
     $file_path = '../images/twitter/' . $file_name;
     if(!file_exists($file_path)) {
-        $file = file_get_contents($media_url);
+        $file = file_get_contents($media_url, FALSE, NULL, 0, 1024*1024);
         file_put_contents($file_path, $file, LOCK_EX);
     }
     return '/images/twitter/' . $file_name;
@@ -80,10 +80,10 @@ if (file_exists(CACHE_FILE) && filemtime(CACHE_FILE) >= time() - CACHE_LIFETIME)
 
             foreach ($entities as $entity) {
                 $link_templ = '<a href="%s">%s</a>';
-                if (isset($entity->media_url)) {
+                 if (isset($entity->media_url_https)) {
                     $repl = "";
                     $tweet_parsed['media'][] = array(
-                        'thumb' => getTwitterContent($entity->media_url . ':thumb'),
+                        'thumb' => getTwitterContent($entity->media_url_https . ':thumb'),
                         'url' => $entity->expanded_url
                     );
                 }
