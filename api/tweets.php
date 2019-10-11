@@ -23,7 +23,7 @@ function getTwitterContent($media_url) {
     $info = pathinfo($file_name);
     $file_path = '../images/twitter/' . $info['filename'] . '.jpg';
     if(!file_exists($file_path)) {
-        $base_url = preg_match("/^(http(|s).*)(.jpe?g|.png)/", $media_url, $matches);
+        $base_url = preg_match("/^(http(|s).*)(\.jpe?g|\.png)/", $media_url, $matches);
         // twitter api should only return jpg/png images
         if($matches[3] === '.jpg' || $matches[3] === '.jpeg' || $matches[3] === '.png') {
             $file = file_get_contents($matches[1].$matches[3].':thumb', FALSE, NULL, 0, 1024*1024);
@@ -32,7 +32,7 @@ function getTwitterContent($media_url) {
             return '';
         }
     }
-    return '/images/twitter/' . $file_name;
+    return '/images/twitter/' . $info['filename'] . '.jpg';
 }
 
 if (!is_dir(CACHE_DIR))
@@ -87,7 +87,7 @@ if (file_exists(CACHE_FILE) && filemtime(CACHE_FILE) >= time() - CACHE_LIFETIME)
 
             foreach ($entities as $entity) {
                 $link_templ = '<a href="%s">%s</a>';
-                 if (isset($entity->media_url_https)) {
+                if (isset($entity->media_url_https)) {
                     $repl = "";
                     $tweet_parsed['media'][] = array(
                         'thumb' => getTwitterContent($entity->media_url_https),
