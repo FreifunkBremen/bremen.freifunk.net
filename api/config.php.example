@@ -1,6 +1,8 @@
 <?php
 define('CACHE_LIFETIME', 300);
 define('CACHE_DIR', 'cache/');
+define('IMAGES_DIR', '../images/twitter/');
+define('IMAGES_BASE_URL', '/images/twitter/');
 
 define('TWITTER_ACCESS_TOKEN',        'get it from apps.twitter.com');
 define('TWITTER_ACCESS_TOKEN_SECRET', 'get it from apps.twitter.com');
