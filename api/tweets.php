@@ -21,8 +21,10 @@ function mb_substr_replace($string, $replacement, $start, $length) {
 function getTwitterContent($media_url) {
     $file_name = basename($media_url);
     $info = pathinfo($file_name);
-    $file_path = '../images/twitter/' . $info['filename'] . '.jpg';
+    $file_path = IMAGES_DIR . $info['filename'] . '.jpg';
     if(!file_exists($file_path)) {
+        if (!is_dir(IMAGES_DIR))
+            mkdir(IMAGES_DIR);
         $base_url = preg_match("/^(http(|s).*)(\.jpe?g|\.png)/", $media_url, $matches);
         // twitter api should only return jpg/png images
         if($matches[3] === '.jpg' || $matches[3] === '.jpeg' || $matches[3] === '.png') {
@@ -32,7 +34,7 @@ function getTwitterContent($media_url) {
             return '';
         }
     }
-    return '/images/twitter/' . $info['filename'] . '.jpg';
+    return IMAGES_BASE_URL . $info['filename'] . '.jpg';
 }
 
 if (!is_dir(CACHE_DIR))
