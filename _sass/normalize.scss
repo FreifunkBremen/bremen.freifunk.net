@@ -103,6 +103,18 @@ a:hover {
   outline-width: 0;
 }
 
+/**
+ * display "open in new tab"-icon after each external link (starting with "http")
+ */
+
+a[href ^= "http"]:after {
+	content: " " url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAVklEQVR4Xn3PgQkAMQhDUXfqTu7kTtkpd5RA8AInfArtQ2iRXFWT2QedAfttj2FsPIOE1eCOlEuoWWjgzYaB/IkeGOrxXhqB+uA9Bfcm0lAZuh+YIeAD+cAqSz4kCMUAAAAASUVORK5CYII=);
+}
+
+a.no-icon[href ^= "http"]:after {
+	content: " ";
+}
+
 /* Text-level semantics
    ========================================================================== */
 
