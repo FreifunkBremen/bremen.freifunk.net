@@ -138,6 +138,14 @@ document.addEventListener("DOMContentLoaded", function() {
               "addressCountry": "Germany"
             }
           }
+        } else {
+          event_location = {
+            "@type": "Place",
+            "name": ev.location,
+            "address": {
+              "@type": "PostalAddress",
+            }
+          }
         }
         
         // json-ld markup
