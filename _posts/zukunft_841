@@ -14,6 +14,7 @@ stehen in nächster Zeit einige größere Änderungen an.
 
 Das führt dazu, dass Modelle mit 4MB Flash und 32MB RAM nicht mehr für 
 Freifunk genutzt werden können.
+Dies betrifft insbesondere das weit verbreitete Modell WR841 von TP-Link.
 Eine Liste mit Betroffnen Geräten findet ihr hier: [nicht weiter 
 unterstützte Geräte](https://karlsruhe.freifunk.net/news/2018/05/28/eol-devices/)
 
