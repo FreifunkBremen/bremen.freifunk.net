@@ -9,7 +9,7 @@ Die Firmware war bereits seit dem 14.10.2019 als testing im Einsatz und hat seit
 
 Mit dieser Version wird jetzt der D-Link DAP-1330 A1 als neues Gerät unterstützt.
 
-Außerdem erhöhen wir unsere Versionsnummer damit auf 2019 und werden die aktuelle testing los, damit in den nächsten Tagen eine neue testing-Version erscheinen kann, welche die Umstellung auf einen neuen WLAN-Standard beinhalten wird. Diese Umstellung ist nur für das Meshen der Freifunk-Geräte relevant, als Nutzer betrifft einen diese Änderung nicht.
+Außerdem erhöhen wir unsere Versionsnummer damit auf 2019 und werden die aktuelle testing los, damit in den nächsten Tagen eine neue testing-Version erscheinen kann, welche die Umstellung auf einen neuen WLAN-Standard beinhalten wird. Diese Umstellung ist nur für das Meshen der Freifunk-Geräte per WLAN relevant, als Nutzer betrifft einen diese Änderung nicht.
 Zu der Umstellung folgt in nächster Zeit ein weiterer Blog-Post.
 
 Das Upgrade wird in den kommenden sieben Tagen automatisch auf allen Knoten im Bremer Freifunk-Netz installiert,
