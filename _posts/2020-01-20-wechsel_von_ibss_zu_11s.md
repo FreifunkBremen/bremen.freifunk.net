@@ -18,6 +18,10 @@ Die **Umsetzung** ist relativ komplex und wird mit viel testen dann zum 05.03.20
 (Falls es bei dir nicht geklappt hat, komme doch gern zum 06.03.2020 zu unser Freifunk treffen.)
 Dieses ist Teil der nun testing, welche rechtzeitig vorher hoffentlich zur stabil wird.
 
+Falls ihr dies bereits jetzt ausprobieren wollt, ändert einfach die Domain im Config-Modus oder per SSH
+`uci set gluon.core.domain='ffhb_11s' && gluon-reconfigure && gluon-reload`.
+Doch denkt dran, dass ihr dies in euer komplettes WLAN-Mesh macht, damit sich die Geräte untereinander wieder verbinden.
+
 Wir hoffen, dass dies gut gelingt und als Testlauf für das komplette Protokoll zum Meshen genutzt werden können.
 Denn sobald wir passende Server Infrastruktur aufgebaut haben,
  wollen wir auf der gleichen Weise das ganze Protokoll zum Meshen (nicht nur WLAN-Mesh Verbindungen) von Batman IV zu Batman V updaten.
