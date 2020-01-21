@@ -17,7 +17,7 @@ Zudem ist der Wechsel notwendig, da [Gluon](https://wiki.freifunk.net/Gluon), di
 Die **Umsetzung** ist relativ komplex und wird mit viel Testerei (voraussichtlich) am 05.03.2020 auf allen Routern nahezu gleichzeitig durchgeführt.
 Um einige Tests vor der Beförderung zur Stable-Version durchführen zu können, veröffentlichen wir die Firmware zunächst als Testing-Version. 
 
-Falls ihr die Firmware bereits jetzt ausprobieren wollt, ändert einfach die Domain im Config-Modus oder per SSH:
+Falls ihr 11s in der neuen Testing-Firmware bereits jetzt ausprobieren wollt, ändert einfach die Domain im Config-Modus oder per SSH:
 `uci set gluon.core.domain='ffhb_11s' && gluon-reconfigure && gluon-reload`.
 Denkt bitte daran, dass ihr die Umstellung in euerem kompletten WLAN-Mesh macht, damit sich die Geräte untereinander wieder verbinden können.
 Euer Feedback ist ausdrücklich erwünscht, entweder bei einem der nächsten Freifunk-Treffen, per Mail, bei Facebook, Twitter, Instagramm oder im Chat.
