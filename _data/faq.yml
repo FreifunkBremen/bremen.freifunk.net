@@ -195,7 +195,8 @@
 
         Das `mesh-vpn`-Interface ist die VPN-Verbindung zum Gateway-Server (aufgebaut durch die `fastd`-VPN-Software).
         Diese VPN-Verbindung läuft über den normalen Internetanschluss,
-        welcher für gewöhnlich eine MTU zwischen 1280 Bytes (das Minimum bei Providern) und 1492 Bytes (DSL/PPPoE) hat.
+        welcher für gewöhnlich eine MTU zwischen 1280 Bytes (das [Minimum im IPv6-Standard](https://tools.ietf.org/html/rfc2460#section-5))
+        und 1492 Bytes (DSL/PPPoE) hat.
         Davon gehen nochmal 66 Bytes für den [fastd-Header](https://fastd.readthedocs.io/en/latest/manual/mtu.html) ab.
         Somit kann die VPN-Verbindung auch im besten Fall nur Pakete bis max. 1426 Bytes unfragmentiert übertragen.
 
