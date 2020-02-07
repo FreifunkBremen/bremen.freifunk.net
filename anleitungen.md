@@ -106,6 +106,8 @@ Falls gewünscht kannst du die maximale Bandbreite einschränken.
 Damit andere Freifunker oder Nachbarn den Router auch auf der **Freifunk-Karte** finden können, kannst du die **Koordinaten** des Routers eintragen. Lässt man den Haken weg, so erscheint der Router nicht auf der Karte.
 Die Koordinaten sollte man sich vor der Konfiguration ggf. zwischenspeichern. Auf <a href="https://map.bremen.freifunk.net/" target="_blank">unserer Karte</a> kannst du dir die gewünschten Koordinaten anzeigen lassen (über das Stecknadel-Symbol oben rechts).
 
+Falls es ein Auswahlfeld gibt, bei dem Du nach einer **Domain** gefragt wirst, wähle im Zweifelsfall die Domain, die mit "neu" gekennzeichnet ist.
+
 <img src="/images/anleitung/gluon_3.png" width="350px" title="Kontakt">
 
 Bitte gib eine **Kontaktadresse** an, damit dich andere Freifunker bei Problemen mit deinem Router erreichen können. Diese Adresse ist öffentlich einsehbar.
