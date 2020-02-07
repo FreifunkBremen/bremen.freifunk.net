@@ -183,6 +183,27 @@
         anschließend einmal neustarten
 
             reboot
+    - question: Warum ist die MTU von mesh-vpn so niedrig? Führt das nicht zu Performance-Problemen?
+      answer: |
+        In den Logs der Freifunk-Router finden sich gelegentlich Meldungen wie diese:
+
+        `batman_adv: bat0: The MTU of interface mesh-vpn is too small (1280) to handle the transport of batman-adv packets.
+        Packets going over this interface will be fragmented on layer2 which could impact the performance.
+        Setting the MTU to 1528 would solve the problem.`
+
+        Diese reduzierte MTU führt zwar in der Tat zu (etwas) schlechterer Performance, lässt sich aber leider nicht vermeiden.
+
+        Das `mesh-vpn`-Interface ist die VPN-Verbindung zum Gateway-Server (aufgebaut durch die `fastd`-VPN-Software).
+        Diese VPN-Verbindung läuft über den normalen Internetanschluss,
+        welcher für gewöhnlich eine MTU zwischen 1280 Bytes (das [Minimum im IPv6-Standard](https://tools.ietf.org/html/rfc2460#section-5))
+        und 1492 Bytes (DSL/PPPoE) hat.
+        Davon gehen nochmal 66 Bytes für den [fastd-Header](https://fastd.readthedocs.io/en/latest/manual/mtu.html) ab.
+        Somit kann die VPN-Verbindung auch im besten Fall nur Pakete bis max. 1426 Bytes unfragmentiert übertragen.
+
+        Im B.A.T.M.A.N.-Netz selbst wird eine MTU von 1500 verwendet, damit es sich wie ein normales Ethernet-Netz verhält.
+        Als Ergebnis passen die B.A.T.M.A.N.-Pakete (mit 1500 Bytes) nicht unverändert durch die fastd-Verbindung (mit max. 1426 Bytes),
+        sondern müssen fragmentiert werden.
+        Die Logmeldung von batman_adv weist darauf hin, dass diese Fragmentierung passiert und dadurch die Verbindung möglicherweise langsamer wird.
 - title: Rechtliches
   questions:
     - question: Kann ich als Knotenbetreiber_in dafür verantwortlich gemacht werden was andere über mein Freifunk tun? (Störerhaftung)
