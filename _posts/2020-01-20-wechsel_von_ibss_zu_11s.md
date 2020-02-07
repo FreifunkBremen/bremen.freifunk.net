@@ -18,7 +18,9 @@ Die **Umsetzung** ist relativ komplex und wird mit viel Testerei (voraussichtlic
 Um einige Tests vor der Beförderung zur Stable-Version durchführen zu können, veröffentlichen wir die Firmware zunächst als Testing-Version. 
 
 Falls ihr 11s in der neuen Testing-Firmware bereits jetzt ausprobieren wollt, ändert einfach die Domain im Config-Modus oder per SSH:
+
 `uci set gluon.core.domain='ffhb_11s' && gluon-reconfigure && gluon-reload`.
+
 Denkt bitte daran, dass ihr die Umstellung in eurem kompletten WLAN-Mesh macht, damit sich die Geräte untereinander wieder verbinden können.
 Euer Feedback ist ausdrücklich erwünscht, entweder bei einem der nächsten Freifunk-Treffen, per Mail, bei Facebook, Twitter, Instagram oder im Chat.
 
