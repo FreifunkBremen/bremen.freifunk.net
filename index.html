@@ -89,7 +89,7 @@ layout: nosection
   <h2>Partner</h2>
   <div class="flex">
 {% for sponsor in site.data.sponsors %}
-    <a href="{{ sponsor.url }}">
+    <a class="no-icon" href="{{ sponsor.url }}">
       <img src="images/sponsors/{{ sponsor.img }}" alt="{{ sponsor.name }}">
     </a>
 {% endfor %}
