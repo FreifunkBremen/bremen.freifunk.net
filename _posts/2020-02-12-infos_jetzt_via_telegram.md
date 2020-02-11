@@ -2,7 +2,7 @@
 layout: post
 title:  "Infos jetzt via Telegram"
 author: Louis
-date:   2020-02-11 11:22:13 +0200
+date:   2020-02-12 11:22:13 +0200
 ---
 
 Unsere Blogposts und Erinnerungsnachrichten zu Treffen kannst du jetzt auch per Telegram bekommen.
