@@ -11,14 +11,14 @@ Wie im vorigen Blogpost beschrieben, werden wir damit <!--die im Bremer Freifunk
 Die Änderung wird die Unterstützung einiger neuer Routermodelle (wie z.B. einige AVM-Fritzboxen) ermöglichen;
 und sie ist außerdem nötig, weil die [Basis](https://wiki.freifunk.net/Gluon) unserer Bremer Freifunk-Firmware in absehbarer Zeit kein IBSS-Mesh mehr unterstützen wird.
 
-Die ganze Umstellung ist leider technisch komplex:  
+Die ganze Umstellung ist technisch komplex, aber wir haben uns ein Verfahren ausgedacht, welches dafür sorgt, dass die Umstellung problemlos und beinahe unbemerkt über die Bühne geht:  
 am **Stichtag 5. März 2020** werden alle Knoten im Netz gleichzeitig ihr Mesh-Systen von IBSS auf 11s umstellen.
 Zumindest werden das alle Knoten tun, die mit der aktuellen Stable-Firmware [2019.1.1-bremen1](https://wiki.ffhb.de/Firmware/Changelog#freifunk-bremen-versionen_2019-1-1-bremen1) laufen.
 
 **Was ist also zu beachten?**
 - schaltet am besten den **Autoupdater** auf euren Knoten ein (z.B. auf `stable`). Dann wird euer Knoten bis zum 5.3.2020 automatisch das Update installieren und ist für die Umstellung bereit.
 - oder stellt sicher, dass ihr eure Knoten bis zum 5.3.2020 auf die Version **2019.1.1-bremen1** oder neuer aktualisiert habt
-- denkt auch an "eingelagerte" Knoten, die nur gelegentlich angeschaltet werden: nehmt diese vor dem 5.3.2020 kurz in Betrieb, damit sie das Update installieren können.
+- denkt auch an "eingelagerte" Knoten, die nur gelegentlich angeschaltet werden: nehmt diese vor dem 5.3.2020 kurz (eine Stunde sollte genügen) in Betrieb, damit sie das Update installieren können.
 
 Falls einzelne Knoten eures Mesh-Netzwerk zwischenzeitlich nicht erreichbar sind, kann es sein,
 dass während der [Testphase](/blog/2020/01/23/wechsel-von-ibss-zu-11s.html) bereits Teile des Netzwerkes auf 11s umgestellt wurden.
