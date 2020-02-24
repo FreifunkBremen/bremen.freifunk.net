@@ -37,7 +37,7 @@ Und auch ein komplett manuelles Upgrade (im Config-Modus oder per `autoupdater`-
 
 Wir hoffen auf eure Unterstützung und etwas Geduld bis zum **05.03.2020**.
 Falls Ihr dann trotzdem noch Probleme habt, kommt doch gerne direkt zu unserem Freifunk-Treffen am 06.03.2020.
-Hier werden wir auch noch ein Resümee für die ganze Umstellung ziehen und bewerten, ob wir zukünftige Umstellungen auch so durchführen wollen.
+Hier werden wir auch noch ein Ré­su­mé für die ganze Umstellung ziehen und bewerten, ob wir zukünftige Umstellungen auch so durchführen wollen.
 
 Denn sobald das Update auf 11s eingespielt ist, beginnen die Vorbereitungen für eine noch weitreichendere Neuerung:
 das Update von [B.A.T.M.A.N.](https://www.open-mesh.org/projects/open-mesh/wiki) IV zu B.A.T.M.A.N. V.
