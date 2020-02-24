@@ -33,7 +33,7 @@ Dann wird er sich beim nächsten Einschalten automatisch von IBSS auf 11s umstel
 
 Was könnt ihr tun, wenn ihr nach dem 5.3. trotzdem noch einen Knoten habt, der eine zu alte Firmware hat?
 In diesem Fall könnt ihr den Knoten immer noch per Kabel mit einem anderen Freifunk-Knoten (oder auch direkt mit dem Internet) verbinden, damit er sich das Update installiert.
-Und auch ein komplett manuelles Upgrade (auf der Config-Seite oder per `autoupdater`-Befehl) ist weiterhin möglich.
+Und auch ein komplett manuelles Upgrade (im Config-Modus oder per `autoupdater`-Befehl) ist weiterhin möglich.
 
 
 Wir hoffen auf eure Unterstützung und etwas Geduld bis zum **05.03.2020**.
