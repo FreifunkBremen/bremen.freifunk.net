@@ -1,39 +1,47 @@
 ---
 layout: post
-title:  "Warnung auf Ausfälle während der Netzwerkumstellung zu 11s (2019.1+bremen1.1 als neue Stabil-Version)"
+title:  "Achtung: 11s-Umstellung und die neue Stable-Version"
 author: genofire
 date:   2020-02-26 21:43:00 +0200
 ---
 
-Mit der aktuellen Stabil 2019.1.1-bremen1 wollen wir auch eine Umstellung im WLAN-Meshen angehen.
+Mit der Firmware-Version 2019.1.1-bremen1 wollen wir jetzt die [angekündigte Umstellung beim WLAN-Mesh](/blog/2020/01/23/wechsel-von-ibss-zu-11s.html) angehen.
 
-Als die Bremer Freifunk Initiative zu existieren begann, haben wir das WLAN-Meshing mittels IBSS-Standard umgesetzt.
-Gleichzeitig wurde mit [802.11s](https://de.wikipedia.org/wiki/IEEE_802.11s) ein neuerer Standard für Meshing im WLAN entwickelt und ist über die letzten zehn Jahre in den meisten WLAN-Chips der Router implementiert worden.
-Dies führt dazu, dass die neueren Router-Modelle 11s öfter als IBSS unterstützen.
+Wie im vorigen Blogpost beschrieben, werden wir damit <!--die im Bremer Freifunk-Netz--> die WLAN-Mesh-Verbindungen zwischen allen Knoten von IBSS auf das neue [802.11s](https://de.wikipedia.org/wiki/IEEE_802.11s)-Verfahren umstellen.
+Die Änderung wird die Unterstützung einiger neuer Routermodelle (wie z.B. einige AVM-Fritzboxen) ermöglichen;
+und sie ist außerdem nötig, weil die [Basis](https://wiki.freifunk.net/Gluon) unserer Bremer Freifunk-Firmware in absehbarer Zeit kein IBSS-Mesh mehr unterstützen wird.
 
-Zusammengefasst bringt uns der Wechsel von IBSS auf 11s für die Zukunft weitere Router-Modelle (unter anderem ein paar AVM-Fritzboxen).
-Zudem ist der Wechsel notwendig, da [Gluon](https://wiki.freifunk.net/Gluon), die verwendete Basis der Bremer Freifunk-Firmware, ebenfalls plant, kein IBSS mehr zu unterstützen.
+Die ganze Umstellung ist leider technisch komplex:  
+am **Stichtag 5. März 2020** werden alle Knoten im Netz gleichzeitig ihr Mesh-Systen von IBSS auf 11s umstellen.
+Zumindest werden das alle Knoten tun, die mit der aktuellen Stable-Firmware [2019.1.1-bremen1](https://wiki.ffhb.de/Firmware/Changelog#freifunk-bremen-versionen_2019-1-1-bremen1) laufen.
 
-Die Umsetzung ist relativ komplex und ist dennoch Notwendig für das Fortbestehen des Bremen Freifunk Netzwerkes.
+**Was ist also zu beachten?**
+- schaltet am besten den **Autoupdater** auf euren Knoten ein (z.B. auf `stable`). Dann wird euer Knoten bis zum 5.3.2020 automatisch das Update installieren und ist für die Umstellung bereit.
+- oder stellt sicher, dass ihr eure Knoten bis zum 5.3.2020 auf die Version **2019.1.1-bremen1** oder neuer aktualisiert habt
+- denkt auch an "eingelagerte" Knoten, die nur gelegentlich angeschaltet werden: nehmt diese vor dem 5.3.2020 kurz in Betrieb, damit sie das Update installieren können.
 
-Die **Risiken** sind in der Zeit von Heute bis zum 05.03.2020 das Teile des Netzwerkes nicht richtig Funktionieren.
-Doch damit dies gelingt, bitte Wir euch als Betreiber eines Freifunkknoten/-Router ein paar Sachen zu beachten:
-- stellt eure Router vor dem **05.03.2020** auf (`2019.1+bremen1.1`) um, dies ist wichtig,
-  da sich die Knoten ansonsten nicht mehr miteinenander verbinden
-	- am Besten wäre es, wenn ihr euren **Autoupdater** mindestens auf `stabil` stellt,
-	 dann müsst ihr in Zukunft so etwas nicht bedenken
-	- denkt auch an eingelagerten Knoten, diese kurzzeitig in Betrieb zu nehemen, damit auch diese das Update bekommen.
-- falls teile eurer Mesh-Netzwerk zwischenzeitlich nicht erreichbar ist/war, kann es sein,
-  das bereits Teile des Netzwerkes auf 11s umgestellt wurde - dafür gibt es folgende Lösungen
-	- man wartet auf den Stichtag 05.03.2020 - bei dem die restlichen Knoten ebenfalls auf 11s umstellen
-	- man stellt die restlichen sie manuelle per Config-Modus oder SSH auf 11s um (mehr dazu siehe [2019.1+bremen1.1 als neue Testing](/blog/2020/01/23/wechsel-von-ibss-zu-11s.html))
-	- man stellt den Betroffenen Router wieder auf ibss, natürlich solange es noch vor dem 05.03.2020 ist (dies Allerdings generell nicht zu empfehlen und nur zur Vollständigkeit erwähnt wurden)
+Falls einzelne Knoten eures Mesh-Netzwerk zwischenzeitlich nicht erreichbar sind, kann es sein,
+dass während der [Testphase](/blog/2020/01/23/wechsel-von-ibss-zu-11s.html) bereits Teile des Netzwerkes auf 11s umgestellt wurden.
+Dafür gibt es folgende Lösungen:
+- ihr wartet auf den Stichtag 5.3.2020; dann werden sich die restlichen Knoten ebenfalls auf 11s umstellen.
+- ihr stellt die restlichen Geräte manuell (per Config-Modus oder SSH-Zugang) auf 11s um. Mehr dazu steht unter [2019.1+bremen1.1 als neue Testing](/blog/2020/01/23/wechsel-von-ibss-zu-11s.html).
+- ihr stellt die betroffenen Geräte erstmal wieder auf IBSS zurück, bis am 5.3.2020 dann alle Geräte sowieso auf 11s wechseln.
+    Dieser Weg ist allerdings nicht zu empfehlen und wird nur der Vollständigkeit erwähnt.
 
-Wir hoffen auf eure Unterstützung und etwas Geduld bis zum **05.03.2020**, falls Ihr dann immer noch Probleme habt, kommt doch gerne direkt zu unser Freifunk-Treffen am 06.03.2020.
-Hier werden wir auch noch ein Resüme ziehen und die gesamte Umstellung bewerten, ob wir weiter Umstellung so machen können.
+Übrigens: falls ein Knoten am 5.3. nicht eingeschaltet ist (oder offline ist), macht das nichts - solange der Knoten schon das Update auf die Version 2019.1.1-bremen1 oder neuer bekommen hat.
+Dann wird er sich beim nächsten Einschalten automatisch von IBSS auf 11s umstellen.
 
-Denn sobald das Update auf 11s eingespielt ist, beginnen die Vorbereitungen für eine noch weitreichendere Neuerung: 
-das Update von [B.A.T.M.A.N.](https://www.open-mesh.org/projects/open-mesh/wiki) IV zu B.A.T.M.A.N. V .
-Dazu wird zunächst die Server-Infrastruktur aufgebaut und dann das Vorgehen, wie bei der aktuellen 11s Umstellung, wiederholt.
+Was könnt ihr tun, wenn ihr nach dem 5.3. trotzdem noch einen Knoten habt, der eine zu alte Firmware hat?
+In diesem Fall könnt ihr den Knoten immer noch per Kabel mit einem anderen Freifunk-Knoten (oder auch direkt mit dem Internet) verbinden, damit er sich das Update installiert.
+Und auch ein komplett manuelles Upgrade (auf der Config-Seite oder per `autoupdater`-Befehl) ist weiterhin möglich.
 
-Euer Feedback ist daher ausdrücklich erwünscht, entweder bei einem der nächsten Freifunk-Treffen, per Mail, bei Facebook, Twitter, Instagram oder im Chat.
+
+Wir hoffen auf eure Unterstützung und etwas Geduld bis zum **05.03.2020**.
+Falls Ihr dann trotzdem noch Probleme habt, kommt doch gerne direkt zu unserem Freifunk-Treffen am 06.03.2020.
+Hier werden wir auch noch ein Resümee für die ganze Umstellung ziehen und bewerten, ob wir zukünftige Umstellungen auch so durchführen wollen.
+
+Denn sobald das Update auf 11s eingespielt ist, beginnen die Vorbereitungen für eine noch weitreichendere Neuerung:
+das Update von [B.A.T.M.A.N.](https://www.open-mesh.org/projects/open-mesh/wiki) IV zu B.A.T.M.A.N. V.
+Dazu wird zunächst die Server-Infrastruktur aufgebaut und dann das Vorgehen, wie bei der aktuellen 11s-Umstellung, wiederholt.
+
+Euer Feedback ist daher ausdrücklich erwünscht, entweder bei einem der nächsten Freifunk-Treffen, per [Mail, bei Facebook, Twitter, Instagram oder im Chat](/kontakt.html).
