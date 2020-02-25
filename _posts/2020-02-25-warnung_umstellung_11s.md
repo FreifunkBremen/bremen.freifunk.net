@@ -2,7 +2,7 @@
 layout: post
 title:  "Achtung: 11s-Umstellung und die neue Stable-Version"
 author: genofire
-date:   2020-02-26 21:43:00 +0200
+date:   2020-02-26 19:43:00 +0200
 ---
 
 Mit der Firmware-Version 2019.1.1-bremen1 wollen wir jetzt die [angekündigte Umstellung beim WLAN-Mesh](/blog/2020/01/23/wechsel-von-ibss-zu-11s.html) durchführen.
