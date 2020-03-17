@@ -2,11 +2,11 @@
 layout: post
 title:  "Freifunk hilft"
 author: Louis
-date:   2020-03-17 15:43:00 +0200
+date:   2020-03-17 19:53:00 +0200
 ---
  
 _Dieser Beitrag kann gelegentlich aktualisiert werden um neue Informationen hinzufügen oder Fragen zu beantworten._<br />
-_Aktueller Stand: 17.03.2020 16:00 Uhr._<br />
+_Aktueller Stand: 17.03.2020 20:00 Uhr._<br />
 
 Um Menschen auch in den kommenden Zeiten eine digitale Teilhabe zu ermöglichen verleihen wir für die nächsten Wochen Router um Personen ohne eigenen Internetzugang zu unterstützen.
 
