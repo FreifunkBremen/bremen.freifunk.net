@@ -15,7 +15,7 @@ Stattdessen wollen wir es kurzfristig mit einem virtuellen Treffen versuchen - h
 Falls möglich, soll das Treffen dann auf eine Videokonferenz ausgedehnt werden.
 Wie das im einzelnen abläuft, wird sich dann im Chat ergeben.
 
-Weitere Infos werden auch in dem [Etherpad](https://hackmd.io/CJclCBXDTji7Fi190By3yg?both) stehen,
+Weitere Infos werden auch in dem [HackMD](https://hackmd.io/CJclCBXDTji7Fi190By3yg?both) stehen,
 wo sonst das Protokoll gepflegt wird.
 
 Da es im Moment danach aussieht,
