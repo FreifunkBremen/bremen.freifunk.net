@@ -2,7 +2,7 @@
 layout: post
 title:  "Neue Stable- und Testing-Versionen"
 author: Oliver
-date:   2020-04-06 19:00:00 +0200
+date:   2020-04-08 19:12:00 +0200
 ---
 Nachdem die Testing-Firmware [2019.1.1+bremen3](https://wiki.bremen.freifunk.net/Firmware/Changelog#freifunk-bremen-versionen_2019-1-1-bremen3)
 bereits seit einem Monat ohne sichtbare Probleme im Einsatz ist,
@@ -17,7 +17,7 @@ anderenfalls kann man immer noch wie bisher die Koordinaten als Text eingeben.
 Auch das Koordinaten-Auswahl-Werkzeug auf der [Online-Karte](https://map.bremen.freifunk.net/)
 (dort erreichbar über das Stecknadel-Symbol rechts oben) steht natürlich weiterhin zur Verfügung.
 
-Die neue Stable-Version wird ab Dienstag automatisch auf allen Knoten im Bremer Freifunk-Netz installiert,
+Die neue Stable-Version wird seit Dienstag automatisch auf allen Knoten im Bremer Freifunk-Netz installiert,
 auf denen automatische Upgrades für die "stable"-Version aktiviert sind.
 Wer das automatische Upgrade deaktiviert hat,
 findet die Firmware für ein manuelles Upgrade auch auf [downloads.bremen.freifunk.net](https://downloads.bremen.freifunk.net/firmware/all/2019.1.1+bremen3/).
