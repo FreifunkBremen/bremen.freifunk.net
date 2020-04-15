@@ -22,7 +22,7 @@ a {
 
 @media (prefers-color-scheme: dark) {
 	a {
-		rgba($freifunk_magenta, 0.9);
+		color: lighten($freifunk_magenta, 10%);
 	}
 }
 
