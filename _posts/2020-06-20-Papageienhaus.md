@@ -9,10 +9,10 @@ Seit ein paar Wochen ist ein neuer Standort in der Bahnhofsvorstadt online: das 
 (Der korrekte Name ist Jakobushaus, es wird aber von allen nur Papageienhaus genannt) 
 
 # Bild:
-<a href="/blog/files/2020-06-20/papageienhaus_screenshot1.jpg"><img src="/blog/files/2020-06-20/papageienhaus_screenshot1.jpg" alt="Screenshot der Freifunk-Karte" style="max-height:400px"></a>
+<a href="/blog/files/2020-06-20/papageienhaus_screenshot1.jpg"><img src="/blog/files/2020-06-20/papageienhaus_screenshot1.jpg" alt="Screenshot der Freifunk-Karte" style="max-height:300px"></a>
 
-Die Eckdaten in Kürze: Richtfunk zum Schlachthof, je eine CPE in Richtung Utbremen/Walle, Richtung Findorff und 
-Richtung Güterbahnhof (als Backup-Link für den Güterbahnhof). 
+Die Eckdaten in Kürze: Richtfunk zum Schlachthof, je eine CPE 210 in Richtung Utbremen/Walle, Richtung Findorff und 
+Richtung Güterbahnhof (als reduntanten Uplink für den Güterbahnhof, falls die direkte Strecke ausfällt). 
 
 Vielen Dank an dieser Stelle an die netten Leute vom Zucker e.V. für unkomplizierte Zusammenarbeit. 
 
