@@ -6,6 +6,13 @@ body>div {
   background: #fff;
 }
 
+@media (prefers-color-scheme: dark) {
+	body>div {
+		background: lighten($dark_background, 10%);
+		color: #fff;
+	}
+}
+
 div {
   max-width: 100%;
 }

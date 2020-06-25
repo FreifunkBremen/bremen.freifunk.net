@@ -20,6 +20,12 @@ a {
   text-decoration: none;
 }
 
+@media (prefers-color-scheme: dark) {
+	a {
+		color: lighten($freifunk_magenta, 10%);
+	}
+}
+
 a:hover {
   text-decoration: underline;
 }
