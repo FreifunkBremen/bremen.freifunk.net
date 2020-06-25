@@ -88,7 +88,7 @@ if (file_exists(CACHE_FILE) && filemtime(CACHE_FILE) >= time() - CACHE_LIFETIME)
             usort($entities, "entity_cmp");
 
             foreach ($entities as $entity) {
-                $link_templ = '<a href="%s">%s</a>';
+                $link_templ = '<a class="no-icon" href="%s">%s</a>';
                 if (isset($entity->media_url_https)) {
                     $repl = "";
                     $tweet_parsed['media'][] = array(
@@ -105,7 +105,7 @@ if (file_exists(CACHE_FILE) && filemtime(CACHE_FILE) >= time() - CACHE_LIFETIME)
                 }
                 elseif (isset($entity->screen_name)) {
                     $repl = sprintf(
-                        '<a href="%s" title="%s">%s</a>',
+                        '<a class="no-icon" href="%s" title="%s">%s</a>',
                         'https://twitter.com/' . $entity->screen_name,
                         $entity->name,
                         $entity->screen_name

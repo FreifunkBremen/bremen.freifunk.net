@@ -199,6 +199,7 @@ document.addEventListener("DOMContentLoaded", function() {
               img = document.createElement('img');
             img.src = media.thumb;
             a.href = media.url;
+            a.className = 'no-icon';
             a.appendChild(img);
             tmpl.querySelector('.media').appendChild(a);
           });
