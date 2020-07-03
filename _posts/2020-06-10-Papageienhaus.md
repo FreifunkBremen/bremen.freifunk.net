@@ -4,8 +4,8 @@ title:  "Neuer Standort: Papageien-Hochhaus"
 author: Louis und Yannik
 date:   2020-06-10 19:19:00 +0200
 ---
-Funk in alle Richtungen! Seit Mitte April stehen auf dem [Jakobus-Hochhaus](https://map.ffhb.de/#!/de/map/30b5c26e86dc) in der Bremer Bahnhofsvorstadt Freifunk-Geräte auf dem Dach. Das Gebäude wird auch liebevoll Papageien-Haus genannt.
-Internet kommt über eine Richtfunkverbindung vom [Schlachthof](https://map.ffhb.de/#!/de/map/e8de27590eb2). Dort wird der Anschluss durch die Bremer Firma [LWLcom](https://www.lwlcom.com) gesponsert.
+Funk in alle Richtungen! Seit Mitte April stehen auf dem [Jakobus-Hochhaus](https://map.bremen.freifunk.net/#!/de/map/30b5c26e86dc) in der Bremer Bahnhofsvorstadt Freifunk-Geräte auf dem Dach. Das Gebäude wird auch liebevoll Papageien-Haus genannt.
+Internet kommt über eine Richtfunkverbindung vom [Schlachthof](https://map.bremen.freifunk.net/#!/de/map/e8de27590eb2). Dort wird der Anschluss durch die Bremer Firma [LWLcom](https://www.lwlcom.com) gesponsert.
 
 <a  href="/blog/files/2020-06-20/papageienhaus_screenshot1.jpg"><img  src="/blog/files/2020-06-20/papageienhaus_screenshot1.jpg"  alt="Screenshot der Freifunk-Karte"  style="max-height:300px"></a>
 
