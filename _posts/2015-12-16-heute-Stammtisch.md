@@ -21,5 +21,5 @@ Friedrich-Ebert-Strasse 33
 28199 Bremen
 
 Tram: Wilhelm-Kaisen-Brücke  
-Facebook: https://www.facebook.com/Charlottebremenweinbar  
-Freifunk-Knoten: http://bremen.freifunk.net/meshviewer/#!v:m;n:c4e984a1c800
+Facebook: [facebook.com/Charlottebremenbar](https://www.facebook.com/Charlottebremenbar)
+Freifunk-Knoten: [Map - Knoten: charlotte-gainsbourgh](https://map.bremen.freifunk.net/#!/de/map/c4e984a1c800)

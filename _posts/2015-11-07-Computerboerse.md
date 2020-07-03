@@ -5,11 +5,11 @@ date:   2015-11-07 14:15:00 +0100
 author: SimJoSt
 ---
 
-Wir sitzen fröhlich und entspannt auf der [Computerbörse](http://www.berliner-freiheit.de/veranstaltungen/2015/computer-boerse-20.html) in der [Berliner Freiheit](http://www.berliner-freiheit.de/) und informieren jeden Interessierten über Freifunk. Flyer, Plakat und Beispiel-Router sind vor Ort.
+Wir sitzen fröhlich und entspannt auf der **Computerbörse** in der [Berliner Freiheit](https://www.berliner-freiheit.de/) und informieren jeden Interessierten über Freifunk. Flyer, Plakat und Beispiel-Router sind vor Ort.
 
 <img src="/blog/files/2015-11-07/Freifunk_auf_der_Computerboerse.jpg" style="padding: 1em" />
 
-Danke an den Stand des [Hackerspace Bremen](https://www.hackerspace-bremen.de/) für den Uplink! So können wir jetzt in beiden Etagen Zugang ins Freifunk ermöglichen. Auch Dank an den Stand des [Oldenburger Computer Museums](http://www.computermuseum-oldenburg.de/) für die Zurverfügungstellung eines Aufstellungsortes im Erdgeschoss (auch wenn Eigennutz vorhanden ist ;-).
+Danke an den Stand des [Hackerspace Bremen](https://www.hackerspace-bremen.de/) für den Uplink! So können wir jetzt in beiden Etagen Zugang ins Freifunk ermöglichen. Auch Dank an den Stand des [Oldenburger Computer Museums](https://www.computermuseum-oldenburg.de/) für die Zurverfügungstellung eines Aufstellungsortes im Erdgeschoss (auch wenn Eigennutz vorhanden ist ;-).
 
 Schon knapp 40 Clients sind mit unseren Knoten verbunden:
 

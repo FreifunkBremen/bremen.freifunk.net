@@ -18,8 +18,8 @@ Vom Dach des Künstlerhauses sollte einerseits Richtfunk zu den Querlenkern in B
 
 ## Aufbau
 Der Aufbau der Hardware auf dem Dach lief relativ problemlos, die Verbindung zum Schlachthof läuft über ein Paar Ubiquiti Nanobeam (5GHz, bis zu 450 MBit/s).
-Die Finanzierung des Aufbaus am Künstlerhaus übernimmt der [Verein23](http://verein23.de/)
-, die Kosten des Aufbaus am Schlachthof trägt der [Schlachthof](https://www.schlachthof-bremen.de/home.html).
+Die Finanzierung des Aufbaus am Künstlerhaus übernimmt der [Verein23](https://verein23.de/)
+, die Kosten des Aufbaus am Schlachthof trägt der [Schlachthof](https://www.schlachthof-bremen.de/).
 Zwei CPEs wurden direkt mit installiert, eine Richtung Querlenker, die andere entgegengesetzt in Richtung Ateliers.
 <img src="/blog/files/2018-10-10/aussicht.jpg" width="450" height="600">
 

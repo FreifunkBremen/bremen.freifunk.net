@@ -4,7 +4,7 @@ title:  "Statusseite und weiteres Gatemon in Betrieb"
 author: SimJoSt
 date:   2016-11-29 17:59:24 +0100
 ---
-Über den Lauf des Jahres haben wir ein System aufgebaut, welches die Funktion der Gateways (Server) von Freifunk Bremen regelmäßig testet. Die Ergebnisse dieser Tests werden auf unserer [Statusseite](https://status.ffhb.de/) angezeigt, welche wir bis jetzt nur intern genutzt haben.
+Über den Lauf des Jahres haben wir ein System aufgebaut, welches die Funktion der Gateways (Server) von Freifunk Bremen regelmäßig testet. Die Ergebnisse dieser Tests werden auf unserer [Statusseite](https://status.bremen.freifunk.net/) angezeigt, welche wir bis jetzt nur intern genutzt haben.
 
 ![Statusseite wenn alle Tests erfolgreich durchgelaufen sind](/blog/files/2016-11-29/statusseite.png)
 

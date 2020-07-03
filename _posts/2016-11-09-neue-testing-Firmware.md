@@ -21,4 +21,4 @@ Dies sind alle Änderungen, welche mit der neuen Firmware Einzug in das Bremer N
     - Fehler im Autoupdater behoben, wodurch wiederholte Neustarts verhindert werden sollen
     - verbesserter SSH-Server auf den Knoten
 
-Für detaillierte Änderungen und Fehlerbehebungen lohnt sich wie immer, ein Blick in unser [Firmware-Changelog](https://wiki.bremen.freifunk.net/Firmware/Changelog).
+Für detaillierte Änderungen und Fehlerbehebungen lohnt sich wie immer, ein Blick in unser [Firmware-Changelog](https://wiki.bremen.freifunk.net/Firmware/Changelog#freifunk-bremen-versionen_2016-2-1-bremen1).

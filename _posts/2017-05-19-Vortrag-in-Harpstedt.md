@@ -4,7 +4,7 @@ title:  "Vortrag in Harpstedt"
 author: SimJoSt
 date:   2017-05-19 12:56:48 +0200
 ---
-Am 11.05. bin ich nach Harpstedt gefahren und habe dort einen Vortrag mit Fragerunde für die Interessenten aus der Umgebung gehalten. Geplant, organisiert und umgesetzt wurde die Veranstaltung von den [Jusos Oldenburg-Land](http://jusos-oldenburg-land.de/), insbesondere von Daniel Helms.
+Am 11.05. bin ich nach Harpstedt gefahren und habe dort einen Vortrag mit Fragerunde für die Interessenten aus der Umgebung gehalten. Geplant, organisiert und umgesetzt wurde die Veranstaltung von den [Jusos Oldenburg-Land](https://spd-oldenburg-land.de/jusos/), insbesondere von Daniel Helms.
 
 Vorweg hatte die Kreiszeitung Oldenburg von der Veranstaltung [berichtet](https://www.kreiszeitung.de/lokales/oldenburg/harpstedt-ort52257/jusos-thematisieren-oeffentliches-wlan-8235327.html). Auch nach der Veranstaltung veröffentlichten sie einen [gelungenen Artikel](https://www.kreiszeitung.de/lokales/oldenburg/harpstedt-ort52257/netzbetreiber-streben-nicht-nach-profit-8297654.html).  
 Bei der Komplexität, dem Umfang und dem nötigen technischen Verständnis um Freifunk, keine Selbstverständlichkeit.
