@@ -32,4 +32,4 @@ Bremen](https://www.hackerspace-bremen.de/anfahrt/). Schau doch mal vorbei, wir
 freuen uns immer über neue Gesichter!
 
 ## Mailingliste
-Für Interessierte besteht außerdem die Möglichkeit, unsere [Mailingliste](https://lists.ffhb.de/mailman/listinfo/ff-bremen/) zu abonnieren. Auf ihr wird diskutiert und ausgetauscht.
+Für Interessierte besteht außerdem die Möglichkeit, unsere [Mailingliste](https://lists.bremen.freifunk.net/mailman/listinfo/ff-bremen/) zu abonnieren. Auf ihr wird diskutiert und ausgetauscht.
