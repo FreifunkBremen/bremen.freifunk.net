@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "Zukunft des TP-LINK WR841"
+title:  "Zukunft des TP-Link WR841"
 author: Louis
-date:   2019-12-12 11:17:10 +0200
+date:   2020-07-04 11:17:10 +0200
 ---
 
 Das Bremer Freifunk-Netz hat eine beachtliche Größe erreicht.
@@ -15,11 +15,11 @@ stehen in nächster Zeit einige größere Änderungen an.
 Das führt dazu, dass Modelle mit 4MB Flash und 32MB RAM nicht mehr für 
 Freifunk genutzt werden können.
 Dies betrifft insbesondere das weit verbreitete Modell WR841 von TP-Link.
-Eine Liste mit Betroffnen Geräten findet ihr hier: [nicht weiter 
+Eine Liste mit betroffenen Geräten findet ihr hier: [nicht weiter 
 unterstützte Geräte](https://karlsruhe.freifunk.net/news/2018/05/28/eol-devices/)
 
 Um bei der Neuanschaffung von Routern sicher zu gehen, dass diese noch langfristig 
-für Freifunk verwendet werden können, sollte vom Kauf von 4/32 Geräten, wie zum
-Beispiel dem TP-LINK 841, abgesehen werden.
+für Freifunk verwendet werden können, sollte vom Kauf von solchen "4/32-Geräten", wie zum
+Beispiel dem TP-Link 841, abgesehen werden.
 
 Es wird daher keine Firmware mehr zur Erstinstallation angeboten. Updates sind momentan noch möglich.
