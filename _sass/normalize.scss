@@ -112,7 +112,7 @@ a[href*="//"]:not([href*="bremen.freifunk.net"]):after {
 }
 
 a.no-icon[href ^= "http"]:after, a.btn:after {
-	content: " ";
+  content: ""
 }
 
 /* Text-level semantics
