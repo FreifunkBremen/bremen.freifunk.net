@@ -11,7 +11,7 @@ Am Ende bleiben noch ca. 50.000€ über, welche ausschließlich in Form von Har
 Auch der Freifunk Bremen ist in Niedersachsen aktiv. Im Bremer Umland gibt es einige Nodes, z.B. in Hagen im Bremischen, in Nienburg/Weser und in Syke.
 Für diese und weitere Standorte in Niedersachsen können nun Router beantragt werden.
 
-Zitat des [verlinkten Protokolls](https://cloud.ffhb.de/index.php/s/YUtWymrHw6iZVFk):
+Zitat des [verlinkten Protokolls](https://cloud.bremen.freifunk.net/index.php/s/YUtWymrHw6iZVFk):
 
 > Bis zum Stichtag 14.10.2016 werden die Freifunk Communities ihre Anträge für die kostenlose Nutzung der beschafften WLAN-Router an das NETZ-Zentrum für innovative Technologie Osterholz GmbH (NETZ-Zentrum) in Osterholz-Scharmbeck einreichen. Mit dem Antrag sollten realistische Gerätezahlen gemeldet werden, wobei für die erste Planung eine ortsteilgenaue Angabe für die Planung zur Beantragung ausreichend ist, die später im Verwendungsnachweis durch die genauen Adressen der installierten Geräte ersetzt werden müssen.
 >
@@ -34,7 +34,7 @@ Es stehen folgende Modelle zur Verfügung:
 * Ubiquiti pbe-5ac-500
 
 Dazu gibt es noch ein
-[„Infoblatt zur kostenfreien aber zweckgebundenen Überlassung von WLAN-Routern“](https://cloud.ffhb.de/index.php/s/NduTBLKUADA5EVb):
+[„Infoblatt zur kostenfreien aber zweckgebundenen Überlassung von WLAN-Routern“](https://cloud.bremen.freifunk.net/index.php/s/NduTBLKUADA5EVb):
 
 1. Die Geräte sind ab Erhalt mindestens bis zum 31.12.2017 zweckgebunden zu nutzen.
 2. Die Geräte sind spätestens bis zum 28.02.2017 in Betrieb zu nehmen. Die Inbetriebnahme ist mit einem Screenshot (der Freifunk-Karte) und einer tabellarischen Auflistung der Adressen, an denen die WLAN-Router (mit Angabe ihrer Serien-Nr.) installiert wurden, nachzuweisen.
@@ -45,6 +45,6 @@ Dazu gibt es noch ein
 7. Überzählige und/oder nicht genutzte Geräte sind dem NETZ-Zentrum bis zum 31.12.2017 anzuzeigen und auf Verlangen des NETZ-Zentrums auf eigene Kosten entweder an dieses oder an eine zu benennende Freifunkinitiative zu versenden. Für nicht herausgegebene Geräte ist Wertersatz zu leisten.
 8. Die Einstellung des Betriebs der Freifunkinitiative ist dem NETZ-Zentrum bis zum 31.1.2017 anzuzeigen. Und es ist wie unter Punkt 7 zu verfahren."
 
-Das Formular zum Beantragen der Router gibt es [hier](https://cloud.ffhb.de/index.php/s/NduTBLKUADA5EVb).
+Das Formular zum Beantragen der Router gibt es [hier](https://cloud.bremen.freifunk.net/index.php/s/NduTBLKUADA5EVb).
 
 Info-Seiten des bzn gibt es [hier](http://www.breitband-niedersachsen.de/index.php?id=674) und [hier](http://www.breitband-niedersachsen.de/index.php?id=680).

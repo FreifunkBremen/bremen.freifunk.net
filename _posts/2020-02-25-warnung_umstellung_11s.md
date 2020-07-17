@@ -13,7 +13,7 @@ und sie ist außerdem nötig, weil die [Basis](https://wiki.freifunk.net/Gluon) 
 
 Die ganze Umstellung ist technisch komplex, aber wir haben uns ein Verfahren ausgedacht, welches dafür sorgt, dass die Umstellung problemlos und beinahe unbemerkt über die Bühne geht:  
 Am **Stichtag 5. März 2020** werden alle Knoten im Netz gleichzeitig ihr Mesh-Protokoll von IBSS auf 11s umstellen.
-Zumindest werden das alle Knoten tun, die mit der aktuellen Stable-Firmware [2019.1.1-bremen1](https://wiki.ffhb.de/Firmware/Changelog#freifunk-bremen-versionen_2019-1-1-bremen1) laufen. Das Update wird bereits vor der Installation komplett heruntergeladen, sodass sich keine Download-Abbrüche ergeben.
+Zumindest werden das alle Knoten tun, die mit der aktuellen Stable-Firmware [2019.1.1-bremen1](https://wiki.bremen.freifunk.net/Firmware/Changelog#freifunk-bremen-versionen_2019-1-1-bremen1) laufen. Das Update wird bereits vor der Installation komplett heruntergeladen, sodass sich keine Download-Abbrüche ergeben.
 
 **Was ist also zu beachten?**
 - Schaltet am besten den **Autoupdater** auf euren Knoten ein (z.B. auf `stable`). Dann wird euer Knoten bis zum 5.3.2020 automatisch das Update installieren und ist für die Umstellung bereit.

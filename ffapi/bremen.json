@@ -109,7 +109,7 @@
       "name": "Kalendar",
       "category": "ics",
       "type": "ICS",
-      "url": "https://cloud.ffhb.de/remote.php/dav/public-calendars/rcPxo5enJc75etx5?export"
+      "url": "https://cloud.bremen.freifunk.net/remote.php/dav/public-calendars/rcPxo5enJc75etx5?export"
     }
   ],
   "nodeMaps": [
@@ -136,7 +136,7 @@
     "club": {
       "name": "Förderverein Freifunk Bremen e.V.",
       "url": "https://bremen.freifunk.net/verein/",
-      "email": "vereinsvorstand@lists.ffhb.de"
+      "email": "vereinsvorstand@lists.bremen.freifunk.net"
     },
     "donations": {
       "bankaccount": {
