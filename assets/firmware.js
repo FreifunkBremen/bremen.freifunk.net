@@ -31,7 +31,7 @@
       "ocedo": "OCEDO",
       "vocore": "VoCore",
     },
-    blogpost_4_32 = "link/to/blogpost.md",
+    blogpost_4_32 = "/blog/2020/07/21/zukunft-841.html",
     no_factory = ["avm", "8devices", "meraki", "unifi-ac", "gl-ar150", "allnet", "wzr-600dhp"],
     no_factory_deprecated = ["tl-wr841", "alfa-network", "dap-1330", "dir-615", "dir-825"],
     xhr = window.XMLHttpRequest? new XMLHttpRequest() : new ActiveXObject('Microsoft.XMLHTTP'),
