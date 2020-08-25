@@ -9,7 +9,7 @@ In Freifunk sieht jeder etwas anderes, und genau so soll es auch sein!
 
 ### Kostenloses Internet
 
-Für die allermeisten ist Freifunk ein WLAN das sie an vielen Stellen in der
+Für die allermeisten ist Freifunk ein WLAN, das sie an vielen Stellen in der
 Stadt sehen und sich einfach verbinden können. Sie haben dort meistens
 Internetzugang, ohne ihr Datenvolumen zu belasten oder auf Mobilfunkempfang
 angewiesen zu sein.
@@ -17,7 +17,7 @@ angewiesen zu sein.
 ### Kostenloser Hotspot-Provider
 
 Für Betreiber von Gaststätten, Läden oder WGs mit häufigen Gästen ist Freifunk
-eine Art Hostspot-Provider: Sie können Freifunk-Router aufstellen und damit
+eine Art Hotspot-Provider: Sie können Freifunk-Router aufstellen und damit
 ihren Gästen und Freunden unkompliziert WLAN anbieten. Dabei schreibt niemand
 eine Rechnung, sondern wer von der Idee überzeugt ist [spendet] einfach.
 
