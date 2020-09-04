@@ -15,7 +15,7 @@ Momentan sind auf dem Markt leider keine guten, günstigen Geräte verfügbar.
 
 Solltest du schon ein Gerät haben, kannst du in unserer [Liste](https://bremen.freifunk.net/firmware.html) nachgucken, ob es unterstützt wird.
 
-Wenn du feststellst, dass Freifunk nicht schnell genug ist, dann lohnt sich unter Umständen ein sogenannter "Offloader". Dies ist ein zusätzliches Gerät, das sich nur um den Verbindungsaufbau mit unserem Netz kümmert, und somit schneller wird. Wirf hierzu einen Blick in unser [Wiki](https://wiki.bremen.freifunk.net/Anleitungen/Offloader).
+Wenn du feststellst, dass Freifunk nicht schnell genug ist, dann lohnt sich unter Umständen ein sogenannter "Offloader". Dies ist ein zusätzliches Gerät, das sich nur um den Verbindungsaufbau mit unserem Netz kümmert, und somit schneller wird. Wirf hierzu einen Blick in unser [Wiki](https://wiki.bremen.freifunk.net/gollum/overview/Anleitungen/Offloader/).
 
 Um draußen Freifunk zu senden, eignet sich die Ubiquiti AC Mesh (ca. 90€). Sie ist wetterbeständig und wird über das LAN-Kabel gleich mit Strom versorgt (PoE = Power over Ethernet).
 Spezielle [flache Netzwerkkabel](http://www.amazon.de/1aTTack-Flach-Netzwerk-Patch-Kabel-Stecker/dp/B004WCQFGU/) können in vielen Fällen durch Fenster oder Türen gelegt werden, so dass keine Außenwand durchbohrt werden muss.
