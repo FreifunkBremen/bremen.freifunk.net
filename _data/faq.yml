@@ -113,7 +113,7 @@
         Ja! Ein bereits in einen Freifunk-Knoten umgewandeltes Gerät kann jederzeit wieder mit der originalen Hersteller-Firmware geflasht (bespielt) werden und entspricht damit wieder dem Original.
     - question: Wie schnell ist mein Zugang im Freifunk?
       answer: |
-        Innerhalb des Funknetzes hängt die Geschwindigkeit stark von der Qualität der Funkverbindung ab und über wie viele Knoten sie geht. Die Geschwindigkeit der Knoten ins kabelgebundene Netz (z.B. Internet) wird jedoch maßgeblich durch die Prozessor-Leistung der Knoten begrenzt. Denn die müssen den VPN-Tunnel ver- und entschlüsseln, was viel Rechenleistung benötigt. Gemessene Richtwerte pro Modell findest Du [hier](https://projects.universe-factory.net/projects/fastd/wiki/Benchmarks). Grundsätzlich surfst Du also übers Freifunk minimal langsamer.
+        Innerhalb des Funknetzes hängt die Geschwindigkeit stark von der Qualität der Funkverbindung ab und über wie viele Knoten sie geht. Die Geschwindigkeit der Knoten ins kabelgebundene Netz (z.B. Internet) wird jedoch maßgeblich durch die Prozessor-Leistung der Knoten begrenzt. Denn die müssen den VPN-Tunnel ver- und entschlüsseln, was viel Rechenleistung benötigt. Gemessene Richtwerte pro Modell findest Du [hier](https://web.archive.org/web/20190219002231/https://projects.universe-factory.net/projects/fastd/wiki/Benchmarks). Grundsätzlich surfst Du also übers Freifunk minimal langsamer.
         Die Verschlüsselung kann auch ausgeschaltet werden um eine höhere Geschwindigkeit zu erreichen. Da das Freifunk-Netz sowiso komplett offen für jeden ist, geht man auch kein zusätzliches Risiko ein.
     - question: Mein Freifunk-Router spannt ein zweites WLAN mit dem Namen mesh.ffhb.de auf. Was bedeutet das?
       answer: |
