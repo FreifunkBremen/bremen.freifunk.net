@@ -54,5 +54,5 @@ Crew selbst nicht unbeteiligt: Sie haben uns mit Essen und Getränken stets gut 
 Man darf nicht vergessen, dass diese Freifunk-Veranstaltung ohne die vielfältige und unterschiedliche Hilfe
 von ganz vielen aktiven Anpackern, Programmieren und Organisatoren, Bierbank-Stellern und einigen Firmen nicht
 möglich gewesen wäre. Hierzu wollen wir uns explizit bei [TP-LINK](https://www.tp-link.com/de/), 
-[LWLcom](https://lwlcom.com/privatkunden), [PLUTEX](https://www.plutex.de) und [Digineo](https://digineo.de)
+[LWLcom](https://www.lwlcom.net/unternehmen), [PLUTEX](https://www.plutex.de) und [Digineo](https://digineo.de)
 bedanken.
