@@ -27,7 +27,7 @@ Falls man nicht so viel Erfahrung hat,
 Für unser größtes bespieltes Festival, die Breminale,
  beginnen wir jetzt schon mit den Planungen.
 Wenn du dir vorstellen kannst mitzuhelfen,
- trage dich doch bitte in unserer [Planungliste](https://dudle.hackerspace-bremen.de/FFHB_Breminale_2019/) ein.
+ trage dich doch bitte in unserer ~~Planungsliste (https://dudle.hackerspace-bremen.de/FFHB_Breminale_2019/)~~ ein. (Update: Das Event ist vorbei, der Link zur Planungliste ist nun abgelaufen.)
 Die ist nicht verbindlich, hilft allerdings unter anderem bei der Essenplanung.
 Falls du dich nicht einträgst, bist du dennoch herzlich eingeladen, mit dabei zu sein!
 Wir sind grade dabei, offene Fragen [im Pad](https://hackmd.io/HPeyrnwxQD2Ny9fUaZoiKQ?view) zu sammeln.
