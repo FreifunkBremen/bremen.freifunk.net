@@ -33,7 +33,7 @@ document.addEventListener("DOMContentLoaded", function() {
       "ocedo": "OCEDO",
       "vocore": "VoCore",
     },
-    no_factory = ["8devices", "meraki", "unifi-ac", "gl-ar150", "allnet", "wzr-600dhp"],
+    no_factory = ["avm", "8devices", "meraki", "unifi-ac", "gl-ar150", "allnet", "wzr-600dhp"],
     xhr = window.XMLHttpRequest? new XMLHttpRequest() : new ActiveXObject('Microsoft.XMLHTTP'),
     searchbox = document.getElementById('model-search');
 
