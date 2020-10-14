@@ -50,8 +50,10 @@ document.addEventListener("DOMContentLoaded", function() {
         filename = lineparts[lineparts.length-1];
       if (lineparts.length != 4)
         return;
+      var vendorFound = false;
       for (vendor in vendors) {
         if (model.indexOf(vendor) == 0) {
+          vendorFound = true;
           var name = new Array(),
             model = model.substr(vendor.length + 1);
           model.split('-').forEach(function(part) {
@@ -76,6 +78,9 @@ document.addEventListener("DOMContentLoaded", function() {
             });
           break;
         }
+      }
+      if (!vendorFound) {
+        console.log("unknown vendor used by firmware image \"" + model + "\"")
       }
     });
     var model_div = document.querySelector('#models');
