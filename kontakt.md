@@ -27,8 +27,7 @@ Für Fragen zu spezifischen Themen, gibt es eine  Wiki-Seite für [Ansprechpartn
 Ansonsten empfiehlt es sich immer einen Blick in unsere [FAQs](faq.html) und ins [Wiki](http://wiki.bremen.freifunk.net/) zu werfen. Viele Fragen und Themen sind dort bereits beantwortet und erklärt.
 
 ## Treffen
-Wir treffen uns außerdem zweimal im Monat, jeweils am 1. und 3. Freitag ab 19 Uhr im [Hackerspace
-Bremen](https://www.hackerspace-bremen.de/anfahrt/). Schau doch mal vorbei, wir
+Wir treffen uns außerdem zweimal im Monat, jeweils am 1. und 3. Freitag ab 19:30 Uhr ~~im [Hackerspace Bremen](https://www.hackerspace-bremen.de/anfahrt/)~~ momentan [online](/to/videokonf). Schau doch mal vorbei, wir
 freuen uns immer über neue Gesichter!
 
 ## Mailingliste
