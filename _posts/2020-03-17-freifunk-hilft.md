@@ -6,13 +6,17 @@ date:   2020-03-17 19:53:00 +0200
 ---
  
 _Dieser Beitrag kann gelegentlich aktualisiert werden um neue Informationen hinzufügen oder Fragen zu beantworten._<br />
-_Aktueller Stand: 17.03.2020 20:00 Uhr._<br />
+_Aktueller Stand: 04.12.2020 15:00 Uhr._
+_Ergänzt: PDF. 04.12.2020_
+<br />
 
 Um Menschen auch in den kommenden Zeiten eine digitale Teilhabe zu ermöglichen verleihen wir für die nächsten Wochen Router um Personen ohne eigenen Internetzugang zu unterstützen.
 
 Zielgruppe sind insbesondere Schüler und ältere Menschen die keinen Internetzugang haben – jedoch nun Zuhause bleiben müssen und auf digitalen Wegen Kontakt mit der Schule, Unterrichtsmaterialien oder der Familie halten wollen.
 
 Damit dies funktioniert wird ein Nachbar benötigt der auch bereit ist den Anschluss zu teilen. Im Idealfall haben Interessenten da schon jemanden gefragt. Alternativ können wir auch versuchen einen Spender zu finden.
+
+Diese [Übersicht als PDF](https://bremen.freifunk.net/blog/files/2020-03-17/Freifunk_Hilft_Schuelern.pdf) gibt es zum herunterladen.
 
 ### Wie funktioniert das?
 
