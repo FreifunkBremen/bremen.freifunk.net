@@ -55,6 +55,11 @@
     flex-direction: column;
     justify-content: center;
 }
+@media (prefers-color-scheme: dark) {
+    .links {
+        background: rgba(lighten($dark_background, 10%), 0.8);
+    }
+}
 .model:hover .links {
     bottom: 0px;
 }
