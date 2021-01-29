@@ -36,6 +36,11 @@
     z-index: 3;
     background: #fff;
 }
+@media (prefers-color-scheme: dark) {
+    .model .name {
+        background: lighten($dark_background, 10%);
+    }
+}
 .links {
     height: 175px;
     width: 100%;
