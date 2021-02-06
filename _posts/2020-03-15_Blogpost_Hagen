@@ -1,0 +1,42 @@
+---
+layout: post
+title:  "Freifunk in Hagen im Bremischen"
+author: Yannik
+date:   2020-03-15 20:53:00 +0200
+---
+
+<!--- Intro -->
+Freifunk wird seit etwa 3 Jahren im Landkreis Cuxhaven in einigen Orten ausgebaut.
+Dies geschieht in bemerkenswertem Ausmaß.
+Am Beispiel von Hagen im Bremischen lässt sich das Paradigma von Freifunk gut beschreiben:
+<!--- [Bild von Hagen einfügen] -->
+
+<!--- Stadt-Internes WLAN-Mesh -->
+Wie im Video auf unserer Webseite erklärt wird, versuchen wir, mit Routern / lokalen WLAN-Netzen ein komplettes
+Stadt-Netz aufzubauen.
+In diesem Stadt-Netz kann man nun alle Vorteile eines WLAN-Mesh-Netzes genießen, zum Beispiel auf einem Raspberry PI eine
+Webseite hosten, die im ganzen Ort erreichbar ist.
+
+<!--- Aufbau (wie kam es dazu?) -->
+Angeschoben wurde die Ausstattung maßgeblich von einigen aktiven Freifunkern vor Ort, die in den letzten 3 Jahren 
+stets aktiv waren, neue Router installiert haben und der Dorfgemeinschaft (?) die Technik erklärten.
+Unter anderem wurde auf einem lokalen Volksfest eine Event-Installation aufgestellt.
+<!--- # Hier kommen noch Infos rein-->
+
+<!--- Vorbild für Bremen -->
+Für eine Großstadt wie Bremen ist der Aufbau des Intercity-Netzes aus verschiedenen Gründen nicht ganz einfach,
+in einem kleineren Ort kommt man schneller ans Ziel.
+Gleichzeitig kann Hagen natürlich als Vorbild für Bremen dienen.
+
+<!--- eigentlich RF nach Bremen nötig ;) -->
+Ein weiteres spannendes Projekt könnte eine Richtfunk-Verbindung (über mehrere Relais-Stationen) bis nach Bremen sein.
+
+<!--- offene Probleme-->
+Viele Verbindungen sind von schlechter Qualität. Man könnte Abhilfe schaffen, wenn man Client-Netz und Mesh-Netz besser 
+trennt und mehr Richtfunk-Geräte verwendet. 
+
+<!--- Fazit -->
+Zusammenfassend kann man mehrere Punkte festhalten: 
+1. Freifunk lebt vom mitmachen / von den Mitmachenden.
+2. Jeder kann mitmachen, Ralf hat einfach angefangen und sich später man beim Treffen blicken lassen.
+3. Man kann erstaunliches auf die Beine stellen, zB kann man in Hagen jetzt einen RasPI-Server in die lokale Wolke hängen.
