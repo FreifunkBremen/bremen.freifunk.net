@@ -23,7 +23,7 @@ Beginne mit Änderungen am entfernten Gerät.
 
 ### Wechsel per Weboberfläche
 
-1. Halte den Reset-Knopf etwa 10 Sekunden gedrückt bis alle Lämpchen kurz aufblinken.
+1. Halte den Reset-Knopf etwa 10 Sekunden gedrückt, bis alle Lämpchen kurz aufblinken.
 2. Öffne die Seite _http://192.168.1.1/_
 3. Wähle im Feld _Domain_ die Zeile _Freifunk Bremen neu (mit Batman v15 - Testnetz)_ aus.
 4. Drücke _Speichern und Neustarten_.
