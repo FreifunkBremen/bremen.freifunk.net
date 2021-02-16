@@ -38,3 +38,6 @@ Beginne mit Änderungen am entfernten Gerät.
 Wenn ihr Fragen habt oder eine Rückmeldung geben wollt, dann kommt in den [Chat](https://webirc.hackint.org/#ircs://irc.hackint.org/#ffhb?nick=Gast_?),
 schreibt auf der [Mailingliste](https://lists.bremen.freifunk.net/mailman/listinfo/ff-bremen/),
 oder kommt zum (online) [Treffen](/kontakt.html#treffen)!
+
+## Ausblick
+Sobald das neue B.A.T.M.A.N-System ausreichend getestet ist, werden wir die Umstellung des ganzen Bremer Freifunk-Netzes angehen. Das soll so ähnlich ablaufen wie die [Umstellung der Funk-Mesh-Technik auf 11s](https://bremen.freifunk.net/blog/2020/01/23/wechsel-von-ibss-zu-11s.html). Wann und wie das genau abläuft, erfährst du später in einem weiteren Blogpost.
