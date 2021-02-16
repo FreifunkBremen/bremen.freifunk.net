@@ -10,7 +10,7 @@ __Dieser Artikel richtet sich an Nutzer der Testing-Firmware__ [2019.1.2+bremen4
 ## Hintergrund
 Eine Website zu öffnen ist für uns meist nur einen Klick entfernt. Technisch gesehen, sind es dutzende kleine Schritte. Damit die Website durch das Freifunk-Netz zu dir geschickt werden kann, muss der Weg über verschiedene Netzwerkgeräte wie Router und Server zu deinem Endgerät bekannt sein. Es muss eine Route existieren. Um dieses "Routing" kümmert sich im Bremer Freifunk-Netz momentan B.A.T.M.A.N in der Version 13. Die ist nicht mehr ganz taufrisch.
 
-Um unter anderem eine Vielzahl neuer Geräte zu unterstützen, wollen wir auf Gluon 2020 wechseln. Gluon ist die Grundlage unsere Bremer Freifunk-Firmware.
+Um unter anderem eine Vielzahl neuer Geräte zu unterstützen, wollen wir auf Gluon 2020 wechseln. Gluon ist die Grundlage unserer Bremer Freifunk-Firmware.
 Da diese aber B.A.T.M.A.N v13 nicht mehr unterstützt, müssen wir vorher einen Wechsel auf B.A.T.M.A.N in der Version 15 vollziehen.
 
 ## Der Wechsel
