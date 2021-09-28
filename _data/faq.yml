@@ -97,6 +97,12 @@
     - question: Wo bekomme ich einen Router?
       answer: |
         Wir haben unserem Wiki eine [Liste](http://wiki.bremen.freifunk.net/Router/Routerabholstandorte), an welchen Orten Du Router bekommen kannst.
+    - question: Was ist mit Jugendschutzfiltern oder Zensur?
+      answer: |
+        Gibt es beides bei Freifunk nicht.
+        
+        Wir geben dir echtes, unzensiertes Internet, weil wir viel Wert auf Netzneutralität legen.
+        Zusätzlich ist eine zuverlässige Jugendschutzlösung nahezu nicht realisierbar. Gleichzeitig können technische Restriktionen die Medienerziehung nicht ersetzen.
 - title: Technik
   questions:
     - question:  Nach der Installation lädt die Weboberfläche nicht.
