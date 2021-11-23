@@ -16,8 +16,7 @@ Bei Fragen zum Freifunk-Bremen-Projekt freuen wir uns über Kontaktaufnahmen:
 * auf Facebook: <a href="https://www.facebook.com/FreifunkBremen" target="_blank">@FreifunkBremen</a>
 * auf Instagram: <a href="https://www.instagram.com/freifunkhb" target="_blank">@freifunkhb</a>
 * auf ActivityPub / Mastodon: <a href="https://chaos.social/@FreifunkBremen" target="_blank">@FreifunkBremen@chaos.social</a>
-* über den Telegram-Channel informiert bleiben: <a href="https://t.me/FreifunkHB" target="_blank">FreifunkHB</a>
-* über die Telegram-Gruppe mit diskutieren: <a href="https://t.me/joinchat/TXeIWgJCcYmXKxHF" target="_blank">Freifunk Bremen</a>
+* über unseren <a href="https://t.me/FreifunkHB" target="_blank">Telegram-Channel</a> und die <a href="https://t.me/joinchat/TXeIWgJCcYmXKxHF" target="_blank">Telegram-Diskussions-Gruppe</a>.
 
 ## Reaktionszeit
 Wir geben uns Mühe, innerhalb eines **Tages** (im Chat in einer **Stunde**) zu antworten; dies ist jedoch nicht immer möglich. Wir bitten deshalb um ein wenig Geduld, lasst euer Chatfenster länger geöffnet und erwähnt einen der Anwesenden mit Namen, wartet ein paar Tage nach einer Mail und schickt dann gerne eine Erinnerungsmail. 
