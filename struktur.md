@@ -9,4 +9,4 @@ Es kommt nicht jeder zu jedem Treffen, aber bei großen Aktionen (z.B. Breminale
 
 ### Netz / Infrastruktur
 Das Freifunk-Netz besteht aus 6 Servern (Stand Jan'19) und allen Knoten, die mit den Servern verbunden sind (etwa 830). Jeden Tag benutzen zwischen 1700 und 2100 Endnutzer das Freifunk-Netz.
-[Link zur Live-Statistik](https://grafana.bremen.freifunk.net/dashboard/db/globals)
+[Link zur Live-Statistik](https://grafana.bremen.freifunk.net/d/000000001/globals)

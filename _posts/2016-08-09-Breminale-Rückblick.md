@@ -110,7 +110,7 @@ Signalrauschabstand auf dem Breminalegelände (erzeugt mit Erahau Site Survey)
 
 Signalstaerkeauf dem Breminalegelände (erzeugt mit Erahau Site Survey)
 
-Während des Aufbaus hat uns ein Kamerateam des Regionalsenders Buten un Binnen besucht.
+Während des Aufbaus hat uns auch noch ein Kamerateam des Regionalsenders Buten un Binnen besucht und für einige Sekunden im Abendprogramm erwähnt.
 
 ## Fazit
 Wir sind mit dem Verlauf der Breminale sehr zufrieden. Besonders der Auf- und Abbau ging besser von der Hand als letztes Jahr. Zusätzlich war es interessant für uns, unser Breminale-Setup weiter zu verbessern und neue Dinge auszuprobieren. 

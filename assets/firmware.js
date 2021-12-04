@@ -7,8 +7,9 @@ document.addEventListener("DOMContentLoaded", function() {
     vendors = {
       "tp-link": "TP-LINK",
       "ubiquiti": "Ubiquiti",
+      "ubnt": "Ubiquiti",
       "d-link": "D-Link",
-      "liksys": "Linksys",
+      "linksys": "Linksys",
       "buffalo": "Buffalo",
       "netgear": "Netgear",
       "allnet": "Allnet",
@@ -21,8 +22,18 @@ document.addEventListener("DOMContentLoaded", function() {
       "8devices": "8devices",
       "raspberry": "Raspberry",
       "x86": "PC",
+      "avm": "AVM",
+      "zbt": "ZBT",
+      "zyxel": "ZyXEL",
+      "asus": "ASUS",
+      "a5": "A5",
+      "aerohive": "Aerohive",
+      "lemaker": "LeMaker",
+      "nexx": "Nexx",
+      "ocedo": "OCEDO",
+      "vocore": "VoCore",
     },
-    no_factory = ["8devices", "meraki", "unifi-ac", "gl-ar150", "allnet", "wzr-600dhp"],
+    no_factory = ["avm", "8devices", "meraki", "unifi-ac", "gl-ar150", "allnet", "wzr-600dhp"],
     xhr = window.XMLHttpRequest? new XMLHttpRequest() : new ActiveXObject('Microsoft.XMLHTTP'),
     searchbox = document.getElementById('model-search');
 
@@ -39,8 +50,10 @@ document.addEventListener("DOMContentLoaded", function() {
         filename = lineparts[lineparts.length-1];
       if (lineparts.length != 4)
         return;
+      var vendorFound = false;
       for (vendor in vendors) {
         if (model.indexOf(vendor) == 0) {
+          vendorFound = true;
           var name = new Array(),
             model = model.substr(vendor.length + 1);
           model.split('-').forEach(function(part) {
@@ -65,6 +78,9 @@ document.addEventListener("DOMContentLoaded", function() {
             });
           break;
         }
+      }
+      if (!vendorFound) {
+        console.log("unknown vendor used by firmware image \"" + model + "\"")
       }
     });
     var model_div = document.querySelector('#models');

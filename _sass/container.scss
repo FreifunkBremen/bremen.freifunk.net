@@ -1,9 +1,24 @@
 body {
+  background: $dark_background;
+}
+
+body>div {
   background: #fff;
+}
+
+@media (prefers-color-scheme: dark) {
+	body>div {
+		background: lighten($dark_background, 10%);
+		color: #fff;
+	}
 }
 
 div {
   max-width: 100%;
+}
+
+img {
+  max-width: $max_content_width;
 }
 
 section {

@@ -9,7 +9,7 @@ layout: nosection
       sich mit dem Netz verbinden und darüber mit anderen Teilnehmern kommunizieren. Auch ein Zugang ins Internet steht meistens zur Verfügung.
     </p>
     <div style="align-self: center">
-      <video poster="//downloads.bremen.freifunk.net/video/freifunk_verbindet_sd.png" style="width: 100%;" controls="">
+      <video poster="/images/freifunk_verbindet_sd.jpg" style="width: 100%;" controls="">
         <source src="//downloads.bremen.freifunk.net/video/freifunk_verbindet_hd.mp4" type="video/mp4">
         <source src="//downloads.bremen.freifunk.net/video/freifunk_verbindet_hd.webm" type="video/webm">
         <source src="//downloads.bremen.freifunk.net/video/freifunk_verbindet_hd.ogv" type="video/ogg">
@@ -37,18 +37,18 @@ layout: nosection
       </p>
     </div>
     <div id="twitter">
-      <h2><a href="https://twitter.com/FreifunkHB">Twitter</a></h2>
+      <h2><a class="no-icon" href="https://twitter.com/FreifunkHB">Twitter</a></h2>
       <template id="tweet-template">
         <div class="tweet">
           <div class="header">
-            <a target="_blank" rel="noopener,external" href="https://twitter.com/FreifunkHB">
+            <a target="_blank" rel="noopener,external" class="no-icon" href="https://twitter.com/FreifunkHB">
               <svg width="48" height="42">
                 <image xlink:href="/images/logo/notext.svg" src="/images/logo/notext.png" width="48" height="42"/>
               </svg>
               <span>Freifunk Bremen</span><br>
               <span class="handle">@FreifunkHB</span></a>
 
-            <span><a target="_blank" rel="noopener,external" class="link"><time></time></a></span>
+            <span><a target="_blank" rel="noopener,external" class="link no-icon"><time></time></a></span>
           </div>
           <p class="content"></p>
           <div class="media"></div>
@@ -76,7 +76,7 @@ layout: nosection
   <div class="flex">
   </div>
   <p class="flexbtns">
-    <a class="btn" href="https://cloud.ffhb.de/index.php/apps/calendar/p/rcPxo5enJc75etx5/Freifunk">Mehr Termine</a>
+    <a class="btn" href="https://cloud.bremen.freifunk.net/index.php/apps/calendar/p/rcPxo5enJc75etx5/Freifunk">Mehr Termine</a>
     <a class="btn" href="https://wiki.bremen.freifunk.net/Kalender">Kalender abonnieren</a>
   </p>
 </section>
@@ -89,7 +89,7 @@ layout: nosection
   <h2>Partner</h2>
   <div class="flex">
 {% for sponsor in site.data.sponsors %}
-    <a href="{{ sponsor.url }}">
+    <a class="no-icon" href="{{ sponsor.url }}">
       <img src="images/sponsors/{{ sponsor.img }}" alt="{{ sponsor.name }}">
     </a>
 {% endfor %}
