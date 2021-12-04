@@ -23,7 +23,7 @@ Dadurch kann der normale Freifunkrouter entlastet und der Datendurchsatz erhöht
 
 Als Offloader eignen sich also alle Geräte mit mehr CPU Leistung. 
 Im einfachsten Fall können die größeren TP-Link Modelle, wie der WDR3600 oder der WDR4300 genutzt werden.
-Ein [Benchmark](https://projects.universe-factory.net/projects/fastd/wiki/Benchmarks) vergleicht die vier bekanntesten Router zusammen mit verschiedenen Verschlüsselungsmethoden (dazu später mehr).
+Ein [Benchmark](https://web.archive.org/web/20190219002231/https://projects.universe-factory.net/projects/fastd/wiki/Benchmarks) vergleicht die vier bekanntesten Router zusammen mit verschiedenen Verschlüsselungsmethoden (dazu später mehr).
 Es zeigt sich, dass eine hochwertigerer Router oft 50% bis 100% mehr Durchsatz durch den verschlüsselten Tunnel bedeuten.
 
 Wenn jedoch mehr als 30 bis 40 Mbit/s gefordert sind, ist mehr Hardware als ein WDR nötig. In den meisten Fällen wird zu stromsparenden kleinen x86-Rechnern gegriffen.
@@ -33,7 +33,7 @@ Das entscheidene Kriterium ist neben Rechenleistung dann schnell Strom- und Plat
 
 In vielen Communitys erfreut sich der Fujitsu Siemens Futro S550 großer Beliebtheit.
 Dieser Computer wurde ursprünglich als stromsparender Think-Client entworfen aber eignet sich auch wunderbar als Freifunk-Offloader.
-In unserem Wiki befindet sich mittlerweile eine [Anleitung](https://wiki.bremen.freifunk.net/Anleitungen/Offloader-Futro), die vom offiziellen **Freifunk Forum** noch weiter ergänzt wird. 
+In unserem Wiki befindet sich mittlerweile eine [Anleitung](https://wiki.bremen.freifunk.net/Anleitungen/Offloader/Offloader-Futro.md), die vom offiziellen [Freifunk Forum](https://forum.freifunk.net/t/f-a-q-zum-offloader-fujitsu-siemens-futro-s550/8294) noch weiter ergänzt wird. 
 Der Futro lässt sich mit einer zusätzlichen Netzwerkkarte (oder VLANs) mit wenigen Handgriffen als leistungsstarker Freifunk-Offloader nutzen.
 Beim Einrichten weiterer Futros oder anderer Offloader helfen wir natürlich auf der [Mailingliste](/kontakt.html) oder auf [Treffen](https://wiki.bremen.freifunk.net/Home#infos-zu-unseren-treffen) gerne!
 

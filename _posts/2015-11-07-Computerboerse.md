@@ -5,7 +5,7 @@ date:   2015-11-07 14:15:00 +0100
 author: SimJoSt
 ---
 
-Wir sitzen fröhlich und entspannt auf der **Computerbörse** in der [Berliner Freiheit](https://www.berliner-freiheit.de/) und informieren jeden Interessierten über Freifunk. Flyer, Plakat und Beispiel-Router sind vor Ort.
+Wir sitzen fröhlich und entspannt auf der Computerbörse in der [Berliner Freiheit](http://www.berliner-freiheit.de/) und informieren jeden Interessierten über Freifunk. Flyer, Plakat und Beispiel-Router sind vor Ort.
 
 <img src="/blog/files/2015-11-07/Freifunk_auf_der_Computerboerse.jpg" style="padding: 1em" />
 

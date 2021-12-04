@@ -9,13 +9,13 @@
   time {
     margin-right: 50px;
     padding-left: 24px;
-    background: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAAQAgMAAABb+qapAAAADFBMVEUAAADcAGfcAGfcAGcdg9yRAAAAA3RSTlMAgMBakZ4lAAAAPElEQVQIHWNgZuBhYPhsf+YDwwf7Ax8Y/v///4EBDMAsMPGP+/wHhj+f+YGyn4Gs/8dBBIj1B0SAZeGKAbQDMJFfX8aHAAAAAElFTkSuQmCC') no-repeat;
+    background: url($image-calendar_magenta-png) no-repeat;
   }
 
   address {
     font-style: normal;
     padding-left: 23px;
-    background: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAwAAAAQCAYAAAAiYZ4HAAAAv0lEQVQoz73RIW4CURjE8d++1PQKTeUKEE1tHU0lCixBQ2gbephSsQfgCliCRJIaBA4qW1sJZrd5bIEshlHvm8x/kslLRFrp3+ADjdya4TWVfRWZK/t6Ryu6i3e7MEIJaPivx/goA9sDwPYUMD0A7HnlDcO88SkKv7mokugPrvGCLmq5vcQYo1T2+wes9G8xwd2R4k80U9kmyZvnJ8KFFngIeK4QhnsMAjpnbO6EaGAV1QO+zwB+AnrYVAiv0dsBz/4iZqMRiKsAAAAASUVORK5CYII=') no-repeat;
+    background: url($image-person_magenta-png) no-repeat;
   }
 
   img {
@@ -26,10 +26,10 @@
 }
 section:nth-child(even) .newsitem {
   time {
-    background: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAAQCAYAAAAmlE46AAAAcUlEQVQoz82S0QnAMAhET8lgHSBDdSgHSCa7/iRQpNo2UOh9qofyPOAkGohAvldmQSokGrrqaTTg5XuSnfeJljfq6kZv7FIhA0TPoBVHbju/hwZGpPUuABEDjX5Gw/4azjjxuTFLTgqHhjbNNLR/BeAA99Iwx0A9JKsAAAAASUVORK5CYII=') no-repeat;
+    background: url($image-calendar-png) no-repeat;
   }
   address {
-    background: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAwAAAAQCAYAAAAiYZ4HAAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAAN1wAADdcBQiibeAAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAADTSURBVCiRtc+tTgNRFEXh71zGUN6A8AAgCBZXgmxCUgyiQTfhJ/RhgEfA4DC1BIkkGDxFggNcL4JOOx0KGcNS9+6svZMTKuQbqwqXsjYId8ZOY89L6RTVgiXnsu5sQVcC+2WUzNNWJ9upfuuF/KNQy+qF2wWFuWz+hnAmy9idyoXBgpF/JMpHvras5QSHWJ/ET8KVdxdx4HNayENrxobY/GX4UdKJjlFMlu//kEserNhOWo4byLDlw1FCr4H8TdZLZgc2YSMJr4318JbQx6iB/Iz+F683LOkZuiRwAAAAAElFTkSuQmCC') no-repeat;
+    background: url($image-person-png) no-repeat;
   }
 }
 
@@ -91,10 +91,10 @@ section:nth-child(even) .newsitem {
     }
     .title {
       padding: 0 0 10px 30px;
-      background: no-repeat 10px 0 url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="10"><path d="M5,0l0,1000" stroke="%23ccc"/><circle r="5" cx="5" cy="15" fill="%23ccc"/></svg>');
+      background: no-repeat 10px 0 url($image-newslist-svg);
     }
     .title:hover {
-      background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="10"><path d="M5,0l0,1000" stroke="%23ccc"/><circle r="5" cx="5" cy="15" fill="%23dc0067"/></svg>');
+      background-image: url($image-newslist_magenta-svg);
     }
   }
 }
