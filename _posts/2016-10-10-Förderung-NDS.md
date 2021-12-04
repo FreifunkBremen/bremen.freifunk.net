@@ -4,7 +4,7 @@ title:  "Freifunk Förderung in Niedersachsen"
 author: Timlukas
 date:   2016-10-10 22:47:00 +0200
 ---
-In Niedersachsen gibt es dieses Jahr eine Förderung für Freifunk über [100.000€](http://www.mw.niedersachsen.de/aktuelles/presseinformationen/wirtschaftsministerium-foerdert-freifunk-initiativen-im-land--142482.html).
+In Niedersachsen gibt es dieses Jahr eine Förderung für Freifunk über [100.000€](https://www.mw.niedersachsen.de/aktuelles/presseinformationen/wirtschaftsministerium-foerdert-freifunk-initiativen-im-land--142482.html).
 Dieses Budget kann allerdings leider nur eingeschränkt genutzt werden.
 So gibt es Verwaltungskosten für das Breitbandkompetenzzentrum Niedersachsen (bzn), Förderung für Kommunen, Flyer usw.
 Am Ende bleiben noch ca. 50.000€ über, welche ausschließlich in Form von Hardware (Router und Access Points), an die in NDS aktiven Freifunk Initiativen gehen.

@@ -8,7 +8,7 @@ date:   2016-02-16 20:00:00 +0200
 Uns wurde nun schon öfter die Frage gestellt, wie Freifunk 'schneller gemacht werden könne'. Aber was bedeutet 'schnell' oder 'langsam'?  
 Wir Freifunker und Freifunkerinnen versuchen natürlich immer, das letzte aus unserem Netz heraus zu holen (zumindes wenn gerade jemand Zeit dafür hat). 
 Trotzdem kann zum Beispiel die Latenz (Ping) sehr hoch sein, die Download- und Upload-Bandbreite niedrig oder die Adressvergabe unzuverlässig. 
-Dieser Blogeintrag soll Erfahrungswerte weitergeben, die im täglichen Kampf gegen langsames Freifunk helfen. Besonders bei der Versorgung vieler Menschen, wie zum Beispiel auf der [Breminale](http://bremen.freifunk.net/blog/2015/07/29/breminale-r%C3%BCckblick.html) oder in Flüchtlingsunterkünften, konnten wir viel Erfahrung sammeln. 
+Dieser Blogeintrag soll Erfahrungswerte weitergeben, die im täglichen Kampf gegen langsames Freifunk helfen. Besonders bei der Versorgung vieler Menschen, wie zum Beispiel auf der [Breminale](/blog/2015/07/29/breminale-r%C3%BCckblick.html) oder in Flüchtlingsunterkünften, konnten wir viel Erfahrung sammeln. 
 
 Aber eins vorweg: Freifunk Bremen ist schnell, sehr schnell!
 
@@ -27,7 +27,7 @@ Ein [Benchmark](https://web.archive.org/web/20190219002231/https://projects.univ
 Es zeigt sich, dass eine hochwertigerer Router oft 50% bis 100% mehr Durchsatz durch den verschlüsselten Tunnel bedeuten.
 
 Wenn jedoch mehr als 30 bis 40 Mbit/s gefordert sind, ist mehr Hardware als ein WDR nötig. In den meisten Fällen wird zu stromsparenden kleinen x86-Rechnern gegriffen.
-Das sind normale PCs, die jeder bei sich unter dem Schreibtisch stehen hat (nur meist kleiner). Für diese bieten wir auch eine spezielle x86  [Firmware](http://downloads.bremen.freifunk.net/firmware/stable/factory/) an. 
+Das sind normale PCs, die jeder bei sich unter dem Schreibtisch stehen hat (nur meist kleiner). Für diese bieten wir auch eine spezielle x86  [Firmware](https://downloads.bremen.freifunk.net/firmware/stable/factory/) an. 
 Es kann also theoretisch jeder Computer mit beliebig vielen Netzwerkkarten und nicht all zu exotischer Hardware als Freifunk-Router genutzt werden. 
 Das entscheidene Kriterium ist neben Rechenleistung dann schnell Strom- und Platzverbrauch.
 
@@ -35,7 +35,7 @@ In vielen Communitys erfreut sich der Fujitsu Siemens Futro S550 großer Beliebt
 Dieser Computer wurde ursprünglich als stromsparender Think-Client entworfen aber eignet sich auch wunderbar als Freifunk-Offloader.
 In unserem Wiki befindet sich mittlerweile eine [Anleitung](https://wiki.bremen.freifunk.net/Anleitungen/Offloader/Offloader-Futro.md), die vom offiziellen [Freifunk Forum](https://forum.freifunk.net/t/f-a-q-zum-offloader-fujitsu-siemens-futro-s550/8294) noch weiter ergänzt wird. 
 Der Futro lässt sich mit einer zusätzlichen Netzwerkkarte (oder VLANs) mit wenigen Handgriffen als leistungsstarker Freifunk-Offloader nutzen.
-Beim Einrichten weiterer Futros oder anderer Offloader helfen wir natürlich auf der [Mailingliste](http://bremen.freifunk.net/kontakt.html) oder auf [Treffen](http://wiki.bremen.freifunk.net/Home#infos-zu-unseren-treffen) gerne!
+Beim Einrichten weiterer Futros oder anderer Offloader helfen wir natürlich auf der [Mailingliste](/kontakt.html) oder auf [Treffen](https://wiki.bremen.freifunk.net/Home#infos-zu-unseren-treffen) gerne!
 
 <img src="/blog/files/2016-02-16/offloader_dual_nic.jpg" title="Offloader Futro" />
 
@@ -73,7 +73,7 @@ Wir empfehlen daher, falls möglich, 5GHz Geräte zu nutzen, bei denen eine höh
 Ein letztes Kriterium, das sich auf die Performance im Freifunk auswirken kann, sind die Internet Service Provider des heimischen Anschlusses.
 Verbindet sich beispielsweise ein Freifunk-Router von einem VDSL-Anschluss mit VPN01 und ein Router von einem Kabelanschluss aus, nehmen die Pakete nicht die selbe Route durchs Internet.
 Aufgrund unternehmenspolitischer Entscheidungen gibt es zwischen den Internet Service Providern starke Unterschiede, wie Datenpakete behandelt und geroutet werden.
-Die deutsche Telekom lässt sich beispielsweise durch das [double paid traffic](http://wiki.hetzner.de/index.php/Double_Paid_Traffic)-Modell den Datenverkehr doppelt vergolden. Wird das Geld nicht gezahlt, so leidet die Verbindung.
+Die deutsche Telekom lässt sich beispielsweise durch das [double paid traffic](https://wiki.hetzner.de/index.php/Double_Paid_Traffic)-Modell den Datenverkehr doppelt vergolden. Wird das Geld nicht gezahlt, so leidet die Verbindung.
 Es empfielt sich also auf der [Statusseite](http://10.196.0.127) des Routers nachzusehen, mit welchem VPN-Gateway der Router gerade verbunden ist.
 Treten die Geschwindigkeitsprobleme immer nur mit einem Gateway auf, kann auf eines der anderen 5 ausgewichen werden.
 
@@ -86,4 +86,4 @@ Wir möchten ein dezentrales, unabhängiges Netzwerk aufbauen, über das jeder u
 Wer eine hochperformante und immer verfügbare Hotspot-Lösung sucht, muss sich nach komerziellen Anbietern umschauen.
 Wir betreiben das Netzwerk ehrenamtlich und nach bestem Wissen, mit höchst möglichen Ansprüchen an Verfügbarkeit und Geschwindigkeit.
 
-Außerdem möchten wir darauf hinweisen, dass Offloader unsere Gateways stark belasten können und somit hohe Kosten verursachen. Theoretisch ist es möglich, mit 5 Kabelanschlüssen die Bandbreite eines gesamten VPN-Gateways zu blockieren. Wir möchten also daran appelieren, Offloader und unser Netz angemessen zu nutzen bzw. sich bei Freifunk Bremen entsprechend einzubringen. Falls du wirklich mehr Bandbreite benötigs spreche uns am besten auf einem [Treffen](http://bremen.freifunk.net/kontakt.html) oder per [Mail](http://bremen.freifunk.net/kontakt.html) an, wir finden da eine Lösung!
+Außerdem möchten wir darauf hinweisen, dass Offloader unsere Gateways stark belasten können und somit hohe Kosten verursachen. Theoretisch ist es möglich, mit 5 Kabelanschlüssen die Bandbreite eines gesamten VPN-Gateways zu blockieren. Wir möchten also daran appelieren, Offloader und unser Netz angemessen zu nutzen bzw. sich bei Freifunk Bremen entsprechend einzubringen. Falls du wirklich mehr Bandbreite benötigs spreche uns am besten auf einem [Treffen](/kontakt.html) oder per [Mail](/kontakt.html) an, wir finden da eine Lösung!

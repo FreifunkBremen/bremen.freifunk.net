@@ -4,6 +4,7 @@ title:  Stadtteilfest und Projekt Walle
 author: SimJoSt
 date:   2016-06-04 22:58:17 +0100
 ---
+
 Morgen, am Sonntag den 05.06.2016, findet von 11 - 18 Uhr das [Stadtteilfest Walle](https://web.archive.org/web/20160601070729/http://dasfest.echt-walle.de/) in der Vegesacker Straße statt.  
 Wir werden auch mit einem Stand zu gegen sein, bei der Derfflingerstraße (gegenüber vom [Backbord](https://www.hartbackbord.de/)).  
 Unser Ziel ist es Fragen zu beantworten, Unsicherheiten auszuräumen, den Bürger unsere Mentalität des Teilens zu vermitteln und Freifunk generell mehr Leuten zugänglich zu machen. Besucht uns!
