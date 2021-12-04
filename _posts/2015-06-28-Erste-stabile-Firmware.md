@@ -13,7 +13,7 @@ Auf dem letzten Treffen haben wir beschlossen, dass alle Knoten, die bisher dem 
 
 Wer also tatsächlich etwas früher neue Funktionen und Versionen auf seinen Knoten haben möchte und dafür bereit ist, ggf. selbst Hand anzulegen wenn nach einem fehlgeschlagenen Update der Knoten nicht mehr funktioniert, der muss im [Config-Mode] manuell den Update-Pfad zurück auf "Testing" stellen.
 
-[Config-Mode]: https://bremen.freifunk.net/faq.html#wie-kann-ich-meine-knoteneinstellungen-%C3%A4ndern
+[Config-Mode]: /faq.html#wie-kann-ich-meine-knoteneinstellungen-ändern
 
 ### Keine Nightlies mehr
 Gleichzeitig haben wir beschlossen, den "Nightly" Update-Pfad, also die nächtlich automatisch gebauten Firmwares, vorläufig einzustellen. Da niemand aus Bremen momentan aktiv an der Firmware entwickelt, besteht kein Bedarf an tagesaktuellen Versionen. Stattdessen sollen die von den Entwicklern als stabil bezeichneten Versionen in Zukunft schneller bei uns als Testing-Versionen verfügbar sein und dann nach einigen Wochen Testen auch schneller zu Stable-Versionen werden.

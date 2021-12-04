@@ -4,7 +4,7 @@ title:  Rückblick auf die Breminale 2018
 author: Louis
 date:   2018-12-09 13:00:00 +0200
 ---
-Wir haben es wieder vom Osterdeich in unser Freifunk-Hauptquartier in den [Hackerspace](https://www.hackerspace-bremen.de)
+Wir haben es wieder vom Osterdeich in unser Freifunk-Hauptquartier in den [Hackerspace](https://www.hackerspace-bremen.de/)
 geschafft. Nach längerer Funkstille bezüglich der Breminale wollen wir noch einen kleinen Rückblick auf diese phänomenalen
 Tage werfen.
 
@@ -18,7 +18,7 @@ handelt es sich um Routermodelle, die langfristig auch im gewöhnlichen Freifunk
 In diesem Jahr haben wir auf den Routern unsere reguläre Firmware mit ein paar Anpassungen verwendet.
 Die musste aber erst mal auf 80 Geräte drauf. Mit geballter Man- (und Woman-)power haben wir eine Flash-Party veranstaltet. 
 Falls bei dem 
-ein oder anderen jetzt der Hit von Queen im Kopf aufploppt: Uns ging es [ähnlich](https://flash.timi.one).
+ein oder anderen jetzt der Hit von Queen im Kopf aufploppt: Uns ging es [ähnlich](https://flash.timi.one/).
 Dieses Jahr hatten wir bis auf einen starken, kurzen Regenschauer keine Probleme mit Nässe von oben. Und durch günstige
 Tide-Zeiten auch keine Probleme mit Nässe von unten. Dafür hat die Sonne in diesem Jahr ihr Bestes gegeben. Bereits ab
 Tag zwei des Aufbaus wurden die Helfer unbekleideter, ab Tag drei waren T-Shirts die Ausnahme. Ab Tag vier musste man

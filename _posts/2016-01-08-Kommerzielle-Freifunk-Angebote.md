@@ -12,4 +12,4 @@ Daher finden wir es nicht verwerflich, wenn IT-Dienstleister die Installation vo
 
 Wir möchten aber explizit nicht, dass Freifunk als „Produkt“ verkauft wird. Während nichts gegen die Installation von Freifunk-Knoten nach explizitem dementsprechenden Auftrag spricht, soll Freifunk nicht von IT-Dienstleistern als Hostspot-Produkt beworben werden. Noch viel weniger möchten wir, dass Dienstleister eine monatliche Gebühr hierfür verlangen. Wir als Community haben einiges an laufenden [Kosten] durch den Betrieb der Infrastruktur für das Netz, und das Zahlen einer monatliche Gebühr an den IT-Dienstleister hilft keineswegs beim Aufrechterhalten dieses Netzes, sondern bereichert Dritte die nichts zum Betrieb des Netzes beitragen.
 
-[Kosten]: http://wiki.bremen.freifunk.net/Infrastruktur/Kosten
+[Kosten]: https://wiki.bremen.freifunk.net/Infrastruktur/Kosten
