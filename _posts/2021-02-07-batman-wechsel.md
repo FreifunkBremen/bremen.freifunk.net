@@ -23,6 +23,7 @@ __Hinweis__
 Beginne mit Änderungen am entfernten Gerät.
 - B.A.T.M.A.N v15 und v13 sind nicht kompatibel. Sie meshen nicht. Stelle bitte sicher, dass alle Router, die per Kabel oder WLAN mit deinem Router meshen, die gleiche Domain ausgewählt haben.
 - Stelle sicher, dass der Port UDP 5000**1** freigegeben ist. Bisher haben wir Port 50000 genutzt.
+- Momentan funktioniert die Funktion "Offline-SSID" nicht.
 
 ### Wechsel per Weboberfläche
 
