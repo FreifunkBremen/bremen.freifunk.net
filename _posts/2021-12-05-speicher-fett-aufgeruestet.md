@@ -6,7 +6,7 @@ date:   2021-12-05 09:23:00 +0200
 ---
 
 Wir haben unseren Server "bre-2" auf 128 GB Arbeitsspeicher aufgerüstet.
-Diesen Server nutzen wir für das VPN-Gateway 2 und 4.
+Diesen Server nutzen wir für das VPN-Gateway 2, 4 und 5.
 Außerdem läuft dort die Jenkins-Software, mit der wir unter anderem die neuen Firmwares zusammenbauen.
 
 Den zusätzlichen Speicher beim Jenkins konnten wir einige Wochen später gut nutzen,
