@@ -89,11 +89,24 @@ document.addEventListener("DOMContentLoaded", function() {
             endtime.previousSibling.textContent = ' bis ';
           }
         }
+        function isValidHttpUrl(string) {
+          let url;
+          try {
+            url = new URL(string);
+          } catch (_) {
+            return false;
+          }
+          return url.protocol === "http:" || url.protocol === "https:";
+        }
         if (ev.location && ev.location != "") {
           a = document.createElement('a');
-          a.href = 'https://www.openstreetmap.org/search?query=' +
+          if (isValidHttpUrl(ev.location)) {
+            a.href = ev.location;
+          } else {
+            a.href = 'https://www.openstreetmap.org/search?query=' +
             encodeURIComponent(ev.location +
               (ev.location.match(/, (\d+ )?[a-zA-Z ]+$/)? "" : ", Bremen"));
+          }
           a.textContent = ev.location;
           loc.appendChild(a);
         } else {
