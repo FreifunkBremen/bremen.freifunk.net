@@ -103,9 +103,7 @@ document.addEventListener("DOMContentLoaded", function() {
           if (isValidHttpUrl(ev.location)) {
             a.href = ev.location;
           } else {
-            a.href = 'https://www.openstreetmap.org/search?query=' +
-            encodeURIComponent(ev.location +
-              (ev.location.match(/, (\d+ )?[a-zA-Z ]+$/)? "" : ", Bremen"));
+            a.href = 'https://www.openstreetmap.org/search?query=' + encodeURIComponent(ev.location + (ev.location.match(/, (\d+ )?[a-zA-Z ]+$/)? "" : ", Bremen"));
           }
           a.textContent = ev.location;
           loc.appendChild(a);
