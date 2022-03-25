@@ -11,11 +11,14 @@ Wir unterstützen gerne bei Hilfe und Beratung vor Ort und suchen ggf. nach Ger�
 
 Falls kein Internet direkt da ist können wir bei Nachbarn Freifunk-Router aufstellen.
 Die Nachbarn brauchen sich dann keine Gedanken mehr um mögliche rechtliche Konsequenzen machen.
-Wir übernehmen das Risiko.
+Freifunk Bremen übernimmt das Risiko.
 
 Falls das Gebäude oder die Wohnung kein Internet hat, dann können wir mit der passenden Technik Internet aus der Umgebung "her holen".
 
-Sprich uns an!
+Sprich uns an! 
+Du erreichst uns im [Chat](https://webirc.hackint.org/#ircs://irc.hackint.org/#ffhb?nick=Gast_?),
+schreib auf der [Mailingliste](https://lists.bremen.freifunk.net/mailman/listinfo/ff-bremen/),
+oder komm zum [Treffen](/kontakt.html#treffen)!
 
 ## Dir gefällt unser Projekt?
 Dann kannst du aktiv werden!
