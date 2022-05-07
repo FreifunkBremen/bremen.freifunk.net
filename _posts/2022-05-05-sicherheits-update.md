@@ -2,11 +2,11 @@
 layout: post
 title:  "Sicherheitsupdate für alle Freifunk-Router"
 author: Oliver
-date:   2022-05-06 19:22:00 +0200
+date:   2022-05-07 10:00:00 +0200
 ---
 
-In der Gluon-Software, die wir als Firmware für Freifunk-Router im Bremer Netz verwenden, wurde eine [kritische Sicherheitslücke](https://github.com/freifunk-gluon/gluon/security/advisories/GHSA-xqhj-fmc7-f8mv) entdeckt.
-Durch diese Lücke könnten Angreifer unter bestimmten Umständen eine eigene Firmware auf die Freifunk-Knoten aufspielen, und könnten die Geräte dadurch übernehmen.
+In der Gluon-Software, die wir als Firmware für Freifunk-Router im Bremer Netz bis Gestern verwendet haben, wurde eine [kritische Sicherheitslücke](https://github.com/freifunk-gluon/gluon/security/advisories/GHSA-xqhj-fmc7-f8mv) entdeckt.
+Durch diese Lücke konnten Angreifer unter bestimmten Umständen aus der Ferne eine eigene Firmware auf die Freifunk-Knoten aufspielen, und konnten die Geräte dadurch übernehmen.
 
 Wir haben deshalb gestern Abend kurzfristig eine neue Version der Firmware veröffentlicht (Version [2019.1.3+bremen3](https://wiki.bremen.freifunk.net/Firmware/Changelog.md#2019-1-3-bremen3)) und gleich für alle Stable- und Testing-Geräte bereitgestellt.
 Die Firmware sollte inzwischen auf allen Knoten aufgespielt sein, die automatische Updates aktiviert haben.
