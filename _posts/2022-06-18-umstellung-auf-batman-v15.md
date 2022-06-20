@@ -2,7 +2,7 @@
 layout: post
 title:  "Achtung: Umstellung auf B.A.T.M.A.N v15"
 author: Oliver
-date:   2022-06-19 21:53:00 +0200
+date:   2022-06-20 19:07:00 +0200
 ---
 
 **Zusammenfassung:** bitte aktiviert automatische Updates auf euren Freifunk-Knoten, damit die neue Firmware-Version
@@ -26,7 +26,8 @@ Als Umschaltzeitpunkt haben wir **Freitag, den 1. Juli 2022** morgens um 2 Uhr f
 Dieser Zeitpunkt ist ist in der brandneuen Firmware [2019.1.3+bremen8](https://wiki.bremen.freifunk.net/Firmware/Changelog.md#2019-1-3-bremen8) eingetragen.
 Damit sich eure Knoten also automatisch umstellen, muss diese neue Firmware vor dem 1.7.2022 auf euren Knoten installiert sein.
 
-Die neue Firmware wird ab heute Nacht an alle Knoten verteilt werden, die automatische Updates für die Stable-Version oder die Testing-Version aktiviert haben.
+Die neue Firmware wird ab heute Nacht an alle Knoten verteilt, die automatische Updates für die Stable-Version aktiviert haben
+(an die Testing-Knoten wurde die Firmware bereits letzte Nacht verteilt).
 
 
 ## Was ist also zu beachten?
