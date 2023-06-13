@@ -5,8 +5,13 @@ title: Kontakt
 Kontakt
 =======
 
-Bei Fragen zum Freifunk-Bremen-Projekt freuen wir uns über Kontaktaufnahmen:
+Bei Fragen zum Freifunk-Bremen-Projekt freuen wir uns über Kontaktaufnahmen.
+Viele Antworten findest du jetzt schon ganz schnell bei unseren [FAQs](faq.html).
+Nutze für technische Nachfragen am besten unsere [Mailingliste](https://lists.bremen.freifunk.net/mailman/listinfo/ff-bremen/). Da lesen viele Leute mit. Dadurch ist die Chance da am höchsten, dass du schnell eine Antwort bekommst.
 
+Für alle nicht-technischen Fragen kannst du dich an [info@bremen.freifunk.net](mailto:info@bremen.freifunk.net) wenden.
+
+Ansonsten findest du uns auf folgenden Platttformen:
 * per E-Mail: [info@bremen.freifunk.net](mailto:info@bremen.freifunk.net)
 * im Chat:
   * per Browser: <a href="https://webirc.hackint.org/#ircs://irc.hackint.org/#ffhb?nick=Gast_?" target="_blank">Webchat</a>
