@@ -11,7 +11,7 @@ Nutze für technische Nachfragen am besten unsere [Mailingliste](https://lists.b
 
 Für alle nicht-technischen Fragen kannst du dich an [info@bremen.freifunk.net](mailto:info@bremen.freifunk.net) wenden.
 
-Ansonsten findest du uns auf folgenden Platttformen:
+Ansonsten findest du uns auf folgenden Plattformen:
 * per E-Mail: [info@bremen.freifunk.net](mailto:info@bremen.freifunk.net)
 * im Chat:
   * per Browser: <a href="https://webirc.hackint.org/#ircs://irc.hackint.org/#ffhb?nick=Gast_?" target="_blank">Webchat</a>
