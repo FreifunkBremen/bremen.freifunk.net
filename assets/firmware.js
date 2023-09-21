@@ -47,8 +47,11 @@ document.addEventListener("DOMContentLoaded", function() {
     lines.forEach(function(line) {
       var lineparts = line.split(" "),
         model = lineparts[0],
-        filename = lineparts[lineparts.length-1];
-      if (lineparts.length != 4)
+        version = lineparts[1], // not used
+        hash = lineparts[2], // not used
+        size = lineparts[3], // not used
+        filename = lineparts[4];
+      if (lineparts.length != 5)
         return;
       var vendorFound = false;
       for (vendor in vendors) {
@@ -75,6 +78,10 @@ document.addEventListener("DOMContentLoaded", function() {
               model: name,
               id: model,
               file: filename,
+              // not used:
+              size: size,
+              hash: hash,
+              version: version,
             });
           break;
         }
