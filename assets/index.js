@@ -186,6 +186,7 @@ document.addEventListener("DOMContentLoaded", function() {
     xhr.send();
   })();
 
+/*
   // Twitter
   (function() {
     var xhr = window.XMLHttpRequest? new XMLHttpRequest() : new ActiveXObject('Microsoft.XMLHTTP');
@@ -228,6 +229,7 @@ document.addEventListener("DOMContentLoaded", function() {
     };
     xhr.send();
   })();
+*/
 
   // Statistics
   (function() {
