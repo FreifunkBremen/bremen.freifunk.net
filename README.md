@@ -31,7 +31,9 @@ Mit diesen Schritten kann man die Freifunk-Webseite auf dem eigenen Rechner anse
 * Bundler installieren (z.B. `gem install bundler`)
 * Repository auschecken (inkl. Untermodulen): `git clone --recursive https://github.com/FreifunkBremen/bremen.freifunk.net`
 * In das ausgecheckte Verzeichnis wechseln: `cd bremen.freifunk.net`
-* Benötigte Software (z.B. Jekyll) installieren: `bundle install`
+* Benötigte Software (z.B. Jekyll) installieren:
+    * `bundle config set --local path './vendor/bundle/'`
+    * `bundle install`
 * Jekyll starten: `bundle exec jekyll serve`
 
 Die Seite kann jetzt unter http://127.0.0.1:4000/ aufgerufen werden.
