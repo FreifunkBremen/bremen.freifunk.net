@@ -26,7 +26,7 @@ Es gibt verschiedene „Update-Kanäle“:
     <dt><a href="http://downloads.bremen.freifunk.net/firmware/testing/">Testing</a></dt>
     <dd>Bevor ein Updatepaket als stabil deklariert wird, muss es erstmal getestet werden. Dazu ist dieser Kanal gedacht. Wer kein Problem damit hat, mit Pech mal seinen Router neu zu flashen oder per Hand neuzustarten, bekommt Updates hier früher als die anderen. Außerdem brauchen wir natürlich immer Tester!</dd>
     <dt><a href="http://downloads.bremen.freifunk.net/firmware/nightly/">Nightly</a></dt>
-    <dd>In diesem Kanal testen wir brandneue Entwicklungen. Daher ist die Software oft noch nicht ausgereift und enthält massive Fehler. Dieser Kanal ist nur für Entwickler und Abenteuerfreudige zu empfehlen.</dd>
+    <dd>In diesem Kanal wird an der Entwicklung gearbeitet. Die Software hier wurde noch gar nicht getestet und ist nur für in die Entwicklung involvierte Personen gedacht!</dd>
     <dt><a href="http://downloads.bremen.freifunk.net/firmware/babel/">Babel</a></dt>
     <dd>In diesem Update-Zweig wird momentan an einer alternativen Routing-Technik gearbeitet. Zur Zeit ist es nicht sinnvoll, diese Software im regulären Betrieb zu nutzen.</dd>
 </dl>
