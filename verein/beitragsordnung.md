@@ -11,7 +11,7 @@ geometry: margin=2cm,a4paper
 Beitragsordnung
 ===============
 
-1. Für ordentliche Mitglieder beträgt der Jahresbeitrag mindestens 50 €.
+1. Für ordentliche Mitglieder beträgt der Jahresbeitrag mindestens 0 €.
 2. Der Vorstand kann den Mitgliedsbeitrag einzelner Personen auf deren Antrag ermäßigen.
 3. Fördermitglieder können ihren Jahresbeitrag selbst wählen, er beträgt aber wenigstens den Jahresmindestbeitrag eines ordentlichen Mitglieds.
 4. Der Jahresbeitrag ist in voller Höhe im ersten Monat des Geschäftsjahres zu entrichten. Bei Eintritt in den Verein ist der volle Jahresbeitrag für das laufende Geschäftsjahr binnen eines Monats nach Aufnahme in den Verein zu entrichten.
