@@ -13,7 +13,9 @@ Auch wenn diese Version mit 2023 anfängt, ist diese erst Ende-Mai erschienen.
 
 Die Version enthält hauptsächlich ein Upgrade der darunterliegenden
 Software ([Gluon](https://wiki.freifunk.net/Gluon) und [OpenWRT](https://openwrt.org) v23.05).
-Hierdurch werden [viele neue Geräte](https://gluon.readthedocs.io/en/v2023.2.x/user/supported_devices.html) unterstützt. Zudem eine ganze Menge an 
+Hierdurch werden [viele neue Geräte](https://gluon.readthedocs.io/en/v2023.2.x/user/supported_devices.html) unterstützt.
+Zudem eine ganze Menge an sehr kleine Optimierungen, sowohl in der Entwicklung (Github Actions, docker), als auch für die Nutzer in fastd (VPN) oder auch das TLS (für HTTPS) vorinstalliert ist.
+Diese Änderungen sind in den [Release-Notes v2023.2](https://gluon.readthedocs.io/en/v2023.2.x/releases/v2023.2.html#features) von Gluon zu finden.
 
 Die neue Testing-Firmware wird ab Samstag auf allen Knoten im Bremer Freifunk-Netz installiert,
 auf denen automatische Upgrades für die "testing"-Version aktiviert sind, und die hinreichend neu sind.
