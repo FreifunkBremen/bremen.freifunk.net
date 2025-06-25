@@ -24,6 +24,10 @@ auch auf [downloads.bremen.freifunk.net](https://downloads.bremen.freifunk.net/f
 
 ## Feedback
 
+Wenn ihr also einen Knoten mit Testing-Firmware betreibt (super!),
+dann schaut doch am Wochenende mal nach, ob der Knoten noch läuft
+und ob der z.B. korrekt auf der [Knotenkarte](https://map.bremen.freifunk.net/#!/de/map) auftaucht.
+
 Falls ihr Probleme mit der neuen Firmware bemerkt oder Fragen habt,
 schreibt auf der [Mailingliste](https://lists.bremen.freifunk.net/mailman/listinfo/ff-bremen/),
 kommt zum [Treffen](/kontakt.html#treffen),
