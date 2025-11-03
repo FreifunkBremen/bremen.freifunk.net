@@ -12,7 +12,6 @@ Für alle nicht-technischen Fragen kannst du dich an [info@bremen.freifunk.net](
 
 Ansonsten findest du uns auf folgenden Plattformen:
 * im Chat:
-  * per Browser: <a href="https://chat.hackint.org/?join=ffhb" target="_blank">Webchat</a>
   * IRC: [#ffhb im Hackint](irc://irc.hackint.org/ffhb)
   * XMPP/Jabber: [#ffhb@irc.hackint.org](xmpp:#ffhb@irc.hackint.org)
   * Matrix/Element: [#ffhb:hackint.org](https://matrix.to/#/#ffhb:hackint.org)
