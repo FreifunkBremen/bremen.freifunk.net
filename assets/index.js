@@ -186,51 +186,6 @@ document.addEventListener("DOMContentLoaded", function() {
     xhr.send();
   })();
 
-/*
-  // Twitter
-  (function() {
-    var xhr = window.XMLHttpRequest? new XMLHttpRequest() : new ActiveXObject('Microsoft.XMLHTTP');
-    xhr.open('GET', '/api/tweets.json');
-    xhr.onreadystatechange = function() {
-      if (xhr.readyState <= 3)
-        return;
-      if (xhr.status != 200) {
-        document.querySelector('#twitter').remove();
-        return;
-      }
-      var
-        tweets = JSON.parse(xhr.responseText),
-        tweets_elem = document.querySelector('#tweets'),
-        tweet_template = document.querySelector('#tweet-template').content;
-
-      tweets.forEach(function(tweet) {
-        var
-          tmpl = document.importNode(tweet_template, true),
-          timestamp = tmpl.querySelector('time'),
-          date = new Date(tweet.timestamp*1000);
-        timestamp.textContent = fmtdatetime(date);
-        timestamp.dateTime = date.toISOString();
-        tmpl.querySelector('.content').innerHTML = tweet.html;
-        tmpl.querySelector('a.link').href = 'https://twitter.com/FreifunkHB/status/' + tweet.id;
-        if (tweet.media) {
-          tweet.media.forEach(function(media) {
-            var
-              a = document.createElement('a'),
-              img = document.createElement('img');
-            img.src = media.thumb;
-            a.href = media.url;
-            a.className = 'no-icon';
-            a.appendChild(img);
-            tmpl.querySelector('.media').appendChild(a);
-          });
-        }
-        tweets_elem.appendChild(tmpl);
-      });
-    };
-    xhr.send();
-  })();
-*/
-
   // Statistics
   (function() {
     var xhr = window.XMLHttpRequest? new XMLHttpRequest() : new ActiveXObject('Microsoft.XMLHTTP'),
