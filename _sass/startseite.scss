@@ -48,53 +48,6 @@
   }
 }
 
-#twitter {
-  max-width: 400px;
-  width: 100%;
-  box-sizing: border-box;
-  word-wrap: break-word;
-  margin: 0 auto;
-}
-.tweet {
-  margin: 30px 0;
-
-  > div {
-    line-height: 1;
-  }
-
-  .header {
-    text-align: justify;
-    text-align: justify-all;
-    text-align-last: justify;
-
-    svg {
-      float: left;
-      padding-right: 5px;
-    }
-
-    span {
-      display: inline-block;
-      text-decoration: inherit;
-    }
-  }
-
-  time {
-    font-size: small;
-  }
-
-  .handle {
-    font-size: small;
-  }
-
-  p {
-    margin: 10px 0;
-  }
-
-  .media {
-    display: flex;
-    justify-content: space-around;
-  }
-}
 section#termine .flex {
   justify-content: space-around;
   > * {

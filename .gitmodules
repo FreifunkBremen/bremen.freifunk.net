@@ -7,9 +7,6 @@
 [submodule "api/vendor/sabre/xml"]
 	path = api/vendor/sabre/xml
 	url = https://github.com/fruux/sabre-xml.git
-[submodule "api/vendor/twitteroauth"]
-	path = api/vendor/twitteroauth
-	url = https://github.com/abraham/twitteroauth.git
 [submodule "presentation"]
 	path = presentation
 	url = https://github.com/FreifunkBremen/presentation
