@@ -12,9 +12,9 @@ Für alle nicht-technischen Fragen kannst du dich an [info@bremen.freifunk.net](
 
 Ansonsten findest du uns auf folgenden Plattformen:
 * im Chat:
+  * Matrix/Element: [#ffhb:hackint.org](https://matrix.to/#/#ffhb:hackint.org)
   * IRC: [#ffhb im Hackint](irc://irc.hackint.org/ffhb)
   * XMPP/Jabber: [#ffhb@irc.hackint.org](xmpp:#ffhb@irc.hackint.org)
-  * Matrix/Element: [#ffhb:hackint.org](https://matrix.to/#/#ffhb:hackint.org)
 * auf Facebook: <a href="https://www.facebook.com/FreifunkBremen" target="_blank">@FreifunkBremen</a>
 * auf Instagram: <a href="https://www.instagram.com/freifunkhb" target="_blank">@freifunkhb</a>
 * auf ActivityPub / Mastodon: <a href="https://chaos.social/@FreifunkBremen" target="_blank">@FreifunkBremen@chaos.social</a>
