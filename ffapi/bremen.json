@@ -4,12 +4,14 @@
   "location": {
     "city": "Bremen",
     "country": "DE",
-    "lat": 53.0758099,
-    "lon": 8.80717,
     "address": {
-      "Name": "Hackerspace Bremen",
-      "Street": "Bornstraße 14/15",
-      "Zipcode": "28195"
+      "name": "Hackerspace Bremen",
+      "street": "Bornstraße 14/15",
+      "zipcode": "28195"
+    },
+    "geoCode": {
+      "lat": 53.0758099,
+      "lon": 8.80717
     }
   },
   "contact": {
@@ -17,7 +19,8 @@
     "irc": "irc://irc.hackint.org/ffhb",
     "ml": "liste@bremen.freifunk.net",
     "facebook": "https://facebook.com/FreifunkBremen",
-    "twitter": "@FreifunkHB"
+    "mastodon": "https://chaos.social/@FreifunkBremen",
+    "matrix": "https://matrix.to/#/#ffhb:hackint.org"
   },
   "state": {
     "nodes": 905,
@@ -197,5 +200,5 @@
       "vpnnational"
     ]
   },
-  "api": "0.4.14"
+  "api": "0.5.3"
 }
