@@ -19,7 +19,8 @@
     "irc": "irc://irc.hackint.org/ffhb",
     "ml": "liste@bremen.freifunk.net",
     "facebook": "https://facebook.com/FreifunkBremen",
-    "twitter": "@FreifunkHB"
+    "mastodon": "https://chaos.social/@FreifunkBremen",
+    "matrix": "https://matrix.to/#/#ffhb:hackint.org"
   },
   "state": {
     "nodes": 905,
