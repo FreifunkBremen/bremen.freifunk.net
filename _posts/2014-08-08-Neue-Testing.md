@@ -18,4 +18,4 @@ Wie immer, wenn ihr Probleme mit der neuen Version habt meldet euch bitte auf de
 *Update*: Es stellte sich heraus, dass die neue Version Probleme mit statischer Konfiguration der DNS-Server im LAN hatte. Daher waren noch einige neue Versionen nötig, um nicht alle derart konfigurierten Nodes vom Netz zu trennen. Inzwischen sollte das Update aber gefahrlos möglich sein und wird auch automatisch ausgeführt.
 
 [Release Notes]: https://gluon.readthedocs.io/en/latest/releases/v2014.3.html
-[Mailingliste]: mailto:liste@bremen.freifunk.net
+[Mailingliste]: mailto:bremen@freifunk.net

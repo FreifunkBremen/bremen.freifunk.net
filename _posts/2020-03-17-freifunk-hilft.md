@@ -28,7 +28,7 @@ Diese [Übersicht als PDF](https://bremen.freifunk.net/blog/files/2020-03-17/Fre
 
 ### Wie funktioniert das konkret?
 
-Wer einen Bedarf hat kann sich einfach bei uns melden. Am besten per E-Mail an <a href="mailto:info@bremen.freifunk.net">info@bremen.freifunk.net</a>.
+Wer einen Bedarf hat kann sich einfach bei uns melden. Am besten per E-Mail an <a href="mailto:bremen-info@freifunk.net">bremen-info@freifunk.net</a>.
 
 ### Welche Informationen werden benötigt?
 

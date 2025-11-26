@@ -17,6 +17,6 @@ Wer Vorschläge für Tests hat, darf diese gerne einreichen.
 
 Für eine Unterkunft während der Breminale haben sich zwei Freifunker gemeldet und können so insgesamt Schlafplätze für vier Gäste stellen. Der Aufbau beginnt jedoch schon Freitag diese Woche (30.06., also übermorgen).
 
-Wer Interesse hat vorbeizukommen, möge sich bitte per E-Mail unter [info@bremen.freifunk.net](mailto:info@bremen.freifunk.net) oder im IRC-Chat im Channel [#ffhb_events im Hackint](irc://irc.hackint.org/ffhb_events) melden.
+Wer Interesse hat vorbeizukommen, möge sich bitte per E-Mail unter [bremen-info@freifunk.net](mailto:bremen-info@freifunk.net) oder im IRC-Chat im Channel [#ffhb_events im Hackint](irc://irc.hackint.org/ffhb_events) melden.
 
 Wir freuen uns und frohes Freifunken!

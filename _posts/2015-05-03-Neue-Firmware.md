@@ -11,4 +11,4 @@ Die Knoten sollten sich automatisch innerhalb von 7 Tagen (also bis zum 10.05.) 
 
 Aufgrund eines sehr viel moderneren Software-Grundgerüsts bringt die neue Version vor allem [Support für neue Hardware](https://gluon.readthedocs.io/en/v2014.4/releases/v2014.4.html#added-and-removed-hardware-support) mit sich. Weltbewegende Features muss niemand von diesem Release erwarten.
 
-Falls ihr Probleme mit der neuen Firmware feststellt, meldet euch bitte auf der [Mailingliste](mailto:liste@bremen.freifunk.net)!
+Falls ihr Probleme mit der neuen Firmware feststellt, meldet euch bitte auf der [Mailingliste](mailto:bremen@freifunk.net)!

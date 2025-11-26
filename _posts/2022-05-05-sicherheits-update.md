@@ -22,5 +22,5 @@ Wir möchten uns an dieser Stelle ganz massiv bei den [Gluon](https://github.com
 und die auch in diesem Fall das Sicherheitsupdate schnell und professionell veröffentlicht haben.
 
 Wenn ihr mehr zu diesem Update wissen wollt, dann kommt in den [Chat](https://webirc.hackint.org/#ircs://irc.hackint.org/#ffhb?nick=Gast_?),
-schreibt auf der [Mailingliste](https://lists.bremen.freifunk.net/mailman/listinfo/ff-bremen/),
+schreibt auf der [Mailingliste](https://lists.freifunk.net/mailman/listinfo/bremen-freifunk.net),
 oder kommt zum [Treffen](/kontakt.html#treffen)!

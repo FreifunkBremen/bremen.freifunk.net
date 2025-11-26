@@ -23,6 +23,6 @@ Dazu wird es aber noch einen separaten Blogpost geben, sobald diese Änderungen 
 Mehr Details zu den neuen Versionen stehen wie immer auf der [Changelog-Seite](https://wiki.bremen.freifunk.net/Firmware/Changelog).
 
 Habt ihr Probleme mit der neuen Firmware bemerkt, oder habt ihr Fragen?
-Dann schreibt auf der [Mailingliste](https://lists.bremen.freifunk.net/mailman/listinfo/ff-bremen/),
+Dann schreibt auf der [Mailingliste](https://lists.freifunk.net/mailman/listinfo/bremen-freifunk.net),
 oder kommt zum [Treffen](/kontakt.html#treffen),
 oder tauscht euch im [Chat](https://webirc.hackint.org/#ircs://irc.hackint.org/#ffhb?nick=Gast_?) aus.

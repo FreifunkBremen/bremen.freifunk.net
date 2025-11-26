@@ -69,7 +69,7 @@ Hier werden wir auch noch ein Resümee für die ganze Umstellung ziehen.
 
 Euer Feedback ist daher ausdrücklich erwünscht,
 entweder bei einem der nächsten [Freifunk-Treffen](/kontakt.html#treffen),
-per [Mail](https://lists.bremen.freifunk.net/mailman/listinfo/ff-bremen/),
+per [Mail](https://lists.freifunk.net/mailman/listinfo/bremen-freifunk.net),
 im [Chat](https://webirc.hackint.org/#ircs://irc.hackint.org/#ffhb?nick=Gast_?),
 oder über einen der [anderen Kontaktwege](/kontakt.html).
 

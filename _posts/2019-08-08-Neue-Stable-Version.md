@@ -35,6 +35,6 @@ Wer das automatische Upgrade ausgeschaltet hat, findet die Firmware für ein man
 ## Feedback
 
 Falls ihr Probleme mit der neuen Firmware bemerkt oder Fragen habt,
-dann schreibt auf der [Mailingliste](https://lists.bremen.freifunk.net/mailman/listinfo/ff-bremen/),
+dann schreibt auf der [Mailingliste](https://lists.freifunk.net/mailman/listinfo/bremen-freifunk.net),
 oder kommt zum [Treffen](/kontakt.html#treffen),
 oder tauscht euch im [Chat](https://webirc.hackint.org/#ircs://irc.hackint.org/#ffhb?nick=Gast_?) aus.

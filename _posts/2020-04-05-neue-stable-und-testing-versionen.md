@@ -53,6 +53,6 @@ Mesh-Verbindungen über 2.4 GHz sind aber weiterhin möglich.
 ## Feedback
 
 Falls ihr Probleme mit der neuen Firmware bemerkt oder Fragen habt,
-schreibt auf der [Mailingliste](https://lists.bremen.freifunk.net/mailman/listinfo/ff-bremen/),
+schreibt auf der [Mailingliste](https://lists.freifunk.net/mailman/listinfo/bremen-freifunk.net),
 kommt zum [Treffen](/kontakt.html#treffen),
 oder tauscht euch im [Chat](https://webirc.hackint.org/#ircs://irc.hackint.org/#ffhb?nick=Gast_?) mit uns aus.

@@ -22,5 +22,5 @@ Falls ihr noch Fragen dazu habt, fragt ab besten über die [Mailingliste] nach H
 
 Die Angelegenheit ist ein gutes Beispiel dafür, warum das noch Nightlies sind und alles experimentell ist. Aber bald gibts hoffentlich ne stabile Version, die dann nicht mehr täglich geupdated wird und dabei potentiell kaputt geht! :-)
 
-[Mailingliste]: mailto:liste@bremen.freifunk.net
+[Mailingliste]: mailto:bremen@freifunk.net
 [Firmware]: https://downloads.bremen.freifunk.net/firmware/nightly/
