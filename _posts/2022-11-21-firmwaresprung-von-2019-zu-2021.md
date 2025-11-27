@@ -24,7 +24,7 @@ In [dieser Version](https://wiki.bremen.freifunk.net/Firmware/Changelog#2021-1-2
 ## Hilfe und Feedback
 
 Wenn du jetzt tatsächlich ein Problem entdeckst oder eine Rückmeldung geben möchtest, dann melde dich bitte im [Chat](https://webirc.hackint.org/#ircs://irc.hackint.org/#ffhb?nick=Gast_?),
-schreib auf der [Mailingliste](https://lists.bremen.freifunk.net/mailman/listinfo/ff-bremen/),
+schreib auf der [Mailingliste](https://lists.freifunk.net/mailman/listinfo/bremen-freifunk.net),
 oder komm zum [Treffen](/kontakt.html#treffen)!
 
 Yolo!

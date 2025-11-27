@@ -38,5 +38,5 @@ Vorne steht jeweils die Frequenz, dahinter eine Liste der gekürzten BSSIDs, ggf
 =======
 [neuen Testing-Version unserer Firmware]: http://downloads.bremen.freifunk.net/firmware/testing/
 >>>>>>> master
-[Mailingliste]: mailto:liste@bremen.freifunk.net
+[Mailingliste]: mailto:bremen@freifunk.net
 [IRC-Chat]: irc://irc.hackint.org/#ffhb

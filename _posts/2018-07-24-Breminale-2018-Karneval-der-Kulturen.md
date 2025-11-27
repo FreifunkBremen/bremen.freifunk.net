@@ -16,7 +16,7 @@ Wir testen eine Band Steering Implementation und haben getestet, ob ein Babel-Ne
 Wir würden gerne, dass auch andere Communities von diesem Event und dem Spaß daran profitieren und laden alle Freifunker ein vorbeizukommen, uns zu helfen und mitzuwirken. Je mehr Leute vor Ort sind, desto schneller ist auf- und abgebaut, sind Probleme behoben und desto mehr können wir ausprobieren und rumspielen.  
 Wer Vorschläge für Tests hat, darf diese gerne einreichen.
 
-Wer Interesse hat vorbeizukommen, möge sich bitte per E-Mail unter [info@bremen.freifunk.net](mailto:info@bremen.freifunk.net) oder im IRC-Chat im Channel [#ffhb_events im Hackint](irc://irc.hackint.org/ffhb_events) melden.
+Wer Interesse hat vorbeizukommen, möge sich bitte per E-Mail unter [bremen-info@freifunk.net](mailto:bremen-info@freifunk.net) oder im IRC-Chat im Channel [#ffhb_events im Hackint](irc://irc.hackint.org/ffhb_events) melden.
 
 Unterstützt werden wir auch von der Stadt Bremen, deren [finanzielle Förderung](/blog/2016/11/26/24k-euro-fuer-ffhb.html) für Freifunk die Anschaffung des restlichen Materials möglich macht.
 Es werden wieder etwa zwei Kilometer an Kupfer- und Glasfaserkabeln verlegt. Diese Arbeit wird freiwillig von Ehrenamtlichen mit Spaß an der Sache erledigt. Unterstützt werden wir von der concept bureau UG, den Breminale-Veranstaltern, mit Bauwagen und Infrastruktur.

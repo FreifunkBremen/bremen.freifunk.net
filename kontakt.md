@@ -7,8 +7,8 @@ Kontakt
 
 Bei Fragen zum Freifunk-Bremen-Projekt freuen wir uns über Kontaktaufnahmen.
 Viele Antworten findest du jetzt schon ganz schnell bei unseren [FAQs](faq.html).
-Nutze für technische Nachfragen am besten unsere [Mailingliste](https://lists.bremen.freifunk.net/mailman/listinfo/ff-bremen/). Da lesen viele Leute mit. Dadurch ist die Chance da am höchsten, dass du schnell eine Antwort bekommst.
-Für alle nicht-technischen Fragen kannst du dich an [info@bremen.freifunk.net](mailto:info@bremen.freifunk.net) wenden.
+Nutze für technische Nachfragen am besten unsere [Mailingliste](https://lists.freifunk.net/mailman/listinfo/bremen-freifunk.net). Da lesen viele Leute mit. Dadurch ist die Chance da am höchsten, dass du schnell eine Antwort bekommst.
+Für alle nicht-technischen Fragen kannst du dich an [bremen-info@freifunk.net](mailto:bremen-info@freifunk.net) wenden.
 
 Ansonsten findest du uns auf folgenden Plattformen:
 * im Chat:
@@ -33,4 +33,4 @@ Wir treffen uns außerdem ein mal im Monat, jeweils am 3. Freitag ab 19:30 Uhr e
 Schau doch mal vorbei, wir freuen uns immer über neue Gesichter!
 
 ## Mailingliste
-Für Interessierte besteht außerdem die Möglichkeit, unsere [Mailingliste](https://lists.bremen.freifunk.net/mailman/listinfo/ff-bremen/) zu abonnieren. Auf ihr wird diskutiert und ausgetauscht.
+Für Interessierte besteht außerdem die Möglichkeit, unsere [Mailingliste](https://lists.freifunk.net/mailman/listinfo/bremen-freifunk.net) zu abonnieren. Auf ihr wird diskutiert und ausgetauscht.

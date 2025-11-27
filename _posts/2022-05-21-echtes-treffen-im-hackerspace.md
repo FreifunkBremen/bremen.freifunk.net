@@ -15,7 +15,7 @@ Und dann haben wir endlich mal wieder Zeit, über alles im echten Leben zu sprec
 Du kannst deine Themen wie immer schon auf unsere [Tagesordnung im Wiki](https://wiki.bremen.freifunk.net/Treffen/2022_06_03.md) schreiben.
 
 Wenn ihr mehr zu diesem Treffen wissen wollt, dann kommt in den [Chat](https://webirc.hackint.org/#ircs://irc.hackint.org/#ffhb?nick=Gast_?),
-schreibt auf der [Mailingliste](https://lists.bremen.freifunk.net/mailman/listinfo/ff-bremen/),
+schreibt auf der [Mailingliste](https://lists.freifunk.net/mailman/listinfo/bremen-freifunk.net),
 oder kommt einfach hin zum [Treffen](/kontakt.html#treffen)!
 
 Alle sind herzlich eingeladen, ein Anmeldung ist nicht nötig.

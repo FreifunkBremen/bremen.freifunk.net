@@ -51,7 +51,7 @@ Dazu wird es aber noch eine separate Ankündigung geben.
 
 Wenn ihr mehr zu dem Update oder der Umstellung wissen wollt, oder wenn ihr Feedback habt,
 dann kommt in den [Chat](https://webirc.hackint.org/#ircs://irc.hackint.org/#ffhb?nick=Gast_?),
-schreibt auf der [Mailingliste](https://lists.bremen.freifunk.net/mailman/listinfo/ff-bremen/),
+schreibt auf der [Mailingliste](https://lists.freifunk.net/mailman/listinfo/bremen-freifunk.net),
 oder kommt zum [Treffen](/kontakt.html#treffen)!
 
 

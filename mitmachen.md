@@ -59,5 +59,5 @@ Eine [Liste mit noch mehr unterstützten Modellen](http://gluon.readthedocs.io/e
 Lade dir anschließend die passende [Firmware] herunter und spiele sie nach [dieser Anleitung](http://wiki.bremen.freifunk.net/Anleitungen/Firmware/Flashen) auf den Router.
 
 [hshb]: http://hackerspace-bremen.de/anfahrt/
-[Mailingliste]: mailto:liste@bremen.freifunk.net
+[Mailingliste]: mailto:bremen@freifunk.net
 [Firmware]: http://downloads.bremen.freifunk.net/firmware/stable/factory/

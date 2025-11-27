@@ -27,5 +27,5 @@ Deshalb solltet ihr dann lieber alle eure Freifunk-Knoten auf v15 umstellen, dam
 Davon abgesehen ist das halt ein Testnetz – es kann also eher mal zu Aussetzern oder Fehlern kommen.
 
 Wenn euch das Thema interessiert, dann kommt in den [Chat](https://webirc.hackint.org/#ircs://irc.hackint.org/#ffhb?nick=Gast_?),
-schreibt auf der [Mailingliste](https://lists.bremen.freifunk.net/mailman/listinfo/ff-bremen/),
+schreibt auf der [Mailingliste](https://lists.freifunk.net/mailman/listinfo/bremen-freifunk.net),
 oder kommt zum [Treffen](/kontakt.html#treffen)!
