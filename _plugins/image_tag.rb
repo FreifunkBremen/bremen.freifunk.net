@@ -101,7 +101,7 @@ module Jekyll
     def generate_image(instance, site_source, site_dest, image_source, image_dest)
 
       image_source_path = File.join(site_source, image_source, instance[:src])
-      unless File.exists?image_source_path
+      unless File.exist?image_source_path
         puts "Missing: #{image_source_path}"
         return false
       end
@@ -145,7 +145,7 @@ module Jekyll
       gen_dest_file = File.join(gen_dest_dir, gen_name)
 
       # Generate resized files
-      unless File.exists?(gen_dest_file)
+      unless File.exist?(gen_dest_file)
 
         warn "Warning:".yellow + " #{instance[:src]} is smaller than the requested output file. It will be resized without upscaling." if undersize
 
