@@ -1,6 +1,4 @@
----
----
-document.addEventListener("DOMContentLoaded", function() {
+﻿document.addEventListener("DOMContentLoaded", function() {
   var
     firmware_base_url = 'https://downloads.bremen.freifunk.net/firmware/',
     branch = 'stable',
@@ -42,7 +40,9 @@ document.addEventListener("DOMContentLoaded", function() {
       "zyxel": "ZyXEL",
 
     },
+    blogpost_4_32 = "/blog/2020/07/21/zukunft-841.html",
     no_factory = ["avm", "8devices", "meraki", "unifi-ac", "gl-ar150", "allnet", "wzr-600dhp"],
+    no_factory_deprecated = ["tl-wr841", "alfa-network", "dap-1330", "dir-615", "dir-825"],
     xhr = window.XMLHttpRequest? new XMLHttpRequest() : new ActiveXObject('Microsoft.XMLHTTP'),
     searchbox = document.getElementById('model-search');
 
@@ -104,7 +104,8 @@ document.addEventListener("DOMContentLoaded", function() {
     models.forEach(function(model) {
       var tmpl = document.importNode(model_template, true),
         container = tmpl.querySelector('.model'),
-        has_factory = true;
+        has_factory = true,
+        is_deprecated = false;
       container.style.backgroundImage = "url('/images/routers/" + model.vendor + "-" + model.id + ".svg')";
       container.dataset.searchterms =
         vendors[model.vendor].toLowerCase().replace(/[^a-z0-9]/g, '')
@@ -116,6 +117,10 @@ document.addEventListener("DOMContentLoaded", function() {
         if (model.file.indexOf(pattern) != -1)
           has_factory = false;
       });
+      no_factory_deprecated.forEach(function(pattern) {
+        if (model.file.indexOf(pattern) != -1)
+          is_deprecated = true;
+      });
       if (has_factory)
         container.querySelector('.factory a').href =
           firmware_base_url + branch + '/factory/' +
@@ -123,6 +128,11 @@ document.addEventListener("DOMContentLoaded", function() {
       else {
         tmpl.querySelector('.factory').remove();
         container.querySelector('.update a').textContent +=' / Erstinstallation';
+      }
+      if(is_deprecated) {
+        container.querySelector('.factory a').href = blogpost_4_32;
+        container.querySelector('.factory a').textContent ='Gerät veraltet';
+        
       }
       model_div.appendChild(tmpl);
     });
