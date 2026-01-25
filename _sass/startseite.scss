@@ -2,7 +2,7 @@
   height: 500px;
   font-size: 34px;
   font-weight: 700;
-  background: url(/images/map/3840.png) center center;
+  background: url(/images/map/3840.avif) center center;
 
   a {
     display: flex;
@@ -29,22 +29,22 @@
 }
 @media (max-width: 1920px) {
   #karte {
-    background: url(/images/map/1920.png) center center;
+    background: url(/images/map/1920.avif) center center;
   }
 }
 @media (max-width: 1107px) {
   #karte {
-    background: url(/images/map/1107.png) center center;
+    background: url(/images/map/1107.avif) center center;
   }
 }
 @media (max-width: 720px) {
   #karte {
-    background: url(/images/map/720.png) center center;
+    background: url(/images/map/720.avif) center center;
   }
 }
 @media (max-width: 480px) {
   #karte {
-    background: url(/images/map/480.png) center center;
+    background: url(/images/map/480.avif) center center;
   }
 }
 
