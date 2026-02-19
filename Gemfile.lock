@@ -51,9 +51,7 @@ GEM
       nokogiri (~> 1)
       rake
     mini_magick (4.12.0)
-    mini_portile2 (2.8.9)
-    nokogiri (1.18.10)
-      mini_portile2 (~> 2.8.2)
+    nokogiri (1.19.1-x86_64-linux-gnu)
       racc (~> 1.4)
     pathutil (0.16.2)
       forwardable-extended (~> 2.6)
