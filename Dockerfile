@@ -33,6 +33,9 @@ RUN cd ~/jekyll-envs/bremen.freifunk.net/ && \
 
 RUN apt-get install -y --no-install-recommends nodejs # for execjs gem
 
+RUN cd ~/jekyll-envs/bremen.freifunk.net/ && \
+    git submodule update --init
+
 COPY update-jekyll.sh /root/
 
 EXPOSE 80
