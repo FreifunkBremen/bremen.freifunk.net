@@ -31,6 +31,10 @@ RUN cd ~/jekyll-envs/bremen.freifunk.net/ && \
     bundle config set --local path './vendor/bundle/' && \
     bundler install
 
+RUN apt-get install -y --no-install-recommends nodejs # for execjs gem
+
+COPY update-jekyll.sh /root/
+
 EXPOSE 80
 
 CMD ["apache2ctl", "-DFOREGROUND"]

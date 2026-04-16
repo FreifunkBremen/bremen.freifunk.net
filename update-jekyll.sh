@@ -5,8 +5,8 @@
 
 set -eu
 
-SOURCE="$HOME/.var/jekyll-envs/{{ website_domain }}/"
-DESTINATION="/var/www/{{ website_user }}/domains/{{ website_domain }}/"
+SOURCE="$HOME/jekyll-envs/bremen.freifunk.net/"
+DESTINATION="/var/www/html/"
 
 cd "$SOURCE"
 
@@ -14,7 +14,6 @@ git fetch --quiet origin
 git reset --quiet --hard origin/master
 git submodule --quiet update --init
 
-bundle config set --local path .bundle
 bundle install --quiet
 
 exec bundle exec jekyll build --quiet --destination "$DESTINATION"
