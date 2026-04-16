@@ -6,9 +6,10 @@
 # Note: the webserver does not handle SSL/TLS.
 #
 
-FROM docker.io/debian:trixie-slim
+FROM docker.io/debian:bookworm-slim
 
-RUN apt-get install --update -y --no-install-recommends apache2
+RUN apt-get update && \
+    apt-get install -y --no-install-recommends apache2
 
 # only for development of this Dockerfile:
 RUN apt-get install -y --no-install-recommends less nano iproute2
@@ -28,7 +29,6 @@ RUN apt-get install -y --no-install-recommends shared-mime-info # for mimemagic 
 
 RUN cd ~/jekyll-envs/bremen.freifunk.net/ && \
     bundle config set --local path './vendor/bundle/' && \
-    echo "gem 'sass-embedded', '~> 1.71.0'" >> Gemfile && \
     bundler install
 
 EXPOSE 80
